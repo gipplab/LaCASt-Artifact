@@ -1,0 +1,7 @@
+\DirichletL, 9
+\EulersumH, 7
+\perBernoulliB, 6
+\StieltjesConstants, 3
+\genEulersumH, 2
+\perZeta, 2
+\ChebyshevPsi, 1

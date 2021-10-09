@@ -1,0 +1,10 @@
+\Mellintrans, 19
+\intinnerprod, 11
+\terminant, 5
+\Laplacetrans, 5
+\Stieltjestrans, 2
+\envAiryBi, 2
+\envBesselY, 2
+\envAiryAi, 2
+\envBesselJ, 2
+\perBernoulliB, 1

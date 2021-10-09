@@ -1,0 +1,15 @@
+\Dirichletchar, 7
+\Moebiusmu, 6
+\Gausssum, 3
+\Dedekindeta, 3
+\MangoldtLambda, 2
+\nprimes, 2
+\nsquares, 2
+\Eulertotientphi, 2
+\Ramanujantau, 2
+\DiscriminantDelta, 2
+\Ramanujansum, 2
+\Liouvillelambda, 2
+\Waringg, 1
+\JordanJ, 1
+\ndivisors, 1

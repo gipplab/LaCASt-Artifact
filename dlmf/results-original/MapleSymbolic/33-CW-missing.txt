@@ -1,0 +1,16 @@
+\normCoulombC, 14
+\irregCoulombH, 13
+\regCoulombf, 12
+\irregCoulombh, 10
+\irregCoulombG, 9
+\regCoulombs, 6
+\irregCoulombc, 5
+\lightspeed, 2
+\sphBesselJ, 2
+\Coulombturnr, 1
+\Coulombphasetheta, 1
+\Coulombturnrho, 1
+\envCoulumbM, 1
+\Coulombphasesigma, 1
+\finestructureconst, 1
+\hbar, 1

@@ -1,0 +1,431 @@
+{
+  "Languages": [
+    "MLP",
+    "LaTeX",
+    "Maple",
+    "Mathematica",
+    "SymPy"
+  ],
+  "Functions": {
+    "Function Argument": {
+      "MLP": "function arguments",
+      "LaTeX": "\\left($0\\right)",
+      "Maple": "($0)",
+      "Mathematica": "[$0]",
+      "SymPy": "($0)"
+    },
+    "Function Definition": {
+      "MLP": "function definition",
+      "LaTeX": "$0\\left($1\\right) := $2",
+      "Maple": "$0 := ($1) -> $2",
+      "Mathematica": "$0[$1] := $2"
+    },
+    "Fraction": {
+      "MLP": "fraction",
+      "LaTeX": "\\frac{$0}{$1}",
+      "Maple": "($0)/($1)",
+      "Mathematica": "Divide[$0,$1]",
+      "SymPy": "($0)/($1)"
+    },
+    "Binomial": {
+      "MLP": "binomial coefficient",
+      "LaTeX": "\\binom{$0}{$1}",
+      "Maple": "binomial($0,$1)",
+      "Mathematica": "Binomial[$0,$1]",
+      "SymPy": "binomial($0,$1)"
+    },
+    "Square Root": {
+      "MLP": "square root",
+      "LaTeX": "\\sqrt{$0}",
+      "Maple": "sqrt($0)",
+      "Mathematica": "Sqrt[$0]",
+      "SymPy": "sqrt($0)"
+    },
+    "Surd Root": {
+      "MLP": "radical with a specified index",
+      "LaTeX": "\\sqrt[$0]{$1}",
+      "Maple": "surd($1,$0)",
+      "Mathematica": "Surd[$1,$0]",
+      "SymPy": "root($1,$0)"
+    },
+    "Factorial": {
+      "MLP": "exclamation point",
+      "LaTeX": "$0!",
+      "Maple": "factorial($0)",
+      "Mathematica": "($0)!",
+      "SymPy": "factorial($0)"
+    },
+    "Double Factorial": {
+      "MLP": "double exclamation point",
+      "LaTeX": "$0!!",
+      "Maple": "doublefactorial($0)",
+      "Mathematica": "($0)!!",
+      "SymPy": "factorial2($0)"
+    },
+    "Modulo": {
+      "MLP": "modulo",
+      "LaTeX": "$0 \\mod $1",
+      "Maple": "`modp`($0,$1)",
+      "Mathematica": "Mod[$0,$1]",
+      "SymPy": "Mod($0,$1)"
+    },
+    "Subscript": {
+      "MLP": "underscore",
+      "LaTeX": "$0_{$1}",
+      "Maple": "$0[$1]",
+      "Mathematica": "Subscript[$0, $1]",
+      "SymPy": "Symbol('{$0}_{$1}')"
+    },
+    "Exponential": {
+      "MLP": "exponential",
+      "LaTeX": "\\expe",
+      "Maple": "exp($0)",
+      "Mathematica": "Exp[$0]",
+      "SymPy": "exp($0)"
+    },
+    "Absolute Value": {
+      "MLP": "absolute value",
+      "LaTeX": "| $0 |",
+      "Maple": "abs($0)",
+      "Mathematica": "Abs[$0]",
+      "SymPy": "abs($0)"
+    },
+    "Norm": {
+      "MLP": "norm",
+      "LaTeX": "\\| $0 \\|",
+      "Mathematica": "Norm[$0]"
+    },
+    "Sum": {
+      "MLP": "sum",
+      "LaTeX": "\\sum_{$0 = $1}^{$2}{$3}",
+      "Maple": "sum($3, $0 = $1..$2)",
+      "Mathematica": "Sum[$3, {$0, $1, $2}, GenerateConditions->None]",
+      "SymPy": "Sum($3, ($0, $1, $2))"
+    },
+    "SumSet": {
+      "MLP": "sumSet",
+      "LaTeX": "\\sum_{$0 \\in $1}{$2}",
+      "Maple": "sum($2, $0 in $1)",
+      "Mathematica": "Sum[$2, {$0, $1}, GenerateConditions->None]"
+    },
+    "Product": {
+      "MLP": "prod",
+      "LaTeX": "\\prod_{$0 = $1}^{$2}{$3}",
+      "Maple": "product($3, $0 = $1..$2)",
+      "Mathematica": "Product[$3, {$0, $1, $2}, GenerateConditions->None]",
+      "SymPy": "Product($3, ($0, $1, $2))"
+    },
+    "ProductSet": {
+      "MLP": "prodSet",
+      "LaTeX": "\\prod_{$0 \\in $1}{$2}",
+      "Maple": "product($2, $0 in $1)",
+      "Mathematica": "Product[$2, {$0, $1}, GenerateConditions->None]"
+    },
+    "Integral": {
+      "MLP": "int",
+      "LaTeX": "\\int_{$1}^{$2}{$3} \\diff{$0}",
+      "Maple": "int($3, $0 = $1..$2)",
+      "Mathematica": "Integrate[$3, {$0, $1, $2}, GenerateConditions->None]",
+      "SymPy": "integrate($3, ($0, $1, $2))"
+    },
+    "IntegralIndef": {
+      "MLP": "intIndef",
+      "LaTeX": "\\int{$1} \\diff{$0}",
+      "Maple": "int($1, $0)",
+      "Mathematica": "Integrate[$1, $0, GenerateConditions->None]",
+      "SymPy": "integrate($1, $0)"
+    },
+    "Derivative": {
+      "MLP": "derivative",
+      "LaTeX": "\\deriv[$2]{$0}{$1}",
+      "Maple": "subs( temp=$1, diff( $0, temp$($2) ) )",
+      "Mathematica": "(D[$0, {temp, $2}]/.temp-> $1)",
+      "SymPy": "diff($0, Symbol('temp'), $2).subs(Symbol('temp'), $1)"
+    },
+    "SimpleDerivative": {
+      "MLP": "derivative-simple",
+      "LaTeX": "\\deriv[$2]{$0}{$1}",
+      "Maple": "diff( $0, $1$($2) )",
+      "Mathematica": "D[$0, {$1, $2}]",
+      "SymPy": "diff($0, $1, $2)"
+    },
+    "Limit": {
+      "MLP": "lim",
+      "LaTeX": "\\lim_{$0 \\to $1}{$2}",
+      "Maple": "limit($2, $0 = $1)",
+      "Mathematica": "Limit[$2, $0 -> $1, GenerateConditions->None]",
+      "SymPy": "limit($2, $0, $1)"
+    },
+    "LimitLeft": {
+      "MLP": "limleft",
+      "LaTeX": "\\lim_{$0 \\to $1^{-}}{$2}",
+      "Maple": "limit($2, $0 = $1, left)",
+      "Mathematica": "Limit[$2, $0 -> $1, Direction -> \"FromBelow\", GenerateConditions->None]",
+      "SymPy": "limit($2, $0, $1, dir='-')"
+    },
+    "LimitRight": {
+      "MLP": "limright",
+      "LaTeX": "\\lim_{$0 \\to $1^{+}}{$2}",
+      "Maple": "limit($2, $0 = $1, right)",
+      "Mathematica": "Limit[$2, $0 -> $1, Direction -> \"FromAbove\", GenerateConditions->None]",
+      "SymPy": "limit($2, $0, $1, dir='+')"
+    },
+    "SetClosed": {
+      "MLP": "set-left-closed-right-closed",
+      "LaTeX": "$0 \\in [$1, $2]",
+      "Maple": "$1 <= $0 <= $2",
+      "Mathematica": "$1 <= $0 <= $2",
+      "SymPy": "$1 <= $0 <= $2"
+    },
+    "SetOpen": {
+      "MLP": "set-left-open-right-open",
+      "LaTeX": "$0 \\in ($1, $2)",
+      "Maple": "$1 < $0 < $2",
+      "Mathematica": "$1 < $0 < $2",
+      "SymPy": "$1 < $0 < $2"
+    },
+    "SetLeftOpen": {
+      "MLP": "set-left-open-right-closed",
+      "LaTeX": "$0 \\in ($1, $2]",
+      "Maple": "$1 < $0 <= $2",
+      "Mathematica": "$1 < $0 <= $2",
+      "SymPy": "$1 < $0 <= $2"
+    },
+    "SetRightClosed": {
+      "MLP": "set-left-closed-right-open",
+      "LaTeX": "$0 \\in [$1, $2)",
+      "Maple": "$1 <= $0 < $2",
+      "Mathematica": "$1 <= $0 < $2",
+      "SymPy": "$1 <= $0 < $2"
+    },
+    "LoadPackage": {
+      "MLP": "load-package",
+      "LaTeX": "",
+      "Maple": "with($0)",
+      "Mathematica": "",
+      "SymPy": ""
+    },
+    "UnLoadPackage": {
+      "MLP": "unload-package",
+      "LaTeX": "",
+      "Maple": "unwith($0)",
+      "Mathematica": "",
+      "SymPy": ""
+    }
+  },
+  "Symbol Languages": [
+    "MLP",
+    "LaTeX",
+    "Maple",
+    "Mathematica",
+    "SymPy"
+  ],
+  "Symbols": {
+    "GeneralMultiplication": {
+      "MLP": "General Multiplication",
+      "LaTeX": "\\idot",
+      "Maple": "*",
+      "Mathematica": "*",
+      "SymPy": "*"
+    },
+    "Multiply": {
+      "MLP": "operation",
+      "LaTeX": "\\cdot",
+      "Maple": "*",
+      "Mathematica": "*",
+      "SymPy": "*"
+    },
+    "Invisible Multiply": {
+      "MLP": "operation",
+      "LaTeX": "\\idot",
+      "Maple": "*",
+      "Mathematica": "*",
+      "SymPy": "*"
+    },
+    "Times": {
+      "MLP": "operation",
+      "LaTeX": "\\times",
+      "Maple": "*",
+      "Mathematica": "*",
+      "SymPy": "*"
+    },
+    "Addition": {
+      "MLP": "Addition",
+      "LaTeX": "+",
+      "Maple": "+",
+      "Mathematica": "+",
+      "SymPy": "+"
+    },
+    "Subtraction": {
+      "MLP": "minus",
+      "LaTeX": "-",
+      "Maple": "-",
+      "Mathematica": "-",
+      "SymPy": "-"
+    },
+    "Power": {
+      "MLP": "caret",
+      "LaTeX": "^",
+      "Maple": "^",
+      "Mathematica": "^",
+      "SymPy": "**"
+    },
+    "Lower dots": {
+      "MLP": "ellipsis",
+      "LaTeX": "\\ldots",
+      "Maple": "..",
+      "Mathematica": " ... ",
+      "SymPy": "*"
+    },
+    "Dots": {
+      "MLP": "ellipsis",
+      "LaTeX": "\\dots",
+      "Maple": "..",
+      "Mathematica": "\\[Ellipsis]"
+    },
+    "Equality": {
+      "MLP": "equals",
+      "LaTeX": "=",
+      "Maple": "=",
+      "Mathematica": "==",
+      "SymPy": "=="
+    },
+    "Definition": {
+      "MLP": "definition",
+      "LaTeX": ":=",
+      "Maple": ":=",
+      "Mathematica": ":=",
+      "SymPy": "="
+    },
+    "Not Equality": {
+      "MLP": "relation_neq",
+      "LaTeX": "\\neq",
+      "Maple": "<>",
+      "Mathematica": "\\[NotEqual]"
+    },
+    "Not Equality 2": {
+      "MLP": "relation_neq",
+      "LaTeX": "\\ne",
+      "Maple": "<>",
+      "Mathematica": "\\[NotEqual]",
+      "SymPy": "<>"
+    },
+    "Negated Equality": {
+      "MLP": "negated equality",
+      "LaTeX": "\\not =",
+      "Maple": "<>",
+      "Mathematica": "\\[NotEqual]"
+    },
+    "Less Than or Equality": {
+      "MLP": "relation_leq",
+      "LaTeX": "\\leq",
+      "Maple": "<=",
+      "Mathematica": "<=",
+      "SymPy": "<="
+    },
+    "Less Than or Equality 2": {
+      "MLP": "relation_leq2",
+      "LaTeX": "\\le",
+      "Maple": "<=",
+      "Mathematica": "<=",
+      "SymPy": "<="
+    },
+    "Greater Than or Equality": {
+      "MLP": "relation_geq",
+      "LaTeX": "\\geq",
+      "Maple": ">=",
+      "Mathematica": ">=",
+      "SymPy": ">="
+    },
+    "Greater Than or Equality2": {
+      "MLP": "relation_geq2",
+      "LaTeX": "\\ge",
+      "Maple": ">=",
+      "Mathematica": ">=",
+      "SymPy": ">="
+    },
+    "Element of": {
+      "MLP": "in",
+      "LaTeX": "\\in",
+      "Maple": "in",
+      "Mathematica": "\\[Element]"
+    },
+    "Infinity": {
+      "MLP": "ordinary",
+      "LaTeX": "\\infty",
+      "Maple": "infinity",
+      "Mathematica": "Infinity",
+      "SymPy": "oo"
+    },
+    "opminus": {
+      "MLP": "opminus",
+      "LaTeX": "\\opminus",
+      "Maple": "(-1)",
+      "Mathematica": "(-1)",
+      "SymPy": "(-1)"
+    },
+    "PlusMinus": {
+      "MLP": "pm",
+      "LaTeX": "\\pm",
+      "Maple": "&+-",
+      "Mathematica": "\\[PlusMinus]"
+    },
+    "MinusPlus": {
+      "MLP": "mp",
+      "LaTeX": "\\mp",
+      "Maple": " &-+ ",
+      "Mathematica": "\\[MinusPlus]"
+    },
+    "Complex Numbers": {
+      "MLP": "complex",
+      "LaTeX": "\\Complex",
+      "Maple": "complex",
+      "Mathematica": "Complexes"
+    },
+    "Real Numbers": {
+      "MLP": "real",
+      "LaTeX": "\\Real",
+      "Maple": "real",
+      "Mathematica": "Reals"
+    },
+    "Rational Numbers": {
+      "MLP": "rational",
+      "LaTeX": "\\Rational",
+      "Maple": "rational",
+      "Mathematica": "Rationals"
+    },
+    "Integer Numbers": {
+      "MLP": "integer",
+      "LaTeX": "\\Integer",
+      "Maple": "integer",
+      "Mathematica": "Integers"
+    },
+    "Ell": {
+      "MLP": "special math letter",
+      "LaTeX": "\\ell",
+      "Maple": "ell",
+      "Mathematica": "\\[ScriptL]",
+      "SymPy": "Symbol(r'\\ell')"
+    },
+    "SuppressOutput": {
+      "MLP": "suppress-output",
+      "LaTeX": "",
+      "Maple": ":",
+      "Mathematica": ";"
+    },
+    "EOL": {
+      "MLP": "end-of-line",
+      "LaTeX": "\n",
+      "Maple": ";",
+      "Mathematica": "\n",
+      "SymPy": "\n"
+    },
+    "Temp": {
+      "MLP": "temp-variable",
+      "LaTeX": "temp",
+      "Maple": "temp",
+      "Mathematica": "temp",
+      "SymPy": "Symbol('temp')"
+    }
+  }
+}

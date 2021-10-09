@@ -1,0 +1,68 @@
+Overall: [TOTAL: 66, SKIPPED: 18, DEFINITIONS: 2, STARTED_TEST_CASES: 46, ERROR_TRANS: 10, MISSING: 36, SUCCESS_TRANS: 0, SUCCESS_SYMB: 0, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 0, ABORTED: 0, ERROR: 0] for test expression: (#LHS)-(#RHS)
+[SIMPLE]
+9734 [http://dlmf.nist.gov/35.2.E1]: Definition - Line is a non-semantic definition.
+9735 [http://dlmf.nist.gov/35.2.E2]: Skipped - Invalid test case: Generic function f(\mathbf{X})
+9736 [http://dlmf.nist.gov/35.2.E3]: Definition - Line is a non-semantic definition.
+9737 [http://dlmf.nist.gov/35.3.E1]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \multivarEulerGamma [\multivarEulerGamma]
+9738 [http://dlmf.nist.gov/35.3.E2]: Skipped - Invalid test case: dots
+9739 [http://dlmf.nist.gov/35.3.E3]: Translation Error - java.lang.StringIndexOutOfBoundsException: begin 19, end 1, length 28 [9739: {}\multivarEulerBeta{m}@{a}{b} EQUAL \int\limits_{\boldsymbol{{0}}\matrixlt\mathbf{X}\matrixlt\mathbf{I}}\matrixdet{\mathbf{X}}^{a-\frac{1}{2}(m+1)}\matrixdet{\mathbf{I}-\mathbf{X}}^{b-\frac{1}{2}(m+1)}\matrixdiffd{\mathbf{X}}; http://dlmf.nist.gov/35.3.E3]
+9740 [http://dlmf.nist.gov/35.3.E4]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \multivarEulerGamma [\multivarEulerGamma]
+9741 [http://dlmf.nist.gov/35.3.E5]: Skipped - Invalid test case: dots
+9742 [http://dlmf.nist.gov/35.3.E6]: Skipped - Invalid test case: dots
+9743 [http://dlmf.nist.gov/35.3.E7]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \multivarEulerBeta [\multivarEulerBeta]
+9744 [http://dlmf.nist.gov/35.3.E8]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \multivarEulerBeta [\multivarEulerBeta]
+9745 [http://dlmf.nist.gov/35.4.E1]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \shiftfactorial [\shiftfactorial]
+9745-a [http://dlmf.nist.gov/35.4.E1]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \multivarEulerGamma [\multivarEulerGamma]
+9746 [http://dlmf.nist.gov/35.4.E2]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \zonalpolyZ [\zonalpolyZ]
+9747 [http://dlmf.nist.gov/35.4.E3]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \zonalpolyZ [\zonalpolyZ]
+9748 [http://dlmf.nist.gov/35.4.E4]: Skipped - Invalid test case: cases
+9749 [http://dlmf.nist.gov/35.4.E5]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \zonalpolyZ [\zonalpolyZ]
+9750 [http://dlmf.nist.gov/35.4.E6]: Translation Error - java.lang.NullPointerException [9750: \sum_{|\kappa|=k}\zonalpolyZ{\kappa}@{\mathbf{T}} EQUAL (\trace{\mathbf{T}})^{k}; http://dlmf.nist.gov/35.4.E6]
+9751 [http://dlmf.nist.gov/35.4.E7]: Translation Error - (LaTeX -> Mathematica) No translation possible for given token: Unable to identify interval of INT
+9752 [http://dlmf.nist.gov/35.4.E8]: Translation Error - (LaTeX -> Mathematica) No translation possible for given token: Unable to identify interval of INT
+9753 [http://dlmf.nist.gov/35.4.E9]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \limits [\limits]
+9754 [http://dlmf.nist.gov/35.5.E1]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \BesselAmat [\BesselAmat]
+9755 [http://dlmf.nist.gov/35.5.E2]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \BesselAmat [\BesselAmat]
+9756 [http://dlmf.nist.gov/35.5.E3]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \BesselBmat [\BesselBmat]
+9757 [http://dlmf.nist.gov/35.5.E4]: Translation Error - (LaTeX -> Mathematica) No translation possible for given token: Unable to identify interval of INT
+9758 [http://dlmf.nist.gov/35.5.E5]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \limits [\limits]
+9759 [http://dlmf.nist.gov/35.5.E6]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \BesselBmat [\BesselBmat]
+9760 [http://dlmf.nist.gov/35.5.E7]: Translation Error - (LaTeX -> Mathematica) No translation possible for given token: Unable to identify interval of INT
+9761 [http://dlmf.nist.gov/35.5.E8]: Translation Error - (LaTeX -> Mathematica) No translation possible for given token: Unable to identify interval of INT
+9762 [http://dlmf.nist.gov/35.6.E1]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \genhyperFmat [\genhyperFmat]
+9763 [http://dlmf.nist.gov/35.6.E2]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \genhyperPsimat [\genhyperPsimat]
+9764 [http://dlmf.nist.gov/35.6.E3]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \LaguerrefunLmat [\LaguerrefunLmat]
+9765 [http://dlmf.nist.gov/35.6.E4]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \genhyperFmat [\genhyperFmat]
+9766 [http://dlmf.nist.gov/35.6.E5]: Translation Error - (LaTeX -> Mathematica) No translation possible for given token: Unable to identify interval of INT
+9767 [http://dlmf.nist.gov/35.6.E6]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \multivarEulerBeta [\multivarEulerBeta]
+9768 [http://dlmf.nist.gov/35.6.E7]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \genhyperFmat [\genhyperFmat]
+9769 [http://dlmf.nist.gov/35.6.E8]: Translation Error - (LaTeX -> Mathematica) No translation possible for given token: Unable to identify interval of INT
+9770 [http://dlmf.nist.gov/35.6.E9]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \genhyperFmat [\genhyperFmat]
+9771 [http://dlmf.nist.gov/35.6.E10]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \multivarEulerGamma [\multivarEulerGamma]
+9772 [http://dlmf.nist.gov/35.7.E1]: Skipped - Unable to analyze test case: Null
+9773 [http://dlmf.nist.gov/35.7.E2]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \JacobifunPmat [\JacobifunPmat]
+9774 [http://dlmf.nist.gov/35.7.E3]: Skipped - Invalid test case: bmatrix
+9775 [http://dlmf.nist.gov/35.7.E4]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \genhyperFmat [\genhyperFmat]
+9776 [http://dlmf.nist.gov/35.7.E5]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \genhyperFmat [\genhyperFmat]
+9777 [http://dlmf.nist.gov/35.7.E6]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \genhyperFmat [\genhyperFmat]
+9777-a [http://dlmf.nist.gov/35.7.E6]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \matrixdet [\matrixdet]
+9777-b [http://dlmf.nist.gov/35.7.E6]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \matrixdet [\matrixdet]
+9778 [http://dlmf.nist.gov/35.7.E7]: Skipped - Unable to analyze test case: Null
+9779 [http://dlmf.nist.gov/35.7.E8]: Skipped - Unable to analyze test case: Null
+9780 [http://dlmf.nist.gov/35.7.E9]: Translation Error - (LaTeX -> Mathematica) No translation possible for given token: Unable to identify interval of SUM
+9781 [http://dlmf.nist.gov/35.7.E10]: Skipped - Unable to analyze test case: Null
+9782 [http://dlmf.nist.gov/35.7.E11]: Skipped - Unable to analyze test case: Null
+9783 [http://dlmf.nist.gov/35.8.E1]: Skipped - Invalid test case: dots
+9784 [http://dlmf.nist.gov/35.8.E2]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \genhyperFmat [\genhyperFmat]
+9785 [http://dlmf.nist.gov/35.8.E3]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \genhyperFmat [\genhyperFmat]
+9785-a [http://dlmf.nist.gov/35.8.E3]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \genhyperFmat [\genhyperFmat]
+9786 [http://dlmf.nist.gov/35.8.E4]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \BesselAmat [\BesselAmat]
+9787 [http://dlmf.nist.gov/35.8.E5]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \genhyperFmat [\genhyperFmat]
+9788 [http://dlmf.nist.gov/35.8.E6]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \genhyperFmat [\genhyperFmat]
+9789 [http://dlmf.nist.gov/35.8.E7]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \genhyperFmat [\genhyperFmat]
+9790 [http://dlmf.nist.gov/35.8.E8]: Skipped - Invalid test case: dots
+9791 [http://dlmf.nist.gov/35.8.E9]: Skipped - Invalid test case: dots
+9792 [http://dlmf.nist.gov/35.8.E10]: Skipped - Invalid test case: dots
+9793 [http://dlmf.nist.gov/35.8.E11]: Skipped - Invalid test case: dots
+9794 [http://dlmf.nist.gov/35.8.E12]: Skipped - Invalid test case: dots
+9795 [http://dlmf.nist.gov/35.8.E13]: Skipped - Invalid test case: dots

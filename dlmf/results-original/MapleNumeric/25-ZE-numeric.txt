@@ -1,0 +1,95 @@
+Overall: [TOTAL: 177, SKIPPED: 87, DEFINITIONS: 0, STARTED_TEST_CASES: 90, ERROR_TRANS: 0, MISSING: 0, SUCCESS_TRANS: 90, SUCCESS_SYMB: 0, SUCCESS_NUM: 43, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 29, NO_TEST_VALUES: 0, ABORTED: 10, ERROR: 8] for test expression: (#LHS)-(#RHS)
+7556 [http://dlmf.nist.gov/25.2.E1]: Failed [4/6]: [[Float(-infinity), [s = -3/2]], [Float(-infinity), [s = -1/2]], ...
+7558 [http://dlmf.nist.gov/25.2.E3]: Successful [Tested: 3]
+7559 [http://dlmf.nist.gov/25.2.E4]: Successful [Tested: 6]
+7562 [http://dlmf.nist.gov/25.2.E7]: Successful [Tested: 2]
+7563 [http://dlmf.nist.gov/25.2.E8]: Failed [3/3]: [[.2180864797, [s = 3/2, N = 3]], [Float(infinity), [s = 1/2, N = 3]], ...
+7566 [http://dlmf.nist.gov/25.2.E11]: Error [[[Error, [s = 3/2]], [Error, [s = 2]]]]
+7567 [http://dlmf.nist.gov/25.2.E12]: Error [[[Error, [s = -3/2]], [Error, [s = 3/2]], ...]
+7568 [http://dlmf.nist.gov/25.4.E1]: Successful [Tested: 3]
+7569 [http://dlmf.nist.gov/25.4.E2]: Successful [Tested: 4]
+7570 [http://dlmf.nist.gov/25.4.E3]: Failed [1/6]: [[Float(undefined)+Float(undefined)*I, [s = -2]]]
+7572 [http://dlmf.nist.gov/25.4.E5]: Skipped - Because timed out
+7574 [http://dlmf.nist.gov/25.5.E1]: Successful [Tested: 2]
+7575 [http://dlmf.nist.gov/25.5.E2]: Successful [Tested: 2]
+7576 [http://dlmf.nist.gov/25.5.E3]: Successful [Tested: 3]
+7577 [http://dlmf.nist.gov/25.5.E4]: Successful [Tested: 3]
+7579 [http://dlmf.nist.gov/25.5.E6]: Successful [Tested: 3]
+7580 [http://dlmf.nist.gov/25.5.E7]: Failed [2/3]: [[.1027534444e-1, [s = 3/2, n = 3]], [.24417579e-1, [s = 2, n = 3]]]
+7581 [http://dlmf.nist.gov/25.5.E8]: Successful [Tested: 2]
+7582 [http://dlmf.nist.gov/25.5.E9]: Successful [Tested: 2]
+7583 [http://dlmf.nist.gov/25.5.E10]: Successful [Tested: 6]
+7584 [http://dlmf.nist.gov/25.5.E11]: Successful [Tested: 6]
+7585 [http://dlmf.nist.gov/25.5.E12]: Successful [Tested: 6]
+7586 [http://dlmf.nist.gov/25.5.E13]: Failed [30/30]: [[Float(infinity)+Float(infinity)*I, [omega = 1/2*3^(1/2)+1/2*I, s = 3/2]], [Float(infinity)+Float(infinity)*I, [omega = 1/2*3^(1/2)+1/2*I, s = 1/2]], ...
+7587 [http://dlmf.nist.gov/25.5.E14]: Error [[[Error, [omega = 1/2*3^(1/2)+1/2*I, x = 3/2]], [Error, [omega = 1/2*3^(1/2)+1/2*I, x = 1/2]], ...]
+7588 [http://dlmf.nist.gov/25.5.E15]: Failed [5/6]: [[Float(-infinity), [s = -3/2]], [Float(infinity), [s = 3/2]], ...
+7589 [http://dlmf.nist.gov/25.5.E16]: Failed [4/6]: [[Float(-infinity), [s = -3/2]], [Float(infinity), [s = -1/2]], ...
+7590 [http://dlmf.nist.gov/25.5.E17]: Failed [6/6]: [[Float(-infinity), [s = -3/2]], [Float(-infinity), [s = 3/2]], ...
+7591 [http://dlmf.nist.gov/25.5.E18]: Failed [5/6]: [[Float(infinity), [s = -3/2]], [Float(infinity), [s = 3/2]], ...
+7592 [http://dlmf.nist.gov/25.5.E19]: Failed [2/3]: [[Float(infinity), [s = 3/2, m = 3]], [Float(-infinity), [s = 2, m = 3]]]
+7599 [http://dlmf.nist.gov/25.6.E2]: Successful [Tested: 1]
+7600 [http://dlmf.nist.gov/25.6.E3]: Successful [Tested: 1]
+7601 [http://dlmf.nist.gov/25.6.E4]: Successful [Tested: 1]
+7603 [http://dlmf.nist.gov/25.6.E6]: Successful [Tested: 1]
+7606 [http://dlmf.nist.gov/25.6.E9]: Successful [Tested: 0]
+7607 [http://dlmf.nist.gov/25.6.E10]: Successful [Tested: 0]
+7610 [http://dlmf.nist.gov/25.6.E13]: Skipped - Because timed out
+7611 [http://dlmf.nist.gov/25.6.E14]: Skipped - Because timed out
+7612 [http://dlmf.nist.gov/25.6.E15]: Successful [Tested: 3]
+7613 [http://dlmf.nist.gov/25.6.E16]: Successful [Tested: 2]
+7614 [http://dlmf.nist.gov/25.6.E17]: Successful [Tested: 3]
+7617 [http://dlmf.nist.gov/25.6.E20]: Successful [Tested: 2]
+7618 [http://dlmf.nist.gov/25.8.E1]: Successful [Tested: 0]
+7619 [http://dlmf.nist.gov/25.8.E2]: Successful [Tested: 1]
+7620 [http://dlmf.nist.gov/25.8.E3]: Failed [1/6]: [[-.1666666667, [s = -2]]]
+7621 [http://dlmf.nist.gov/25.8.E4]: Successful [Tested: 1]
+7622 [http://dlmf.nist.gov/25.8.E5]: Successful [Tested: 1]
+7623 [http://dlmf.nist.gov/25.8.E6]: Error [[[Error, [z = 1/2]]]]
+7624 [http://dlmf.nist.gov/25.8.E7]: Successful [Tested: 1]
+7625 [http://dlmf.nist.gov/25.8.E8]: Successful [Tested: 1]
+7626 [http://dlmf.nist.gov/25.8.E9]: Successful [Tested: 0]
+7627 [http://dlmf.nist.gov/25.8.E10]: Successful [Tested: 0]
+7633 [http://dlmf.nist.gov/25.10.E3]: Failed [300/300]: [[-.6950521340+1.584276130*I, [R = 1/2*3^(1/2)+1/2*I, Z = 1/2*3^(1/2)+1/2*I, t = -3/2, vartheta = 1/2*3^(1/2)+1/2*I, m = 1]], [-2.464793153+1.882475916*I, [R = 1/2*3^(1/2)+1/2*I, Z = 1/2*3^(1/2)+1/2*I, t = -3/2, vartheta = 1/2*3^(1/2)+1/2*I, m = 2]], ...
+7635 [http://dlmf.nist.gov/25.11.E1]: Successful [Tested: 2]
+7637 [http://dlmf.nist.gov/25.11.E3]: Failed [6/36]: [[Error, [a = -2, s = -3/2]], [Error, [a = -2, s = 3/2]], ...
+7638 [http://dlmf.nist.gov/25.11.E4]: Failed [6/36]: [[Error, [a = -2, s = -3/2, m = 3]], [Error, [a = -2, s = 3/2, m = 3]], ...
+7639 [http://dlmf.nist.gov/25.11.E5]: Failed [8/9]: [[.2257548023, [a = 3/2, s = 3/2, N = 3]], [Float(infinity), [a = 3/2, s = 1/2, N = 3]], ...
+7642 [http://dlmf.nist.gov/25.11.E8]: Successful [Tested: 3]
+7646 [http://dlmf.nist.gov/25.11.E12]: Failed [1/6]: [[Error, [a = -2, n = 3]]]
+7649 [http://dlmf.nist.gov/25.11.E15]: Failed [6/36]: [[Error, [a = -2, s = -3/2, k = 3]], [Error, [a = -2, s = 3/2, k = 3]], ...
+7652 [http://dlmf.nist.gov/25.11.E18]: Successful [Tested: 3]
+7655 [http://dlmf.nist.gov/25.11.E21]: Failed [70/90]: [[-.2303130415-.107731247e-1*I, [h = 1/2*3^(1/2)+1/2*I, k = 1, n = 1]], [.8722916351e-1-.251419603e-1*I, [h = 1/2*3^(1/2)+1/2*I, k = 1, n = 2]], ...
+7656 [http://dlmf.nist.gov/25.11.E22]: Successful [Tested: 1]
+7657 [http://dlmf.nist.gov/25.11.E23]: Successful [Tested: 1]
+7658 [http://dlmf.nist.gov/25.11.E24]: Successful [Tested: 6]
+7659 [http://dlmf.nist.gov/25.11.E25]: Successful [Tested: 6]
+7661 [http://dlmf.nist.gov/25.11.E27]: Skipped - Because timed out
+7663 [http://dlmf.nist.gov/25.11.E29]: Skipped - Because timed out
+7665 [http://dlmf.nist.gov/25.11.E31]: Skipped - Because timed out
+7666 [http://dlmf.nist.gov/25.11.E32]: Failed [30/30]: [[.9441788834-.4156250000*I, [a = 3/2, h = 1/2*3^(1/2)+1/2*I, n = 3]], [2.079687501-.7198836171*I, [a = 3/2, h = -1/2+1/2*I*3^(1/2), n = 3]], ...
+7668 [http://dlmf.nist.gov/25.11.E34]: Manual Skip!
+7670 [http://dlmf.nist.gov/25.11.E36]: Skip - symbolical successful subtest
+7670-a [http://dlmf.nist.gov/25.11.E36]: Failed [60/60]: [[Float(infinity)+Float(infinity)*I, [chi = 1/2*3^(1/2)+1/2*I, s = 3/2, k = 1]], [Float(infinity)+Float(infinity)*I, [chi = 1/2*3^(1/2)+1/2*I, s = 3/2, k = 2]], ...
+7671 [http://dlmf.nist.gov/25.11.E37]: Successful [Tested: 2]
+7672 [http://dlmf.nist.gov/25.11.E38]: Manual Skip!
+7673 [http://dlmf.nist.gov/25.11.E39]: Failed [10/10]: [[.399521521-4.000000000*I, [G = 1/2*3^(1/2)+1/2*I]], [11.32772475-6.928203232*I, [G = -1/2+1/2*I*3^(1/2)]], ...
+7674 [http://dlmf.nist.gov/25.11.E40]: Error [[[Error, [G = 1/2*3^(1/2)+1/2*I]], [Error, [G = -1/2+1/2*I*3^(1/2)]], ...]
+7681 [http://dlmf.nist.gov/25.12.E2]: Failed [6/7]: [[-.8224670339-1.383979491*I, [z = 1/2*3^(1/2)+1/2*I]], [1.644934067-2.503719574*I, [z = -1/2+1/2*I*3^(1/2)]], ...
+7682 [http://dlmf.nist.gov/25.12.E3]: Failed [1/1]: [[3.289868134-2.177586090*I, [z = 1/2]]]
+7683 [http://dlmf.nist.gov/25.12.E4]: Failed [1/1]: [[6.579736268-4.725198502*I, [z = -1/2]]]
+7684 [http://dlmf.nist.gov/25.12.E5]: Failed [1/1]: [[-8.968925063+0.*I, [z = 1/2, m = 3]]]
+7686 [http://dlmf.nist.gov/25.12.E7]: Skipped - Because timed out
+7687 [http://dlmf.nist.gov/25.12.E8]: Skipped - Because timed out
+7688 [http://dlmf.nist.gov/25.12.E9]: Skipped - Because timed out
+7689 [http://dlmf.nist.gov/25.12.E10]: Failed [12/42]: [[Float(-infinity)-12.69850170*I, [s = -3/2, z = 3/2]], [Float(-infinity)-3.323322953*I, [s = -3/2, z = 2]], ...
+7691 [http://dlmf.nist.gov/25.12.E12]: Successful [Tested: 7]
+7692 [http://dlmf.nist.gov/25.12.E13]: Failed [15/18]: [[24.27636385+24.27636386*I, [a = -3/2, s = 3/2]], [-2.230710143+2.230710142*I, [a = -3/2, s = 1/2]], ...
+7695 [https://dlmf.nist.gov/25.12#Ex1]: Error - There are no valid test values.
+7696 [https://dlmf.nist.gov/25.12#Ex2]: Error - There are no valid test values.
+7703 [http://dlmf.nist.gov/25.14.E4]: Failed [6/300]: [[.27656730e-2-.27656730e-2*I, [a = -3/2, s = -2, z = 1/2*3^(1/2)+1/2*I, m = 2]], [0.+.228647547e-1*I, [a = -3/2, s = -2, z = -1/2+1/2*I*3^(1/2), m = 2]], ...
+7704 [http://dlmf.nist.gov/25.14.E5]: Skipped - Because timed out
+7726 [http://dlmf.nist.gov/25.16.E10]: Skip - symbolical successful subtest
+7726-a [http://dlmf.nist.gov/25.16.E10]: Successful [Tested: 1]
+7729 [http://dlmf.nist.gov/25.16.E13]: Failed [10/10]: [[Float(infinity)+Float(infinity)*I, [h = 1/2*3^(1/2)+1/2*I]], [Float(infinity)+Float(infinity)*I, [h = -1/2+1/2*I*3^(1/2)]], ...
+7730 [http://dlmf.nist.gov/25.16.E14]: Error [[[Error, []]]]

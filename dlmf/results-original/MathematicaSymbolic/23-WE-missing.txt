@@ -1,0 +1,7 @@
+\Weierstrassplatt, 32
+\Weierstrasselatt, 28
+\Weierstrassinvarlatt, 16
+\Weierstrasssigmalatt, 15
+\Weierstrasszetalatt, 13
+\Weierstrasspinvar, 5
+\textstyle, 3
