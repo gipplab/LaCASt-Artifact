@@ -1,0 +1,51 @@
+# =================================================================================================
+# This config contains the general replacement rules TeX inputs
+#
+# Each rule contains the following information
+#   pattern: java regex replacement rule
+#   replacement (optional): the replacement string ($1 addresses group 1 of the pattern), no
+#                           replacement will delete the match (replace my empty string).
+#   groups (optional): when the replacement handles groups, specify the number of groups here
+# =================================================================================================
+generalReplacements:
+  -
+    pattern: (?<!\\)\\(?:displaystyle|hbox|[Bb]ig[lrg]?(?![a-zA-Z])|(?:[sb]f|cal)(?![a-zA-Z])|[!,; ]|(?:neg)?(?:m|med|thin|thick)space(?:\{.+\})?)
+  -
+    pattern: \[\s*\]
+  -
+    # you need single quotes here
+    pattern: '(?:[.;^/\t\s]|\\\\)+$'
+  -
+    pattern: (\\hiderel\s*\{\s*([=<>/+\-])\s*})
+    replacement: $2
+    groups: 2
+  -
+    pattern: (\d)(?:\s+|\\[;,! ])+(\d)
+    replacement: $1$2
+    groups: 2
+  -
+    # new line spacing declarations can be ignored
+    # well... im not sure why we need three \... probably we internally replace \ by \\?
+    pattern: \\\\\[\d+.*?\]
+    replacement: \\\
+  -
+    # replace \* with *
+    pattern: \\\*
+    replacement: \*
+  -
+    pattern: \\Wronskian(?:\\left)*\\\{(.*?)(?:\\right)*\\}
+    replacement: \\Wronskian@\{$1\}
+    groups: 1
+  -
+    pattern: \\defeq([^a-zA-Z]|$)
+    replacement: ' = $1'
+    groups: 1
+  -
+    pattern: \\Im(?![a-zA-Z])
+    replacement: \\imagpart
+  -
+    pattern: \\Re(?![a-zA-Z])
+    replacement: \\realpart
+  -
+    pattern: (\^|_)([a-zA-Z])([a-zA-Z])
+    replacement: '$1$2 $3'

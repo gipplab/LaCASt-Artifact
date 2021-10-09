@@ -1,0 +1,6 @@
+\VoigtU, 9
+\Faddeevaw, 8
+\VoigtV, 7
+\GoodwinStatonint, 2
+\FishersHh, 1
+\VoigtH, 1

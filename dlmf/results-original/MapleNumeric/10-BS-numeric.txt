@@ -1,0 +1,256 @@
+Overall: [TOTAL: 955, SKIPPED: 746, DEFINITIONS: 0, STARTED_TEST_CASES: 209, ERROR_TRANS: 0, MISSING: 0, SUCCESS_TRANS: 209, SUCCESS_SYMB: 0, SUCCESS_NUM: 86, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 59, NO_TEST_VALUES: 0, ABORTED: 52, ERROR: 12] for test expression: (#LHS)-(#RHS)
+2970 [http://dlmf.nist.gov/10.2.E1]: Failed [217/300]: [[-.8660254040e-9-2.000000001*I, [nu = 1/2*3^(1/2)+1/2*I, w = 1/2*3^(1/2)+1/2*I, z = -1/2+1/2*I*3^(1/2)]], [-.8660254040e-9-2.000000001*I, [nu = 1/2*3^(1/2)+1/2*I, w = 1/2*3^(1/2)+1/2*I, z = 1/2-1/2*I*3^(1/2)]], ...
+2976 [https://dlmf.nist.gov/10.4#Ex1]: Successful [Tested: 21]
+2977 [https://dlmf.nist.gov/10.4#Ex2]: Successful [Tested: 21]
+2978 [https://dlmf.nist.gov/10.4#Ex3]: Successful [Tested: 21]
+2979 [https://dlmf.nist.gov/10.4#Ex4]: Successful [Tested: 21]
+2989 [http://dlmf.nist.gov/10.5.E1]: Skip - symbolical successful subtest
+2989-a [http://dlmf.nist.gov/10.5.E1]: Successful [Tested: 70]
+2990 [http://dlmf.nist.gov/10.5.E2]: Skip - symbolical successful subtest
+2990-a [http://dlmf.nist.gov/10.5.E2]: Successful [Tested: 70]
+2991 [http://dlmf.nist.gov/10.5.E3]: Skip - symbolical successful subtest
+2991-a [http://dlmf.nist.gov/10.5.E3]: Successful [Tested: 70]
+2992 [http://dlmf.nist.gov/10.5.E4]: Skip - symbolical successful subtest
+2992-a [http://dlmf.nist.gov/10.5.E4]: Successful [Tested: 70]
+2993 [http://dlmf.nist.gov/10.5.E5]: Skip - symbolical successful subtest
+2993-a [http://dlmf.nist.gov/10.5.E5]: Successful [Tested: 70]
+3028 [http://dlmf.nist.gov/10.8.E1]: Skipped - Because timed out
+3030 [http://dlmf.nist.gov/10.8.E3]: Skipped - Because timed out
+3032 [http://dlmf.nist.gov/10.9.E2]: Successful [Tested: 7]
+3032-a [http://dlmf.nist.gov/10.9.E2]: Successful [Tested: 7]
+3033 [http://dlmf.nist.gov/10.9.E3]: Successful [Tested: 7]
+3036 [http://dlmf.nist.gov/10.9.E6]: Failed [1/50]: [[-.1812319652, [nu = -1/2, z = 3/2]]]
+3037 [http://dlmf.nist.gov/10.9.E7]: Skipped - Because timed out
+3038 [https://dlmf.nist.gov/10.9#Ex1]: Skipped - Because timed out
+3039 [https://dlmf.nist.gov/10.9#Ex2]: Skipped - Because timed out
+3040 [https://dlmf.nist.gov/10.9#Ex3]: Skipped - Because timed out
+3041 [https://dlmf.nist.gov/10.9#Ex4]: Skipped - Because timed out
+3051 [https://dlmf.nist.gov/10.9#Ex7]: Skipped - Because timed out
+3052 [https://dlmf.nist.gov/10.9#Ex8]: Skipped - Because timed out
+3058 [http://dlmf.nist.gov/10.9.E23]: Skipped - Because timed out
+3059 [http://dlmf.nist.gov/10.9.E24]: Failed [120/120]: [[.2971181619-.8401954886*I, [c = -3/2, nu = 1/2*3^(1/2)+1/2*I, z = 1/2*3^(1/2)+1/2*I]], [-.8661908042+.2691615148*I, [c = -3/2, nu = 1/2*3^(1/2)+1/2*I, z = -1/2+1/2*I*3^(1/2)]], ...
+3060 [http://dlmf.nist.gov/10.9.E25]: Failed [120/120]: [[-.1414870617+.1246394392*I, [c = -3/2, nu = 1/2*3^(1/2)+1/2*I, z = 1/2-1/2*I*3^(1/2)]], [-.1498748781e-1-.1846515642*I, [c = -3/2, nu = 1/2*3^(1/2)+1/2*I, z = -1/2*3^(1/2)-1/2*I]], ...
+3061 [http://dlmf.nist.gov/10.9.E26]: Manual Skip!
+3062 [http://dlmf.nist.gov/10.9.E27]: Manual Skip!
+3065 [http://dlmf.nist.gov/10.9.E30]: Skipped - Because timed out
+3068 [http://dlmf.nist.gov/10.11.E1]: Failed [132/210]: [[-1.978604450-.5916012221*I, [nu = 1/2*3^(1/2)+1/2*I, z = 1/2*3^(1/2)+1/2*I, m = 1]], [.4256613630-.5580360922e-1*I, [nu = 1/2*3^(1/2)+1/2*I, z = 1/2*3^(1/2)+1/2*I, m = 2]], ...
+3069 [http://dlmf.nist.gov/10.11.E2]: Failed [170/210]: [[-4.492502702+3.271310776*I, [nu = 1/2*3^(1/2)+1/2*I, z = 1/2*3^(1/2)+1/2*I, m = 1]], [19.72399963+2.416868418*I, [nu = 1/2*3^(1/2)+1/2*I, z = 1/2*3^(1/2)+1/2*I, m = 2]], ...
+3070 [http://dlmf.nist.gov/10.11.E3]: Failed [132/210]: [[-16.06107638+5.815014709*I, [nu = 1/2*3^(1/2)+1/2*I, z = 1/2*3^(1/2)+1/2*I, m = 1]], [39.27071892+24.34608468*I, [nu = 1/2*3^(1/2)+1/2*I, z = 1/2*3^(1/2)+1/2*I, m = 2]], ...
+3071 [http://dlmf.nist.gov/10.11.E4]: Failed [132/210]: [[9.518923666+1.283901315*I, [nu = 1/2*3^(1/2)+1/2*I, z = 1/2*3^(1/2)+1/2*I, m = 1]], [-38.63237633-26.24866521*I, [nu = 1/2*3^(1/2)+1/2*I, z = 1/2*3^(1/2)+1/2*I, m = 2]], ...
+3072 [https://dlmf.nist.gov/10.11#Ex1]: Failed [20/70]: [[-5.249915228-5.084103922*I, [nu = 1/2*3^(1/2)+1/2*I, z = 1/2*3^(1/2)+1/2*I]], [-3.129030441-5.176244122*I, [nu = 1/2*3^(1/2)+1/2*I, z = -1/2+1/2*I*3^(1/2)]], ...
+3073 [https://dlmf.nist.gov/10.11#Ex2]: Failed [50/70]: [[1.033334476+.7163604616*I, [nu = 1/2*3^(1/2)+1/2*I, z = 1/2-1/2*I*3^(1/2)]], [1.427918302+.5187414665*I, [nu = 1/2*3^(1/2)+1/2*I, z = -1/2*3^(1/2)-1/2*I]], ...
+3074 [http://dlmf.nist.gov/10.11.E6]: Failed [57/63]: [[-.7553141392+1.723217630*I, [z = 1/2*3^(1/2)+1/2*I, m = 1, n = 1]], [.3969469092-.2695422112*I, [z = 1/2*3^(1/2)+1/2*I, m = 1, n = 2]], ...
+3075 [http://dlmf.nist.gov/10.11.E7]: Failed [57/63]: [[-1.723217630-.7553141394*I, [z = 1/2*3^(1/2)+1/2*I, m = 1, n = 1]], [.2695422111+.3969469092*I, [z = 1/2*3^(1/2)+1/2*I, m = 1, n = 2]], ...
+3076 [http://dlmf.nist.gov/10.11.E8]: Failed [57/63]: [[1.723217630+.755314139*I, [z = 1/2*3^(1/2)+1/2*I, m = 1, n = 1]], [-.269542211-.396946909*I, [z = 1/2*3^(1/2)+1/2*I, m = 1, n = 2]], ...
+3081 [http://dlmf.nist.gov/10.12.E1]: Successful [Tested: 42]
+3082 [https://dlmf.nist.gov/10.12#Ex1]: Skipped - Because timed out
+3083 [https://dlmf.nist.gov/10.12#Ex2]: Skipped - Because timed out
+3084 [https://dlmf.nist.gov/10.12#Ex3]: Skipped - Because timed out
+3085 [https://dlmf.nist.gov/10.12#Ex4]: Skipped - Because timed out
+3102 [https://dlmf.nist.gov/10.14#Ex1]: Successful [Tested: 3]
+3103 [https://dlmf.nist.gov/10.14#Ex2]: Successful [Tested: 2]
+3104 [http://dlmf.nist.gov/10.14.E2]: Successful [Tested: 3]
+3104-a [http://dlmf.nist.gov/10.14.E2]: Successful [Tested: 3]
+3105 [http://dlmf.nist.gov/10.14.E3]: Successful [Tested: 7]
+3106 [http://dlmf.nist.gov/10.14.E4]: Successful [Tested: 7]
+3107 [http://dlmf.nist.gov/10.14.E5]: Successful [Tested: 3]
+3109 [http://dlmf.nist.gov/10.14.E7]: Successful [Tested: 3]
+3109-a [http://dlmf.nist.gov/10.14.E7]: Successful [Tested: 3]
+3110 [http://dlmf.nist.gov/10.14.E8]: Successful [Tested: 7]
+3111 [http://dlmf.nist.gov/10.14.E9]: Error - There are no valid test values.
+3112 [http://dlmf.nist.gov/10.15.E1]: Skipped - Because timed out
+3112-a [http://dlmf.nist.gov/10.15.E1]: Skipped - Because timed out
+3121 [https://dlmf.nist.gov/10.16#Ex1]: Skip - symbolical successful subtest
+3121-a [https://dlmf.nist.gov/10.16#Ex1]: Successful [Tested: 7]
+3122 [https://dlmf.nist.gov/10.16#Ex2]: Skip - symbolical successful subtest
+3122-a [https://dlmf.nist.gov/10.16#Ex2]: Successful [Tested: 7]
+3123 [https://dlmf.nist.gov/10.16#Ex3]: Skip - symbolical successful subtest
+3123-a [https://dlmf.nist.gov/10.16#Ex3]: Successful [Tested: 7]
+3124 [https://dlmf.nist.gov/10.16#Ex4]: Skip - symbolical successful subtest
+3124-a [https://dlmf.nist.gov/10.16#Ex4]: Successful [Tested: 7]
+3129 [http://dlmf.nist.gov/10.16.E5]: Failed [7/56]: [[-.827986137e-1+.7317301038*I, [nu = -1/2, z = 1/2*3^(1/2)+1/2*I]], [-.8060140108+.3257248263*I, [nu = -1/2, z = -1/2+1/2*I*3^(1/2)]], ...
+3129-a [http://dlmf.nist.gov/10.16.E5]: Failed [7/56]: [[.827986132e-1-.7317301035*I, [nu = -1/2, z = 1/2*3^(1/2)+1/2*I]], [.8060140102-.3257248264*I, [nu = -1/2, z = -1/2+1/2*I*3^(1/2)]], ...
+3131 [http://dlmf.nist.gov/10.16.E7]: Failed [1/7]: [[1.448710179-.1398527410*I, [z = -1/2+1/2*I*3^(1/2), nu = 1/4]]]
+3131-a [http://dlmf.nist.gov/10.16.E7]: Failed [1/7]: [[1.191860674-.595668984e-1*I, [z = -1/2*3^(1/2)-1/2*I, nu = 1/4]]]
+3141 [http://dlmf.nist.gov/10.17.E7]: Successful [Tested: 7]
+3215 [http://dlmf.nist.gov/10.20.E1]: Failed [70/70]: [[.8660254030+.4999999994*I, [z = 1/2*3^(1/2)+1/2*I, zeta = 1/2*3^(1/2)+1/2*I]], [.4999999994-.8660254030*I, [z = 1/2*3^(1/2)+1/2*I, zeta = -1/2+1/2*I*3^(1/2)]], ...
+3217 [http://dlmf.nist.gov/10.20.E3]: Failed [20/20]: [[-.7483698391+.4714045210*I, [z = 3/2, zeta = 1/2*3^(1/2)+1/2*I]], [-.2769653183-.6666666667*I, [z = 3/2, zeta = -1/2+1/2*I*3^(1/2)]], ...
+3217-a [http://dlmf.nist.gov/10.20.E3]: Successful [Tested: 2]
+3238 [http://dlmf.nist.gov/10.20.E17]: Failed [21/21]: [[.8660254040-1.214547924*I, [tau = 3/2, z = 1/2*3^(1/2)+1/2*I]], [-.5000000000-.8485225201*I, [tau = 3/2, z = -1/2+1/2*I*3^(1/2)]], ...
+3238-a [http://dlmf.nist.gov/10.20.E17]: Failed [21/21]: [[.8660254040+2.214547924*I, [tau = 3/2, z = 1/2*3^(1/2)+1/2*I]], [-.5000000000+2.580573328*I, [tau = 3/2, z = -1/2+1/2*I*3^(1/2)]], ...
+3265 [http://dlmf.nist.gov/10.21.E17]: Skipped - Because timed out
+3317 [http://dlmf.nist.gov/10.21.E46]: Failed [6/6]: [[-2.049306144, [a = -3/2]], [.9506938555, [a = 3/2]], ...
+3317-a [http://dlmf.nist.gov/10.21.E46]: Skip - symbolical successful subtest
+3346 [http://dlmf.nist.gov/10.22.E8]: Failed [2/24]: [[-.277492396, [nu = -1/2, x = 3/2]], [-.1653166018, [nu = 1/2, x = 3/2]]]
+3347 [http://dlmf.nist.gov/10.22.E9]: Error [[[Error, [x = 3/2, n = 3]], [Error, [x = 1/2, n = 3]], ...]
+3347-a [http://dlmf.nist.gov/10.22.E9]: Error [[[Error, [x = 3/2, n = 3]], [Error, [x = 1/2, n = 3]], ...]
+3349 [http://dlmf.nist.gov/10.22.E11]: Successful [Tested: 3]
+3350 [http://dlmf.nist.gov/10.22.E12]: Successful [Tested: 3]
+3350-a [http://dlmf.nist.gov/10.22.E12]: Successful [Tested: 3]
+3351 [http://dlmf.nist.gov/10.22.E13]: Manual Skip!
+3352 [http://dlmf.nist.gov/10.22.E14]: Manual Skip!
+3353 [http://dlmf.nist.gov/10.22.E15]: Manual Skip!
+3354 [http://dlmf.nist.gov/10.22.E16]: Successful [Tested: 7]
+3355 [http://dlmf.nist.gov/10.22.E17]: Error - There are no valid test values.
+3356 [http://dlmf.nist.gov/10.22.E18]: Successful [Tested: 7]
+3361 [http://dlmf.nist.gov/10.22.E23]: Skipped - Because timed out
+3362 [http://dlmf.nist.gov/10.22.E24]: Skipped - Because timed out
+3363 [http://dlmf.nist.gov/10.22.E25]: Skipped - Because timed out
+3365 [http://dlmf.nist.gov/10.22.E27]: Successful [Tested: 15]
+3368 [http://dlmf.nist.gov/10.22.E30]: Successful [Tested: 3]
+3368-a [http://dlmf.nist.gov/10.22.E30]: Successful [Tested: 3]
+3370 [http://dlmf.nist.gov/10.22.E32]: Manual Skip!
+3371 [http://dlmf.nist.gov/10.22.E33]: Manual Skip!
+3372 [http://dlmf.nist.gov/10.22.E34]: Manual Skip!
+3375 [http://dlmf.nist.gov/10.22.E37]: Error [[[Error, [nu = 1/2*3^(1/2)+1/2*I, j[nu,ell] = 1/2*3^(1/2)+1/2*I, j[nu,m] = 1/2*3^(1/2)+1/2*I, m = 1]], [Error, [nu = 1/2*3^(1/2)+1/2*I, j[nu,ell] = 1/2*3^(1/2)+1/2*I, j[nu,m] = 1/2*3^(1/2)+1/2*I, m = 2]], ...]
+3376 [http://dlmf.nist.gov/10.22.E38]: Error [[[Error, [a = -3/2, alpha = 3/2, b = -3/2, nu = 1/2*3^(1/2)+1/2*I, alpha[ell] = 1/2*3^(1/2)+1/2*I, alpha[m] = 1/2*3^(1/2)+1/2*I, m = 1]], [Error, [a = -3/2, alpha = 3/2, b = -3/2, nu = 1/2*3^(1/2)+1/2*I, alpha[ell] = 1/2*3^(1/2)+1/2*I, alpha[m] = 1/2*3^(1/2)+1/2*I, m = 2]], ...]
+3378 [http://dlmf.nist.gov/10.22.E40]: Skipped - Because timed out
+3393 [http://dlmf.nist.gov/10.22.E55]: Error [[[Error, [nu = 1/2*3^(1/2)+1/2*I, m = 1]], [Error, [nu = 1/2*3^(1/2)+1/2*I, m = 2]], ...]
+3419 [http://dlmf.nist.gov/10.23.E3]: Successful [Tested: 7]
+3421 [http://dlmf.nist.gov/10.23.E5]: Skipped - Because timed out
+3422 [https://dlmf.nist.gov/10.23#Ex1]: Failed [300/300]: [[-.3146075610-.1816387601*I, [alpha = 3/2, u = 1/2*3^(1/2)+1/2*I, v = 1/2*3^(1/2)+1/2*I, w = 1/2*3^(1/2)+1/2*I]], [-1.680632965+.1843866439*I, [alpha = 3/2, u = 1/2*3^(1/2)+1/2*I, v = 1/2*3^(1/2)+1/2*I, w = -1/2+1/2*I*3^(1/2)]], ...
+3423 [https://dlmf.nist.gov/10.23#Ex2]: Failed [300/300]: [[-.263783978e-1+.4431282844*I, [alpha = 3/2, chi = 1/2*3^(1/2)+1/2*I, u = 1/2*3^(1/2)+1/2*I, v = 1/2*3^(1/2)+1/2*I, w = 1/2*3^(1/2)+1/2*I]], [.8262683052-.3665121890*I, [alpha = 3/2, chi = 1/2*3^(1/2)+1/2*I, u = 1/2*3^(1/2)+1/2*I, v = 1/2*3^(1/2)+1/2*I, w = -1/2+1/2*I*3^(1/2)]], ...
+3424 [https://dlmf.nist.gov/10.23#Ex3]: Failed [300/300]: [[.2887554391-.2231097873*I, [alpha = 3/2, chi = 1/2*3^(1/2)+1/2*I, v = 1/2*3^(1/2)+1/2*I, w = 1/2*3^(1/2)+1/2*I]], [1.585713279-.763530664e-1*I, [alpha = 3/2, chi = 1/2*3^(1/2)+1/2*I, v = 1/2*3^(1/2)+1/2*I, w = -1/2+1/2*I*3^(1/2)]], ...
+3427 [http://dlmf.nist.gov/10.23.E9]: Skipped - Because timed out
+3433 [http://dlmf.nist.gov/10.23.E15]: Skipped - Because timed out
+3434 [http://dlmf.nist.gov/10.23.E16]: Successful [Tested: 7]
+3435 [http://dlmf.nist.gov/10.23.E17]: Manual Skip!
+3440 [http://dlmf.nist.gov/10.24.E1]: Failed [300/300]: [[1.948557159+2.125000000*I, [nu = 1/2*3^(1/2)+1/2*I, w = 1/2*3^(1/2)+1/2*I, x = 3/2]], [.2165063513+1.125000001*I, [nu = 1/2*3^(1/2)+1/2*I, w = 1/2*3^(1/2)+1/2*I, x = 1/2]], ...
+3443 [http://dlmf.nist.gov/10.24.E3]: Failed [300/300]: [[.131682196e-1-.6479738907*I, [gamma = 1/2*3^(1/2)+1/2*I, nu = 1/2*3^(1/2)+1/2*I, gamma[nu] = 1/2*3^(1/2)+1/2*I]], [.2393622021-.2867640040*I, [gamma = 1/2*3^(1/2)+1/2*I, nu = 1/2*3^(1/2)+1/2*I, gamma[nu] = -1/2+1/2*I*3^(1/2)]], ...
+3444 [https://dlmf.nist.gov/10.24#Ex3]: Failed [12/30]: [[.1765981285-.1547836875*I, [nu = 1/2*3^(1/2)+1/2*I, x = 3/2]], [-1.059084556+.9282601935*I, [nu = 1/2*3^(1/2)+1/2*I, x = 1/2]], ...
+3445 [https://dlmf.nist.gov/10.24#Ex4]: Failed [12/30]: [[-.6730010946+.5898680353*I, [nu = 1/2*3^(1/2)+1/2*I, x = 3/2]], [-.1980888923+.1736197856*I, [nu = 1/2*3^(1/2)+1/2*I, x = 1/2]], ...
+3446 [http://dlmf.nist.gov/10.24.E5]: Failed [12/30]: [[-.3214564733-.7786157192*I, [nu = 1/2*3^(1/2)+1/2*I, x = 3/2]], [-.6431025084-4.765445687*I, [nu = 1/2*3^(1/2)+1/2*I, x = 1/2]], ...
+3451 [http://dlmf.nist.gov/10.24.E9]: Successful [Tested: 3]
+3452 [http://dlmf.nist.gov/10.25.E1]: Failed [220/300]: [[-.6467477718e-9-2.000000002*I, [nu = 1/2*3^(1/2)+1/2*I, w = 1/2*3^(1/2)+1/2*I, z = 1/2*3^(1/2)+1/2*I]], [-.8660254040e-9-2.000000001*I, [nu = 1/2*3^(1/2)+1/2*I, w = 1/2*3^(1/2)+1/2*I, z = -1/2*3^(1/2)-1/2*I]], ...
+3455 [http://dlmf.nist.gov/10.27.E1]: Successful [Tested: 21]
+3460 [http://dlmf.nist.gov/10.27.E6]: Successful [Tested: 50]
+3460-a [http://dlmf.nist.gov/10.27.E6]: Successful [Tested: 50]
+3461 [http://dlmf.nist.gov/10.27.E7]: Successful [Tested: 50]
+3461-a [http://dlmf.nist.gov/10.27.E7]: Successful [Tested: 50]
+3463 [http://dlmf.nist.gov/10.27.E9]: Successful [Tested: 50]
+3464 [http://dlmf.nist.gov/10.27.E10]: Successful [Tested: 50]
+3465 [http://dlmf.nist.gov/10.27.E11]: Successful [Tested: 50]
+3465-a [http://dlmf.nist.gov/10.27.E11]: Successful [Tested: 50]
+3466 [http://dlmf.nist.gov/10.28.E1]: Skip - symbolical successful subtest
+3466-a [http://dlmf.nist.gov/10.28.E1]: Successful [Tested: 70]
+3467 [http://dlmf.nist.gov/10.28.E2]: Skip - symbolical successful subtest
+3467-a [http://dlmf.nist.gov/10.28.E2]: Successful [Tested: 70]
+3482 [http://dlmf.nist.gov/10.31.E1]: Skipped - Because timed out
+3484 [http://dlmf.nist.gov/10.31.E3]: Skipped - Because timed out
+3485 [http://dlmf.nist.gov/10.32.E1]: Skip - symbolical successful subtest
+3485-a [http://dlmf.nist.gov/10.32.E1]: Skip - symbolical successful subtest
+3485-b [http://dlmf.nist.gov/10.32.E1]: Skipped - Because timed out
+3485-c [http://dlmf.nist.gov/10.32.E1]: Skipped - Because timed out
+3486 [http://dlmf.nist.gov/10.32.E2]: Skipped - Because timed out
+3486-a [http://dlmf.nist.gov/10.32.E2]: Skipped - Because timed out
+3486-b [http://dlmf.nist.gov/10.32.E2]: Skipped - Because timed out
+3486-c [http://dlmf.nist.gov/10.32.E2]: Skip - symbolical successful subtest
+3487 [http://dlmf.nist.gov/10.32.E3]: Successful [Tested: 21]
+3488 [http://dlmf.nist.gov/10.32.E4]: Skipped - Because timed out
+3489 [http://dlmf.nist.gov/10.32.E5]: Skipped - Because timed out
+3489-a [http://dlmf.nist.gov/10.32.E5]: Skipped - Because timed out
+3491 [http://dlmf.nist.gov/10.32.E7]: Manual Skip!
+3491-a [http://dlmf.nist.gov/10.32.E7]: Manual Skip!
+3492 [http://dlmf.nist.gov/10.32.E8]: Skipped - Because timed out
+3492-a [http://dlmf.nist.gov/10.32.E8]: Skip - symbolical successful subtest
+3493 [http://dlmf.nist.gov/10.32.E9]: Skipped - Because timed out
+3497 [http://dlmf.nist.gov/10.32.E13]: Failed [300/300]: [[.5663982443-.3181066824*I, [c = -3/2, nu = 1/2*3^(1/2)+1/2*I, z = 1/2*3^(1/2)+1/2*I]], [-1.434992817-2.759712160*I, [c = -3/2, nu = 1/2*3^(1/2)+1/2*I, z = -1/2+1/2*I*3^(1/2)]], ...
+3498 [http://dlmf.nist.gov/10.32.E14]: Skipped - Because timed out
+3499 [http://dlmf.nist.gov/10.32.E15]: Skipped - Because timed out
+3501 [http://dlmf.nist.gov/10.32.E17]: Manual Skip!
+3501-a [http://dlmf.nist.gov/10.32.E17]: Manual Skip!
+3506 [http://dlmf.nist.gov/10.34.E1]: Failed [132/210]: [[-2.206479866-1.131319388*I, [nu = 1/2*3^(1/2)+1/2*I, z = 1/2*3^(1/2)+1/2*I, m = 1]], [.5147384726+.2724622562e-1*I, [nu = 1/2*3^(1/2)+1/2*I, z = 1/2*3^(1/2)+1/2*I, m = 2]], ...
+3507 [http://dlmf.nist.gov/10.34.E2]: Failed [170/210]: [[2.965939338+3.157233720*I, [nu = 1/2*3^(1/2)+1/2*I, z = 1/2*3^(1/2)+1/2*I, m = 1]], [-10.37113928-12.75980866*I, [nu = 1/2*3^(1/2)+1/2*I, z = 1/2*3^(1/2)+1/2*I, m = 2]], ...
+3508 [http://dlmf.nist.gov/10.34.E3]: Failed [152/210]: [[-2.316975457-.8668337446*I, [nu = 1/2*3^(1/2)+1/2*I, z = 1/2*3^(1/2)+1/2*I, m = 1]], [.5132395470-.3232131754e-1*I, [nu = 1/2*3^(1/2)+1/2*I, z = 1/2*3^(1/2)+1/2*I, m = 2]], ...
+3508-a [http://dlmf.nist.gov/10.34.E3]: Failed [190/210]: [[-2.206479866-1.131319388*I, [nu = 1/2*3^(1/2)+1/2*I, z = 1/2*3^(1/2)+1/2*I, m = 1]], [.5147384726+.2724622561e-1*I, [nu = 1/2*3^(1/2)+1/2*I, z = 1/2*3^(1/2)+1/2*I, m = 2]], ...
+3509 [http://dlmf.nist.gov/10.34.E4]: Failed [158/210]: [[-2.723238516+7.278993081*I, [nu = 1/2*3^(1/2)+1/2*I, z = 1/2*3^(1/2)+1/2*I, m = 2]], [29.12762958-25.06220737*I, [nu = 1/2*3^(1/2)+1/2*I, z = 1/2*3^(1/2)+1/2*I, m = 3]], ...
+3509-a [http://dlmf.nist.gov/10.34.E4]: Failed [170/210]: [[2.965939338+3.157233717*I, [nu = 1/2*3^(1/2)+1/2*I, z = 1/2*3^(1/2)+1/2*I, m = 1]], [-10.37113929-12.75980866*I, [nu = 1/2*3^(1/2)+1/2*I, z = 1/2*3^(1/2)+1/2*I, m = 2]], ...
+3510 [http://dlmf.nist.gov/10.34.E5]: Failed [57/63]: [[-1.971501919+2.706233555*I, [z = 1/2*3^(1/2)+1/2*I, m = 1, n = 1]], [-.7368261646+.3579119854*I, [z = 1/2*3^(1/2)+1/2*I, m = 1, n = 2]], ...
+3511 [http://dlmf.nist.gov/10.34.E6]: Failed [51/63]: [[-1.971501920+2.706233556*I, [z = 1/2*3^(1/2)+1/2*I, m = 2, n = 1]], [.7368261602-.357911988*I, [z = 1/2*3^(1/2)+1/2*I, m = 2, n = 2]], ...
+3511-a [http://dlmf.nist.gov/10.34.E6]: Failed [54/63]: [[-1.971501919+2.706233556*I, [z = 1/2*3^(1/2)+1/2*I, m = 1, n = 1]], [-.7368261645+.357911985*I, [z = 1/2*3^(1/2)+1/2*I, m = 1, n = 2]], ...
+3512 [https://dlmf.nist.gov/10.34#Ex1]: Skipped - Because timed out
+3513 [https://dlmf.nist.gov/10.34#Ex2]: Failed [28/70]: [[-.3322466664+.1347267497*I, [nu = 1/2*3^(1/2)+1/2*I, z = 1/2*3^(1/2)+1/2*I]], [.8978926857-1.555608423*I, [nu = 1/2*3^(1/2)+1/2*I, z = -1/2+1/2*I*3^(1/2)]], ...
+3514 [http://dlmf.nist.gov/10.35.E1]: Skipped - Because timed out
+3515 [http://dlmf.nist.gov/10.35.E2]: Skipped - Because timed out
+3516 [http://dlmf.nist.gov/10.35.E3]: Manual Skip!
+3523 [http://dlmf.nist.gov/10.37.E1]: Failed [204/300]: [[.6496143723 < .6496143723, [mu = 1/2*3^(1/2)+1/2*I, nu = 1/2*3^(1/2)+1/2*I, z = 1/2*3^(1/2)+1/2*I]], [3.110500858 < 3.110500858, [mu = 1/2*3^(1/2)+1/2*I, nu = 1/2*3^(1/2)+1/2*I, z = -1/2+1/2*I*3^(1/2)]], ...
+3524 [http://dlmf.nist.gov/10.38.E1]: Skipped - Because timed out
+3524-a [http://dlmf.nist.gov/10.38.E1]: Skipped - Because timed out
+3532 [https://dlmf.nist.gov/10.39#Ex1]: Successful [Tested: 7]
+3533 [https://dlmf.nist.gov/10.39#Ex2]: Successful [Tested: 7]
+3534 [http://dlmf.nist.gov/10.39.E2]: Skip - symbolical successful subtest
+3534-a [http://dlmf.nist.gov/10.39.E2]: Successful [Tested: 7]
+3536 [http://dlmf.nist.gov/10.39.E4]: Successful [Tested: 7]
+3537 [http://dlmf.nist.gov/10.39.E5]: Failed [7/56]: [[-.800260207-.3396157390*I, [nu = -1/2, z = 1/2*3^(1/2)+1/2*I]], [-.4588638571-.5759587792*I, [nu = -1/2, z = -1/2+1/2*I*3^(1/2)]], ...
+3537-a [http://dlmf.nist.gov/10.39.E5]: Skip - symbolical successful subtest
+3540 [http://dlmf.nist.gov/10.39.E8]: Successful [Tested: 70]
+3552 [http://dlmf.nist.gov/10.40.E10]: Error [[[Error, [nu = 1/2*3^(1/2)+1/2*I, z = 1/2*3^(1/2)+1/2*I, R[ell] = 1/2*3^(1/2)+1/2*I, ell = 3]], [Error, [nu = 1/2*3^(1/2)+1/2*I, z = 1/2*3^(1/2)+1/2*I, R[ell] = -1/2+1/2*I*3^(1/2), ell = 3]], ...]
+3582 [http://dlmf.nist.gov/10.43.E4]: Successful [Tested: 3]
+3582-a [http://dlmf.nist.gov/10.43.E4]: Successful [Tested: 3]
+3583 [http://dlmf.nist.gov/10.43.E5]: Successful [Tested: 3]
+3584 [http://dlmf.nist.gov/10.43.E6]: Successful [Tested: 3]
+3585 [http://dlmf.nist.gov/10.43.E7]: Successful [Tested: 15]
+3585-a [http://dlmf.nist.gov/10.43.E7]: Skipped - Because timed out
+3586 [http://dlmf.nist.gov/10.43.E8]: Manual Skip!
+3586-a [http://dlmf.nist.gov/10.43.E8]: Manual Skip!
+3587 [http://dlmf.nist.gov/10.43.E9]: Manual Skip!
+3587-a [http://dlmf.nist.gov/10.43.E9]: Manual Skip!
+3588 [http://dlmf.nist.gov/10.43.E10]: Manual Skip!
+3599 [http://dlmf.nist.gov/10.43.E21]: Successful [Tested: 0]
+3602 [http://dlmf.nist.gov/10.43.E24]: Failed [228/300]: [[-.7585567167+3.675115279*I, [b = -3/2, nu = 1/2*3^(1/2)+1/2*I, p = 1/2*3^(1/2)+1/2*I]], [-.9489546609+2.381017603*I, [b = -3/2, nu = 1/2*3^(1/2)+1/2*I, p = -1/2*3^(1/2)-1/2*I]], ...
+3603 [http://dlmf.nist.gov/10.43.E25]: Failed [144/288]: [[-.4056916296-1.844454275*I, [b = -3/2, nu = 1/2*3^(1/2)+1/2*I, p = 1/2*3^(1/2)+1/2*I]], [-.2830456904e-1-1.996429597*I, [b = -3/2, nu = 1/2*3^(1/2)+1/2*I, p = 3/2]], ...
+3607 [http://dlmf.nist.gov/10.43.E29]: Skipped - Because timed out
+3613 [https://dlmf.nist.gov/10.44#Ex1]: Skipped - Because timed out
+3614 [https://dlmf.nist.gov/10.44#Ex2]: Skipped - Because timed out
+3616 [http://dlmf.nist.gov/10.44.E4]: Manual Skip!
+3617 [http://dlmf.nist.gov/10.44.E5]: Successful [Tested: 7]
+3618 [http://dlmf.nist.gov/10.44.E6]: Manual Skip!
+3619 [http://dlmf.nist.gov/10.45.E1]: Failed [240/300]: [[-1.948557159-.1249999996*I, [nu = 1/2*3^(1/2)+1/2*I, w = 1/2*3^(1/2)+1/2*I, x = 3/2]], [-.2165063507+.8750000006*I, [nu = 1/2*3^(1/2)+1/2*I, w = 1/2*3^(1/2)+1/2*I, x = 1/2]], ...
+3624 [http://dlmf.nist.gov/10.45.E4]: Error [[[Error, [nu = 1/2*3^(1/2)+1/2*I, x = 3/2]], [Error, [nu = 1/2*3^(1/2)+1/2*I, x = 1/2]], ...]
+3633 [http://dlmf.nist.gov/10.47.E1]: Failed [210/210]: [[-1.732050808+.3733632160e-9*I, [w = 1/2*3^(1/2)+1/2*I, z = 1/2*3^(1/2)+1/2*I, n = 1]], [-5.196152424-2.000000000*I, [w = 1/2*3^(1/2)+1/2*I, z = 1/2*3^(1/2)+1/2*I, n = 2]], ...
+3634 [http://dlmf.nist.gov/10.47.E2]: Failed [210/210]: [[-1.732050808-2.000000000*I, [w = 1/2*3^(1/2)+1/2*I, z = 1/2*3^(1/2)+1/2*I, n = 1]], [-5.196152424-4.000000000*I, [w = 1/2*3^(1/2)+1/2*I, z = 1/2*3^(1/2)+1/2*I, n = 2]], ...
+3635 [http://dlmf.nist.gov/10.47.E3]: Skip - symbolical successful subtest
+3635-a [http://dlmf.nist.gov/10.47.E3]: Successful [Tested: 21]
+3636 [http://dlmf.nist.gov/10.47.E4]: Skip - symbolical successful subtest
+3636-a [http://dlmf.nist.gov/10.47.E4]: Successful [Tested: 21]
+3703 [https://dlmf.nist.gov/10.51#Ex5]: Error - There are no valid test values.
+3704 [https://dlmf.nist.gov/10.51#Ex6]: Failed [288/300]: [[1.366025403-.3660254033*I, [z = 1/2*3^(1/2)+1/2*I, f[n] = 1/2*3^(1/2)+1/2*I, f[n+m] = 1/2*3^(1/2)+1/2*I, n = 1, m = 3]], [.9999999993-.9999999984*I, [z = 1/2*3^(1/2)+1/2*I, f[n] = 1/2*3^(1/2)+1/2*I, f[n+m] = 1/2*3^(1/2)+1/2*I, n = 2, m = 3]], ...
+3709 [https://dlmf.nist.gov/10.51#Ex11]: Error - There are no valid test values.
+3710 [https://dlmf.nist.gov/10.51#Ex12]: Failed [288/300]: [[.3660254028+1.366025403*I, [z = 1/2*3^(1/2)+1/2*I, g[n] = 1/2*3^(1/2)+1/2*I, g[n+m] = 1/2*3^(1/2)+1/2*I, n = 1, m = 3]], [.9999999987+.9999999996*I, [z = 1/2*3^(1/2)+1/2*I, g[n] = 1/2*3^(1/2)+1/2*I, g[n+m] = 1/2*3^(1/2)+1/2*I, n = 2, m = 3]], ...
+3754 [http://dlmf.nist.gov/10.61.E1]: Skip - symbolical successful subtest
+3754-a [http://dlmf.nist.gov/10.61.E1]: Successful [Tested: 30]
+3754-b [http://dlmf.nist.gov/10.61.E1]: Successful [Tested: 30]
+3754-c [http://dlmf.nist.gov/10.61.E1]: Successful [Tested: 30]
+3755 [http://dlmf.nist.gov/10.61.E2]: Successful [Tested: 30]
+3755-a [http://dlmf.nist.gov/10.61.E2]: Successful [Tested: 30]
+3755-b [http://dlmf.nist.gov/10.61.E2]: Successful [Tested: 30]
+3756 [http://dlmf.nist.gov/10.61.E3]: Failed [300/300]: [[1.125000000-2.948557160*I, [nu = 1/2*3^(1/2)+1/2*I, w = 1/2*3^(1/2)+1/2*I, x = 3/2]], [.1249999997-1.216506352*I, [nu = 1/2*3^(1/2)+1/2*I, w = 1/2*3^(1/2)+1/2*I, x = 1/2]], ...
+3760 [https://dlmf.nist.gov/10.61#Ex3]: Successful [Tested: 30]
+3761 [https://dlmf.nist.gov/10.61#Ex4]: Successful [Tested: 30]
+3766 [https://dlmf.nist.gov/10.61#Ex9]: Successful [Tested: 3]
+3767 [https://dlmf.nist.gov/10.61#Ex10]: Successful [Tested: 3]
+3768 [https://dlmf.nist.gov/10.61#Ex11]: Successful [Tested: 3]
+3769 [https://dlmf.nist.gov/10.61#Ex12]: Successful [Tested: 3]
+3770 [http://dlmf.nist.gov/10.61.E11]: Skip - symbolical successful subtest
+3770-a [http://dlmf.nist.gov/10.61.E11]: Successful [Tested: 3]
+3771 [http://dlmf.nist.gov/10.61.E12]: Skip - symbolical successful subtest
+3771-a [http://dlmf.nist.gov/10.61.E12]: Successful [Tested: 3]
+3793 [http://dlmf.nist.gov/10.64.E1]: Successful [Tested: 9]
+3794 [http://dlmf.nist.gov/10.64.E2]: Successful [Tested: 9]
+3795 [https://dlmf.nist.gov/10.65#Ex1]: Successful [Tested: 30]
+3796 [https://dlmf.nist.gov/10.65#Ex2]: Successful [Tested: 30]
+3799 [http://dlmf.nist.gov/10.65.E3]: Skipped - Because timed out
+3800 [http://dlmf.nist.gov/10.65.E4]: Skipped - Because timed out
+3804 [http://dlmf.nist.gov/10.65.E7]: Failed [21/30]: [[.7271930e-3+.45983036e-2*I, [nu = 1/2*3^(1/2)+1/2*I, x = 3/2]], [-.41528503e-2+.322695404e-1*I, [nu = 1/2*3^(1/2)+1/2*I, x = 2]], ...
+3805 [http://dlmf.nist.gov/10.65.E8]: Failed [25/30]: [[.71978298e-2-.3037583875e-1*I, [nu = 1/2*3^(1/2)+1/2*I, x = 3/2]], [.607273780e-1-.1071579728*I, [nu = 1/2*3^(1/2)+1/2*I, x = 2]], ...
+3806 [http://dlmf.nist.gov/10.65.E9]: Failed [3/30]: [[Float(undefined)+Float(undefined)*I, [nu = -2, x = 3/2]], [Float(undefined)+Float(undefined)*I, [nu = -2, x = 1/2]], ...
+3807 [http://dlmf.nist.gov/10.66.E1]: Skipped - Because timed out
+3807-a [http://dlmf.nist.gov/10.66.E1]: Skipped - Because timed out
+3808 [https://dlmf.nist.gov/10.66#Ex1]: Successful [Tested: 9]
+3809 [https://dlmf.nist.gov/10.66#Ex2]: Successful [Tested: 9]
+3866 [http://dlmf.nist.gov/10.71.E1]: Failed [300/300]: [[.9346151411+.5776724966*I, [nu = 1/2*3^(1/2)+1/2*I, x = 3/2, f[nu] = 1/2*3^(1/2)+1/2*I, f[1+nu] = 1/2*3^(1/2)+1/2*I, g[1+nu] = 1/2*3^(1/2)+1/2*I]], [3.061934630+.4518721345*I, [nu = 1/2*3^(1/2)+1/2*I, x = 3/2, f[nu] = 1/2*3^(1/2)+1/2*I, f[1+nu] = 1/2*3^(1/2)+1/2*I, g[1+nu] = -1/2+1/2*I*3^(1/2)]], ...
+3866-a [http://dlmf.nist.gov/10.71.E1]: Skip - symbolical successful subtest
+3867 [http://dlmf.nist.gov/10.71.E2]: Failed [300/300]: [[.9470105611+.8580421171*I, [nu = 1/2*3^(1/2)+1/2*I, x = 3/2, f[nu] = 1/2*3^(1/2)+1/2*I, f[nu-1] = 1/2*3^(1/2)+1/2*I, g[nu-1] = 1/2*3^(1/2)+1/2*I]], [.30703090e-2+1.331056152*I, [nu = 1/2*3^(1/2)+1/2*I, x = 3/2, f[nu] = 1/2*3^(1/2)+1/2*I, f[nu-1] = 1/2*3^(1/2)+1/2*I, g[nu-1] = -1/2+1/2*I*3^(1/2)]], ...
+3867-a [http://dlmf.nist.gov/10.71.E2]: Skip - symbolical successful subtest
+3871 [http://dlmf.nist.gov/10.71.E6]: Failed [270/300]: [[.5625000004+.9742785795*I, [nu = 1/2*3^(1/2)+1/2*I, x = 3/2, f[nu] = 1/2*3^(1/2)+1/2*I, f[1+nu] = 1/2*3^(1/2)+1/2*I, f[nu-1] = 1/2*3^(1/2)+1/2*I, g[nu] = 1/2*3^(1/2)+1/2*I, g[1+nu] = 1/2*3^(1/2)+1/2*I, g[nu-1] = 1/2*3^(1/2)+1/2*I]], [-.2058892896+.7683892900*I, [nu = 1/2*3^(1/2)+1/2*I, x = 3/2, f[nu] = 1/2*3^(1/2)+1/2*I, f[1+nu] = 1/2*3^(1/2)+1/2*I, f[nu-1] = 1/2*3^(1/2)+1/2*I, g[nu] = 1/2*3^(1/2)+1/2*I, g[1+nu] = 1/2*3^(1/2)+1/2*I, g[nu-1] = -1/2+1/2*I*3^(1/2)]], ...
+3872 [http://dlmf.nist.gov/10.71.E7]: Error [[[Error, [nu = 1/2*3^(1/2)+1/2*I, x = 3/2, f[nu] = 1/2*3^(1/2)+1/2*I, f[1+nu] = 1/2*3^(1/2)+1/2*I, f[nu-1] = 1/2*3^(1/2)+1/2*I, g[nu] = 1/2*3^(1/2)+1/2*I, g[1+nu] = 1/2*3^(1/2)+1/2*I, g[nu-1] = 1/2*3^(1/2)+1/2*I]], [Error, [nu = 1/2*3^(1/2)+1/2*I, x = 3/2, f[nu] = 1/2*3^(1/2)+1/2*I, f[1+nu] = 1/2*3^(1/2)+1/2*I, f[nu-1] = 1/2*3^(1/2)+1/2*I, g[nu] = 1/2*3^(1/2)+1/2*I, g[1+nu] = 1/2*3^(1/2)+1/2*I, g[nu-1] = -1/2+1/2*I*3^(1/2)]], ...]

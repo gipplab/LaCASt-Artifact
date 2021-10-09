@@ -1,0 +1,16 @@
+\BesselC, 30
+\Hankelphasetheta, 19
+\modcylinder, 17
+\Hankelphasederivphi, 14
+\zBesselj, 10
+\zBessely, 9
+\BickleyKi, 7
+\zderivBesselj, 7
+\rselection, 6
+\scterminant, 4
+\nabla, 4
+\zderivBessely, 2
+\NeumannpolyO, 2
+\genBesselphi, 2
+\MittagLefflerE, 1
+\Rayleighsigma, 1

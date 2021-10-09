@@ -1,0 +1,6 @@
+\assLegendreOlverQ, 33
+\assLegendreQ, 7
+\DunsterQ, 3
+\paraUbar, 2
+\surfharmonicY, 1
+\hbar, 1

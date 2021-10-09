@@ -1,0 +1,11 @@
+\canonint, 31
+\ellumbcanonint, 14
+\hyperumbcanonint, 12
+\cuspcatastrophe, 9
+\umbcatastrophe, 4
+\umbdiffrcanonint, 2
+\umbcanonint, 2
+\diffrcanonint, 2
+\hyperumbcatastrophe, 1
+\ellumbcatastrophe, 1
+\max, 1
