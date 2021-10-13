@@ -1,15 +1,9 @@
 #!/bin/sh
 
-LACAST_BIN="./bin"
 LACAST_LIBS="./libs"
 LACAST_CLASSPATH=
 
 for JAR in "${LACAST_LIBS}"/*.jar
-do
-    LACAST_CLASSPATH="${LACAST_CLASSPATH}:${JAR}"
-done
-
-for JAR in "${LACAST_BIN}"/*.jar
 do
     LACAST_CLASSPATH="${LACAST_CLASSPATH}:${JAR}"
 done
