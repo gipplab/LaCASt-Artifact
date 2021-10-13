@@ -4,11 +4,11 @@ by A. Greiner-Petter, H. S. Cohl, A. Youssef, M. Schubotz, A. Trost, R. Dey, A. 
 TACAS 2022.
 ========================================================================================================
 
-## Preamble
+## 1. Preamble
 
 Some of the results can only be reproduced if the CAS Maple or the CAS Mathematica (or both) are installed. This artifact does *NOT* contain these software packages due to license limitations. For reproducing our results partially, one can install the free "Wolfram Engine for Developers". For installing this free package, internet access is required for downloading and the activation process. For reference, we created our results with Maple version 2020.2 and Mathematica version 12.1.1.
 
-## Minimal Instructions
+## 2. Minimal Instructions
 
 Copy the `artifact.zip` to a convenient place and unpack it. In the following, we assume a Debian-based Linux system. However, other OS are also supported unless Java 11 or higher is installed. For a Debian-based Linux system, you can install Java 11 with
 
@@ -30,7 +30,7 @@ Instructions for the symbolic and numeric evaluation pipeline follow below.
 
 --------------------------------------------------------------------------------------------------------
 
-## Content of this articaft
+## 3.i. Content of this articaft
 
 - README.md: Project description file.
 - lacast.sh: Script to interact with LaCASt.
@@ -50,7 +50,7 @@ Instructions for the symbolic and numeric evaluation pipeline follow below.
 
 --------------------------------------------------------------------------------------------------------
 
-## Content of this Readme
+## 3.ii. Content of this Readme
 
 1. Preamble
 2. Minimal Instructions
@@ -65,18 +65,17 @@ Instructions for the symbolic and numeric evaluation pipeline follow below.
         1. Install Wolfram Engine and Activate License
         2. Setup LaCASt with Mathematica
     2. Maple
-        1. Setup LaCASt with Maple
 6. Glossary
 
 --------------------------------------------------------------------------------------------------------
 
-## Reproducing Reported Results
+## 4. Reproducing Reported Results
 
 Our results can be split in two groups: (1) translations via LaCASt, and (2) evaluations of the translations via CAS. For (1), only Java 11 or higher is required. For (2) one requires either Maple or Mathematica (i.e., the Wolfram Engine). In the following, we explain how to reproduce our results and how to read the data. Before attempting to reproduce (2), read the "Setup Computer Algebra Systems Support" section below. Note that all results are also available online (in a visually more appealing look) at: https://lacast.wmflabs.org/.
 
 In the following, we presume you use a single terminal and moved into the unpackaged artifact folder.
 
-### How to read the data?
+### 4.i. How to read the data?
 
 Our dataset is `dlmf/dlmf-formulae.txt` which contains all original DLMF formulae in semantic LaTeX. Semantic LaTeX is a semantic enriched LaTeX dialect developed by Bruce Miller for the DLMF. LaCASt is only able to translate these macros for functions. Hence, translating `\Gamma(x)` will not produce a correct translations because LaCASt presumes the unambgious notation `\EulerGamma@{x}`.
 
@@ -108,7 +107,7 @@ As usually, the result line contains the line number followed by the link to the
 where the first entry is the result: `Complex[0.7500000000000002, 1.299038105676658]` followed by the tested values for each variable: `f` was defined as `Power[E, Times[Complex[0, Rational[1, 6]], Pi]]` and `x` was tested for `1.5`. As we can see, `f` was mistaken as a variable which lead to this wrong result.
 
 
-### Reproducing Translation Results
+### 4.ii. Reproducing Translation Results
 
 If you have not installed Java 11 yet, please do so by
 ```
@@ -133,7 +132,7 @@ This produces the output `dlmf/results-generated/MathematicaTranslations/transla
 For reproducing all translations, simply remove the limits. This may take 1-2 min.
 For reference, the file `config/together-lines-orig.txt` contains the line limits for the corresponding chapter numbers and codes in the DLMF. For example, if you want to translate Chapter 4 of the DLMF (Elementary Functions), line 4 in the file specifies the first line at `1462` and the last line (exclusive) at `1991`.
 
-### Reproducing Symbolic Evaluation Results
+### 4.iii. Reproducing Symbolic Evaluation Results
 
 Please read the "Setup Computer Algebra Systems Support" section below before you continue with this section since it requires either Maple or Mathematica to be present. 
 
@@ -167,7 +166,7 @@ $ ./scripts/symbolic-evaluator.sh --mathematica
 ```
 4. Drink some coffee and check for updates from time to time. Ideally, your `dlmf/results-generated/MathematicaSymbolic` folder is identical to our `dlmf/results-original/MathematicaSymbolic` folder.
 
-### Reproducing Numeric Evaluation Results
+### 4.iv. Reproducing Numeric Evaluation Results
 
 Please read the "Setup Computer Algebra Systems Support" section below before you continue with this section since it requires either Maple or Mathematica to be present.
 
@@ -177,15 +176,15 @@ Again, we first explain how to evaluate a small portion of the DLMF.
 
 TODO TODO TODO
 
-## Setup Computer Algebra Systems
+## 5. Setup Computer Algebra Systems
 
 In the following, we explain you setup Mathematica or Maple to reproduce our evaluation results with them.
 
-### Mathematica
+### 5.i. Mathematica
 
 In case you have Mathematica installed on your system, you can go directly to "Setup LaCASt with Mathematica" below. Otherwise, please follow the instructions on how to install the Wolfram Engine.
 
-#### Install Wolfram Engine and Activate License
+#### 5.i.a. Install Wolfram Engine and Activate License
 
 If you do not have Mathematica installed, we recommend using the free "Wolfram Engine for Developers": https://www.wolfram.com/engine/.
 For license reasons, we are not allowed to share the install script with this artifact. Hence, you have to download the script first and install it which requires an internet connection! 
@@ -205,6 +204,7 @@ $ sudo ./WolframInstaller.sh
 When asked where to install WolframEngine, we recommend `/opt/Wolfram` for convenience. 
 When asked where to store Wolfram scripts, you can simply press enter for the default path.
 This process may take some time. 
+
 4. After a successfull installation, you must activate the license. If you do not have a license, go to https://account.wolfram.com/login/oauth2/sign-in and click `create-one`. Fill out the form. After that, you should see a screen with "Get Your Free Wolfram Engine License". Accept the "Terms and Conditions of Use" and click `Get license` and follow the instrocutions on the website.
 5. Start wolframscript and enter your credentials
 ```
@@ -229,9 +229,11 @@ Copyright 1988-2021 Wolfram Research, Inc.
 For automatic Web Activation enter your activation key
 (enter return to skip Web Activation):
 ```
-6. And enter the key you copied from above. This should activate the license and directly start Mathematica on console. Enter `Quit[]` to exit Mathematica. If this still does not activate your license, you can only contact Wolfram Support and ask for help: https://www.wolframcloud.com/users/user-current/activationkeys
+6. And enter the key you copied from above. This should activate the license and directly start Mathematica on console. Enter `Quit[]` to exit Mathematica.
 
-#### Setup LaCASt with Mathematica
+If this still does not activate your license, you can only contact Wolfram Support and ask for help: https://www.wolframcloud.com/users/user-current/activationkeys
+
+#### 5.i.b. Setup LaCASt with Mathematica
 
 Once you have Mathematica (Wolfram Engine) installed and the license activated you must do three steps: 
 1. Update `lacast.config.yaml` accordingly. If you installed the Wolfram Engine as described above, you only need to update the license key. This is the key you copied from above. Note that LaCASt and Mathematica may also work with another license key in this config. We only require it if something breaks and LaCASt tries to recover your activated license. So you can update this license in case something does not work properly.
@@ -251,7 +253,7 @@ $ ./scripts/test-mathematica.sh
 If everything works, you should see `Congrats, everything looks ok.` in the last line.
 Now you can reproduce our symbolic and numeric evaluation results via Mathematica (see above).
 
-### Maple
+### 5.ii. Maple
 
 Since there is no free version of Maple available, we assume you have Maple on your system. In this case, you only need to do three steps in order to tell LaCASt where Maple is:
 1. Update `lacast.config.yaml` according to your Maple installation path. If you are unsure where this path is, run Maple and enter `kernelopts(mapledir);`. This returns the path you should enter in `lacast.config.yaml`
