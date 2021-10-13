@@ -56,16 +56,16 @@ Instructions for the symbolic and numeric evaluation pipeline follow below.
 2. Minimal Instructions
 3. Content of Artifact and Readme
 4. Reproducing Reported Results
-  1. How to read the data?
-  2. Reproducing Translation Results
-  3. Reproducing Symbolic Evaluation Results
-  4. Reproducing Numeric Evaluation Results
+    1. How to read the data?
+    2. Reproducing Translation Results
+    3. Reproducing Symbolic Evaluation Results
+    4. Reproducing Numeric Evaluation Results
 5. Setup Computer Algebra Systems
-  1. Mathematica
-    1. Install Wolfram Engine and Activate License
-    2. Setup LaCASt with Mathematica
-  2. Maple
-    1. Setup LaCASt with Maple
+    1. Mathematica
+        1. Install Wolfram Engine and Activate License
+        2. Setup LaCASt with Mathematica
+    2. Maple
+        1. Setup LaCASt with Maple
 6. Glossary
 
 --------------------------------------------------------------------------------------------------------
