@@ -21,6 +21,8 @@ usage() {
     printf "\t-o #1, --out #1\tThe output path (default: ./dlmf/results-generated/<CAS>Translations/translations.txt)\n"
     printf "\t--startLine #1\tSets the first line to translate starting from 1 (inclusive lower boundary)\n"
     printf "\t--endLine #1\tSets the last line to translate (exclusive upper boundary)\n"
+    printf "\t--min #1\tAlternative for --startLine #1\n"
+    printf "\t--max #1\tAlternative for --endLine #1\n"
     echo ""
 }
 
@@ -47,12 +49,12 @@ while [[ $# -gt 0 ]]; do
       shift # past argument
       shift # past value
       ;;
-    --start | --startLine)
+    --start | --startLine | --min)
       START="$2"
       shift # past argument
       shift # past value
       ;;
-    --end | --endLine)
+    --end | --endLine | --max)
       END="$2"
       shift # past argument
       shift # past value
@@ -80,4 +82,4 @@ do
     LACAST_CLASSPATH="${LACAST_CLASSPATH}:${JAR}"
 done
 
-eval java -cp "$LACAST_CLASSPATH:./bin/lacast-evaluator.jar" gov.nist.drmf.interpreter.evaluation.core.SampleTranslator --in "${IN}" --out "${OUT}" --startLine "${START}" --endLine "${END}" "${ARG}"
+eval java -cp "$LACAST_CLASSPATH" gov.nist.drmf.interpreter.evaluation.core.SampleTranslator --in "${IN}" --out "${OUT}" --startLine "${START}" --endLine "${END}" "${ARG}"

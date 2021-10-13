@@ -1,3 +1,0 @@
-\BesselC, 6
-\NeumannpolyO, 2
-\zBesselj, 1
