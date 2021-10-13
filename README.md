@@ -1,7 +1,6 @@
 Artifact for
 "Comparative Verification of the Digital Library of Mathematical Functions and Computer Algebra Systems"
-(TACAS'22 Submission ID 4)
-by A. Greiner-Petter, H. S. Cohl, A. Youssef, M. Schubotz, A. Trost, R. Dey, A. Aizawa, and B. Gipp
+by A. Greiner-Petter, H. S. Cohl, A. Youssef, M. Schubotz, A. Trost, R. Dey, A. Aizawa, and B. Gipp.
 TACAS 2022.
 ========================================================================================================
 
@@ -31,7 +30,7 @@ Instructions for the symbolic and numeric evaluation pipeline follow below.
 
 --------------------------------------------------------------------------------------------------------
 
-## Contents of this articaft
+## Content of this articaft
 
 - README.md: Project description file.
 - lacast.sh: Script to interact with LaCASt.
@@ -48,6 +47,28 @@ Instructions for the symbolic and numeric evaluation pipeline follow below.
   * results-original: Contains the results as reported in the paper.
   * results-generated: Supposed to contain the outputs you are going to generate with our scripts.
 - scripts: Contains additional scripts that help to run symbolic/numeric evaluations on the entire DLMF. Please read the instructions carefully before you begin using these scripts since they may take some time and require a lot of computational power.
+
+--------------------------------------------------------------------------------------------------------
+
+## Content of this Readme
+
+1. Preamble
+2. Minimal Instructions
+3. Content of Artifact and Readme
+4. Reproducing Reported Results
+  1. How to read the data?
+  2. Reproducing Translation Results
+  3. Reproducing Symbolic Evaluation Results
+  4. Reproducing Numeric Evaluation Results
+5. Setup Computer Algebra Systems
+  1. Mathematica
+    1. Install Wolfram Engine and Activate License
+    2. Setup LaCASt with Mathematica
+  2. Maple
+    1. Setup LaCASt with Maple
+6. Glossary
+
+--------------------------------------------------------------------------------------------------------
 
 ## Reproducing Reported Results
 
@@ -87,7 +108,7 @@ As usually, the result line contains the line number followed by the link to the
 where the first entry is the result: `Complex[0.7500000000000002, 1.299038105676658]` followed by the tested values for each variable: `f` was defined as `Power[E, Times[Complex[0, Rational[1, 6]], Pi]]` and `x` was tested for `1.5`. As we can see, `f` was mistaken as a variable which lead to this wrong result.
 
 
-### Reproduce Translation Results
+### Reproducing Translation Results
 
 If you have not installed Java 11 yet, please do so by
 ```
@@ -130,6 +151,7 @@ For reproducing our results on DLMF chapters or even the entire DLMF, you can us
 04-EF: 1462,1991
 ```
 For reference, the `together-lines-orig.txt` contains all chapters and limits.
+
 4. Run the script either with `--maple` for Maple or `--mathematica` for Mathematica
 ```
 $ ./scripts/symbolic-evaluator.sh --mathematica
@@ -155,7 +177,7 @@ Again, we first explain how to evaluate a small portion of the DLMF.
 
 TODO TODO TODO
 
-## Setup Computer Algebra Systems Support
+## Setup Computer Algebra Systems
 
 In the following, we explain you setup Mathematica or Maple to reproduce our evaluation results with them.
 
