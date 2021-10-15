@@ -1,0 +1,10 @@
+\genhyperFmat, 15
+\multivarEulerBeta, 4
+\zonalpolyZ, 4
+\multivarEulerGamma, 4
+\BesselAmat, 3
+\BesselBmat, 2
+\limits, 2
+\matrixdet, 2
+\shiftfactorial, 1
+\genhyperPsimat, 1

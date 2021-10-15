@@ -1,0 +1,12 @@
+\qgenhyperpsi, 11
+\qAppellPhi, 7
+\qdiff, 4
+\qexp, 3
+\qExp, 3
+\qStirlingnumbera, 1
+\qBernoullipolybeta, 1
+\qcos, 1
+\qCos, 1
+\qSin, 1
+\qsin, 1
+\qEulernumberA, 1
