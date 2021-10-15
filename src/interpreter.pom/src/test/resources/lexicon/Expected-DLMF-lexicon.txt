@@ -1,0 +1,825 @@
+
+Symbol: \Acos
+
+  Feature Set: dlmf-macro
+	Branch Cuts: z = +/- 1
+	Constraints: z != +/- \iunit
+	DLMF: \Acos@@{z}
+	DLMF-Link: dlmf.nist.gov/4.23#E2
+	Mathematica-Alternatives: Integrate[Divide[1, (1-t^2)^(1/2)], {t, $0, 1}]
+	Meanings: Multivalued inverse cosine
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \Acosh
+
+  Feature Set: dlmf-macro
+	Branch Cuts: z = +/- 1
+	Constraints: z != +/-1
+	DLMF: \Acosh@@{z}
+	DLMF-Link: dlmf.nist.gov/4.37#E2
+	Mathematica-Alternatives: Integrate[Divide[1, (t^2-1)^(1/2)], {t, 1, $0}]
+	Meanings: Multivalued inverse hyperbolic cosine
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \Acot
+
+  Feature Set: dlmf-macro
+	Branch Cuts: z = +/- \iunit
+	Constraints: z not element of {0,-\iunit,+\iunit}
+	DLMF: \Acot@@{z}
+	DLMF-Link: dlmf.nist.gov/4.23#E6
+	Mathematica-Alternatives: Integrate[Divide[1, 1+t^2], {t, 0, Divide[1,$0]}]
+	Meanings: Multivalued inverse cotangent
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \Acoth
+
+  Feature Set: dlmf-macro
+	Branch Cuts: z = +/- 1
+	Constraints: z not element of {0,-1,+1}
+	DLMF: \Acoth@@{z}
+	DLMF-Link: dlmf.nist.gov/4.37#E6
+	Mathematica-Alternatives: Integrate[Divide[1, 1-t^2], {t, 0, Divide[1,$0]}]
+	Meanings: Multivalued inverse hyperbolic cotangent
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \Acsc
+
+  Feature Set: dlmf-macro
+	Branch Cuts: z = +/- 1
+	Constraints: z not element of {0,-\iunit,+\iunit}
+	DLMF: \Acsc@@{z}
+	DLMF-Link: dlmf.nist.gov/4.23#E4
+	Mathematica-Alternatives: Integrate[Divide[1, (1-t^2)^(1/2)], {t, 0, Divide[1,$0]}]
+	Meanings: Multivalued inverse cosecant
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \Acsch
+
+  Feature Set: dlmf-macro
+	Branch Cuts: z != +/- \iunit
+	Constraints: z not element of {0,-1,+1}
+	DLMF: \Acsch@@{z}
+	DLMF-Link: dlmf.nist.gov/4.37#E4
+	Mathematica-Alternatives: Integrate[Divide[1, (1+t^2)^(1/2)], {t, 0, Divide[1,$0]}]
+	Meanings: Multivalued inverse hyperbolic cosecant
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \Asec
+
+  Feature Set: dlmf-macro
+	Branch Cuts: z = +/- 1
+	Constraints: z not element of {0,-\iunit,+\iunit}
+	DLMF: \Asec@@{z}
+	DLMF-Link: dlmf.nist.gov/4.23#E5
+	Mathematica-Alternatives: Integrate[Divide[1, (1-t^2)^(1/2)], {t, Divide[1,$0], 1}]
+	Meanings: Multivalued inverse secant
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \Asech
+
+  Feature Set: dlmf-macro
+	Branch Cuts: z = +/- 1
+	Constraints: z not element of {0,-1,+1}
+	DLMF: \Asech@@{z}
+	DLMF-Link: dlmf.nist.gov/4.37#E5
+	Mathematica-Alternatives: Integrate[Divide[1, (t^2-1)^(1/2)], {t, 1, Divide[1,$0]}]
+	Meanings: Multivalued inverse hyperbolic secant
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \Asin
+
+  Feature Set: dlmf-macro
+	Branch Cuts: z = +/- 1
+	Constraints: z != +/- \iunit
+	DLMF: \Asin@@{z}
+	DLMF-Link: dlmf.nist.gov/4.23#E1
+	Mathematica-Alternatives: Integrate[Divide[1, (1-t^2)^(1/2)], {t, 0, $0}]
+	Meanings: Multivalued inverse sine
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \Asinh
+
+  Feature Set: dlmf-macro
+	Branch Cuts: z != +/- \iunit
+	Constraints: z != +/-1
+	DLMF: \Asinh@@{z}
+	DLMF-Link: dlmf.nist.gov/4.37#E1
+	Mathematica-Alternatives: Integrate[Divide[1, (1+t^2)^(1/2)], {t, 0, $0}]
+	Meanings: Multivalued inverse hyperbolic sine
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \Atan
+
+  Feature Set: dlmf-macro
+	Branch Cuts: z = +/- \iunit
+	Constraints: z != +/- \iunit
+	DLMF: \Atan@@{z}
+	DLMF-Link: dlmf.nist.gov/4.23#E3
+	Mathematica-Alternatives: Integrate[Divide[1, 1+t^2], {t, 0, $0}]
+	Meanings: Multivalued inverse tangent
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \Atanh
+
+  Feature Set: dlmf-macro
+	Branch Cuts: z = +/- 1
+	Constraints: z != +/-1
+	DLMF: \Atanh@@{z}
+	DLMF-Link: dlmf.nist.gov/4.37#E3
+	Mathematica-Alternatives: Integrate[Divide[1, 1-t^2], {t, 0, $0}]
+	Meanings: Multivalued inverse hyperbolic tangent
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \CatalansConstant
+
+  Feature Set: dlmf-macro
+	DLMF: \CatalansConstant
+	DLMF-Link: dlmf.nist.gov/25.11.E40
+	Meanings: Catalan's constant
+	Number of Ats: 0
+	Number of Parameters: 0
+	Number of Variables: 0
+	Role: mathematical constant
+
+Symbol: \DunsterQ
+
+  Feature Set: dlmf-macro
+	DLMF: \DunsterQ{\tau}@{x}
+	DLMF-Link: dlmf.nist.gov/14.20#E2
+	Meanings: Conical / Mehler function
+	Number of Ats: 1
+	Number of Parameters: 1
+	Number of Variables: 1
+	Role: dlmf-macro
+	Slot of Differentiation: 1
+
+  Feature Set: dlmf-alternative-1
+	DLMF: \DunsterQ[\mu]{\tau}@{x}
+	DLMF-Link: dlmf.nist.gov/14.20#E2
+	Meanings: Conical / Mehler function
+	Number of Ats: 1
+	Number of Parameters: 1
+	Number of Variables: 1
+	Role: dlmf-macro
+	Slot of Differentiation: 1
+
+Symbol: \EulerConstant
+
+  Feature Set: dlmf-macro
+	DLMF: \EulerConstant
+	DLMF-Link: dlmf.nist.gov/5.2#E3
+	Meanings: Euler-Mascheroni constant
+	Number of Ats: 0
+	Number of Parameters: 0
+	Number of Variables: 0
+	Role: mathematical constant
+
+Symbol: \FerrersP
+
+  Feature Set: dlmf-macro
+	Constraints: -1 < x < 1, \mu, \nu \in \Reals
+	DLMF: \FerrersP{\nu}@{x}
+	DLMF-Link: dlmf.nist.gov/14.2#i
+	Maple: LegendreP($0, $1)
+	Maple-Link: www.maplesoft.com/support/help/maple/view.aspx?path=LegendreP
+	Mathematica: LegendreP[$0, $1]
+	Mathematica-Link: reference.wolfram.com/language/ref/LegendreP.html
+	Meanings: Ferrers function of first kind
+	Number of Ats: 1
+	Number of Parameters: 1
+	Number of Variables: 1
+	Role: dlmf-macro
+	Slot of Differentiation: 1
+
+  Feature Set: dlmf-alternative-1
+	Constraints: -1 < x < 1, \mu, \nu \in \Reals
+	DLMF: \FerrersP[\mu]{\nu}@{x}
+	DLMF-Link: dlmf.nist.gov/14.3#E1
+	Maple: LegendreP($1, $0, $2)
+	Maple-Link: www.maplesoft.com/support/help/maple/view.aspx?path=LegendreP
+	Mathematica: LegendreP[$1, $0, $2]
+	Mathematica-Link: reference.wolfram.com/language/ref/LegendreP.html
+	Meanings: Ferrers function of first kind
+	Number of Ats: 1
+	Number of Parameters: 1
+	Number of Variables: 1
+	Role: dlmf-macro
+	Slot of Differentiation: 1
+
+Symbol: \FerrersQ
+
+  Feature Set: dlmf-macro
+	Constraints: -1 < x < 1, \mu, \nu \in \Reals
+	DLMF: \FerrersQ{\nu}@{x}
+	DLMF-Link: dlmf.nist.gov/14.2#i
+	Maple: LegendreQ($0, $1)
+	Maple-Link: www.maplesoft.com/support/help/maple/view.aspx?path=LegendreQ
+	Mathematica: LegendreQ[$0, $1]
+	Mathematica-Link: reference.wolfram.com/language/ref/LegendreQ.html
+	Meanings: Ferrers function of second kind
+	Number of Ats: 1
+	Number of Parameters: 1
+	Number of Variables: 1
+	Role: dlmf-macro
+	Slot of Differentiation: 1
+
+  Feature Set: dlmf-alternative-1
+	Constraints: -1 < x < 1, \mu, \nu \in \Reals
+	DLMF: \FerrersQ[\mu]{\nu}@{x}
+	DLMF-Link: dlmf.nist.gov/14.3#E2
+	Maple: LegendreQ($1, $0, $2)
+	Maple-Link: www.maplesoft.com/support/help/maple/view.aspx?path=LegendreQ
+	Mathematica: LegendreQ[$1, $0, $2]
+	Mathematica-Link: reference.wolfram.com/language/ref/LegendreQ.html
+	Meanings: Ferrers function of second kind
+	Number of Ats: 1
+	Number of Parameters: 1
+	Number of Variables: 1
+	Role: dlmf-macro
+	Slot of Differentiation: 1
+
+Symbol: \StieltjesConstants
+
+  Feature Set: dlmf-macro
+	DLMF: \StieltjesConstants{n}
+	DLMF-Link: drmf.wmflabs.org/wiki/Definition:StieltjesConstants
+	Meanings: Stieltjes Constants
+	Number of Ats: 0
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \acos
+
+  Feature Set: dlmf-macro
+	Branch Cuts: (-\infty, -1), (1, \infty)
+	Constraints: z != +/- \iunit
+	DLMF: \acos@@{z}
+	DLMF-Link: dlmf.nist.gov/4.23#SS2.p1
+	Maple: arccos($0)
+	Maple-Link: www.maplesoft.com/support/help/maple/view.aspx?path=invtrig
+	Mathematica: ArcCos[$0]
+	Mathematica-Link: reference.wolfram.com/language/ref/ArcCos.html
+	Meanings: Inverse cosine
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \acosh
+
+  Feature Set: dlmf-macro
+	Branch Cuts: (-\infty, 1)
+	Constraints: z != +/-1
+	DLMF: \acosh@@{z}
+	DLMF-Link: dlmf.nist.gov/4.37#SS2.p1
+	Maple: arccosh($0)
+	Maple-Link: www.maplesoft.com/support/help/maple/view.aspx?path=arccosh
+	Mathematica: ArcCosh[$0]
+	Mathematica-Link: reference.wolfram.com/language/ref/ArcCosh.html
+	Meanings: Inverse hyperbolic cosine
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \acot
+
+  Feature Set: dlmf-macro
+	Branch Cuts: (-\iunit, \iunit)
+	Constraints: z not element of {0,-\iunit,+\iunit}
+	DLMF: \acot@@{z}
+	DLMF-Link: dlmf.nist.gov/4.23#SS2.p1
+	Maple: arccot($0)
+	Maple-Alternatives: I/2*ln(($0-I)/($0+I) ) || arctan(1/($0))
+	Maple-Branch Cuts: (- I infinity, - I ), ( I, I infinity )
+	Maple-Link: www.maplesoft.com/support/help/maple/view.aspx?path=invtrig
+	Mathematica: ArcCot[$0]
+	Mathematica-Link: reference.wolfram.com/language/ref/ArcCot.html
+	Meanings: Inverse cotangent
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \acoth
+
+  Feature Set: dlmf-macro
+	Branch Cuts: (-1, 1)
+	Constraints: z not element of {0,-1,+1}
+	DLMF: \acoth@@{z}
+	DLMF-Link: dlmf.nist.gov/4.37#SS2.p1
+	Maple: arccoth($0)
+	Maple-Link: www.maplesoft.com/support/help/maple/view.aspx?path=arccoth
+	Mathematica: ArcCoth[$0]
+	Mathematica-Link: reference.wolfram.com/language/ref/ArcCoth.html
+	Meanings: Inverse hyperbolic cotangent
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \acsc
+
+  Feature Set: dlmf-macro
+	Branch Cuts: (-1, 1)
+	Constraints: z not element of {0,-\iunit,+\iunit}
+	DLMF: \acsc@@{z}
+	DLMF-Link: dlmf.nist.gov/4.23#SS2.p1
+	Maple: arccsc($0)
+	Maple-Link: www.maplesoft.com/support/help/maple/view.aspx?path=invtrig
+	Mathematica: ArcCsc[$0]
+	Mathematica-Link: reference.wolfram.com/language/ref/ArcCsc.html
+	Meanings: Inverse cosecant
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \acsch
+
+  Feature Set: dlmf-macro
+	Branch Cuts: (-\infty, 0), (1,\infty)
+	Constraints: z not element of {0,-1,+1}
+	DLMF: \acsch@@{z}
+	DLMF-Link: dlmf.nist.gov/4.37#SS2.p1
+	Maple: arccsch($0)
+	Maple-Link: www.maplesoft.com/support/help/maple/view.aspx?path=arccsch
+	Mathematica: ArcCsch[$0]
+	Mathematica-Link: reference.wolfram.com/language/ref/ArcCsch.html
+	Meanings: Inverse hyperbolic cosecant
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \asec
+
+  Feature Set: dlmf-macro
+	Branch Cuts: (-1, 1)
+	Constraints: z not element of {0,-\iunit,+\iunit}
+	DLMF: \asec@@{z}
+	DLMF-Link: dlmf.nist.gov/4.23#SS2.p1
+	Maple: arcsec($0)
+	Maple-Link: www.maplesoft.com/support/help/maple/view.aspx?path=invtrig
+	Mathematica: ArcSec[$0]
+	Mathematica-Link: reference.wolfram.com/language/ref/ArcSec.html
+	Meanings: Inverse secant
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \asech
+
+  Feature Set: dlmf-macro
+	Branch Cuts: (-\iunit, \iunit)
+	Constraints: z not element of {0,-1,+1}
+	DLMF: \asech@@{z}
+	DLMF-Link: dlmf.nist.gov/4.37#SS2.p1
+	Maple: arcsech($0)
+	Maple-Link: www.maplesoft.com/support/help/maple/view.aspx?path=arcsech
+	Mathematica: ArcSech[$0]
+	Mathematica-Link: reference.wolfram.com/language/ref/ArcSech.html
+	Meanings: Inverse hyperbolic secant
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \asin
+
+  Feature Set: dlmf-macro
+	Branch Cuts: (-\infty, -1), (1, \infty)
+	Constraints: z != +/- \iunit
+	DLMF: \asin@@{z}
+	DLMF-Link: dlmf.nist.gov/4.23#SS2.p1
+	Maple: arcsin($0)
+	Maple-Link: www.maplesoft.com/support/help/maple/view.aspx?path=invtrig
+	Mathematica: ArcSin[$0]
+	Mathematica-Link: reference.wolfram.com/language/ref/ArcSin.html
+	Meanings: Inverse sine
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \asinh
+
+  Feature Set: dlmf-macro
+	Branch Cuts: (-\iunit \infty, -\iunit), (\iunit, \iunit \infty)
+	Constraints: z != +/-1
+	DLMF: \asinh@@{z}
+	DLMF-Link: dlmf.nist.gov/4.37#SS2.p1
+	Maple: arcsinh($0)
+	Maple-Link: www.maplesoft.com/support/help/maple/view.aspx?path=arcsinh
+	Mathematica: ArcSinh[$0]
+	Mathematica-Link: reference.wolfram.com/language/ref/ArcSinh.html
+	Meanings: Inverse hyperbolic sine
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \assLegendreOlverQ
+
+  Feature Set: dlmf-macro
+	DLMF: \assLegendreOlverQ{\nu}@{z}
+	DLMF-Link: dlmf.nist.gov/14.2#i
+	Maple: LegendreQ($0,$1)/GAMMA($0+1)
+	Maple-Link: www.maplesoft.com/support/help/maple/view.aspx?path=LegendreQ
+	Mathematica: Exp[-$0 Pi I] LegendreQ[$0, 2, 3, $1]/Gamma[$0 + 3]
+	Meanings: Olver's associated Legendre function
+	Number of Ats: 1
+	Number of Parameters: 1
+	Number of Variables: 1
+	Role: dlmf-macro
+	Slot of Differentiation: 1
+
+  Feature Set: dlmf-alternative-1
+	DLMF: \assLegendreOlverQ[\mu]{\nu}@{z}
+	DLMF-Link: dlmf.nist.gov/14.3#E10
+	Maple: exp(-($0)*Pi*I)*LegendreQ($1,$0,$2)/GAMMA($1+$0+1)
+	Maple-Link: www.maplesoft.com/support/help/maple/view.aspx?path=LegendreQ
+	Meanings: Olver's associated Legendre function
+	Number of Ats: 1
+	Number of Parameters: 1
+	Number of Variables: 1
+	Role: dlmf-macro
+	Slot of Differentiation: 1
+
+Symbol: \assLegendreP
+
+  Feature Set: dlmf-macro
+	Branch Cuts: (-\infty, 1]
+	DLMF: \assLegendreP{\nu}@{z}
+	DLMF-Link: dlmf.nist.gov/14.2#i
+	Maple: LegendreP($0, $1)
+	Maple-Link: www.maplesoft.com/support/help/maple/view.aspx?path=LegendreP
+	Mathematica: LegendreP[$0, 0, 3, $1]
+	Mathematica-Link: reference.wolfram.com/language/ref/LegendreP.html
+	Meanings: Legendre function of first kind
+	Number of Ats: 1
+	Number of Parameters: 1
+	Number of Variables: 1
+	Role: dlmf-macro
+	Slot of Differentiation: 1
+
+  Feature Set: dlmf-alternative-1
+	Branch Cuts: (-\infty, 1]
+	DLMF: \assLegendreP[\mu]{\nu}@{z}
+	DLMF-Link: dlmf.nist.gov/14.3#E5
+	Maple: LegendreP($1, $0, $2)
+	Maple-Link: www.maplesoft.com/support/help/maple/view.aspx?path=LegendreP
+	Mathematica: LegendreP[$1, $0, 3, $2]
+	Mathematica-Link: reference.wolfram.com/language/ref/LegendreP.html
+	Meanings: Associated Legendre function of first kind
+	Number of Ats: 1
+	Number of Parameters: 1
+	Number of Variables: 1
+	Role: dlmf-macro
+	Slot of Differentiation: 1
+
+Symbol: \assLegendreQ
+
+  Feature Set: dlmf-macro
+	Branch Cuts: (-\infty, 1]
+	DLMF: \assLegendreQ{\nu}@{z}
+	DLMF-Link: dlmf.nist.gov/14.2#i
+	Maple: LegendreQ($0, $1)
+	Maple-Link: www.maplesoft.com/support/help/maple/view.aspx?path=LegendreQ
+	Mathematica: LegendreQ[$0, 0, 3, $1]
+	Mathematica-Link: reference.wolfram.com/language/ref/LegendreQ.html
+	Meanings: Legendre function of second kind
+	Number of Ats: 1
+	Number of Parameters: 1
+	Number of Variables: 1
+	Role: dlmf-macro
+	Slot of Differentiation: 1
+
+  Feature Set: dlmf-alternative-1
+	Branch Cuts: (-\infty, 1]
+	DLMF: \assLegendreQ[\mu]{\nu}@{z}
+	DLMF-Link: dlmf.nist.gov/14.3#E7
+	Maple: LegendreQ($1, $0, $2)
+	Maple-Link: www.maplesoft.com/support/help/maple/view.aspx?path=LegendreQ
+	Mathematica: LegendreQ[$1, $0, 3, $2]
+	Mathematica-Link: reference.wolfram.com/language/ref/LegendreQ.html
+	Meanings: Associated Legendre function of second kind
+	Number of Ats: 1
+	Number of Parameters: 1
+	Number of Variables: 1
+	Role: dlmf-macro
+	Slot of Differentiation: 1
+
+Symbol: \atan
+
+  Feature Set: dlmf-macro
+	Branch Cuts: (-\iunit \infty, -\iunit), (\iunit, \iunit \infty)
+	Constraints: z != +/- \iunit
+	DLMF: \atan@@{z}
+	DLMF-Link: dlmf.nist.gov/4.23#SS2.p1
+	Maple: arctan($0)
+	Maple-Link: www.maplesoft.com/support/help/maple/view.aspx?path=invtrig
+	Mathematica: ArcTan[$0]
+	Mathematica-Link: reference.wolfram.com/language/ref/ArcTan.html
+	Meanings: Inverse tangent
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \atanh
+
+  Feature Set: dlmf-macro
+	Branch Cuts: (-\infty, -1), (1, \infty)
+	Constraints: z != +/-1
+	DLMF: \atanh@@{z}
+	DLMF-Link: dlmf.nist.gov/4.37#SS2.p1
+	Maple: arctanh($0)
+	Maple-Link: www.maplesoft.com/support/help/maple/view.aspx?path=arctanh
+	Mathematica: ArcTanh[$0]
+	Mathematica-Link: reference.wolfram.com/language/ref/ArcTanh.html
+	Meanings: Inverse hyperbolic tangent
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \cos
+
+  Feature Set: dlmf-macro
+	DLMF: \cos@@{z}
+	DLMF-Link: dlmf.nist.gov/4.14#E2
+	Maple: cos($0)
+	Maple-Link: www.maplesoft.com/support/help/maple/view.aspx?path=cos
+	Mathematica: Cos[$0]
+	Mathematica-Link: reference.wolfram.com/language/ref/Cos.html
+	Meanings: Cosine
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \cosh
+
+  Feature Set: dlmf-macro
+	DLMF: \cosh@@{z}
+	DLMF-Link: dlmf.nist.gov/4.28#E2
+	Maple: cosh($0)
+	Maple-Link: www.maplesoft.com/support/help/maple/view.aspx?path=cosh
+	Mathematica: Cosh[$0]
+	Mathematica-Link: reference.wolfram.com/language/ref/Cosh.html
+	Meanings: Hyperbolic cosine
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \cot
+
+  Feature Set: dlmf-macro
+	Constraints: z != k*\cpi \forall k \in \Integers
+	DLMF: \cot@@{z}
+	DLMF-Link: dlmf.nist.gov/4.14#E7
+	Maple: cot($0)
+	Maple-Link: www.maplesoft.com/support/help/maple/view.aspx?path=cot
+	Mathematica: Cot[$0]
+	Mathematica-Link: reference.wolfram.com/language/ref/Cot.html
+	Meanings: Cotangent
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \coth
+
+  Feature Set: dlmf-macro
+	Constraints: z != \iunit*k*\cpi \forall k \in \Integers
+	DLMF: \coth@@{z}
+	DLMF-Link: dlmf.nist.gov/4.28#E7
+	Maple: coth($0)
+	Maple-Link: www.maplesoft.com/support/help/maple/view.aspx?path=coth
+	Mathematica: Coth[$0]
+	Mathematica-Link: reference.wolfram.com/language/ref/Coth.html
+	Meanings: Hyperbolic cotangent
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \cpi
+
+  Feature Set: dlmf-macro
+	DLMF: \cpi
+	DLMF-Link: not defined
+	Meanings: Pi
+	Number of Ats: 0
+	Number of Parameters: 0
+	Number of Variables: 0
+	Role: mathematical constant
+
+Symbol: \csc
+
+  Feature Set: dlmf-macro
+	Constraints: z != k*\cpi \forall k \in \Integers
+	DLMF: \csc@@{z}
+	DLMF-Link: dlmf.nist.gov/4.14#E5
+	Maple: csc($0)
+	Maple-Link: www.maplesoft.com/support/help/maple/view.aspx?path=csc
+	Mathematica: Csc[$0]
+	Mathematica-Link: reference.wolfram.com/language/ref/Csc.html
+	Meanings: Cosecant
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \csch
+
+  Feature Set: dlmf-macro
+	Constraints: z != \iunit*k*\cpi \forall k \in \Integers
+	DLMF: \csch@@{z}
+	DLMF-Link: dlmf.nist.gov/4.28#E5
+	Maple: csch($0)
+	Maple-Link: www.maplesoft.com/support/help/maple/view.aspx?path=csch
+	Mathematica: Csch[$0]
+	Mathematica-Link: reference.wolfram.com/language/ref/Csch.html
+	Meanings: Hyperbolic cosecant
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \expe
+
+  Feature Set: dlmf-macro
+	DLMF: \expe
+	DLMF-Link: dlmf.nist.gov/4.2.E11
+	Meanings: Euler's constant
+	Number of Ats: 0
+	Number of Parameters: 0
+	Number of Variables: 0
+	Role: mathematical constant
+
+Symbol: \iunit
+
+  Feature Set: dlmf-macro
+	DLMF: \iunit
+	DLMF-Link: dlmf.nist.gov/1.9.i
+	Meanings: Imaginary unit
+	Number of Ats: 0
+	Number of Parameters: 0
+	Number of Variables: 0
+	Role: mathematical constant
+
+Symbol: \npartitions
+
+  Feature Set: dlmf-macro
+	DLMF: \npartitions{n}
+	DLMF-Link: dlmf.nist.gov/26.2#P4.p2
+	Maple-Alternatives: nops(partition($0))
+	Maple-Package: combinat,partition
+	Meanings: Number of partitions of nonnegative integer n
+	Number of Ats: 0
+	Number of Parameters: 0
+	Number of Variables: 1
+
+  Feature Set: dlmf-alternative-1
+	DLMF: \npartitions[k]@{n}
+	DLMF-Link: dlmf.nist.gov/26.9
+	Meanings: Number of partitions of nonnegative integer n into at most k parts
+	Number of Ats: 1
+	Number of Parameters: 1
+	Number of Variables: 1
+
+Symbol: \sec
+
+  Feature Set: dlmf-macro
+	Constraints: z != (k+1/2)*\cpi \forall k \in \Integers
+	DLMF: \sec@@{z}
+	DLMF-Link: dlmf.nist.gov/4.14#E6
+	Maple: sec($0)
+	Maple-Link: www.maplesoft.com/support/help/maple/view.aspx?path=sec
+	Mathematica: Sec[$0]
+	Mathematica-Link: reference.wolfram.com/language/ref/Sec.html
+	Meanings: Secant
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \sech
+
+  Feature Set: dlmf-macro
+	Constraints: z != \iunit*(k+1/2)*\cpi \forall k \in \Integers
+	DLMF: \sech@@{z}
+	DLMF-Link: dlmf.nist.gov/4.28#E6
+	Maple: sech($0)
+	Maple-Link: www.maplesoft.com/support/help/maple/view.aspx?path=sech
+	Mathematica: Sech[$0]
+	Mathematica-Link: reference.wolfram.com/language/ref/Sech.html
+	Meanings: Hyperbolic secant
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \sin
+
+  Feature Set: dlmf-macro
+	DLMF: \sin@@{z}
+	DLMF-Link: dlmf.nist.gov/4.14#E1
+	Maple: sin($0)
+	Maple-Link: www.maplesoft.com/support/help/maple/view.aspx?path=sin
+	Mathematica: Sin[$0]
+	Mathematica-Link: reference.wolfram.com/language/ref/Sin.html
+	Meanings: Sine
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \sinh
+
+  Feature Set: dlmf-macro
+	DLMF: \sinh@@{z}
+	DLMF-Link: dlmf.nist.gov/4.28#E1
+	Maple: sinh($0)
+	Maple-Link: www.maplesoft.com/support/help/maple/view.aspx?path=sinh
+	Mathematica: Sinh[$0]
+	Mathematica-Link: reference.wolfram.com/language/ref/Sinh.html
+	Meanings: Hyperbolic sine
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \tan
+
+  Feature Set: dlmf-macro
+	Constraints: z != (k+1/2)*\cpi \forall k \in \Integers
+	DLMF: \tan@@{z}
+	DLMF-Link: dlmf.nist.gov/4.14#E4
+	Maple: tan($0)
+	Maple-Link: www.maplesoft.com/support/help/maple/view.aspx?path=tan
+	Mathematica: Tan[$0]
+	Mathematica-Link: reference.wolfram.com/language/ref/Tan.html
+	Meanings: Tangent
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
+
+Symbol: \tanh
+
+  Feature Set: dlmf-macro
+	Constraints: z != \iunit*(k+1/2)*\cpi \forall k \in \Integers
+	DLMF: \tanh@@{z}
+	DLMF-Link: dlmf.nist.gov/4.28#E4
+	Maple: tanh($0)
+	Maple-Link: www.maplesoft.com/support/help/maple/view.aspx?path=tanh
+	Mathematica: Tanh[$0]
+	Mathematica-Link: reference.wolfram.com/language/ref/Tanh.html
+	Meanings: Hyperbolic tangent
+	Number of Ats: 2
+	Number of Parameters: 0
+	Number of Variables: 1
+	Role: dlmf-macro
