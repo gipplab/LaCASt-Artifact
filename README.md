@@ -187,8 +187,9 @@ If you wish to reproduce all of our results at once, follow these instructions:
     ```
     $ ./scripts/symbolic-evaluator.sh --mathematica
     ```
-4. Drink some coffee and check for updates from time to time. Ideally, your `dlmf/results-generated/MathematicaSymbolic` folder is identical to our `dlmf/results-original/MathematicaSymbolic` folder. 
+4. Drink some coffee and check for updates from time to time. On our machine with a timeout of 30 seconds per test case, it took Mathematica around 3-4 hours to finish. Ideally, your `dlmf/results-generated/MathematicaSymbolic` folder is identical to our `dlmf/results-original/MathematicaSymbolic` folder. 
 
+**Trouble Shooting**:
 In some cases, e.g., due to memory overflows, a single chapter is too large. You can spot issues easily in the summary in the end. For example:
 ```
 Results:
@@ -206,6 +207,7 @@ This output shows that Chapter 19 did not finish successfully. In this case, you
 19-EL-2: 6500,6704
 ```
 For reproducing the symbolic evaluations, you should not run into these memory issues. However, it is very likely that you may encounter this issue when reproducing the numeric evaluation results.
+Further, Maple often ignores our specified timeout (see also our FAQ below). When this happens, you see a bunch of logs (debug level) that only update memory usage. We do not have a solution for this yet besides wait and hope Maple recovers. If it takes too long time use `CTRL+C` to stop the current computation. This aborts the evaluation pipeline only for the current chapter. If you used the script `symbolic-evaluator.sh`, LaCASt will simply continue with the next chapter. In the summary at the end, your manually stopped chapter has an exit code different to 0.
 
 ### 4.iv. Reproducing Numeric Evaluation Results
 
