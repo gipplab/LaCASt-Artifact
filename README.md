@@ -84,32 +84,32 @@ The reported results in our paper in raw format (in contrast to the visual table
 There are three groups of results for each CAS (Maple and Mathematica).
 
 * `<CAS>Translations`: Contains just the translations to each CAS for each line in `dlmf-formulae.txt`. For example, the translation of line 8 in `dlmf-formulae.txt` to Maple can be found in line 8 of `MapleTranslations/translations.txt`:
-```
-8 [http://dlmf.nist.gov/1.2.E8]: sum(binomial(z + k,k), k = 0..m) = binomial(z + m + 1,m)
-```
+    ```
+    8 [http://dlmf.nist.gov/1.2.E8]: sum(binomial(z + k,k), k = 0..m) = binomial(z + m + 1,m)
+    ```
 
 * `<CAS>Symbolic`: Contains two types of files `<num>-<code>-missing.txt` and `<num>-<code>-symbolic.txt` where `<num>` is the chapter number of the DLMF and `<code>` the chapter code. The `-missing` file contains semantic macros that cannot be translated to the CAS, e.g., because there is no translation mapping for this macro defined. The `-symbolic` files contain the summary of the symbolic simplification evaluations for each chapter. The first two lines are special. The first line is a summary of the results for the chapter. It shows how many lines were recognized, how many of them were skipped, how many were definitions, etc. The second lines shows the symbolic test functions that were activated. The following lines show the results for each test case. Consider line 7 of the `dlmf-formulae.txt` which refers to the DLMF equation 1.2.E7. Here the result in Maple is:
-```
-7 [http://dlmf.nist.gov/1.2.E7]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
-```
-As described in our paper, we used multiple simplification approaches to simplify the difference of the left- and right-hand side of equation 1.2.E7 to 0. This result line shows that our first three tests: Simple (just `simplify(...)`), ConvEXP (`simplify(convert(..., exp))`), and ConvHYP (`simplify(convert(..., hypergeom))`) were unable to return 0 but the last three using expansion worked (`simplify(expand(...))` and `simplify(expand(..., exp))` and `simplify(expand(..., hypergeom))`). In case of Mathematica (`MathematicaSymbolic/01-AL-symbolic.txt`) we only used the `FullSimplify` method.
+    ```
+    7 [http://dlmf.nist.gov/1.2.E7]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
+    ```
+    As described in our paper, we used multiple simplification approaches to simplify the difference of the left- and right-hand side of equation 1.2.E7 to 0. This result line shows that our first three tests: Simple (just `simplify(...)`), ConvEXP (`simplify(convert(..., exp))`), and ConvHYP (`simplify(convert(..., hypergeom))`) were unable to return 0 but the last three using expansion worked (`simplify(expand(...))` and `simplify(expand(..., exp))` and `simplify(expand(..., hypergeom))`). In case of Mathematica (`MathematicaSymbolic/01-AL-symbolic.txt`) we only used the `FullSimplify` method.
 
 * `<CAS>Numeric`: Contains the numeric evaluation results for each CAS in the same way as for the symbolic results. Let us explain the content of the files on a specific example. The first numeric test result is presented for line 54 in `MathematicaNumeric/01-AL-numeric.txt`. This is the first case because we only performed numeric tests on non-symbolically verified equations to reduce computing time. The first test that symbolically failed (see `MathematicaSymbolic/01-AL-symbolic.txt`) was line 54. Skipped lines are not tested because if they are skipped for symbolic tests, we also skip them for numeric tests. Similarly, if a line cannot be translated by LaCASt, no numeric test is possible and we can skip the line too. The symbolic result in Mathematica for line 54 was
-```
-54 [http://dlmf.nist.gov/1.4.E8]: Failure [Simple: NaN]
-54-a [http://dlmf.nist.gov/1.4.E8]: Successful [Simple: 0]
-```
-The `-a` suffix shows that this case was a multi-equation or contained `\pm`. The line 54 in our dataset indead contained two `=` symbols. The first line in our result dataset represents the first equation, the `-a` suffex represents the second equation.
+    ```
+    54 [http://dlmf.nist.gov/1.4.E8]: Failure [Simple: NaN]
+    54-a [http://dlmf.nist.gov/1.4.E8]: Successful [Simple: 0]
+    ```
+    The `-a` suffix shows that this case was a multi-equation or contained `\pm`. The line 54 in our dataset indead contained two `=` symbols. The first line in our result dataset represents the first equation, the `-a` suffex represents the second equation.
 Only the first equation failed symbolically. For numeric evaluations, the result line contains:
-```
-54 [http://dlmf.nist.gov/1.4.E8]: Failed [30/30]: {{Complex[0.7500000000000002, 1.299038105676658], {Rule[f, Power[E, Times[Complex[0, Rational[1, 6]], Pi]]], Rule[x, 1.5]}}, {Complex[0.25000000000000006, 0.4330127018922193], {Rule[f, Power[E, Times[Complex[0, Rational[1, 6]], Pi]]], Rule[x, 0.5]}}, ...
-```
-As usually, the result line contains the line number (referring to the dataset file) followed by the link to the DLMF. Next comes `Failed [30/30]` which means that 30 test calculations were triggered and all 30 of them failed (in some cases, not all test calculations failed, see for example line `55-a` in the same file). Afterward, the first examples of failed cases are shown. The first failed case of the 30 tested cases was:
-```
-{Complex[0.7500000000000002, 1.299038105676658], {Rule[f, Power[E, Times[Complex[0, Rational[1, 6]], Pi]]], Rule[x, 1.5]}}
-```
-where the first entry is the result: `Complex[0.7500000000000002, 1.299038105676658]` followed by the tested values for each variable: `f` was defined as `Power[E, Times[Complex[0, Rational[1, 6]], Pi]]` and `x` was tested for `1.5`. As we can see, `f` was mistaken as a variable which lead to the wrong result.
-This case was also discussed in the paper and shown in Table 3 in the Appendix.
+    ```
+    54 [http://dlmf.nist.gov/1.4.E8]: Failed [30/30]: {{Complex[0.7500000000000002, 1.299038105676658], {Rule[f, Power[E, Times[Complex[0, Rational[1, 6]], Pi]]],     Rule[x, 1.5]}}, {Complex[0.25000000000000006, 0.4330127018922193], {Rule[f, Power[E, Times[Complex[0, Rational[1, 6]], Pi]]], Rule[x, 0.5]}}, ...
+    ```
+    As usually, the result line contains the line number (referring to the dataset file) followed by the link to the DLMF. Next comes `Failed [30/30]` which means that 30 test calculations were triggered and all 30 of them failed (in some cases, not all test calculations failed, see for example line `55-a` in the same file). Afterward, the first examples of failed cases are shown. The first failed case of the 30 tested cases was:
+    ```
+    {Complex[0.7500000000000002, 1.299038105676658], {Rule[f, Power[E, Times[Complex[0, Rational[1, 6]], Pi]]], Rule[x, 1.5]}}
+    ```
+    where the first entry is the result: `Complex[0.7500000000000002, 1.299038105676658]` followed by the tested values for each variable: `f` was defined as `Power[E, Times[Complex[0, Rational[1, 6]], Pi]]` and `x` was tested for `1.5`. As we can see, `f` was mistaken as a variable which lead to the wrong result.
+    This case was also discussed in the paper and shown in Table 3 in the Appendix.
 
 
 ### 4.ii. Reproducing Translation Results
@@ -154,11 +154,11 @@ For reproducing our results on DLMF chapters or even the entire DLMF, you can us
 1. The following script is defined by the `config/symbolic_tests-base.properties` file which overwrites and updates the `symbolic_tests.properties` file mentioned above. If you want to change the test setup, change the file with the `-base` suffix!
 2. You do not need to specify `output`, `missing_macro_output`, and the `subset_tests` range in the file with the `-base` suffix. This will be updated automatically by the script.
 3. The output path and range is defined with the `together-lines.txt` file. For example, if you want to reproduce the results for Mathematica Chapter 4 and 8 of the DLMF, the file only contains the following two lines:
-```
-04-EF: 1462,1991
-08-IG: 2445,2718
-```
-The `together-lines-orig.txt` contains all chapters and limits. Simply copy the lines from here.
+    ```
+    04-EF: 1462,1991
+    08-IG: 2445,2718
+    ```
+    The `together-lines-orig.txt` contains all chapters and limits. Simply copy the lines from here.
 
 4. Run the script either with `--maple` for Maple or `--mathematica` for Mathematica
 ```
