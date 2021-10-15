@@ -342,7 +342,7 @@ Once you have Mathematica (Wolfram Engine) installed and the license activated y
     ```
     If you installed the Wolfram Engine as described above, your `<mathematicadir>` is `/opt/Wolfram`. The native library path depends on your OS. In case of Debian-like Ubuntu, it should be `<mathematicadir>/SystemFiles/Links/JLink/SystemFiles/Libraries/Linux-x86-64`. Lastly, the license is optional. LaCASt uses this license to re-activate the license in case we lose connection to Mathematica in the middle of computations. This sometimes helps to recover a running session automatically.
 
-2. Copy `JLink.jar` into the libs folder. Again, the path depends on your OS. In Linux it should be find here:
+2. Copy `JLink.jar` into the libs folder. Again, the path depends on your OS. In Linux it should be in `<mathematicadir>/SystemFiles/Links/JLink/JLink.jar`. You just copy the following command if your Mathematica folder is `/opt/Wolfram/`:
     ```
     $ cp /opt/Wolfram/SystemFiles/Links/JLink/JLink.jar ./libs/
     ```
