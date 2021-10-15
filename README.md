@@ -161,27 +161,27 @@ For reproducing our results on DLMF chapters or even the entire DLMF, you can us
     The `together-lines-orig.txt` contains all chapters and limits. Simply copy the lines from here.
 
 4. Run the script either with `--maple` for Maple or `--mathematica` for Mathematica
-```
-$ ./scripts/symbolic-evaluator.sh --mathematica
-```
+    ```
+    $ ./scripts/symbolic-evaluator.sh --mathematica
+    ```
 5. Inspect the results. In case of Chapter 4 and Mathematica for the CAS, the result is in `dlmf/results-generated/MathematicaSymbolic/04-EF-symbolic.txt` and the file should be identical (up to version differences if you used a different Mathematica version) with our reference in `dlmf/results-original/MathematicaSymbolic/04-EF-symbolic.txt`
 The script in step 4 will return a short overview about the processed chapters. If everything went smoothly, all chapters listed in the end show a 0. This 0 is the exit code of `java`. If anything went wrong, the exit code is not 0. In this case, the output file for that chapter was not generated. If everything finished successfully, you see:
-```
-The following lists the exit codes of the performed symbolic evaluations.
-If an exit code was different to 0, something went wrong and the output was not generated for that chapter!
+    ```
+    The following lists the exit codes of the performed symbolic evaluations.
+    If an exit code was different to 0, something went wrong and the output was not generated for that chapter!
 
-Results:
-04-EF: 0 
-08-IG: 0
-```
+    Results:
+    04-EF: 0 
+    08-IG: 0
+    ```
 
 If you wish to reproduce all of our results at once, follow these instructions:
 1. Copy the content of `config/symbolic_tests-orig.properties` (contains our original setup with a timeout of 30 seconds per test case) into `config/symbolic_tests-base.properties`.
 2. Copy the content of `config/together-lines-orig.txt` into `config/together-lines.txt`
 3. Start the script either for Maple or Mathematica, such as
-```
-$ ./scripts/symbolic-evaluator.sh --mathematica
-```
+    ```
+    $ ./scripts/symbolic-evaluator.sh --mathematica
+    ```
 4. Drink some coffee and check for updates from time to time. Ideally, your `dlmf/results-generated/MathematicaSymbolic` folder is identical to our `dlmf/results-original/MathematicaSymbolic` folder. 
 
 In some cases, e.g., due to memory overflows, a single chapter is too large. You can spot issues easily in the summary in the end. For example:
@@ -221,37 +221,37 @@ To reproduce a subset of the results, do the following steps:
 2. Update the file `config/numerical_tests.properties` as you like. For a test, you can set `subset_tests=54,55` to test the single line 54 and remove (or comment out) `symbolic_results_data`.
 3. Run `./lacast-eval-numeric.sh --maple` or `./lacast-eval-numeric.sh --mathematica` to trigger our numeric evaluation pipeline.
 4. Inspect the results file which was generated at the value specified in the config file at `output=`. By default, it should be in `./dlmf/results-generated/test-numeric.txt`. In case you used Mathematica, the output should look like this:
-```
-Overall: [TOTAL: 2, SKIPPED: 0, DEFINITIONS: 0, STARTED_TEST_CASES: 2, ERROR_TRANS: 0, MISSING: 0, SUCCESS_TRANS: 2, SUCCESS_SYMB: 0, SUCCESS_NUM: 1, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 1, NO_TEST_VALUES: 0, ABORTED: 0, ERROR: 0] for test expression: (#LHS)-(#RHS)
-54 [http://dlmf.nist.gov/1.4.E8]: Failed [30/30]: {{Complex[0.7500000000000002`, 1.299038105676658`], {f := Power[E, Times[Complex[0, Rational[1, 6]], Pi]], x := Rational[3, 2]}}, {Complex[0.25000000000000006`, 0.4330127018922193`], {f := Power[E, Times[Complex[0, Rational[1, 6]], Pi]], x := Rational[1, 2]}}, {Complex[1.0000000000000002`, 1.7320508075688772`], {f := Power[E, Times[Complex[0, Rational[1, 6]], Pi]], x := 2}}, {Complex[-0.7499999999999997`, -1.299038105676658`], {f := Power[E, Times[Complex[0, Rational[2, 3]], Pi]], x := Rational[3, 2]}}, {Complex[-0.2499999999999999`, -0.43301270189221935`], {f := Power[E, Times[Complex[0, Rational[2, 3]], Pi]], x := Rational[1, 2]}}, ...}
-54-a [http://dlmf.nist.gov/1.4.E8]: Successful [Tested: 30]
-```
-Again the first line shows a summary of the file (2 started test cases, 2 successful translated, 1 successfully numerically verified, 1 failed). The second and third line contains the two test cases (because line 54 was a multi-equation, the case was split into the first equation and the second equation). This should be identical to the first two tests in `./dlmf/results-original/MathematicaNumeric/01-AL-numeric.txt`. The notation style slightly differs from the reference because we constantly updated LaCASt for our upcoming projects and for those, the `Rule[., .]` pattern was broken into its arguments. Our new format contains the more readable notation `f := 1` rather than `Rule[f, 1]`.
+    ```
+    Overall: [TOTAL: 2, SKIPPED: 0, DEFINITIONS: 0, STARTED_TEST_CASES: 2, ERROR_TRANS: 0, MISSING: 0, SUCCESS_TRANS: 2, SUCCESS_SYMB: 0, SUCCESS_NUM: 1, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 1, NO_TEST_VALUES: 0, ABORTED: 0, ERROR: 0] for test expression: (#LHS)-(#RHS)
+    54 [http://dlmf.nist.gov/1.4.E8]: Failed [30/30]: {{Complex[0.7500000000000002`, 1.299038105676658`], {f := Power[E, Times[Complex[0, Rational[1, 6]], Pi]], x := Rational[3, 2]}}, {Complex[0.25000000000000006`, 0.4330127018922193`], {f := Power[E, Times[Complex[0, Rational[1, 6]], Pi]], x := Rational[1, 2]}}, {Complex[1.0000000000000002`, 1.7320508075688772`], {f := Power[E, Times[Complex[0, Rational[1, 6]], Pi]], x := 2}}, {Complex[-0.7499999999999997`, -1.299038105676658`], {f := Power[E, Times[Complex[0, Rational[2, 3]], Pi]], x := Rational[3, 2]}}, {Complex[-0.2499999999999999`, -0.43301270189221935`], {f := Power[E, Times[Complex[0, Rational[2, 3]], Pi]], x := Rational[1, 2]}}, ...}
+    54-a [http://dlmf.nist.gov/1.4.E8]: Successful [Tested: 30]
+    ```
+    Again the first line shows a summary of the file (2 started test cases, 2 successful translated, 1 successfully numerically verified, 1 failed). The second and third line contains the two test cases (because line 54 was a multi-equation, the case was split into the first equation and the second equation). This should be identical to the first two tests in `./dlmf/results-original/MathematicaNumeric/01-AL-numeric.txt`. The notation style slightly differs from the reference because we constantly updated LaCASt for our upcoming projects and for those, the `Rule[., .]` pattern was broken into its arguments. Our new format contains the more readable notation `f := 1` rather than `Rule[f, 1]`.
 
 Similar to the scripts for symbolic evaluations, we have a more convinient script to test entire chapters of the DLMF which again relies on the entries in `config/together-lines.txt` file. Be aware that this script does not set the `subset_tests` range but uses the chapter number and code in `together-lines.txt` to set the `symbolic_results_data` property instead. For convinience, the script has an additional `-r` flag for reverse mode, i.e., rather than testing all symbolically failed test cases, all successful cases are numerically evaluated.
 For reproducing our results on entire chapters do the following:
 1. Update `config/numerical_tests-base.properties` as you like. Our setup is given in `config/numerical_tests-orig.properties`.
 2. You do not need to specify `output`, `subset_tests`, or `symbolic_results_data` in the file with the `-base` suffix. This will be updated automatically by the script.
 3. The output path is defined with the `together-lines.txt` file. If you want to reproduce the results for Mathematica Chapter 4 and 8 of the DLMF, the file only contains the following two lines:
-```
-04-EF: 1462,1991
-08-IG: 2445,2718
-```
-The `together-lines-orig.txt` contains all chapters and limits. Simply copy the lines from here.
+    ```
+    04-EF: 1462,1991
+    08-IG: 2445,2718
+    ```
+    The `together-lines-orig.txt` contains all chapters and limits. Simply copy the lines from here.
 
 4. Run the script either with `--maple` for Maple or `--mathematica` for Mathematica. Consider you used the default settings in the config file, evaluating these two chapters may take 10 - 20 minutes depending your machine.
-```
-$ ./scripts/numeric-evaluator.sh --mathematica
-```
+    ```
+    $ ./scripts/numeric-evaluator.sh --mathematica
+    ```
 5. Inspect the results. In case you used Mathematica, you should find 2 files in `dlmf/results-generated/MathematicaNumeric/` namely `04-EF-numeric.txt` and `08-IG-numeric.txt`. Once a chapter finished, the file is immidiately written. You do not need to wait for both chapters to finish. The generated files should be identical almost identical with their references in `dlmf/results-original/<CAS>Numeric`. As pointed out above, the notation style for setting variables may differ in Mathematica. Similarly to the symbolic evaluation counterpart, after all computations finished a short summary is shown for each chapter in case a chapter was not finished successfully. Consider everything went well, you should see the familiar message from above:
-```
-The following lists the exit codes of the performed symbolic evaluations.
-If an exit code was different to 0, something went wrong and the output was not generated for that chapter!
+    ```
+    The following lists the exit codes of the performed symbolic evaluations.
+    If an exit code was different to 0, something went wrong and the output was not generated for that chapter!
 
-Results:
-04-EF: 0 
-08-IG: 0
-```
+    Results:
+    04-EF: 0 
+    08-IG: 0
+    ```
 
 Similar to the symbolic evaluations, you can reproduce all of our results simply by copying all lines from `together-lines-orig.txt` into `together-lines.txt` and re-run the script `./scripts/numeric-evaluator.sh`.
 However, we do not recommend to do that, especially not in a Virtual Machine with limited resources. Even on our machine, some chapters needed to be split into subsets in order to manage the memory usage. 
@@ -272,26 +272,26 @@ If you do not have Mathematica installed, we recommend using the free "Wolfram E
 For license reasons, we are not allowed to share the install script with this artifact. Hence, you have to download the script first and install it which requires an internet connection! 
 
 1. Change to `bin` folder in LaCASt
-```
-$ cd ./bin
-```
+    ```
+    $ cd ./bin
+    ```
 2. Download the install script
-```
-$ wget -O WolframInstaller.sh https://account.wolfram.com/download/public/wolfram-engine/desktop/LINUX
-```
+    ```
+    $ wget -O WolframInstaller.sh https://account.wolfram.com/download/public/wolfram-engine/desktop/LINUX
+    ```
 3. Install (requires `sudo`)
-```
-$ sudo ./WolframInstaller.sh
-```
+    ```
+    $ sudo ./WolframInstaller.sh
+    ```
 When asked where to install WolframEngine, we recommend `/opt/Wolfram` for convenience. 
 When asked where to store Wolfram scripts, you can simply press enter for the default path.
 This process may take some time. 
 
 4. After a successfull installation, you must activate the license. If you do not have a license, go to https://account.wolfram.com/login/oauth2/sign-in and click `create-one`. Fill out the form. After that, you should see a screen with "Get Your Free Wolfram Engine License". Accept the "Terms and Conditions of Use" and click `Get license` and follow the instrocutions on the website.
 5. Start wolframscript and enter your credentials
-```
-$ wolframscript
-```
+    ```
+    $ wolframscript
+    ```
 
 **Trouble Shooting**: Even though this is the recommend way to activate the license, we regularly encounter problems in Step 5 with wolframscript.
 If this activation process does not work for you, for what ever reason, you can try to active the license manually. To do this 
@@ -299,18 +299,18 @@ If this activation process does not work for you, for what ever reason, you can 
 2. Enter your credentials of your account. 
 3. You should get a JSON back with at least one activation key inside. Copy the first ("0"). 
 4. Now go back to your terminal and move to the installation folder of Wolfram Engine. If you followed our recommendation from above, it is `/opt/Wolfram` 
-```
-$ cd /opt/Wolfram/Executables/
-```
+    ```
+    $ cd /opt/Wolfram/Executables/
+    ```
 5. Run the WolframKernel command:
-```
-$ WolframKernel
-Wolfram Language ...
-Copyright 1988-2021 Wolfram Research, Inc.
-...
-For automatic Web Activation enter your activation key
-(enter return to skip Web Activation):
-```
+    ```
+    $ WolframKernel
+    Wolfram Language ...
+    Copyright 1988-2021 Wolfram Research, Inc.
+    ...
+    For automatic Web Activation enter your activation key
+    (enter return to skip Web Activation):
+    ```
 6. And enter the key you copied from above. This should activate the license and directly start Mathematica on console. Enter `Quit[]` to exit Mathematica.
 
 If this still does not activate your license, you can only contact Wolfram Support and ask for help: https://www.wolframcloud.com/users/user-current/activationkeys
@@ -319,13 +319,13 @@ If this still does not activate your license, you can only contact Wolfram Suppo
 
 Once you have Mathematica (Wolfram Engine) installed and the license activated you must do two steps: 
 1. Update `lacast.config.yaml` accordingly with the following information:
-```
-lacast.cas:
-  Mathematica:
-    install.path: "<mathematicadir>"
-    native.library.path: "<mathematica-jlink-dir>"/opt/Wolfram/SystemFiles/Links/JLink/SystemFiles/Libraries/Linux-x86-64"
-    license: "XXXX-XXXX-XXXXXX"
-```
+    ```
+    lacast.cas:
+      Mathematica:
+        install.path: "<mathematicadir>"
+        native.library.path: "<mathematica-jlink-dir>"/opt/Wolfram/SystemFiles/Links/JLink/SystemFiles/Libraries/Linux-x86-64"
+        license: "XXXX-XXXX-XXXXXX"
+    ```
 If you installed the Wolfram Engine as described above, your `<mathematicadir>` is `/opt/Wolfram`. The native library path depends on your OS. In case of Debian-like Ubuntu, it should be `<mathematicadir>/SystemFiles/Links/JLink/SystemFiles/Libraries/Linux-x86-64`. Lastely, the license is optional. LaCASt uses this license to re-activate the license in case we lost connection to Mathematica in the middle of computations. This sometimes help to automatically recover a running session. 
 
 2. Copy `JLink.jar` into the libs folder. Again, the path depends on your OS. In Linux it should be find here:
@@ -344,18 +344,18 @@ Now you can reproduce our symbolic and numeric evaluation results via Mathematic
 
 Since there is no free version of Maple available, we assume you have Maple on your system. In this case, you only need to do two steps in order to tell LaCASt where Maple is and how to call it.
 1. Update `lacast.config.yaml` according to your Maple installation path. You need the `<mapledir>` which refers to the installation folder of Maple, e.g., `/opt/maple2020`, and `<bindir>` which contains system specific binaries, e.g., `/opt/maple2020/bin.X86-64-LINUX`. If you are unsure where to find these paths, you can start Maple and run the command `kernelopts(mapledir);` to retrieve the `<mapledir>` and `kernelopts(bindir);` to retrieve `<bindir>`. Afterward, update `lacast.config.yaml` with the following entries:
-```
-lacast.cas:
-  Maple:
-    install.path: "<mapledir>"
-    native.library.path: "<bindir>"
-```
+    ```
+    lacast.cas:
+      Maple:
+        install.path: "<mapledir>"
+        native.library.path: "<bindir>"
+    ```
 
 2. Copy the `Maple.jar` and the `externalcall.jar` (both are usually in `<mapledir>/java/`) into the libs folder of this project. For example:
-```
-$ cp /opt/maple2020/java/Maple.jar ./libs/Maple.jar
-$ cp /opt/maple2020/java/externalcall.jar ./libs/externalcall.jar
-```
+    ```
+    $ cp /opt/maple2020/java/Maple.jar ./libs/Maple.jar
+    $ cp /opt/maple2020/java/externalcall.jar ./libs/externalcall.jar
+    ```
 
 Now you can test if LaCASt is able to communicate with Maple:
 ```
