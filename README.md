@@ -73,7 +73,12 @@ Enter `help` in LaCASt for more information about the inputs. Instructions for t
 
 Our results can be split in two groups: (1) translations via LaCASt, and (2) evaluations of the translations via CAS. For (1), only Java 11 or higher is required. For (2) one requires either Maple or Mathematica (i.e., the Wolfram Engine). In the following, we explain how to reproduce our results and how to read the data. Before attempting to reproduce (2), read the "Setup Computer Algebra Systems Support" section below. Note that all results are also available online (in a visually more appealing look) at: https://lacast.wmflabs.org/.
 
-In the following, we presume you use a single terminal and moved into the artifact folder.
+**Important Note**: There are several factors that make reproducing the exact same results for (2) almost impossible. However, based on our experience, those differences are generally marginal (<1% of all DLMF test cases). The main reasons for discrepancy between your results and ours can be:
+1. The machine you are using (VM or not) is somehow different to our reference (e.g., different CPU or RAM). Hence, a CAS may take longer or shorter time on your machine to compute a test case. Since we needed to set time constraints for each test case, this implies that some cases may fail or be successful on your machine while on ours it simply timed out (or the opposite is the case).
+2. You are using a different CAS version (or even build version). Unfortunately, Wolfram Research does not provide access to older builds of their free engine and we are not allowed to distribute our version. Obiviously, a different version can produce different results or compute certain cases faster or slower.
+3. You may spot small differences between the result tables in our paper (Appendix) and the website compared to the results in this artifact. The reason for this discrepancy is that we constantly updating LaCASt and fixed several issues that did not make it into the paper version. In case of acceptance at the TACAS conference, we will update our paper and website accordingly. As pointed out, however, those differences are marginal (<1%).
+
+In summary, a discrepancy of \~1% of different results per DLMF chapter is somehow expected and no reason to worry. Everything over 5-10% indicate that something does not work as intended.
 
 ### 4.i. How to read the data?
 
@@ -145,9 +150,9 @@ Please read the "Setup Computer Algebra Systems Support" section below before yo
 Since reproducing all results may require some time, we first explain how you can setup a smaller test set.
 
 1. Make sure you updated `lacast.config.yaml` according to your CAS installation.
-2. Update the file `config/symbolic_tests.properties` as you like. Specifically, change the `subset_tests` values to a smaller range, for example `subset_tests=1,10` to test lines 1-10. For reference, the `config/together-lines-orig.txt` shows the lines for each DLMF chapter. You may want to change the output directory at the end of the file, too.
+2. Update the file `config/symbolic_tests.properties` as you like. Specifically, change the `subset_tests` values to a smaller range, for example `subset_tests=1,100` to test lines 1-100. For reference, the `config/together-lines-orig.txt` shows the lines for each DLMF chapter. You may want to change the output directory at the end of the file, too.
 3. Run `./lacast-eval-symbolic.sh --maple` or `./lacast-eval-symbolic.sh --mathematica` to trigger our symbolic evaluation pipeline.
-4. Inspect the results file which was generated at the value specified in the config file at `output=`. By default, it should be in `./dlmf/results-generated/test-symbolic.txt`. In case you used Mathematica, the output should be identical to the first 10 cases in `dlmf/results-original/MathematicaSymbolic/01-AL-symmbolic.txt`.
+4. Inspect the results file which was generated at the value specified in the config file at `output=`. By default, it should be in `./dlmf/results-generated/test-symbolic.txt`. In case you used Mathematica, the output should be identical to the first 100 cases in `dlmf/results-original/MathematicaSymbolic/01-AL-symmbolic.txt`.
 
 For reproducing our results on DLMF chapters or even the entire DLMF, you can use the manual method outlined above or use a special script that does the updating for you: `./scripts/symbolic-evaluator.sh`. Be adviced that this may take a long time to complete depending on the timeout threshold specified in the config file.
 
@@ -218,7 +223,7 @@ The numeric evaluations are very much organized like the symbolic evaluations ou
 
 To reproduce a subset of the results, do the following steps:
 1. Make sure you updated `lacast.config.yaml` according to your CAS installation.
-2. Update the file `config/numerical_tests.properties` as you like. For a test, you can set `subset_tests=54,55` to test the single line 54 and remove (or comment out) `symbolic_results_data`.
+2. Update the file `config/numerical_tests.properties` as you like. Consider you generated the first 100 symbolic tests before, you can use your own results to test the failed cases by setting `symbolic_results_data=./dlmf/results-generated/test-symbolic.txt`
 3. Run `./lacast-eval-numeric.sh --maple` or `./lacast-eval-numeric.sh --mathematica` to trigger our numeric evaluation pipeline.
 4. Inspect the results file which was generated at the value specified in the config file at `output=`. By default, it should be in `./dlmf/results-generated/test-numeric.txt`. In case you used Mathematica, the output should look like this:
     ```
@@ -366,23 +371,32 @@ Now you can reproduce our symbolic and numeric evaluation results via Maple (see
 
 ## FAQ
 
-**Why does evaluating a single test (line) take so much time?** 
-LaCASt always reads the entire dataset first in order to resolve potential substitutions and identify constraints in definitions. This is the reason you see so many log messages saying `Store line definition...` before the actual numeric test starts.
+**My results does not match yours.**
+As pointed out in the beginning, there are many possible reasons on why a specific test case returns a different outcome on our machine compared to our reference (different CPU/RAM, different CAS version, etc.). In general, the discrepancy should be marginal and only occurr in a couple of cases (less than 1% overall). If it happens in many cases, however, it might be an indication that something went wrong. Please contact us in this case.
 
-**Why does the variables in the numeric evaluation result files not change?**
-The numeric test values are ordered to ensure that every run performs the exact same tests even though we limit the number of test calculations. Consider there are 3 variables in our test case and each is set to 10 test values. This result in 10^3 combinations. We order the combinations so that, for example, the first variable only changes if all other combinations of the remaining to variables have been tried. If we limit our combinations to 100, it unfortunately implies that the first variable was only tested for a single test value because it took 100 test cases to test all combinations of the remaining two variables. This is not ideal but ensures that every run, even with low limits of combinations, always test the same combinations. Otherwise it could happen that a test case is successful but fails in the next run.
+**The data on your website is different to the results in this artifact.**
+The reason is that this artifact is slightly newer compared to the version we used when writing the paper. We plan to update the results in the paper and on the website with this artifact version in case of acceptance to ensure most recent yet consistent references between the artifact and the paper.
 
-**Why we only show a couple of numeric test calculations in the result data?**
-Because the output would become too large otherwise. In most cases, further manual investigations are necessary to check why a numeric calculation failed. For this case, only a few combinations of test values is generally enough to further investigate the problem.
+**My Maple computation never stops and exceeds my timeout threshold.**
+Maple makes it really hard for us to interrupt it. Currently, we use the `timelimit` option to limit computation time per test case. However, it seems that Maple ignores interruption signals if it is performing code on kernel-level. So even though we set a timeout, Maple simply ignores the timeout and continue processing from time to time. We identified this issue especially for cases that involve integrals. One possible option is to reduce the timeout threshold in the config file even further so that Maple stops before entering non-interruptable code. The only other option is to skip such case manually.
+
+**Why does symbolic/numeric evaluating a single test (line) take so much time?** 
+LaCASt always reads the entire dataset first in order to resolve potential substitutions and identify constraints in definitions. This is the reason you see so many log messages saying `Store line definition...` before the actual numeric test starts. The code is currently slow because for resolving substitutions, we parse every expression and replace subtrees. We are well aware of this bottleneck and working on a solution to speed this process up.
+
+**Why does the values for a variable in the numeric evaluation result files not change?**
+The numeric test values are ordered to ensure that every run performs the exact same tests even though we limit the number of test calculations. Consider there are 3 variables in our test case and each is set to 10 test values. This result in 10^3 combinations. We order the combinations so that, for example, the first variable only changes if all other combinations of the remaining variables have been tried. If we limit our combinations to 100, it unfortunately implies that the first variable was only tested for a single test value because it took 100 iterations to test all combinations of the remaining two variables. This is not ideal but ensures that every run, even with low limits of combinations, always test the same combinations. Otherwise it could happen that a test case is successful one time but may fail in the next run.
+
+**Why do we only show a couple of numeric test calculations in the result data?**
+Because the output would become too large otherwise. In most cases, further manual investigations are necessary to check why a numeric calculation failed. In this case, a few combinations of test values is often sufficient to further investigate the problem. To limit the generated data, we limit to print the number of failed calculations.
 
 **Why is the output full of colorful messages?** 
 Those are logs. We activated logging down to the debug level to provide a deeper insight into the process. Further, this makes it easier to spot issues if something went wrong. Unfortunately, the output is rather verbose with this low level of logging.
 
 **I cannot compile the source code and my IDE shows numerous of errors!**
-Setting up LaCASt in an IDE is not really straight forward because it is a large multi-module maven project with over 30k lines of code. One of the main reasons you see errors is the dependency to the CAS jars for the build process. The current version (this artifact) still presumes that the Jars for the CAS are available in the project itself (`Maple.jar` and `externalcall.jar` in `libs/Maple` and the `JLink.jar` in `libs/Mathematica`). In order to build it with maven, one needs to put these Jars in those folders first. Additionally, our extension of LaCASt currectly depends on the open source project mathosphere as a submodule. Hence, one needs to checkout out `github.com/ag-gipp/mathosphere` in the `mathosphere` folder. We are currently working on removing these dependencies in order to publish LaCASt on GitHub. LaCASt will be available (and compilable) on GitHub once our project was accepted at TACAS.
+Setting up LaCASt in an IDE is not really straight forward because it is a large multi-module maven project with over 30k lines of code. One of the main reasons you see errors is the dependency to the CAS jars for the build process. The current version (this artifact) still presumes that the Jars for the CAS are available in the project itself (`Maple.jar` and `externalcall.jar` in `libs/Maple` and the `JLink.jar` in `libs/Mathematica`). In order to build it with maven, one needs to put these Jars in those folders first. Additionally, our extension of LaCASt currectly depends on the open source project mathosphere as a submodule (see `.gitmodules`). Hence, one needs to checkout out `github.com/ag-gipp/mathosphere` in the `mathosphere` folder. We are currently working on removing the CAS dependencies in order to publish LaCASt on GitHub. LaCASt will be available (and compilable) on GitHub once our project was accepted at TACAS.
 
-**Why there are so many script files rather than a single GUI I can interact with?**
-LaCASt was never planned to be a visual standalone program but a lightweight fast converter for LaTeX. LaCASt is currently so heavy and slow only because of our evaluation pipeline and the dependency to the CAS. Translating the entire DLMF takes a couple of seconds. Evaluating it numerically, on the other hand, requires hours. To keep the actions required to reproduce the results as simple as possible, we created all these scripts to make the process easier. When we publish LaCASt on GitHub, we plan to invest more time into a user-friendly handling.
+**Why there are so many script files rather than a single GUI I can interact with? This is so complicated.**
+LaCASt was never planned to be a visual standalone program but a lightweight fast converter for LaTeX. LaCASt is currently so heavy and slow only because of our evaluation pipeline and the dependency to the CAS. Translating the entire DLMF takes a couple of seconds. Evaluating it numerically, on the other hand, requires hours. Further, the dependency to commercial products (Maple and Mathematica) prevent us from providing a single executable JAR (also known as fat jar). To keep the actions required to reproduce the results as simple as possible, we created all these scripts to make the process easier and more fail-safe for you. When we publish LaCASt on GitHub, we plan to invest more time into a user-friendly handling.
 
 ## Glossary
 
