@@ -1,0 +1,15 @@
+customResultSieve := proc(result)
+  local msg;
+  try
+    if type(result, string) then
+      return False;
+    elif not #TEST# then
+      return False;
+    elif #TEST# then
+      return True;
+    end if;
+  catch:
+    msg := StringTools:-Join(["Error -", StringTools:-FormatMessage( lastexception[2..-1] )], " ");
+    return msg;
+  end try;
+end proc:

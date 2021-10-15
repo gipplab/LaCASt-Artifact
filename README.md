@@ -80,7 +80,8 @@ In the following, we presume you use a single terminal and moved into the artifa
 Our dataset is `dlmf/dlmf-formulae.txt` which contains all original DLMF formulae in semantic LaTeX. Semantic LaTeX is a semantic enriched LaTeX dialect developed by Bruce Miller for the DLMF. LaCASt is only able to translate functions when these macros are used. Even though we are actively extending LaCASt to perform translations on general LaTeX expressions, this extension is not part of this artifact yet.
 Hence, translating `\Gamma(x)` will not produce a correct translations because LaCASt presumes the unambgious notation `\EulerGamma@{x}` instead.
 
-The reported results in our paper in raw format (in contrast to the visual tables on our website: https://lacast.wmflabs.org) can be found in `dlmf/results-original`. There are three groups of results for each CAS (Maple and Mathematica).
+The reported results in our paper in raw format (in contrast to the visual tables on our website: https://lacast.wmflabs.org) can be found in `dlmf/results-original`. Note that these results may not match 100% of the data in our paper (or on the website) because this artifact is slightly newer. For example, the Appendix of the paper (Table 6) shows that 180 cases ended up in an error. We were able to fix most of these issues in this artifact. We will therefore update the results in the paper and on our website for the camera-ready deadline.
+There are three groups of results for each CAS (Maple and Mathematica).
 
 * `<CAS>Translations`: Contains just the translations to each CAS for each line in `dlmf-formulae.txt`. For example, the translation of line 8 in `dlmf-formulae.txt` to Maple can be found in line 8 of `MapleTranslations/translations.txt`:
 ```
@@ -113,7 +114,7 @@ This case was also discussed in the paper and shown in Table 3 in the Appendix.
 
 ### 4.ii. Reproducing Translation Results
 
-If you have not installed Java 11 yet, please do so by
+If you have not installed Java 11 yet, please do so now by
 ```
 $ cd bin
 $ sudo ./java-installer.sh

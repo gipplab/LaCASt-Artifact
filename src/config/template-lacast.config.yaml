@@ -1,0 +1,36 @@
+# This configuration defines the path the library and configuration folder for LaCASt.
+# Alternatively, you can either specify the location of this file with a flag: "-config=pathToThisConfig.yaml",
+# or you put this file into the local main directory of LaCASt or your home directory in ".lacast" folder.
+
+# Specify the libs and config path
+lacast.libs.path: "./libs"
+lacast.config.path: "./config"
+
+# Setup CAS support for LaCASt. If you do not have Maple/Mathematica installed, simply delete the fields or keep them
+# like they are pointing nowhere.
+lacast.cas:
+  # If you are unsure, use 'kernelopts( mapledir );' for Maple.install.path and 'kernelopts( bindir );' to get
+  # Maple.native.library.path in your local Maple instance.
+  Maple:
+    install.path: "/opt/maple2020"
+    native.library.path: "/opt/maple2020/bin.X86_64_LINUX"
+  Mathematica:
+    install.path: "/opt/Wolfram"
+    native.library.path: "/opt/Wolfram/SystemFiles/Links/JLink/SystemFiles/Libraries/Linux-x86-64"
+    license: "XXXX-XXXX-XXXXXX"
+  SymPy: # sets up LaCASt to perform translations to SymPy (no installation of sympy is required)
+
+# The following settings are optional and only required for the semantification pipeline of LaCASt.
+# You need to make sure that Elasticsearch is running and Mathoid URL is reachable. The settings below
+# are the default settings.
+lacast.generic:
+  elasticsearch.host: "localhost"
+  elasticsearch.port: 9200
+  elasticsearch.macros.index: "dlmf-macros"
+  mathoid.url: "http://localhost:10044/texvcinfo"
+  settings:
+    max.relations: 3
+    max.macros: 5
+    max.depth: -1
+    suppressMacros: ["pgcd"]
+#    supportDescriptions: ["Euler gamma function"]

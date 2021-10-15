@@ -1,0 +1,396 @@
+{
+  "Greek Letter Languages": [
+    "LaTeX",
+    "Maple",
+    "Mathematica",
+    "SymPy"
+  ],
+  "Sources": {
+    "LaTeX": "https://en.wikibooks.org/wiki/LaTeX/Mathematics#List_of_Mathematical_Symbols",
+    "Maple": "https://www.maplesoft.com/support/help/Maple/view.aspx?path=Greek",
+    "Mathematica": "https://reference.wolfram.com/language/guide/GreekLetters.html",
+    "SymPy": "https://docs.sympy.org/latest/modules/printing.html?highlight=greek%20letters#sympy.printing.pretty.pretty_symbology.greek_letters"
+  },
+  "Greek Letters": {
+    "alpha": {
+      "LaTeX": "\\alpha",
+      "Maple": "alpha",
+      "Mathematica": "\\[Alpha]",
+      "SymPy": "Symbol('alpha')"
+    },
+    "Alpha": {
+      "LaTeX": "A",
+      "Maple": "Alpha",
+      "Mathematica": "\\[CapitalAlpha]",
+      "SymPy": "Symbol('Alpha')"
+    },
+    "beta": {
+      "LaTeX": "\\beta",
+      "Maple": "beta",
+      "Mathematica": "\\[Beta]",
+      "SymPy": "Symbol('beta')"
+    },
+    "Beta": {
+      "LaTeX": "B",
+      "Maple": "Beta",
+      "Mathematica": "\\[CapitalBeta]",
+      "SymPy": "Symbol('Beta')"
+    },
+    "gamma": {
+      "LaTeX": "\\gamma",
+      "Maple": "gamma",
+      "Mathematica": "\\[Gamma]",
+      "SymPy": "Symbol('gamma')"
+    },
+    "Gamma": {
+      "LaTeX": "\\Gamma",
+      "Maple": "Gamma",
+      "Mathematica": "\\[CapitalGamma]",
+      "SymPy": "Symbol('Gamma')"
+    },
+    "delta": {
+      "LaTeX": "\\delta",
+      "Maple": "delta",
+      "Mathematica": "\\[Delta]",
+      "SymPy": "Symbol('delta')"
+    },
+    "Delta": {
+      "LaTeX": "\\Delta",
+      "Maple": "Delta",
+      "Mathematica": "\\[CapitalDelta]",
+      "SymPy": "Symbol('Delta')"
+    },
+    "epsilon": {
+      "LaTeX": "\\epsilon",
+      "Maple": "epsilon",
+      "Mathematica": "\\[Epsilon]",
+      "SymPy": "Symbol('epsilon')"
+    },
+    "Epsilon": {
+      "LaTeX": "E",
+      "Maple": "Epsilon",
+      "Mathematica": "\\[CapitalEpsilon]",
+      "SymPy": "Symbol('Epsilon')"
+    },
+    "zeta": {
+      "LaTeX": "\\zeta",
+      "Maple": "zeta",
+      "Mathematica": "\\[Zeta]",
+      "SymPy": "Symbol('zeta')"
+    },
+    "Zeta": {
+      "LaTeX": "Z",
+      "Maple": "ZETA",
+      "Mathematica": "\\[CapitalZeta]",
+      "SymPy": "Symbol('Zeta')"
+    },
+    "eta": {
+      "LaTeX": "\\eta",
+      "Maple": "eta",
+      "Mathematica": "\\[Eta]",
+      "SymPy": "Symbol('eta')"
+    },
+    "Eta": {
+      "LaTeX": "H",
+      "Maple": "Eta",
+      "Mathematica": "\\[CapitalEta]",
+      "SymPy": "Symbol('Eta')"
+    },
+    "theta": {
+      "LaTeX": "\\theta",
+      "Maple": "theta",
+      "Mathematica": "\\[Theta]",
+      "SymPy": "Symbol('theta')"
+    },
+    "Theta": {
+      "LaTeX": "\\Theta",
+      "Maple": "Theta",
+      "Mathematica": "\\[CapitalTheta]",
+      "SymPy": "Symbol('Theta')"
+    },
+    "iota": {
+      "LaTeX": "\\iota",
+      "Maple": "iota",
+      "Mathematica": "\\[Iota]",
+      "SymPy": "Symbol('iota')"
+    },
+    "Iota": {
+      "LaTeX": "I",
+      "Maple": "Iota",
+      "Mathematica": "\\[CapitalIota]",
+      "SymPy": "Symbol('Iota')"
+    },
+    "kappa": {
+      "LaTeX": "\\kappa",
+      "Maple": "kappa",
+      "Mathematica": "\\[Kappa]",
+      "SymPy": "Symbol('kappa')"
+    },
+    "Kappa": {
+      "LaTeX": "K",
+      "Maple": "Kappa",
+      "Mathematica": "\\[CapitalKappa]",
+      "SymPy": "Symbol('Kappa')"
+    },
+    "lambda": {
+      "LaTeX": "\\lambda",
+      "Maple": "lambda",
+      "Mathematica": "\\[Lambda]",
+      "SymPy": "Symbol('lambda')"
+    },
+    "Lambda": {
+      "LaTeX": "\\Lambda",
+      "Maple": "Lambda",
+      "Mathematica": "\\[CapitalLambda]",
+      "SymPy": "Symbol('Lambda')"
+    },
+    "mu": {
+      "LaTeX": "\\mu",
+      "Maple": "mu",
+      "Mathematica": "\\[Mu]",
+      "SymPy": "Symbol('mu')"
+    },
+    "Mu": {
+      "LaTeX": "M",
+      "Maple": "Mu",
+      "Mathematica": "\\[CapitalMu]",
+      "SymPy": "Symbol('Mu')"
+    },
+    "nu": {
+      "LaTeX": "\\nu",
+      "Maple": "nu",
+      "Mathematica": "\\[Nu]",
+      "SymPy": "Symbol('nu')"
+    },
+    "Nu": {
+      "LaTeX": "N",
+      "Maple": "Nu",
+      "Mathematica": "\\[CapitalNu]",
+      "SymPy": "Symbol('Nu')"
+    },
+    "xi": {
+      "LaTeX": "\\xi",
+      "Maple": "xi",
+      "Mathematica": "\\[Xi]",
+      "SymPy": "Symbol('xi')"
+    },
+    "Xi": {
+      "LaTeX": "\\Xi",
+      "Maple": "Xi",
+      "Mathematica": "\\[CapitalXi]",
+      "SymPy": "Symbol('Xi')"
+    },
+    "omicron": {
+      "LaTeX": "o",
+      "Maple": "omicron",
+      "Mathematica": "\\[Omicron]",
+      "SymPy": "Symbol('omicron')"
+    },
+    "Omicron": {
+      "LaTeX": "O",
+      "Maple": "Omicron",
+      "Mathematica": "\\[CapitalOmicron]",
+      "SymPy": "Symbol('Omicron')"
+    },
+    "pi": {
+      "LaTeX": "\\pi",
+      "Maple": "pi",
+      "Mathematica": "\\[Pi]",
+      "SymPy": "Symbol('pi')"
+    },
+    "Pi": {
+      "LaTeX": "\\Pi",
+      "Maple": "PI",
+      "Mathematica": "\\[CapitalPi]",
+      "SymPy": "Symbol('Pi')"
+    },
+    "rho": {
+      "LaTeX": "\\rho",
+      "Maple": "rho",
+      "Mathematica": "\\[Rho]",
+      "SymPy": "Symbol('rho')"
+    },
+    "Rho": {
+      "LaTeX": "P",
+      "Maple": "Rho",
+      "Mathematica": "\\[CapitalRho]",
+      "SymPy": "Symbol('Rho')"
+    },
+    "sigma": {
+      "LaTeX": "\\sigma",
+      "Maple": "sigma",
+      "Mathematica": "\\[Sigma]",
+      "SymPy": "Symbol('sigma')"
+    },
+    "Sigma": {
+      "LaTeX": "\\Sigma",
+      "Maple": "Sigma",
+      "Mathematica": "\\[CapitalSigma]",
+      "SymPy": "Symbol('Sigma')"
+    },
+    "tau": {
+      "LaTeX": "\\tau",
+      "Maple": "tau",
+      "Mathematica": "\\[Tau]",
+      "SymPy": "Symbol('tau')"
+    },
+    "Tau": {
+      "LaTeX": "T",
+      "Maple": "Tau",
+      "Mathematica": "\\[CapitalTau]",
+      "SymPy": "Symbol('Tau')"
+    },
+    "upsilon": {
+      "LaTeX": "\\upsilon",
+      "Maple": "upsilon",
+      "Mathematica": "\\[Upsilon]",
+      "SymPy": "Symbol('upsilon')"
+    },
+    "Upsilon": {
+      "LaTeX": "\\Upsilon",
+      "Maple": "Upsilon",
+      "Mathematica": "\\[CapitalUpsilon]",
+      "SymPy": "Symbol('Upsilon')"
+    },
+    "phi": {
+      "LaTeX": "\\phi",
+      "Maple": "phi",
+      "Mathematica": "\\[Phi]",
+      "SymPy": "Symbol('phi')"
+    },
+    "Phi": {
+      "LaTeX": "\\Phi",
+      "Maple": "Phi",
+      "Mathematica": "\\[CapitalPhi]",
+      "SymPy": "Symbol('Phi')"
+    },
+    "chi": {
+      "LaTeX": "\\chi",
+      "Maple": "chi",
+      "Mathematica": "\\[Chi]",
+      "SymPy": "Symbol('chi')"
+    },
+    "Chi": {
+      "LaTeX": "X",
+      "Maple": "CHI",
+      "Mathematica": "\\[CapitalChi]",
+      "SymPy": "Symbol('Chi')"
+    },
+    "psi": {
+      "LaTeX": "\\psi",
+      "Maple": "psi",
+      "Mathematica": "\\[Psi]",
+      "SymPy": "Symbol('psi')"
+    },
+    "Psi": {
+      "LaTeX": "\\Psi",
+      "Maple": "Psi",
+      "Mathematica": "\\[CapitalPsi]",
+      "SymPy": "Symbol('Psi')"
+    },
+    "omega": {
+      "LaTeX": "\\omega",
+      "Maple": "omega",
+      "Mathematica": "\\[Omega]",
+      "SymPy": "Symbol('omega')"
+    },
+    "Omega": {
+      "LaTeX": "\\Omega",
+      "Maple": "Omega",
+      "Mathematica": "\\[CapitalOmega]",
+      "SymPy": "Symbol('Omega')"
+    },
+    "varepsilon": {
+      "LaTeX": "\\varepsilon",
+      "Maple": "varepsilon",
+      "Mathematica": "\\[CurlyEpsilon]",
+      "SymPy": "Symbol(r'\\varepsilon')"
+    },
+    "vartheta": {
+      "LaTeX": "\\vartheta",
+      "Maple": "vartheta",
+      "Mathematica": "\\[CurlyTheta]",
+      "SymPy": "Symbol(r'\\vartheta')"
+    },
+    "varkappa": {
+      "LaTeX": "\\varkappa",
+      "Maple": "varkappa",
+      "Mathematica": "\\[CurlyKappa]",
+      "SymPy": "Symbol(r'\\varkappa')"
+    },
+    "varpi": {
+      "LaTeX": "\\varpi",
+      "Maple": "varpi",
+      "Mathematica": "\\[CurlyPi]",
+      "SymPy": "Symbol(r'\\varpi')"
+    },
+    "varrho": {
+      "LaTeX": "\\varrho",
+      "Maple": "varrho",
+      "Mathematica": "\\[CurlyRho]",
+      "SymPy": "Symbol(r'\\varrho')"
+    },
+    "varsigma": {
+      "LaTeX": "\\varsigma",
+      "Maple": "varsigma",
+      "Mathematica": "\\[FinalSigma]",
+      "SymPy": "Symbol(r'\\varsigma')"
+    },
+    "varUpsilon": {
+      "LaTeX": "\\varUpsilon",
+      "Mathematica": "\\[CurlyCapitalUpsilon]",
+      "SymPy": "Symbol(r'\\varUpsilon')"
+    },
+    "varphi": {
+      "LaTeX": "\\varphi",
+      "Maple": "varphi",
+      "Mathematica": "\\[CurlyPhi]",
+      "SymPy": "Symbol(r'\\varphi')"
+    }
+  },
+  "Constants Languages": ["LaTeX", "DLMF", "Maple", "Mathematica", "SymPy"],
+  "Constants": {
+    "Pi": {
+      "LaTeX": "\\pi",
+      "DLMF": "\\cpi",
+      "Maple": "Pi",
+      "Mathematica": "Pi",
+      "SymPy": "pi"
+    },
+    "Exponential Constant": {
+      "LaTeX": "e",
+      "DLMF": "\\expe",
+      "Maple": "exp(1)",
+      "Mathematica": "E",
+      "SymPy": "E"
+    },
+    "Imaginary Unit": {
+      "LaTeX": "i",
+      "DLMF": "\\iunit",
+      "Maple": "I",
+      "Mathematica": "I",
+      "SymPy": "I"
+    },
+    "Euler-Mascheroni Constant": {
+      "LaTeX": "\\gamma",
+      "DLMF": "\\EulerConstant",
+      "Maple": "gamma",
+      "Mathematica": "EulerGamma",
+      "SymPy": "EulerGamma"
+    },
+    "Catalans Constant": {
+      "LaTeX": "G",
+      "DLMF": "\\CatalansConstant",
+      "Maple": "Catalan",
+      "Mathematica": "Catalan",
+      "SymPy": "Catalan"
+    },
+    "Infinity": {
+      "LaTeX": "\\infty",
+      "DLMF": "\\infty",
+      "Maple": "infinity",
+      "Mathematica": "Infinity",
+      "SymPy": "oo"
+    }
+  }
+}
