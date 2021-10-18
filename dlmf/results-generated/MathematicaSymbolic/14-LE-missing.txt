@@ -1,3 +1,0 @@
-\DunsterQ, 4
-\surfharmonicY, 1
-\Jacobiphi, 1

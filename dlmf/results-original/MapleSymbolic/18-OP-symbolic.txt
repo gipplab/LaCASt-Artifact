@@ -1,4 +1,4 @@
-Overall: [TOTAL: 644, SKIPPED: 119, DEFINITIONS: 57, STARTED_TEST_CASES: 468, ERROR_TRANS: 30, MISSING: 203, SUCCESS_TRANS: 235, SUCCESS_SYMB: 65, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 155, ABORTED: 4, ERROR: 11] for test expression: (#LHS)-(#RHS)
+Overall: [TOTAL: 679, SKIPPED: 150, DEFINITIONS: 58, STARTED_TEST_CASES: 471, ERROR_TRANS: 19, MISSING: 169, SUCCESS_TRANS: 283, SUCCESS_SYMB: 71, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 189, NO_TEST_VALUES: 0, ABORTED: 5, ERROR: 18] for test expression: (#LHS)-(#RHS)
 [Simple Simplify: ON, EXPonential Conversion (ConvEXP): ON, HYPergeometric Conversion (ConvHYP): ON, Expansion (EXP): ON, Expansion via EXP (EXP+EXP): ON, Expansion via HYP (EXP+HYP): ON]
 5439 [https://dlmf.nist.gov/18.1#Ex1]: Skipped - Invalid test case: fDiff
 5440 [https://dlmf.nist.gov/18.1#Ex2]: Skipped - Invalid test case: fDiff
@@ -33,14 +33,14 @@ Overall: [TOTAL: 644, SKIPPED: 119, DEFINITIONS: 57, STARTED_TEST_CASES: 468, ER
 5468 [https://dlmf.nist.gov/18.2#Ex6]: Definition - Line is a non-semantic definition.
 5469 [http://dlmf.nist.gov/18.2.E12]: Skipped - no semantic math
 5470 [http://dlmf.nist.gov/18.2.E13]: Skipped - no semantic math
-5471 [http://dlmf.nist.gov/18.3.E1]: Skipped - Unable to analyze test case: Null
+5471 [http://dlmf.nist.gov/18.3.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5472 [http://dlmf.nist.gov/18.3.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5473 [http://dlmf.nist.gov/18.5.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5474 [http://dlmf.nist.gov/18.5.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5475 [http://dlmf.nist.gov/18.5.E3]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \ChebyshevpolyV [\ChebyshevpolyV]
 5476 [http://dlmf.nist.gov/18.5.E4]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \ChebyshevpolyW [\ChebyshevpolyW]
 5477 [http://dlmf.nist.gov/18.5.E5]: Skipped - Invalid test case: Generic function F(x)
-5478 [http://dlmf.nist.gov/18.5.E6]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
+5478 [http://dlmf.nist.gov/18.5.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5479 [http://dlmf.nist.gov/18.5.E7]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5479-a [http://dlmf.nist.gov/18.5.E7]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 5480 [http://dlmf.nist.gov/18.5.E8]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
@@ -50,10 +50,10 @@ Overall: [TOTAL: 644, SKIPPED: 119, DEFINITIONS: 57, STARTED_TEST_CASES: 468, ER
 5482-a [http://dlmf.nist.gov/18.5.E10]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5483 [http://dlmf.nist.gov/18.5.E11]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5483-a [http://dlmf.nist.gov/18.5.E11]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5484 [http://dlmf.nist.gov/18.5.E12]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
+5484 [http://dlmf.nist.gov/18.5.E12]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 5484-a [http://dlmf.nist.gov/18.5.E12]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5485 [http://dlmf.nist.gov/18.5.E13]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5485-a [http://dlmf.nist.gov/18.5.E13]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
+5485-a [http://dlmf.nist.gov/18.5.E13]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5486 [https://dlmf.nist.gov/18.5#Ex1]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 5487 [https://dlmf.nist.gov/18.5#Ex2]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 5488 [https://dlmf.nist.gov/18.5#Ex3]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
@@ -96,11 +96,11 @@ Overall: [TOTAL: 644, SKIPPED: 119, DEFINITIONS: 57, STARTED_TEST_CASES: 468, ER
 5525 [https://dlmf.nist.gov/18.5#Ex40]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \dilHermitepolyHe [\dilHermitepolyHe]
 5526 [https://dlmf.nist.gov/18.5#Ex41]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \dilHermitepolyHe [\dilHermitepolyHe]
 5527 [https://dlmf.nist.gov/18.5#Ex42]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \dilHermitepolyHe [\dilHermitepolyHe]
-5528 [http://dlmf.nist.gov/18.6.E1]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
+5528 [http://dlmf.nist.gov/18.6.E1]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 5529 [http://dlmf.nist.gov/18.6.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5530 [http://dlmf.nist.gov/18.6.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5531 [http://dlmf.nist.gov/18.6.E4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5532 [http://dlmf.nist.gov/18.6.E5]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
+5532 [http://dlmf.nist.gov/18.6.E5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5533 [http://dlmf.nist.gov/18.7.E1]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5534 [http://dlmf.nist.gov/18.7.E2]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5535 [http://dlmf.nist.gov/18.7.E3]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
@@ -121,14 +121,14 @@ Overall: [TOTAL: 644, SKIPPED: 119, DEFINITIONS: 57, STARTED_TEST_CASES: 468, ER
 5548 [http://dlmf.nist.gov/18.7.E16]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5549 [http://dlmf.nist.gov/18.7.E17]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \ChebyshevpolyV [\ChebyshevpolyV]
 5550 [http://dlmf.nist.gov/18.7.E18]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \ChebyshevpolyW [\ChebyshevpolyW]
-5551 [http://dlmf.nist.gov/18.7.E19]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
-5552 [http://dlmf.nist.gov/18.7.E20]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
-5553 [http://dlmf.nist.gov/18.7.E21]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
-5554 [http://dlmf.nist.gov/18.7.E22]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
+5551 [http://dlmf.nist.gov/18.7.E19]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5552 [http://dlmf.nist.gov/18.7.E20]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5553 [http://dlmf.nist.gov/18.7.E21]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5554 [http://dlmf.nist.gov/18.7.E22]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5555 [http://dlmf.nist.gov/18.7.E23]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5556 [http://dlmf.nist.gov/18.7.E24]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5557 [http://dlmf.nist.gov/18.7.E25]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5558 [http://dlmf.nist.gov/18.7.E26]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
+5558 [http://dlmf.nist.gov/18.7.E26]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5559 [http://dlmf.nist.gov/18.9.E1]: Definition - Line is a non-semantic definition.
 5560 [https://dlmf.nist.gov/18.9#Ex1]: Skipped - no semantic math
 5561 [https://dlmf.nist.gov/18.9#Ex2]: Skipped - no semantic math
@@ -143,8 +143,8 @@ Overall: [TOTAL: 644, SKIPPED: 119, DEFINITIONS: 57, STARTED_TEST_CASES: 468, ER
 5570 [http://dlmf.nist.gov/18.9.E10]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5571 [http://dlmf.nist.gov/18.9.E11]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \ChebyshevpolyW [\ChebyshevpolyW]
 5572 [http://dlmf.nist.gov/18.9.E12]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \ChebyshevpolyW [\ChebyshevpolyW]
-5573 [http://dlmf.nist.gov/18.9.E13]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
-5574 [http://dlmf.nist.gov/18.9.E14]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
+5573 [http://dlmf.nist.gov/18.9.E13]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5574 [http://dlmf.nist.gov/18.9.E14]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5575 [http://dlmf.nist.gov/18.9.E15]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5576 [http://dlmf.nist.gov/18.9.E16]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5577 [http://dlmf.nist.gov/18.9.E17]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
@@ -153,8 +153,8 @@ Overall: [TOTAL: 644, SKIPPED: 119, DEFINITIONS: 57, STARTED_TEST_CASES: 468, ER
 5580 [http://dlmf.nist.gov/18.9.E20]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5581 [http://dlmf.nist.gov/18.9.E21]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5582 [http://dlmf.nist.gov/18.9.E22]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5583 [http://dlmf.nist.gov/18.9.E23]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
-5584 [http://dlmf.nist.gov/18.9.E24]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
+5583 [http://dlmf.nist.gov/18.9.E23]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5584 [http://dlmf.nist.gov/18.9.E24]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5585 [http://dlmf.nist.gov/18.9.E25]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 5586 [http://dlmf.nist.gov/18.9.E26]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5587 [http://dlmf.nist.gov/18.9.E27]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \dilHermitepolyHe [\dilHermitepolyHe]
@@ -162,18 +162,18 @@ Overall: [TOTAL: 644, SKIPPED: 119, DEFINITIONS: 57, STARTED_TEST_CASES: 468, ER
 5589 [http://dlmf.nist.gov/18.10.E1]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5589-a [http://dlmf.nist.gov/18.10.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5590 [http://dlmf.nist.gov/18.10.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5591 [http://dlmf.nist.gov/18.10.E3]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
+5591 [http://dlmf.nist.gov/18.10.E3]: All Aborted: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5592 [http://dlmf.nist.gov/18.10.E4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5593 [http://dlmf.nist.gov/18.10.E5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5594 [http://dlmf.nist.gov/18.10.E6]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
+5594 [http://dlmf.nist.gov/18.10.E6]: All Aborted: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5595 [http://dlmf.nist.gov/18.10.E7]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5596 [http://dlmf.nist.gov/18.10.E8]: Definition - Line is a non-semantic definition.
-5597 [http://dlmf.nist.gov/18.10.E9]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
+5597 [http://dlmf.nist.gov/18.10.E9]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5598 [http://dlmf.nist.gov/18.10.E10]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5598-a [http://dlmf.nist.gov/18.10.E10]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5599 [http://dlmf.nist.gov/18.11.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5599-a [http://dlmf.nist.gov/18.11.E1]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5600 [http://dlmf.nist.gov/18.11.E2]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
+5600 [http://dlmf.nist.gov/18.11.E2]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5600-a [http://dlmf.nist.gov/18.11.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5600-b [http://dlmf.nist.gov/18.11.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5600-c [http://dlmf.nist.gov/18.11.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
@@ -185,7 +185,7 @@ Overall: [TOTAL: 644, SKIPPED: 119, DEFINITIONS: 57, STARTED_TEST_CASES: 468, ER
 5602-b [http://dlmf.nist.gov/18.11.E4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5603 [http://dlmf.nist.gov/18.11.E5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5603-a [http://dlmf.nist.gov/18.11.E5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5604 [http://dlmf.nist.gov/18.11.E6]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
+5604 [http://dlmf.nist.gov/18.11.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5605 [http://dlmf.nist.gov/18.11.E7]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5606 [http://dlmf.nist.gov/18.11.E8]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5607 [http://dlmf.nist.gov/18.12.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
@@ -195,21 +195,21 @@ Overall: [TOTAL: 644, SKIPPED: 119, DEFINITIONS: 57, STARTED_TEST_CASES: 468, ER
 5610-a [http://dlmf.nist.gov/18.12.E4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5611 [http://dlmf.nist.gov/18.12.E5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5612 [http://dlmf.nist.gov/18.12.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5613 [http://dlmf.nist.gov/18.12.E7]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: Aborted, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5614 [http://dlmf.nist.gov/18.12.E8]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: Aborted, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5613 [http://dlmf.nist.gov/18.12.E7]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5614 [http://dlmf.nist.gov/18.12.E8]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5615 [http://dlmf.nist.gov/18.12.E9]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5616 [http://dlmf.nist.gov/18.12.E10]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: Aborted, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5616 [http://dlmf.nist.gov/18.12.E10]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5617 [http://dlmf.nist.gov/18.12.E11]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5618 [http://dlmf.nist.gov/18.12.E12]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5619 [http://dlmf.nist.gov/18.12.E13]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
-5620 [http://dlmf.nist.gov/18.12.E14]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
-5621 [http://dlmf.nist.gov/18.12.E15]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: Aborted, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5619 [http://dlmf.nist.gov/18.12.E13]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5620 [http://dlmf.nist.gov/18.12.E14]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5621 [http://dlmf.nist.gov/18.12.E15]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5622 [http://dlmf.nist.gov/18.12.E16]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \dilHermitepolyHe [\dilHermitepolyHe]
-5623 [http://dlmf.nist.gov/18.13.E1]: Skipped - no semantic math
-5624 [http://dlmf.nist.gov/18.13.E2]: Skipped - no semantic math
-5625 [http://dlmf.nist.gov/18.13.E3]: Skipped - no semantic math
-5626 [http://dlmf.nist.gov/18.13.E4]: Skipped - no semantic math
-5627 [http://dlmf.nist.gov/18.13.E5]: Skipped - no semantic math
+5623 [http://dlmf.nist.gov/18.13.E1]: Skipped - Unable to analyze test case: Null
+5624 [http://dlmf.nist.gov/18.13.E2]: Skipped - Unable to analyze test case: Null
+5625 [http://dlmf.nist.gov/18.13.E3]: Skipped - Unable to analyze test case: Null
+5626 [http://dlmf.nist.gov/18.13.E4]: Skipped - Unable to analyze test case: Null
+5627 [http://dlmf.nist.gov/18.13.E5]: Skipped - Unable to analyze test case: Null
 5628 [http://dlmf.nist.gov/18.14.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5628-a [http://dlmf.nist.gov/18.14.E1]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5629 [http://dlmf.nist.gov/18.14.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
@@ -218,28 +218,39 @@ Overall: [TOTAL: 644, SKIPPED: 119, DEFINITIONS: 57, STARTED_TEST_CASES: 468, ER
 5631-a [http://dlmf.nist.gov/18.14.E4]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5632 [http://dlmf.nist.gov/18.14.E5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5633 [http://dlmf.nist.gov/18.14.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5634 [http://dlmf.nist.gov/18.14.E7]: Skipped - Unable to analyze test case: Null
-5635 [http://dlmf.nist.gov/18.14.E8]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
-5635-a [http://dlmf.nist.gov/18.14.E8]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
+5634 [http://dlmf.nist.gov/18.14.E7]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5635 [http://dlmf.nist.gov/18.14.E8]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5635-a [http://dlmf.nist.gov/18.14.E8]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 5636 [http://dlmf.nist.gov/18.14.E9]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5637 [http://dlmf.nist.gov/18.14.E10]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5638 [http://dlmf.nist.gov/18.14.E11]: Skipped - no semantic math
-5639 [http://dlmf.nist.gov/18.14.E12]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
+5639 [http://dlmf.nist.gov/18.14.E12]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5640 [http://dlmf.nist.gov/18.14.E13]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5641 [http://dlmf.nist.gov/18.14.E14]: Skipped - no semantic math
+5641-a [http://dlmf.nist.gov/18.14.E14]: Skipped - no semantic math
+5641-b [http://dlmf.nist.gov/18.14.E14]: Skipped - no semantic math
+5641-c [http://dlmf.nist.gov/18.14.E14]: Skipped - no semantic math
+5641-d [http://dlmf.nist.gov/18.14.E14]: Skipped - no semantic math
+5641-e [http://dlmf.nist.gov/18.14.E14]: Skipped - no semantic math
 5642 [http://dlmf.nist.gov/18.14.E15]: Skipped - no semantic math
 5643 [https://dlmf.nist.gov/18.14#Ex1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5644 [https://dlmf.nist.gov/18.14#Ex2]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
+5644 [https://dlmf.nist.gov/18.14#Ex2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5645 [https://dlmf.nist.gov/18.14#Ex3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5646 [https://dlmf.nist.gov/18.14#Ex4]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
+5646 [https://dlmf.nist.gov/18.14#Ex4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5647 [http://dlmf.nist.gov/18.14.E18]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5648 [http://dlmf.nist.gov/18.14.E19]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5649 [http://dlmf.nist.gov/18.14.E20]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5650 [http://dlmf.nist.gov/18.14.E21]: Skipped - no semantic math
+5650-a [http://dlmf.nist.gov/18.14.E21]: Skipped - no semantic math
+5650-b [http://dlmf.nist.gov/18.14.E21]: Skipped - no semantic math
+5650-c [http://dlmf.nist.gov/18.14.E21]: Skipped - no semantic math
+5650-d [http://dlmf.nist.gov/18.14.E21]: Skipped - no semantic math
+5650-e [http://dlmf.nist.gov/18.14.E21]: Skipped - no semantic math
 5651 [http://dlmf.nist.gov/18.14.E22]: Skipped - no semantic math
-5652 [https://dlmf.nist.gov/18.14#Ex5]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
-5653 [https://dlmf.nist.gov/18.14#Ex6]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
-5654 [http://dlmf.nist.gov/18.14.E24]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
+5651-a [http://dlmf.nist.gov/18.14.E22]: Skipped - no semantic math
+5652 [https://dlmf.nist.gov/18.14#Ex5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5653 [https://dlmf.nist.gov/18.14#Ex6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5654 [http://dlmf.nist.gov/18.14.E24]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5655 [http://dlmf.nist.gov/18.15.E1]: Skipped - Invalid test case: bigO
 5656 [http://dlmf.nist.gov/18.15.E2]: Definition - Line is a non-semantic definition.
 5657 [http://dlmf.nist.gov/18.15.E3]: Definition - Line is a non-semantic definition.
@@ -274,14 +285,24 @@ Overall: [TOTAL: 644, SKIPPED: 119, DEFINITIONS: 57, STARTED_TEST_CASES: 468, ER
 5686 [http://dlmf.nist.gov/18.15.E27]: Skipped - Invalid test case: bigO
 5687 [http://dlmf.nist.gov/18.15.E28]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5688 [http://dlmf.nist.gov/18.16.E1]: Skipped - no semantic math
+5688-a [http://dlmf.nist.gov/18.16.E1]: Skipped - no semantic math
+5688-b [http://dlmf.nist.gov/18.16.E1]: Skipped - no semantic math
+5688-c [http://dlmf.nist.gov/18.16.E1]: Skipped - no semantic math
+5688-d [http://dlmf.nist.gov/18.16.E1]: Skipped - no semantic math
 5689 [http://dlmf.nist.gov/18.16.E2]: Skipped - no semantic math
+5689-a [http://dlmf.nist.gov/18.16.E2]: Skipped - no semantic math
 5690 [http://dlmf.nist.gov/18.16.E3]: Skipped - no semantic math
+5690-a [http://dlmf.nist.gov/18.16.E3]: Skipped - no semantic math
 5691 [http://dlmf.nist.gov/18.16.E4]: Skipped - no semantic math
+5691-a [http://dlmf.nist.gov/18.16.E4]: Skipped - no semantic math
 5692 [http://dlmf.nist.gov/18.16.E5]: Skipped - no semantic math
 5693 [http://dlmf.nist.gov/18.16.E6]: Skipped - no semantic math
 5694 [http://dlmf.nist.gov/18.16.E7]: Skipped - no semantic math
 5695 [http://dlmf.nist.gov/18.16.E8]: Skipped - Invalid test case: bigO
 5696 [http://dlmf.nist.gov/18.16.E9]: Skipped - no semantic math
+5696-a [http://dlmf.nist.gov/18.16.E9]: Skipped - no semantic math
+5696-b [http://dlmf.nist.gov/18.16.E9]: Skipped - no semantic math
+5696-c [http://dlmf.nist.gov/18.16.E9]: Skipped - no semantic math
 5697 [http://dlmf.nist.gov/18.16.E10]: Skipped - no semantic math
 5698 [http://dlmf.nist.gov/18.16.E11]: Skipped - no semantic math
 5699 [http://dlmf.nist.gov/18.16.E12]: Skipped - no semantic math
@@ -296,19 +317,19 @@ Overall: [TOTAL: 644, SKIPPED: 119, DEFINITIONS: 57, STARTED_TEST_CASES: 468, ER
 5706 [http://dlmf.nist.gov/18.17.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5707 [http://dlmf.nist.gov/18.17.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5707-a [http://dlmf.nist.gov/18.17.E2]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5708 [http://dlmf.nist.gov/18.17.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NULL, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5708 [http://dlmf.nist.gov/18.17.E3]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5709 [http://dlmf.nist.gov/18.17.E4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5710 [http://dlmf.nist.gov/18.17.E5]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
+5710 [http://dlmf.nist.gov/18.17.E5]: All Aborted: []
 5711 [http://dlmf.nist.gov/18.17.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5712 [http://dlmf.nist.gov/18.17.E7]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5713 [http://dlmf.nist.gov/18.17.E8]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5714 [http://dlmf.nist.gov/18.17.E9]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5715 [http://dlmf.nist.gov/18.17.E10]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5716 [http://dlmf.nist.gov/18.17.E11]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5717 [http://dlmf.nist.gov/18.17.E12]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
+5717 [http://dlmf.nist.gov/18.17.E12]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5718 [http://dlmf.nist.gov/18.17.E13]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5719 [http://dlmf.nist.gov/18.17.E14]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
-5720 [http://dlmf.nist.gov/18.17.E15]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
+5719 [http://dlmf.nist.gov/18.17.E14]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5720 [http://dlmf.nist.gov/18.17.E15]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5721 [http://dlmf.nist.gov/18.17.E16]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5722 [http://dlmf.nist.gov/18.17.E17]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5723 [http://dlmf.nist.gov/18.17.E18]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
@@ -322,25 +343,25 @@ Overall: [TOTAL: 644, SKIPPED: 119, DEFINITIONS: 57, STARTED_TEST_CASES: 468, ER
 5731 [http://dlmf.nist.gov/18.17.E26]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \dilHermitepolyHe [\dilHermitepolyHe]
 5732 [http://dlmf.nist.gov/18.17.E27]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \dilHermitepolyHe [\dilHermitepolyHe]
 5733 [http://dlmf.nist.gov/18.17.E28]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \dilHermitepolyHe [\dilHermitepolyHe]
-5734 [http://dlmf.nist.gov/18.17.E29]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
-5735 [http://dlmf.nist.gov/18.17.E30]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
-5736 [http://dlmf.nist.gov/18.17.E31]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
-5737 [http://dlmf.nist.gov/18.17.E32]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
+5734 [http://dlmf.nist.gov/18.17.E29]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \dilHermitepolyHe [\dilHermitepolyHe]
+5735 [http://dlmf.nist.gov/18.17.E30]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5736 [http://dlmf.nist.gov/18.17.E31]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5737 [http://dlmf.nist.gov/18.17.E32]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5738 [http://dlmf.nist.gov/18.17.E33]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5739 [http://dlmf.nist.gov/18.17.E34]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
+5739 [http://dlmf.nist.gov/18.17.E34]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5740 [http://dlmf.nist.gov/18.17.E35]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5741 [http://dlmf.nist.gov/18.17.E36]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5742 [http://dlmf.nist.gov/18.17.E37]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5743 [http://dlmf.nist.gov/18.17.E38]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5744 [http://dlmf.nist.gov/18.17.E39]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5745 [http://dlmf.nist.gov/18.17.E40]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
+5745 [http://dlmf.nist.gov/18.17.E40]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5746 [http://dlmf.nist.gov/18.17.E41]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \dilHermitepolyHe [\dilHermitepolyHe]
 5747 [http://dlmf.nist.gov/18.17.E42]: Missing Macro Error - (LaTeX -> Maple) Unknown LaTeX Command: Reached unknown latex-command \pvint [\pvint]
 5748 [http://dlmf.nist.gov/18.17.E43]: Missing Macro Error - (LaTeX -> Maple) Unknown LaTeX Command: Reached unknown latex-command \pvint [\pvint]
 5749 [http://dlmf.nist.gov/18.17.E44]: Skipped - Invalid test case: dots
 5750 [http://dlmf.nist.gov/18.17.E45]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5751 [http://dlmf.nist.gov/18.17.E46]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5752 [http://dlmf.nist.gov/18.17.E47]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
+5752 [http://dlmf.nist.gov/18.17.E47]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5753 [http://dlmf.nist.gov/18.17.E48]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5754 [http://dlmf.nist.gov/18.17.E49]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5755 [http://dlmf.nist.gov/18.18.E1]: Definition - Line is a non-semantic definition.
@@ -351,17 +372,17 @@ Overall: [TOTAL: 644, SKIPPED: 119, DEFINITIONS: 57, STARTED_TEST_CASES: 468, ER
 5760 [http://dlmf.nist.gov/18.18.E6]: Skipped - Invalid test case: Generic function f(x)
 5761 [http://dlmf.nist.gov/18.18.E7]: Definition - Line is a non-semantic definition.
 5762 [http://dlmf.nist.gov/18.18.E8]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5763 [http://dlmf.nist.gov/18.18.E9]: Failure [Simple: NaN, ConvEXP: Aborted, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5763 [http://dlmf.nist.gov/18.18.E9]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5764 [http://dlmf.nist.gov/18.18.E10]: Skipped - Invalid test case: dots
 5765 [http://dlmf.nist.gov/18.18.E11]: Skipped - Invalid test case: dots
-5766 [http://dlmf.nist.gov/18.18.E12]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
+5766 [http://dlmf.nist.gov/18.18.E12]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5767 [http://dlmf.nist.gov/18.18.E13]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5768 [http://dlmf.nist.gov/18.18.E14]: Failure [Simple: Aborted, ConvEXP: Aborted, ConvHYP: NaN, EXP: Aborted, EXP+EXP: NaN, EXP+HYP: NaN]
-5769 [http://dlmf.nist.gov/18.18.E15]: Failure [Simple: Aborted, ConvEXP: Aborted, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5770 [http://dlmf.nist.gov/18.18.E16]: Failure [Simple: Aborted, ConvEXP: Aborted, ConvHYP: NaN, EXP: Aborted, EXP+EXP: NaN, EXP+HYP: NaN]
+5768 [http://dlmf.nist.gov/18.18.E14]: All Aborted: []
+5769 [http://dlmf.nist.gov/18.18.E15]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5770 [http://dlmf.nist.gov/18.18.E16]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5771 [http://dlmf.nist.gov/18.18.E17]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5772 [http://dlmf.nist.gov/18.18.E18]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
-5773 [http://dlmf.nist.gov/18.18.E19]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
+5772 [http://dlmf.nist.gov/18.18.E18]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5773 [http://dlmf.nist.gov/18.18.E19]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5774 [http://dlmf.nist.gov/18.18.E20]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5775 [http://dlmf.nist.gov/18.18.E21]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5776 [http://dlmf.nist.gov/18.18.E22]: Translation Error - (LaTeX -> Maple) No translation possible for given token: Unable to identify interval of SUM
@@ -369,8 +390,8 @@ Overall: [TOTAL: 644, SKIPPED: 119, DEFINITIONS: 57, STARTED_TEST_CASES: 468, ER
 5778 [http://dlmf.nist.gov/18.18.E24]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5779 [http://dlmf.nist.gov/18.18.E25]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5780 [http://dlmf.nist.gov/18.18.E26]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5781 [http://dlmf.nist.gov/18.18.E27]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
-5782 [http://dlmf.nist.gov/18.18.E28]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NULL, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5781 [http://dlmf.nist.gov/18.18.E27]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5782 [http://dlmf.nist.gov/18.18.E28]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5783 [http://dlmf.nist.gov/18.18.E29]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5784 [http://dlmf.nist.gov/18.18.E30]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5785 [http://dlmf.nist.gov/18.18.E31]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
@@ -379,21 +400,21 @@ Overall: [TOTAL: 644, SKIPPED: 119, DEFINITIONS: 57, STARTED_TEST_CASES: 468, ER
 5788 [http://dlmf.nist.gov/18.18.E34]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5789 [http://dlmf.nist.gov/18.18.E35]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5790 [http://dlmf.nist.gov/18.18.E36]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5791 [http://dlmf.nist.gov/18.18.E37]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
-5792 [http://dlmf.nist.gov/18.18.E38]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \LaguerrepolyL [\LaguerrepolyL]
+5791 [http://dlmf.nist.gov/18.18.E37]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5792 [http://dlmf.nist.gov/18.18.E38]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5793 [http://dlmf.nist.gov/18.18.E39]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5794 [http://dlmf.nist.gov/18.18.E40]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5795 [http://dlmf.nist.gov/18.19.E1]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \contHahnpolyp [\contHahnpolyp]
-5796 [http://dlmf.nist.gov/18.19.E2]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty math term tag
-5797 [http://dlmf.nist.gov/18.19.E3]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty math term tag
-5797-a [http://dlmf.nist.gov/18.19.E3]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty math term tag
-5798 [http://dlmf.nist.gov/18.19.E4]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty expression tag
+5796 [http://dlmf.nist.gov/18.19.E2]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5797 [http://dlmf.nist.gov/18.19.E3]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5797-a [http://dlmf.nist.gov/18.19.E3]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5798 [http://dlmf.nist.gov/18.19.E4]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
 5799 [http://dlmf.nist.gov/18.19.E5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5800 [http://dlmf.nist.gov/18.19.E6]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \MeixnerPollaczekpolyP [\MeixnerPollaczekpolyP]
-5801 [http://dlmf.nist.gov/18.19.E7]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty math term tag
-5802 [http://dlmf.nist.gov/18.19.E8]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty math term tag
-5802-a [http://dlmf.nist.gov/18.19.E8]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty math term tag
-5803 [https://dlmf.nist.gov/18.19#Ex1]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty expression tag
+5801 [http://dlmf.nist.gov/18.19.E7]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5802 [http://dlmf.nist.gov/18.19.E8]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5802-a [http://dlmf.nist.gov/18.19.E8]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5803 [https://dlmf.nist.gov/18.19#Ex1]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
 5804 [https://dlmf.nist.gov/18.19#Ex2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5805 [http://dlmf.nist.gov/18.20.E1]: Skipped - Invalid test case: Generic function F(x+\ell)
 5806 [https://dlmf.nist.gov/18.20#Ex1]: Definition - Line is a non-semantic definition.
@@ -425,7 +446,7 @@ Overall: [TOTAL: 644, SKIPPED: 119, DEFINITIONS: 57, STARTED_TEST_CASES: 468, ER
 5832 [https://dlmf.nist.gov/18.22#Ex1]: Definition - Line is a non-semantic definition.
 5833 [https://dlmf.nist.gov/18.22#Ex2]: Definition - Line is a non-semantic definition.
 5834 [http://dlmf.nist.gov/18.22.E4]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \contHahnpolyp [\contHahnpolyp]
-5835 [http://dlmf.nist.gov/18.22.E5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5835 [http://dlmf.nist.gov/18.22.E5]: Translation Error - (LaTeX -> Maple) No translation possible for given token: Accents are not supported.
 5836 [https://dlmf.nist.gov/18.22#Ex3]: Definition - Line is a non-semantic definition.
 5837 [https://dlmf.nist.gov/18.22#Ex4]: Definition - Line is a non-semantic definition.
 5838 [http://dlmf.nist.gov/18.22.E7]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \MeixnerPollaczekpolyP [\MeixnerPollaczekpolyP]
@@ -444,13 +465,13 @@ Overall: [TOTAL: 644, SKIPPED: 119, DEFINITIONS: 57, STARTED_TEST_CASES: 468, ER
 5851 [https://dlmf.nist.gov/18.22#Ex9]: Definition - Line is a non-semantic definition.
 5852 [https://dlmf.nist.gov/18.22#Ex10]: Definition - Line is a non-semantic definition.
 5853 [http://dlmf.nist.gov/18.22.E19]: Skipped - Invalid test case: fDiff
-5854 [http://dlmf.nist.gov/18.22.E20]: Translation Error - java.lang.NullPointerException [5854: \bDiff[x]\left(\frac{\Pochhammersym{\alpha+1}{x}\Pochhammersym{\beta+1}{N-x}}{x!(N-x)!}\HahnpolyQ{n}@{x}{\alpha}{\beta}{N}\right) EQUAL \frac{N+1}{\beta}\frac{\Pochhammersym{\alpha}{x}\Pochhammersym{\beta}{N+1-x}}{x!(N+1-x)!}*\HahnpolyQ{n+1}@{x}{\alpha-1}{\beta-1}{N+1}; http://dlmf.nist.gov/18.22.E20]
+5854 [http://dlmf.nist.gov/18.22.E20]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \bDiff [\bDiff]
 5855 [http://dlmf.nist.gov/18.22.E21]: Skipped - Invalid test case: fDiff
-5856 [http://dlmf.nist.gov/18.22.E22]: Translation Error - java.lang.NullPointerException [5856: \bDiff[x]\left(\binom{N}{x}p^{x}(1-p)^{N-x}\KrawtchoukpolyK{n}@{x}{p}{N}\right) EQUAL \binom{N+1}{x}p^{x}{(1-p)^{N-x}}\KrawtchoukpolyK{n+1}@{x}{p}{N+1}; http://dlmf.nist.gov/18.22.E22]
+5856 [http://dlmf.nist.gov/18.22.E22]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \bDiff [\bDiff]
 5857 [http://dlmf.nist.gov/18.22.E23]: Skipped - Invalid test case: fDiff
-5858 [http://dlmf.nist.gov/18.22.E24]: Translation Error - java.lang.NullPointerException [5858: \bDiff[x]\left(\frac{\Pochhammersym{\beta}{x}c^{x}}{x!}\MeixnerpolyM{n}@{x}{\beta}{c}\right) EQUAL \frac{\Pochhammersym{\beta-1}{x}c^{x}}{x!}\MeixnerpolyM{n+1}@{x}{\beta-1}{c}; http://dlmf.nist.gov/18.22.E24]
+5858 [http://dlmf.nist.gov/18.22.E24]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \bDiff [\bDiff]
 5859 [http://dlmf.nist.gov/18.22.E25]: Skipped - Invalid test case: fDiff
-5860 [http://dlmf.nist.gov/18.22.E26]: Translation Error - java.lang.NullPointerException [5860: \bDiff[x]\left(\frac{a^{x}}{x!}\CharlierpolyC{n}@{x}{a}\right) EQUAL \frac{a^{x}}{x!}\CharlierpolyC{n+1}@{x}{a}; http://dlmf.nist.gov/18.22.E26]
+5860 [http://dlmf.nist.gov/18.22.E26]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \bDiff [\bDiff]
 5861 [http://dlmf.nist.gov/18.22.E27]: Skipped - Invalid test case: cDiff
 5862 [http://dlmf.nist.gov/18.22.E28]: Skipped - Invalid test case: cDiff
 5863 [http://dlmf.nist.gov/18.22.E29]: Skipped - Invalid test case: cDiff
@@ -463,27 +484,39 @@ Overall: [TOTAL: 644, SKIPPED: 119, DEFINITIONS: 57, STARTED_TEST_CASES: 468, ER
 5870 [http://dlmf.nist.gov/18.23.E6]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \contHahnpolyp [\contHahnpolyp]
 5871 [http://dlmf.nist.gov/18.23.E7]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \MeixnerPollaczekpolyP [\MeixnerPollaczekpolyP]
 5872 [https://dlmf.nist.gov/18.25#Ex1]: Skipped - no semantic math
+5872-a [https://dlmf.nist.gov/18.25#Ex1]: Skipped - no semantic math
+5872-b [https://dlmf.nist.gov/18.25#Ex1]: Skipped - no semantic math
 5873 [https://dlmf.nist.gov/18.25#Ex2]: Skipped - no semantic math
+5873-a [https://dlmf.nist.gov/18.25#Ex2]: Skipped - no semantic math
+5873-b [https://dlmf.nist.gov/18.25#Ex2]: Skipped - no semantic math
 5874 [https://dlmf.nist.gov/18.25#Ex3]: Skipped - no semantic math
+5874-a [https://dlmf.nist.gov/18.25#Ex3]: Skipped - no semantic math
 5875 [https://dlmf.nist.gov/18.25#Ex4]: Skipped - no semantic math
+5875-a [https://dlmf.nist.gov/18.25#Ex4]: Skipped - no semantic math
 5876 [https://dlmf.nist.gov/18.25#Ex5]: Skipped - no semantic math
+5876-a [https://dlmf.nist.gov/18.25#Ex5]: Skipped - no semantic math
+5876-b [https://dlmf.nist.gov/18.25#Ex5]: Skipped - no semantic math
 5877 [https://dlmf.nist.gov/18.25#Ex6]: Skipped - no semantic math
+5877-a [https://dlmf.nist.gov/18.25#Ex6]: Skipped - no semantic math
+5877-b [https://dlmf.nist.gov/18.25#Ex6]: Skipped - no semantic math
 5878 [https://dlmf.nist.gov/18.25#Ex7]: Skipped - no semantic math
+5878-a [https://dlmf.nist.gov/18.25#Ex7]: Skipped - no semantic math
 5879 [https://dlmf.nist.gov/18.25#Ex8]: Skipped - no semantic math
-5880 [http://dlmf.nist.gov/18.25.E2]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty expression tag
+5879-a [https://dlmf.nist.gov/18.25#Ex8]: Skipped - no semantic math
+5880 [http://dlmf.nist.gov/18.25.E2]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
 5881 [http://dlmf.nist.gov/18.25.E3]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \WilsonpolyW [\WilsonpolyW]
 5882 [http://dlmf.nist.gov/18.25.E4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5883 [http://dlmf.nist.gov/18.25.E5]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty expression tag
+5883 [http://dlmf.nist.gov/18.25.E5]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
 5884 [http://dlmf.nist.gov/18.25.E6]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \contdualHahnpolyS [\contdualHahnpolyS]
 5885 [http://dlmf.nist.gov/18.25.E7]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5886 [http://dlmf.nist.gov/18.25.E8]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty expression tag
-5887 [http://dlmf.nist.gov/18.25.E9]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty expression tag
+5886 [http://dlmf.nist.gov/18.25.E8]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
+5887 [http://dlmf.nist.gov/18.25.E9]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
 5888 [http://dlmf.nist.gov/18.25.E10]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \RacahpolyR [\RacahpolyR]
 5889 [http://dlmf.nist.gov/18.25.E11]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5890 [http://dlmf.nist.gov/18.25.E12]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty expression tag
+5890 [http://dlmf.nist.gov/18.25.E12]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
 5891 [http://dlmf.nist.gov/18.25.E13]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \dualHahnpolyR [\dualHahnpolyR]
 5892 [http://dlmf.nist.gov/18.25.E14]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5893 [http://dlmf.nist.gov/18.25.E15]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty expression tag
+5893 [http://dlmf.nist.gov/18.25.E15]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
 5894 [http://dlmf.nist.gov/18.26.E1]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \WilsonpolyW [\WilsonpolyW]
 5895 [http://dlmf.nist.gov/18.26.E2]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \contdualHahnpolyS [\contdualHahnpolyS]
 5896 [http://dlmf.nist.gov/18.26.E3]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \RacahpolyR [\RacahpolyR]
@@ -509,7 +542,7 @@ Overall: [TOTAL: 644, SKIPPED: 119, DEFINITIONS: 57, STARTED_TEST_CASES: 468, ER
 5916 [http://dlmf.nist.gov/18.27.E2]: Definition - Line is a non-semantic definition.
 5917 [http://dlmf.nist.gov/18.27.E3]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \qHahnpolyQ [\qHahnpolyQ]
 5917-a [http://dlmf.nist.gov/18.27.E3]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \qHahnpolyQ [\qHahnpolyQ]
-5918 [http://dlmf.nist.gov/18.27.E4]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty math term tag
+5918 [http://dlmf.nist.gov/18.27.E4]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
 5919 [http://dlmf.nist.gov/18.27.E5]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \bigqJacobipolyP [\bigqJacobipolyP]
 5920 [http://dlmf.nist.gov/18.27.E6]: Definition - Line is a non-semantic definition.
 5921 [http://dlmf.nist.gov/18.27.E7]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \bigqJacobipolyP [\bigqJacobipolyP]
@@ -520,7 +553,7 @@ Overall: [TOTAL: 644, SKIPPED: 119, DEFINITIONS: 57, STARTED_TEST_CASES: 468, ER
 5926 [http://dlmf.nist.gov/18.27.E12]: Skipped - no semantic math
 5927 [http://dlmf.nist.gov/18.27.E13]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \littleqJacobipolyp [\littleqJacobipolyp]
 5927-a [http://dlmf.nist.gov/18.27.E13]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \littleqJacobipolyp [\littleqJacobipolyp]
-5928 [http://dlmf.nist.gov/18.27.E14]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty expression tag
+5928 [http://dlmf.nist.gov/18.27.E14]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
 5929 [http://dlmf.nist.gov/18.27.E15]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \qLaguerrepolyL [\qLaguerrepolyL]
 5930 [http://dlmf.nist.gov/18.27.E16]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \qLaguerrepolyL [\qLaguerrepolyL]
 5931 [http://dlmf.nist.gov/18.27.E17]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \qLaguerrepolyL [\qLaguerrepolyL]
@@ -537,25 +570,25 @@ Overall: [TOTAL: 644, SKIPPED: 119, DEFINITIONS: 57, STARTED_TEST_CASES: 468, ER
 5939 [http://dlmf.nist.gov/18.28.E1]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \AskeyWilsonpolyp [\AskeyWilsonpolyp]
 5939-a [http://dlmf.nist.gov/18.28.E1]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \AskeyWilsonpolyp [\AskeyWilsonpolyp]
 5939-b [http://dlmf.nist.gov/18.28.E1]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \qmultiPochhammersym [\qmultiPochhammersym]
-5940 [http://dlmf.nist.gov/18.28.E2]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty expression tag
+5940 [http://dlmf.nist.gov/18.28.E2]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
 5941 [http://dlmf.nist.gov/18.28.E3]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \qmultiPochhammersym [\qmultiPochhammersym]
 5942 [http://dlmf.nist.gov/18.28.E4]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \qmultiPochhammersym [\qmultiPochhammersym]
-5943 [http://dlmf.nist.gov/18.28.E5]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty expression tag
-5944 [http://dlmf.nist.gov/18.28.E6]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty expression tag
+5943 [http://dlmf.nist.gov/18.28.E5]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
+5944 [http://dlmf.nist.gov/18.28.E6]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
 5945 [http://dlmf.nist.gov/18.28.E7]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \AlSalamChiharapolyQ [\AlSalamChiharapolyQ]
 5945-a [http://dlmf.nist.gov/18.28.E7]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \AskeyWilsonpolyp [\AskeyWilsonpolyp]
 5945-b [http://dlmf.nist.gov/18.28.E7]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \qgenhyperphi [\qgenhyperphi]
 5945-c [http://dlmf.nist.gov/18.28.E7]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \qgenhyperphi [\qgenhyperphi]
 5946 [http://dlmf.nist.gov/18.28.E8]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \AlSalamChiharapolyQ [\AlSalamChiharapolyQ]
-5947 [http://dlmf.nist.gov/18.28.E9]: Missing Macro Error - (LaTeX -> Maple) Unknown LaTeX Command: Reached unknown latex-command \qinvAlSalamChiharapolyQ [\qinvAlSalamChiharapolyQ]
+5947 [http://dlmf.nist.gov/18.28.E9]: Definition - Line is a non-semantic definition.
 5948 [http://dlmf.nist.gov/18.28.E10]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \qmultiPochhammersym [\qmultiPochhammersym]
 5949 [http://dlmf.nist.gov/18.28.E11]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5949-a [http://dlmf.nist.gov/18.28.E11]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5949-b [http://dlmf.nist.gov/18.28.E11]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
+5949-a [http://dlmf.nist.gov/18.28.E11]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5949-b [http://dlmf.nist.gov/18.28.E11]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5949-c [http://dlmf.nist.gov/18.28.E11]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5950 [http://dlmf.nist.gov/18.28.E12]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5950-a [http://dlmf.nist.gov/18.28.E12]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5950-b [http://dlmf.nist.gov/18.28.E12]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
+5950-a [http://dlmf.nist.gov/18.28.E12]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5950-b [http://dlmf.nist.gov/18.28.E12]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5950-c [http://dlmf.nist.gov/18.28.E12]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5951 [http://dlmf.nist.gov/18.28.E13]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \contqultrasphpoly [\contqultrasphpoly]
 5951-a [http://dlmf.nist.gov/18.28.E13]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \qgenhyperphi [\qgenhyperphi]
@@ -568,7 +601,7 @@ Overall: [TOTAL: 644, SKIPPED: 119, DEFINITIONS: 57, STARTED_TEST_CASES: 468, ER
 5956-a [http://dlmf.nist.gov/18.28.E18]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \qgenhyperphi [\qgenhyperphi]
 5956-b [http://dlmf.nist.gov/18.28.E18]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \qgenhyperphi [\qgenhyperphi]
 5957 [http://dlmf.nist.gov/18.28.E19]: Definition - Line is a non-semantic definition.
-5958 [http://dlmf.nist.gov/18.28.E20]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5958 [http://dlmf.nist.gov/18.28.E20]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5959 [http://dlmf.nist.gov/18.29.E1]: Skipped - Unable to analyze test case: Null
 5960 [http://dlmf.nist.gov/18.29.E2]: Skipped - Unable to analyze test case: Null
 5961 [http://dlmf.nist.gov/18.30.E1]: Skipped - no semantic math
@@ -579,35 +612,37 @@ Overall: [TOTAL: 644, SKIPPED: 119, DEFINITIONS: 57, STARTED_TEST_CASES: 468, ER
 5966 [http://dlmf.nist.gov/18.30.E5]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \assJacobipolyP [\assJacobipolyP]
 5967 [http://dlmf.nist.gov/18.30.E6]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \assLegendrepoly [\assLegendrepoly]
 5968 [http://dlmf.nist.gov/18.30.E7]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \assLegendrepoly [\assLegendrepoly]
-5969 [http://dlmf.nist.gov/18.32.E1]: Skipped - Unable to analyze test case: Null
+5969 [http://dlmf.nist.gov/18.32.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5970 [http://dlmf.nist.gov/18.33.E1]: Translation Error - (LaTeX -> Maple) No translation possible for given token: Unable to identify interval of INT
 5971 [http://dlmf.nist.gov/18.33.E2]: Skipped - no semantic math
-5972 [http://dlmf.nist.gov/18.33.E3]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
-5972-a [http://dlmf.nist.gov/18.33.E3]: All Aborted: [Simple: Aborted, ConvEXP: Aborted, ConvHYP: Aborted, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: Aborted]
+5972 [http://dlmf.nist.gov/18.33.E3]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5972-a [http://dlmf.nist.gov/18.33.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5973 [http://dlmf.nist.gov/18.33.E4]: Skipped - no semantic math
 5974 [http://dlmf.nist.gov/18.33.E5]: Skipped - no semantic math
 5975 [http://dlmf.nist.gov/18.33.E6]: Skipped - no semantic math
 5976 [https://dlmf.nist.gov/18.33#Ex1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5977 [https://dlmf.nist.gov/18.33#Ex2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5978 [http://dlmf.nist.gov/18.33.E8]: Skipped - no semantic math
+5978-a [http://dlmf.nist.gov/18.33.E8]: Skipped - no semantic math
 5979 [http://dlmf.nist.gov/18.33.E9]: Skipped - no semantic math
+5979-a [http://dlmf.nist.gov/18.33.E9]: Skipped - no semantic math
 5980 [http://dlmf.nist.gov/18.33.E10]: Skipped - no semantic math
 5981 [http://dlmf.nist.gov/18.33.E11]: Skipped - no semantic math
 5982 [https://dlmf.nist.gov/18.33#Ex3]: Skipped - no semantic math
 5983 [https://dlmf.nist.gov/18.33#Ex4]: Skipped - no semantic math
-5984 [http://dlmf.nist.gov/18.33.E13]: All Aborted: [Simple: Aborted, ConvEXP: Aborted, ConvHYP: Aborted, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: Aborted]
-5984-a [http://dlmf.nist.gov/18.33.E13]: All Aborted: [Simple: Aborted, ConvEXP: Aborted, ConvHYP: Aborted, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: Aborted]
+5984 [http://dlmf.nist.gov/18.33.E13]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5984-a [http://dlmf.nist.gov/18.33.E13]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5985 [https://dlmf.nist.gov/18.33#Ex5]: Skipped - no semantic math
 5986 [https://dlmf.nist.gov/18.33#Ex6]: Skipped - no semantic math
 5987 [https://dlmf.nist.gov/18.33#Ex7]: Skipped - no semantic math
-5988 [http://dlmf.nist.gov/18.33.E15]: All Aborted: [Simple: Aborted, ConvEXP: Aborted, ConvHYP: Aborted, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: Aborted]
+5988 [http://dlmf.nist.gov/18.33.E15]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5988-a [http://dlmf.nist.gov/18.33.E15]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \qgenhyperphi [\qgenhyperphi]
 5989 [http://dlmf.nist.gov/18.33.E16]: Missing Macro Error - (LaTeX -> Maple) Unknown LaTeX Command: Reached unknown latex-command \Bigm [\Bigm]
 5990 [http://dlmf.nist.gov/18.34.E1]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Besselpolyy [\Besselpolyy]
-5990-a [http://dlmf.nist.gov/18.34.E1]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
+5990-a [http://dlmf.nist.gov/18.34.E1]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5991 [https://dlmf.nist.gov/18.34#Ex1]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Besselpolyy [\Besselpolyy]
 5992 [https://dlmf.nist.gov/18.34#Ex2]: Skipped - no semantic math
-5993 [https://dlmf.nist.gov/18.34#Ex3]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty math term tag
+5993 [https://dlmf.nist.gov/18.34#Ex3]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Besselpolyy [\Besselpolyy]
 5994 [https://dlmf.nist.gov/18.34#Ex4]: Skipped - no semantic math
 5995 [http://dlmf.nist.gov/18.34.E4]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Besselpolyy [\Besselpolyy]
 5996 [https://dlmf.nist.gov/18.34#Ex5]: Definition - Line is a non-semantic definition.
@@ -621,9 +656,9 @@ Overall: [TOTAL: 644, SKIPPED: 119, DEFINITIONS: 57, STARTED_TEST_CASES: 468, ER
 6004 [http://dlmf.nist.gov/18.35.E2]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \PollaczekpolyP [\PollaczekpolyP]
 6005 [http://dlmf.nist.gov/18.35.E3]: Definition - Line is a non-semantic definition.
 6006 [http://dlmf.nist.gov/18.35.E4]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \PollaczekpolyP [\PollaczekpolyP]
-6006-a [http://dlmf.nist.gov/18.35.E4]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
-6007 [http://dlmf.nist.gov/18.35.E5]: Skipped - Unable to analyze test case: Null
-6008 [http://dlmf.nist.gov/18.35.E6]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty math term tag
+6006-a [http://dlmf.nist.gov/18.35.E4]: All Aborted: []
+6007 [http://dlmf.nist.gov/18.35.E5]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \PollaczekpolyP [\PollaczekpolyP]
+6008 [http://dlmf.nist.gov/18.35.E6]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 6009 [http://dlmf.nist.gov/18.35.E7]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \PollaczekpolyP [\PollaczekpolyP]
 6010 [http://dlmf.nist.gov/18.35.E8]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \PollaczekpolyP [\PollaczekpolyP]
 6011 [http://dlmf.nist.gov/18.35.E9]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \PollaczekpolyP [\PollaczekpolyP]
@@ -635,7 +670,7 @@ Overall: [TOTAL: 644, SKIPPED: 119, DEFINITIONS: 57, STARTED_TEST_CASES: 468, ER
 6017 [http://dlmf.nist.gov/18.37.E6]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \diskpoly [\diskpoly]
 6018 [http://dlmf.nist.gov/18.37.E7]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \trianglepoly [\trianglepoly]
 6019 [http://dlmf.nist.gov/18.37.E8]: Missing Macro Error - (LaTeX -> Maple) Unknown LaTeX Command: Reached unknown latex-command \limits [\limits]
-6020 [http://dlmf.nist.gov/18.38.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NULL, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+6020 [http://dlmf.nist.gov/18.38.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 6021 [http://dlmf.nist.gov/18.38.E2]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Unable to identify argument of differentiation (empty argument pre and post \deriv macro).
 6022 [http://dlmf.nist.gov/18.38.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 6023 [http://dlmf.nist.gov/18.39.E1]: Missing Macro Error - (LaTeX -> Maple) Unknown LaTeX Command: Reached unknown latex-command \hbar [\hbar]

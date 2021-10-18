@@ -1,6 +1,0 @@
-\Riemannthetachar, 16
-\transpose, 2
-\diff, 1
-\det, 1
-\oint, 1
-\scRiemanntheta, 1

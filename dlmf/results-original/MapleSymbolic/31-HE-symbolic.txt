@@ -1,4 +1,4 @@
-Overall: [TOTAL: 182, SKIPPED: 78, DEFINITIONS: 69, STARTED_TEST_CASES: 35, ERROR_TRANS: 4, MISSING: 9, SUCCESS_TRANS: 22, SUCCESS_SYMB: 5, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 17, ABORTED: 0, ERROR: 0] for test expression: (#LHS)-(#RHS)
+Overall: [TOTAL: 182, SKIPPED: 77, DEFINITIONS: 69, STARTED_TEST_CASES: 36, ERROR_TRANS: 2, MISSING: 9, SUCCESS_TRANS: 25, SUCCESS_SYMB: 5, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 18, NO_TEST_VALUES: 0, ABORTED: 0, ERROR: 2] for test expression: (#LHS)-(#RHS)
 [Simple Simplify: ON, EXPonential Conversion (ConvEXP): ON, HYPergeometric Conversion (ConvHYP): ON, Expansion (EXP): ON, Expansion via EXP (EXP+EXP): ON, Expansion via HYP (EXP+HYP): ON]
 8936 [http://dlmf.nist.gov/31.2.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 8937 [http://dlmf.nist.gov/31.2.E2]: Skipped - no semantic math
@@ -45,7 +45,7 @@ Overall: [TOTAL: 182, SKIPPED: 78, DEFINITIONS: 69, STARTED_TEST_CASES: 35, ERRO
 8978 [http://dlmf.nist.gov/31.4.E1]: Skipped - Unable to analyze test case: Null
 8979 [http://dlmf.nist.gov/31.4.E2]: Skipped - no semantic math
 8980 [http://dlmf.nist.gov/31.4.E3]: Skipped - Unable to analyze test case: Null
-8981 [http://dlmf.nist.gov/31.5.E1]: Skipped - no semantic math
+8981 [http://dlmf.nist.gov/31.5.E1]: Skipped - Unable to analyze test case: Null
 8982 [http://dlmf.nist.gov/31.5.E2]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \HeunpolyHp [\HeunpolyHp]
 8983 [http://dlmf.nist.gov/31.6.E1]: Skipped - Unable to analyze test case: Null
 8984 [http://dlmf.nist.gov/31.7.E1]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
@@ -63,8 +63,8 @@ Overall: [TOTAL: 182, SKIPPED: 78, DEFINITIONS: 69, STARTED_TEST_CASES: 35, ERRO
 8994 [https://dlmf.nist.gov/31.8#Ex2]: Skipped - no semantic math
 8995 [https://dlmf.nist.gov/31.8#Ex3]: Skipped - no semantic math
 8996 [https://dlmf.nist.gov/31.8#Ex4]: Skipped - no semantic math
-8997 [http://dlmf.nist.gov/31.8.E2]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty math term tag
-8997-a [http://dlmf.nist.gov/31.8.E2]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty math term tag
+8997 [http://dlmf.nist.gov/31.8.E2]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+8997-a [http://dlmf.nist.gov/31.8.E2]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 8998 [http://dlmf.nist.gov/31.8.E3]: Skipped - no semantic math
 8999 [https://dlmf.nist.gov/31.8#Ex5]: Skipped - no semantic math
 9000 [https://dlmf.nist.gov/31.8#Ex6]: Skipped - no semantic math
@@ -125,7 +125,7 @@ Overall: [TOTAL: 182, SKIPPED: 78, DEFINITIONS: 69, STARTED_TEST_CASES: 35, ERRO
 9055 [https://dlmf.nist.gov/31.11#Ex2]: Skipped - no semantic math
 9056 [https://dlmf.nist.gov/31.11#Ex3]: Skipped - no semantic math
 9057 [https://dlmf.nist.gov/31.11#Ex4]: Skipped - no semantic math
-9058 [http://dlmf.nist.gov/31.11.E12]: Missing Macro Error - (LaTeX -> Maple) Unknown LaTeX Command: Reached unknown latex-command \RiemannsymP [\RiemannsymP]
+9058 [http://dlmf.nist.gov/31.11.E12]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \RiemannsymP [\RiemannsymP]
 9059 [http://dlmf.nist.gov/31.11.E13]: Skipped - no semantic math
 9060 [https://dlmf.nist.gov/31.11#Ex5]: Skipped - no semantic math
 9061 [https://dlmf.nist.gov/31.11#Ex6]: Skipped - no semantic math
@@ -139,7 +139,7 @@ Overall: [TOTAL: 182, SKIPPED: 78, DEFINITIONS: 69, STARTED_TEST_CASES: 35, ERRO
 9069 [http://dlmf.nist.gov/31.12.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 9070 [http://dlmf.nist.gov/31.12.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 9071 [http://dlmf.nist.gov/31.12.E4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-9072 [http://dlmf.nist.gov/31.14.E1]: Skipped - Unable to analyze test case: Null
+9072 [http://dlmf.nist.gov/31.14.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 9073 [https://dlmf.nist.gov/31.14#Ex1]: Skipped - no semantic math
 9074 [https://dlmf.nist.gov/31.14#Ex2]: Skipped - no semantic math
 9075 [http://dlmf.nist.gov/31.14.E3]: Skipped - no semantic math
@@ -154,8 +154,8 @@ Overall: [TOTAL: 182, SKIPPED: 78, DEFINITIONS: 69, STARTED_TEST_CASES: 35, ERRO
 9084 [https://dlmf.nist.gov/31.15#Ex2]: Skipped - Unable to analyze test case: Null
 9085 [http://dlmf.nist.gov/31.15.E6]: Skipped - no semantic math
 9086 [http://dlmf.nist.gov/31.15.E7]: Skipped - no semantic math
-9087 [http://dlmf.nist.gov/31.15.E8]: Skipped - no semantic math
-9088 [http://dlmf.nist.gov/31.15.E9]: Skipped - no semantic math
+9087 [http://dlmf.nist.gov/31.15.E8]: Skipped - Unable to analyze test case: Null
+9088 [http://dlmf.nist.gov/31.15.E9]: Skipped - Unable to analyze test case: Null
 9089 [http://dlmf.nist.gov/31.15.E10]: Definition - Line is a non-semantic definition.
 9090 [http://dlmf.nist.gov/31.15.E11]: Skipped - Invalid test case: Generic function f(z)
 9091 [http://dlmf.nist.gov/31.15.E12]: Definition - Line is a non-semantic definition.

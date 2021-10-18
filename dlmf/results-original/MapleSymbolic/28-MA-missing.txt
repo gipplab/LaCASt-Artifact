@@ -1,9 +1,8 @@
-\Mathieume, 25
+\Mathieume, 26
 \radMathieuMc, 22
 \radMathieuMs, 22
 \modMathieuM, 13
 \modMathieuCe, 6
-\radMathieuDsc, 6
 \Mathieufe, 4
 \modMathieuKe, 4
 \radMathieuDs, 4
@@ -17,5 +16,6 @@
 \modMathieuSe, 3
 \modMathieuMe, 2
 \modMathieuD, 2
+\radMathieuDsc, 2
 \radMathieuDc, 2
 \pvint, 1

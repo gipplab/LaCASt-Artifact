@@ -1,12 +1,12 @@
-Overall: [TOTAL: 220, SKIPPED: 56, DEFINITIONS: 0, STARTED_TEST_CASES: 164, ERROR_TRANS: 20, MISSING: 125, SUCCESS_TRANS: 19, SUCCESS_SYMB: 1, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 16, ABORTED: 0, ERROR: 2] for test expression: (#LHS)-(#RHS)
+Overall: [TOTAL: 227, SKIPPED: 51, DEFINITIONS: 0, STARTED_TEST_CASES: 176, ERROR_TRANS: 19, MISSING: 128, SUCCESS_TRANS: 29, SUCCESS_SYMB: 1, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 26, NO_TEST_VALUES: 0, ABORTED: 0, ERROR: 2] for test expression: (#LHS)-(#RHS)
 [Simple Simplify: ON, EXPonential Conversion (ConvEXP): ON, HYPergeometric Conversion (ConvHYP): ON, Expansion (EXP): ON, Expansion via EXP (EXP+EXP): ON, Expansion via HYP (EXP+HYP): ON]
 7155 [http://dlmf.nist.gov/23.2.E1]: Skipped - no semantic math
 7156 [https://dlmf.nist.gov/23.2#Ex1]: Skipped - no semantic math
 7157 [https://dlmf.nist.gov/23.2#Ex2]: Skipped - no semantic math
 7158 [http://dlmf.nist.gov/23.2.E3]: Skipped - no semantic math
-7159 [http://dlmf.nist.gov/23.2.E4]: Translation Error - java.lang.StringIndexOutOfBoundsException: begin 20, end 1, length 34 [7159: {}\Weierstrassplatt@@{z}{\mathbb{L}} EQUAL \frac{1}{z^{2}}+\sum_{w\in\mathbb{L}\setminus\{0\}}\left(\frac{1}{(z-w)^{2}}-\frac{1}{w^{2}}\right); http://dlmf.nist.gov/23.2.E4]
-7160 [http://dlmf.nist.gov/23.2.E5]: Translation Error - java.lang.StringIndexOutOfBoundsException: begin 23, end 1, length 37 [7160: {}\Weierstrasszetalatt@@{z}{\mathbb{L}} EQUAL \frac{1}{z}+\sum_{w\in\mathbb{L}\setminus\{0\}}\left(\frac{1}{z-w}+\frac{1}{w}+\frac{z}{w^{2}}\right); http://dlmf.nist.gov/23.2.E5]
-7161 [http://dlmf.nist.gov/23.2.E6]: Translation Error - java.lang.StringIndexOutOfBoundsException: begin 24, end 1, length 38 [7161: {}\Weierstrasssigmalatt@@{z}{\mathbb{L}} EQUAL z\prod_{w\in\mathbb{L}\setminus\{0\}}\left(\left(1-\frac{z}{w}\right)\exp@{\frac{z}{w}+\frac{z^{2}}{2w^{2}}}\right); http://dlmf.nist.gov/23.2.E6]
+7159 [http://dlmf.nist.gov/23.2.E4]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrassplatt [\Weierstrassplatt]
+7160 [http://dlmf.nist.gov/23.2.E5]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrasszetalatt [\Weierstrasszetalatt]
+7161 [http://dlmf.nist.gov/23.2.E6]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrasssigmalatt [\Weierstrasssigmalatt]
 7162 [http://dlmf.nist.gov/23.2.E7]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrassplatt [\Weierstrassplatt]
 7163 [http://dlmf.nist.gov/23.2.E8]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrasszetalatt [\Weierstrasszetalatt]
 7164 [http://dlmf.nist.gov/23.2.E9]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrassplatt [\Weierstrassplatt]
@@ -15,6 +15,8 @@ Overall: [TOTAL: 220, SKIPPED: 56, DEFINITIONS: 0, STARTED_TEST_CASES: 164, ERRO
 7167 [http://dlmf.nist.gov/23.2.E12]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrasszetalatt [\Weierstrasszetalatt]
 7168 [http://dlmf.nist.gov/23.2.E13]: Skipped - no semantic math
 7169 [http://dlmf.nist.gov/23.2.E14]: Skipped - no semantic math
+7169-a [http://dlmf.nist.gov/23.2.E14]: Skipped - no semantic math
+7169-b [http://dlmf.nist.gov/23.2.E14]: Skipped - no semantic math
 7170 [http://dlmf.nist.gov/23.2.E15]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrasssigmalatt [\Weierstrasssigmalatt]
 7171 [http://dlmf.nist.gov/23.2.E16]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrasssigmalatt [\Weierstrasssigmalatt]
 7172 [http://dlmf.nist.gov/23.2.E17]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrasssigmalatt [\Weierstrasssigmalatt]
@@ -38,7 +40,8 @@ Overall: [TOTAL: 220, SKIPPED: 56, DEFINITIONS: 0, STARTED_TEST_CASES: 164, ERRO
 7186-a [https://dlmf.nist.gov/23.5#Ex1]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrasselatt [\Weierstrasselatt]
 7187 [https://dlmf.nist.gov/23.5#Ex2]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrasselatt [\Weierstrasselatt]
 7187-a [https://dlmf.nist.gov/23.5#Ex2]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrasselatt [\Weierstrasselatt]
-7188 [http://dlmf.nist.gov/23.5.E2]: Skipped - no semantic math
+7188 [http://dlmf.nist.gov/23.5.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7188-a [http://dlmf.nist.gov/23.5.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7189 [https://dlmf.nist.gov/23.5#Ex3]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrasselatt [\Weierstrasselatt]
 7189-a [https://dlmf.nist.gov/23.5#Ex3]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrasselatt [\Weierstrasselatt]
 7190 [https://dlmf.nist.gov/23.5#Ex4]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrasselatt [\Weierstrasselatt]
@@ -47,7 +50,8 @@ Overall: [TOTAL: 220, SKIPPED: 56, DEFINITIONS: 0, STARTED_TEST_CASES: 164, ERRO
 7193 [https://dlmf.nist.gov/23.5#Ex7]: Skipped - no semantic math
 7194 [https://dlmf.nist.gov/23.5#Ex8]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7194-a [https://dlmf.nist.gov/23.5#Ex8]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-7195 [http://dlmf.nist.gov/23.5.E6]: Skipped - no semantic math
+7195 [http://dlmf.nist.gov/23.5.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7195-a [http://dlmf.nist.gov/23.5.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7196 [http://dlmf.nist.gov/23.5.E7]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrasselatt [\Weierstrasselatt]
 7196-a [http://dlmf.nist.gov/23.5.E7]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrasselatt [\Weierstrasselatt]
 7196-b [http://dlmf.nist.gov/23.5.E7]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrasselatt [\Weierstrasselatt]
@@ -56,7 +60,7 @@ Overall: [TOTAL: 220, SKIPPED: 56, DEFINITIONS: 0, STARTED_TEST_CASES: 164, ERRO
 7199 [https://dlmf.nist.gov/23.5#Ex11]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7200 [https://dlmf.nist.gov/23.5#Ex12]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7200-a [https://dlmf.nist.gov/23.5#Ex12]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-7201 [https://dlmf.nist.gov/23.6#Ex1]: Skipped - no semantic math
+7201 [https://dlmf.nist.gov/23.6#Ex1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7202 [https://dlmf.nist.gov/23.6#Ex2]: Skipped - no semantic math
 7203 [http://dlmf.nist.gov/23.6.E2]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrasselatt [\Weierstrasselatt]
 7204 [http://dlmf.nist.gov/23.6.E3]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrasselatt [\Weierstrasselatt]
@@ -64,7 +68,7 @@ Overall: [TOTAL: 220, SKIPPED: 56, DEFINITIONS: 0, STARTED_TEST_CASES: 164, ERRO
 7206 [http://dlmf.nist.gov/23.6.E5]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrassplatt [\Weierstrassplatt]
 7207 [http://dlmf.nist.gov/23.6.E6]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrassplatt [\Weierstrassplatt]
 7208 [http://dlmf.nist.gov/23.6.E7]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrassplatt [\Weierstrassplatt]
-7209 [http://dlmf.nist.gov/23.6.E8]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
+7209 [http://dlmf.nist.gov/23.6.E8]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7210 [http://dlmf.nist.gov/23.6.E9]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrasssigmalatt [\Weierstrasssigmalatt]
 7211 [http://dlmf.nist.gov/23.6.E10]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrasssigmalatt [\Weierstrasssigmalatt]
 7212 [http://dlmf.nist.gov/23.6.E11]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrasssigmalatt [\Weierstrasssigmalatt]
@@ -73,11 +77,11 @@ Overall: [TOTAL: 220, SKIPPED: 56, DEFINITIONS: 0, STARTED_TEST_CASES: 164, ERRO
 7215 [http://dlmf.nist.gov/23.6.E14]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrassplatt [\Weierstrassplatt]
 7216 [http://dlmf.nist.gov/23.6.E15]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrasssigmalatt [\Weierstrasssigmalatt]
 7217 [https://dlmf.nist.gov/23.6#Ex3]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrasselatt [\Weierstrasselatt]
-7218 [https://dlmf.nist.gov/23.6#Ex4]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
+7218 [https://dlmf.nist.gov/23.6#Ex4]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
 7219 [https://dlmf.nist.gov/23.6#Ex5]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 7219-a [https://dlmf.nist.gov/23.6#Ex5]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrasselatt [\Weierstrasselatt]
-7220 [https://dlmf.nist.gov/23.6#Ex6]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
-7220-a [https://dlmf.nist.gov/23.6#Ex6]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
+7220 [https://dlmf.nist.gov/23.6#Ex6]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
+7220-a [https://dlmf.nist.gov/23.6#Ex6]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
 7221 [http://dlmf.nist.gov/23.6.E18]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrasselatt [\Weierstrasselatt]
 7222 [http://dlmf.nist.gov/23.6.E19]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrasselatt [\Weierstrasselatt]
 7223 [http://dlmf.nist.gov/23.6.E20]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrasselatt [\Weierstrasselatt]
@@ -146,7 +150,7 @@ Was expecting:
 7271 [http://dlmf.nist.gov/23.10.E13]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrasssigmalatt [\Weierstrasssigmalatt]
 7272 [http://dlmf.nist.gov/23.10.E14]: Translation Error - (LaTeX -> Maple) No translation possible for given token: Unable to identify interval of PROD
 7273 [http://dlmf.nist.gov/23.10.E15]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-7274 [https://dlmf.nist.gov/23.10#Ex1]: Skipped - no semantic math
+7274 [https://dlmf.nist.gov/23.10#Ex1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7275 [https://dlmf.nist.gov/23.10#Ex2]: Skipped - no semantic math
 7276 [http://dlmf.nist.gov/23.10.E17]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrassplatt [\Weierstrassplatt]
 7277 [http://dlmf.nist.gov/23.10.E18]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrasszetalatt [\Weierstrasszetalatt]
@@ -164,7 +168,7 @@ Was expecting:
 7289 [http://dlmf.nist.gov/23.14.E3]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrassplatt [\Weierstrassplatt]
 7290 [http://dlmf.nist.gov/23.15.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7291 [https://dlmf.nist.gov/23.15#Ex1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-7292 [https://dlmf.nist.gov/23.15#Ex2]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
+7292 [https://dlmf.nist.gov/23.15#Ex2]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
 7293 [http://dlmf.nist.gov/23.15.E3]: Skipped - no semantic math
 7294 [http://dlmf.nist.gov/23.15.E4]: Skipped - no semantic math
 7295 [http://dlmf.nist.gov/23.15.E5]: Skipped - no semantic math
@@ -172,7 +176,7 @@ Was expecting:
 7297 [http://dlmf.nist.gov/23.15.E7]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \KleincompinvarJtau [\KleincompinvarJtau]
 7298 [http://dlmf.nist.gov/23.15.E8]: Translation Error - (LaTeX -> Maple) Parenthesis mismatch in expression: Reached the end of sequence but a bracket is left open: |
 7299 [http://dlmf.nist.gov/23.15.E9]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Dedekindeta [\Dedekindeta]
-7299-a [http://dlmf.nist.gov/23.15.E9]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
+7299-a [http://dlmf.nist.gov/23.15.E9]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7300 [https://dlmf.nist.gov/23.17#Ex1]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \modularlambdatau [\modularlambdatau]
 7301 [https://dlmf.nist.gov/23.17#Ex2]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \modularlambdatau [\modularlambdatau]
 7302 [https://dlmf.nist.gov/23.17#Ex3]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \KleincompinvarJtau [\KleincompinvarJtau]
@@ -190,17 +194,17 @@ Was expecting:
 7314 [https://dlmf.nist.gov/23.18#Ex4]: Skipped - Unable to analyze test case: Null
 7315 [https://dlmf.nist.gov/23.18#Ex5]: Skipped - Unable to analyze test case: Null
 7316 [https://dlmf.nist.gov/23.18#Ex6]: Skipped - Unable to analyze test case: Null
-7317 [https://dlmf.nist.gov/23.18#Ex7]: Skipped - no semantic math
-7318 [https://dlmf.nist.gov/23.18#Ex8]: Skipped - no semantic math
-7319 [https://dlmf.nist.gov/23.18#Ex9]: Skipped - no semantic math
-7320 [https://dlmf.nist.gov/23.18#Ex10]: Skipped - no semantic math
-7321 [https://dlmf.nist.gov/23.18#Ex11]: Skipped - no semantic math
-7322 [https://dlmf.nist.gov/23.18#Ex12]: Skipped - no semantic math
+7317 [https://dlmf.nist.gov/23.18#Ex7]: Skipped - Unable to analyze test case: Null
+7318 [https://dlmf.nist.gov/23.18#Ex8]: Skipped - Unable to analyze test case: Null
+7319 [https://dlmf.nist.gov/23.18#Ex9]: Skipped - Unable to analyze test case: Null
+7320 [https://dlmf.nist.gov/23.18#Ex10]: Skipped - Unable to analyze test case: Null
+7321 [https://dlmf.nist.gov/23.18#Ex11]: Skipped - Unable to analyze test case: Null
+7322 [https://dlmf.nist.gov/23.18#Ex12]: Skipped - Unable to analyze test case: Null
 7323 [http://dlmf.nist.gov/23.18.E3]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \modularlambdatau [\modularlambdatau]
 7324 [http://dlmf.nist.gov/23.18.E4]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \KleincompinvarJtau [\KleincompinvarJtau]
 7325 [http://dlmf.nist.gov/23.18.E5]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Dedekindeta [\Dedekindeta]
 7326 [http://dlmf.nist.gov/23.18.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-7327 [http://dlmf.nist.gov/23.18.E7]: Skipped - Unable to analyze test case: Null
+7327 [http://dlmf.nist.gov/23.18.E7]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7328 [http://dlmf.nist.gov/23.19.E1]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \modularlambdatau [\modularlambdatau]
 7329 [http://dlmf.nist.gov/23.19.E2]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \KleincompinvarJtau [\KleincompinvarJtau]
 7330 [http://dlmf.nist.gov/23.19.E3]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \KleincompinvarJtau [\KleincompinvarJtau]
@@ -210,6 +214,8 @@ Was expecting:
 7334 [https://dlmf.nist.gov/23.20#Ex1]: Skipped - no semantic math
 7335 [https://dlmf.nist.gov/23.20#Ex2]: Skipped - no semantic math
 7336 [http://dlmf.nist.gov/23.20.E4]: Skipped - no semantic math
+7336-a [http://dlmf.nist.gov/23.20.E4]: Skipped - no semantic math
+7336-b [http://dlmf.nist.gov/23.20.E4]: Skipped - no semantic math
 7337 [http://dlmf.nist.gov/23.20.E5]: Skipped - no semantic math
 7338 [http://dlmf.nist.gov/23.20.E6]: Skipped - no semantic math
 7339 [http://dlmf.nist.gov/23.20.E7]: Skipped - no semantic math
@@ -221,11 +227,12 @@ Was expecting:
 7345 [https://dlmf.nist.gov/23.21#Ex2]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrassplatt [\Weierstrassplatt]
 7346 [https://dlmf.nist.gov/23.21#Ex3]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrassplatt [\Weierstrassplatt]
 7347 [http://dlmf.nist.gov/23.21.E5]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Weierstrassplatt [\Weierstrassplatt]
-7348 [http://dlmf.nist.gov/23.22.E1]: Skipped - no semantic math
+7348 [http://dlmf.nist.gov/23.22.E1]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
+7348-a [http://dlmf.nist.gov/23.22.E1]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
 7349 [http://dlmf.nist.gov/23.22.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7349-a [http://dlmf.nist.gov/23.22.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7350 [http://dlmf.nist.gov/23.22.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7350-a [http://dlmf.nist.gov/23.22.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-7351 [https://dlmf.nist.gov/23.22#Ex1]: Skipped - no semantic math
-7352 [https://dlmf.nist.gov/23.22#Ex2]: Skipped - no semantic math
-7353 [https://dlmf.nist.gov/23.22#Ex3]: Skipped - no semantic math
+7351 [https://dlmf.nist.gov/23.22#Ex1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7352 [https://dlmf.nist.gov/23.22#Ex2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7353 [https://dlmf.nist.gov/23.22#Ex3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]

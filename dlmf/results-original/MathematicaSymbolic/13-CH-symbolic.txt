@@ -1,4 +1,4 @@
-Overall: [TOTAL: 418, SKIPPED: 125, DEFINITIONS: 33, STARTED_TEST_CASES: 260, ERROR_TRANS: 5, MISSING: 1, SUCCESS_TRANS: 254, SUCCESS_SYMB: 66, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 3, FAILURE: 132, ABORTED: 53, ERROR: 0] for test expression: (#LHS)-(#RHS)
+Overall: [TOTAL: 418, SKIPPED: 125, DEFINITIONS: 33, STARTED_TEST_CASES: 260, ERROR_TRANS: 5, MISSING: 0, SUCCESS_TRANS: 255, SUCCESS_SYMB: 63, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 9, FAILURE: 138, NO_TEST_VALUES: 0, ABORTED: 45, ERROR: 0] for test expression: (#LHS)-(#RHS)
 [SIMPLE]
 4255 [http://dlmf.nist.gov/13.2.E1]: Failure [Simple: NaN]
 4256 [http://dlmf.nist.gov/13.2.E2]: Successful [Simple: 0]
@@ -11,7 +11,7 @@ Overall: [TOTAL: 418, SKIPPED: 125, DEFINITIONS: 33, STARTED_TEST_CASES: 260, ER
 4261-a [http://dlmf.nist.gov/13.2.E7]: Successful [Simple: 0]
 4262 [http://dlmf.nist.gov/13.2.E8]: Failure [Simple: NaN]
 4262-a [http://dlmf.nist.gov/13.2.E8]: Failure [Simple: NaN]
-4263 [http://dlmf.nist.gov/13.2.E9]: All Aborted: [Simple: Aborted]
+4263 [http://dlmf.nist.gov/13.2.E9]: All Aborted: [Simple: NaN]
 4264 [http://dlmf.nist.gov/13.2.E10]: Failure [Simple: NaN]
 4264-a [http://dlmf.nist.gov/13.2.E10]: Successful [Simple: 0]
 4265 [http://dlmf.nist.gov/13.2.E11]: Successful [Simple: 0]
@@ -34,19 +34,19 @@ Overall: [TOTAL: 418, SKIPPED: 125, DEFINITIONS: 33, STARTED_TEST_CASES: 260, ER
 4282 [http://dlmf.nist.gov/13.2.E26]: Skipped - Unable to analyze test case: Null
 4283 [http://dlmf.nist.gov/13.2.E27]: Skipped - Unable to analyze test case: Null
 4284 [http://dlmf.nist.gov/13.2.E28]: Skipped - Unable to analyze test case: Null
-4285 [http://dlmf.nist.gov/13.2.E29]: Skipped - no semantic math
+4285 [http://dlmf.nist.gov/13.2.E29]: Skipped - Unable to analyze test case: Null
 4286 [http://dlmf.nist.gov/13.2.E30]: Skipped - Unable to analyze test case: Null
 4287 [http://dlmf.nist.gov/13.2.E31]: Skipped - Unable to analyze test case: Null
-4288 [http://dlmf.nist.gov/13.2.E32]: Skipped - no semantic math
+4288 [http://dlmf.nist.gov/13.2.E32]: Skipped - Unable to analyze test case: Null
 4289 [http://dlmf.nist.gov/13.2.E33]: Failure [Simple: NaN]
 4290 [http://dlmf.nist.gov/13.2.E34]: Failure [Simple: NaN]
 4291 [http://dlmf.nist.gov/13.2.E35]: Failure [Simple: NaN]
 4291-a [http://dlmf.nist.gov/13.2.E35]: Failure [Simple: NaN]
 4292 [http://dlmf.nist.gov/13.2.E36]: Failure [Simple: NaN]
-4293 [http://dlmf.nist.gov/13.2.E37]: All Aborted: [Simple: Aborted]
-4293-a [http://dlmf.nist.gov/13.2.E37]: All Aborted: [Simple: Aborted]
-4294 [http://dlmf.nist.gov/13.2.E38]: All Aborted: [Simple: Aborted]
-4294-a [http://dlmf.nist.gov/13.2.E38]: All Aborted: [Simple: Aborted]
+4293 [http://dlmf.nist.gov/13.2.E37]: All Aborted: [Simple: NaN]
+4293-a [http://dlmf.nist.gov/13.2.E37]: All Aborted: [Simple: NaN]
+4294 [http://dlmf.nist.gov/13.2.E38]: All Aborted: [Simple: NaN]
+4294-a [http://dlmf.nist.gov/13.2.E38]: All Aborted: [Simple: NaN]
 4295 [http://dlmf.nist.gov/13.2.E39]: Successful [Simple: 0]
 4296 [http://dlmf.nist.gov/13.2.E40]: Successful [Simple: 0]
 4297 [http://dlmf.nist.gov/13.2.E41]: Failure [Simple: NaN]
@@ -72,23 +72,23 @@ Overall: [TOTAL: 418, SKIPPED: 125, DEFINITIONS: 33, STARTED_TEST_CASES: 260, ER
 4316 [http://dlmf.nist.gov/13.3.E18]: Failure [Simple: NaN]
 4317 [http://dlmf.nist.gov/13.3.E19]: Failure [Simple: NaN]
 4318 [http://dlmf.nist.gov/13.3.E20]: Failure [Simple: NaN]
-4319 [http://dlmf.nist.gov/13.3.E21]: All Aborted: [Simple: Aborted]
+4319 [http://dlmf.nist.gov/13.3.E21]: Failure [Simple: NaN]
 4320 [http://dlmf.nist.gov/13.3.E22]: Successful [Simple: 0]
 4321 [http://dlmf.nist.gov/13.3.E23]: Successful [Simple: 0]
 4322 [http://dlmf.nist.gov/13.3.E24]: Failure [Simple: NaN]
-4323 [http://dlmf.nist.gov/13.3.E25]: All Aborted: [Simple: Aborted]
+4323 [http://dlmf.nist.gov/13.3.E25]: All Aborted: [Simple: NaN]
 4324 [http://dlmf.nist.gov/13.3.E26]: Failure [Simple: NaN]
 4325 [http://dlmf.nist.gov/13.3.E27]: Failure [Simple: NaN]
-4326 [http://dlmf.nist.gov/13.3.E28]: All Aborted: [Simple: Aborted]
+4326 [http://dlmf.nist.gov/13.3.E28]: All Aborted: [Simple: NaN]
 4327 [http://dlmf.nist.gov/13.3.E29]: Failure [Simple: NaN]
-4328 [http://dlmf.nist.gov/13.4.E1]: Successful [Simple: 0]
-4329 [http://dlmf.nist.gov/13.4.E2]: Successful [Simple: 0]
-4330 [http://dlmf.nist.gov/13.4.E3]: All Aborted: [Simple: Aborted]
-4331 [http://dlmf.nist.gov/13.4.E4]: Successful under condition [Simple: 0.0 under condition: Greater[Re[z], 0]]
-4332 [http://dlmf.nist.gov/13.4.E5]: All Aborted: [Simple: Aborted]
-4333 [http://dlmf.nist.gov/13.4.E6]: All Aborted: [Simple: Aborted]
-4334 [http://dlmf.nist.gov/13.4.E7]: All Aborted: [Simple: Aborted]
-4335 [http://dlmf.nist.gov/13.4.E8]: All Aborted: [Simple: Aborted]
+4328 [http://dlmf.nist.gov/13.4.E1]: Successful under condition [Simple: ConditionalExpression[0, And[Less[Re[a], Re[b]], Greater[Re[a], 0]]]]
+4329 [http://dlmf.nist.gov/13.4.E2]: Successful under condition [Simple: ConditionalExpression[0, And[Greater[Re[b], Re[c]], Greater[Re[c], 0]]]]
+4330 [http://dlmf.nist.gov/13.4.E3]: All Aborted: [Simple: NaN]
+4331 [http://dlmf.nist.gov/13.4.E4]: Successful under condition [Simple: ConditionalExpression[0, And[Greater[Re[a], 0], Greater[Re[z], 0]]]]
+4332 [http://dlmf.nist.gov/13.4.E5]: All Aborted: [Simple: NaN]
+4333 [http://dlmf.nist.gov/13.4.E6]: All Aborted: [Simple: NaN]
+4334 [http://dlmf.nist.gov/13.4.E7]: All Aborted: [Simple: NaN]
+4335 [http://dlmf.nist.gov/13.4.E8]: All Aborted: [Simple: NaN]
 4336 [http://dlmf.nist.gov/13.4.E9]: Failure [Simple: NaN]
 4337 [http://dlmf.nist.gov/13.4.E10]: Failure [Simple: NaN]
 4338 [http://dlmf.nist.gov/13.4.E11]: Failure [Simple: NaN]
@@ -96,9 +96,9 @@ Overall: [TOTAL: 418, SKIPPED: 125, DEFINITIONS: 33, STARTED_TEST_CASES: 260, ER
 4340 [http://dlmf.nist.gov/13.4.E13]: Failure [Simple: NaN]
 4341 [http://dlmf.nist.gov/13.4.E14]: Failure [Simple: NaN]
 4342 [http://dlmf.nist.gov/13.4.E15]: Failure [Simple: NaN]
-4343 [http://dlmf.nist.gov/13.4.E16]: All Aborted: [Simple: Aborted]
-4344 [http://dlmf.nist.gov/13.4.E17]: All Aborted: [Simple: Aborted]
-4345 [http://dlmf.nist.gov/13.4.E18]: All Aborted: [Simple: Aborted]
+4343 [http://dlmf.nist.gov/13.4.E16]: All Aborted: [Simple: NaN]
+4344 [http://dlmf.nist.gov/13.4.E17]: All Aborted: [Simple: NaN]
+4345 [http://dlmf.nist.gov/13.4.E18]: Failure [Simple: NaN]
 4346 [http://dlmf.nist.gov/13.5.E1]: Skipped - Invalid test case: cdots
 4347 [https://dlmf.nist.gov/13.5#Ex1]: Definition - Line is a non-semantic definition.
 4348 [https://dlmf.nist.gov/13.5#Ex2]: Definition - Line is a non-semantic definition.
@@ -130,7 +130,7 @@ Overall: [TOTAL: 418, SKIPPED: 125, DEFINITIONS: 33, STARTED_TEST_CASES: 260, ER
 4370 [http://dlmf.nist.gov/13.6.E19]: Failure [Simple: NaN]
 4370-a [http://dlmf.nist.gov/13.6.E19]: Successful [Simple: 0]
 4371 [http://dlmf.nist.gov/13.6.E20]: Failure [Simple: NaN]
-4371-a [http://dlmf.nist.gov/13.6.E20]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \CharlierpolyC [\CharlierpolyC]
+4371-a [http://dlmf.nist.gov/13.6.E20]: Failure [Simple: NaN]
 4372 [http://dlmf.nist.gov/13.6.E21]: Failure [Simple: NaN]
 4373 [http://dlmf.nist.gov/13.7.E1]: Skipped - Unable to analyze test case: Null
 4374 [http://dlmf.nist.gov/13.7.E2]: Skipped - Unable to analyze test case: Null
@@ -148,7 +148,7 @@ Overall: [TOTAL: 418, SKIPPED: 125, DEFINITIONS: 33, STARTED_TEST_CASES: 260, ER
 4386 [http://dlmf.nist.gov/13.7.E10]: Failure [Simple: NaN]
 4387 [http://dlmf.nist.gov/13.7.E11]: Definition - Line is a non-semantic definition.
 4388 [http://dlmf.nist.gov/13.7.E12]: Definition - Line is a non-semantic definition.
-4389 [http://dlmf.nist.gov/13.7.E13]: Skipped - Invalid test case: cases, cases, bigO
+4389 [http://dlmf.nist.gov/13.7.E13]: Skipped - Invalid test case: cases
 4390 [http://dlmf.nist.gov/13.8.E1]: Skipped - Invalid test case: bigO
 4391 [http://dlmf.nist.gov/13.8.E2]: Skipped - Unable to analyze test case: Null
 4392 [http://dlmf.nist.gov/13.8.E3]: Failure [Simple: NaN]
@@ -185,20 +185,20 @@ Overall: [TOTAL: 418, SKIPPED: 125, DEFINITIONS: 33, STARTED_TEST_CASES: 260, ER
 4423 [http://dlmf.nist.gov/13.9.E16]: Skipped - Invalid test case: bigO
 4424 [http://dlmf.nist.gov/13.10.E1]: Failure [Simple: NaN]
 4425 [http://dlmf.nist.gov/13.10.E2]: Successful [Simple: 0]
-4426 [http://dlmf.nist.gov/13.10.E3]: All Aborted: [Simple: Aborted]
-4427 [http://dlmf.nist.gov/13.10.E4]: All Aborted: [Simple: Aborted]
-4428 [http://dlmf.nist.gov/13.10.E5]: All Aborted: [Simple: Aborted]
-4429 [http://dlmf.nist.gov/13.10.E6]: All Aborted: [Simple: Aborted]
-4430 [http://dlmf.nist.gov/13.10.E7]: All Aborted: [Simple: Aborted]
+4426 [http://dlmf.nist.gov/13.10.E3]: All Aborted: [Simple: NaN]
+4427 [http://dlmf.nist.gov/13.10.E4]: All Aborted: [Simple: NaN]
+4428 [http://dlmf.nist.gov/13.10.E5]: All Aborted: [Simple: NaN]
+4429 [http://dlmf.nist.gov/13.10.E6]: All Aborted: [Simple: NaN]
+4430 [http://dlmf.nist.gov/13.10.E7]: All Aborted: [Simple: NaN]
 4431 [http://dlmf.nist.gov/13.10.E8]: Failure [Simple: NaN]
 4432 [http://dlmf.nist.gov/13.10.E9]: Failure [Simple: NaN]
-4433 [http://dlmf.nist.gov/13.10.E10]: All Aborted: [Simple: Aborted]
-4434 [http://dlmf.nist.gov/13.10.E11]: Successful under condition [Simple: 0.0 under condition: And[Less[Re[b], Plus[1, Re[λ]]], Greater[Re[a], Re[λ]], Greater[Re[λ], 0]]]
-4435 [http://dlmf.nist.gov/13.10.E12]: All Aborted: [Simple: Aborted]
-4436 [http://dlmf.nist.gov/13.10.E13]: All Aborted: [Simple: Aborted]
-4437 [http://dlmf.nist.gov/13.10.E14]: All Aborted: [Simple: Aborted]
-4438 [http://dlmf.nist.gov/13.10.E15]: All Aborted: [Simple: Aborted]
-4439 [http://dlmf.nist.gov/13.10.E16]: All Aborted: [Simple: Aborted]
+4433 [http://dlmf.nist.gov/13.10.E10]: All Aborted: [Simple: NaN]
+4434 [http://dlmf.nist.gov/13.10.E11]: Successful under condition [Simple: ConditionalExpression[0, And[Less[Re[b], Plus[1, Re[λ]]], Greater[Re[a], Re[λ]], Greater[Re[λ], 0]]]]
+4435 [http://dlmf.nist.gov/13.10.E12]: All Aborted: [Simple: NaN]
+4436 [http://dlmf.nist.gov/13.10.E13]: All Aborted: [Simple: NaN]
+4437 [http://dlmf.nist.gov/13.10.E14]: All Aborted: [Simple: NaN]
+4438 [http://dlmf.nist.gov/13.10.E15]: All Aborted: [Simple: NaN]
+4439 [http://dlmf.nist.gov/13.10.E16]: All Aborted: [Simple: NaN]
 4440 [http://dlmf.nist.gov/13.11.E1]: Failure [Simple: NaN]
 4441 [http://dlmf.nist.gov/13.12.E1]: Failure [Simple: NaN]
 4442 [http://dlmf.nist.gov/13.13.E1]: Skipped - Unable to analyze test case: Null
@@ -220,10 +220,10 @@ Overall: [TOTAL: 418, SKIPPED: 125, DEFINITIONS: 33, STARTED_TEST_CASES: 260, ER
 4458 [http://dlmf.nist.gov/13.14.E5]: Successful [Simple: 0]
 4459 [http://dlmf.nist.gov/13.14.E6]: Successful [Simple: 0]
 4459-a [http://dlmf.nist.gov/13.14.E6]: Failure [Simple: NaN]
-4460 [http://dlmf.nist.gov/13.14.E7]: Translation Error - java.lang.NullPointerException [4460: \lim_{2\mu\to-n-1}\frac{\WhittakerconfhyperM{\kappa}{\mu}@{z}}{\EulerGamma@{2\mu+1}} EQUAL \frac{\Pochhammersym{-\frac{1}{2}n-\kappa}{n+1}}{(n+1)!}\WhittakerconfhyperM{\kappa}{\frac{1}{2}(n+1)}@{z}; http://dlmf.nist.gov/13.14.E7]
+4460 [http://dlmf.nist.gov/13.14.E7]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Unable to retrieve free variables for limit expression.
 4460-a [http://dlmf.nist.gov/13.14.E7]: Successful [Simple: 0]
-4461 [http://dlmf.nist.gov/13.14.E8]: All Aborted: [Simple: Aborted]
-4461-a [http://dlmf.nist.gov/13.14.E8]: All Aborted: [Simple: Aborted]
+4461 [http://dlmf.nist.gov/13.14.E8]: All Aborted: [Simple: NaN]
+4461-a [http://dlmf.nist.gov/13.14.E8]: All Aborted: [Simple: NaN]
 4462 [http://dlmf.nist.gov/13.14.E9]: Failure [Simple: NaN]
 4462-a [http://dlmf.nist.gov/13.14.E9]: Failure [Simple: NaN]
 4463 [http://dlmf.nist.gov/13.14.E10]: Failure [Simple: NaN]
@@ -284,19 +284,19 @@ Overall: [TOTAL: 418, SKIPPED: 125, DEFINITIONS: 33, STARTED_TEST_CASES: 260, ER
 4513 [http://dlmf.nist.gov/13.15.E24]: Failure [Simple: NaN]
 4514 [http://dlmf.nist.gov/13.15.E25]: Failure [Simple: NaN]
 4515 [http://dlmf.nist.gov/13.15.E26]: Failure [Simple: NaN]
-4516 [http://dlmf.nist.gov/13.16.E1]: Successful [Simple: 0]
-4517 [http://dlmf.nist.gov/13.16.E2]: All Aborted: [Simple: Aborted]
-4518 [http://dlmf.nist.gov/13.16.E3]: All Aborted: [Simple: Aborted]
-4519 [http://dlmf.nist.gov/13.16.E4]: Successful under condition [Simple: 0.0 under condition: And[Less[Times[2, Re[κ]], 1], Or[Greater[Im[Power[z, Rational[1, 2]]], 0], Greater[Re[Power[z, Rational[1, 2]]], 0]]]]
-4520 [http://dlmf.nist.gov/13.16.E5]: All Aborted: [Simple: Aborted]
-4521 [http://dlmf.nist.gov/13.16.E6]: All Aborted: [Simple: Aborted]
-4522 [http://dlmf.nist.gov/13.16.E7]: All Aborted: [Simple: Aborted]
-4523 [http://dlmf.nist.gov/13.16.E8]: All Aborted: [Simple: Aborted]
-4524 [http://dlmf.nist.gov/13.16.E9]: All Aborted: [Simple: Aborted]
-4525 [http://dlmf.nist.gov/13.16.E10]: All Aborted: [Simple: Aborted]
-4525-a [http://dlmf.nist.gov/13.16.E10]: All Aborted: [Simple: Aborted]
-4526 [http://dlmf.nist.gov/13.16.E11]: All Aborted: [Simple: Aborted]
-4527 [http://dlmf.nist.gov/13.16.E12]: All Aborted: [Simple: Aborted]
+4516 [http://dlmf.nist.gov/13.16.E1]: Successful under condition [Simple: ConditionalExpression[0, And[Less[Times[2, Re[κ]], Plus[1, μ, Conjugate[μ]]], Greater[Re[Plus[κ, μ]], Rational[-1, 2]]]]]
+4517 [http://dlmf.nist.gov/13.16.E2]: Failure [Simple: NaN]
+4518 [http://dlmf.nist.gov/13.16.E3]: All Aborted: [Simple: NaN]
+4519 [http://dlmf.nist.gov/13.16.E4]: Successful under condition [Simple: ConditionalExpression[0, And[Less[Times[2, Re[κ]], 1], Less[Times[2, Re[κ]], Plus[1, μ, Conjugate[μ]]], Or[Greater[Im[Power[z, Rational[1, 2]]], 0], Greater[Re[Power[z, Rational[1, 2]]], 0]]]]]
+4520 [http://dlmf.nist.gov/13.16.E5]: Successful under condition [Simple: ConditionalExpression[0, And[Less[Times[2, Re[κ]], Plus[1, μ, Conjugate[μ]]], Greater[Re[z], 0]]]]
+4521 [http://dlmf.nist.gov/13.16.E6]: All Aborted: [Simple: NaN]
+4522 [http://dlmf.nist.gov/13.16.E7]: All Aborted: [Simple: NaN]
+4523 [http://dlmf.nist.gov/13.16.E8]: Successful under condition [Simple: ConditionalExpression[0, And[Less[Times[2, Re[κ]], Plus[1, μ, Conjugate[μ]]], Less[Times[2, Re[Plus[κ, μ]]], 1], Greater[Re[z], 0], Equal[z, Re[z]]]]]
+4524 [http://dlmf.nist.gov/13.16.E9]: All Aborted: [Simple: NaN]
+4525 [http://dlmf.nist.gov/13.16.E10]: All Aborted: [Simple: NaN]
+4525-a [http://dlmf.nist.gov/13.16.E10]: All Aborted: [Simple: NaN]
+4526 [http://dlmf.nist.gov/13.16.E11]: All Aborted: [Simple: NaN]
+4527 [http://dlmf.nist.gov/13.16.E12]: All Aborted: [Simple: NaN]
 4528 [http://dlmf.nist.gov/13.17.E1]: Skipped - Invalid test case: cdots
 4529 [https://dlmf.nist.gov/13.17#Ex1]: Definition - Line is a non-semantic definition.
 4530 [https://dlmf.nist.gov/13.17#Ex2]: Definition - Line is a non-semantic definition.
@@ -316,8 +316,8 @@ Overall: [TOTAL: 418, SKIPPED: 125, DEFINITIONS: 33, STARTED_TEST_CASES: 260, ER
 4541 [http://dlmf.nist.gov/13.18.E8]: Successful [Simple: 0]
 4542 [http://dlmf.nist.gov/13.18.E9]: Successful [Simple: 0]
 4543 [http://dlmf.nist.gov/13.18.E10]: Failure [Simple: NaN]
-4544 [http://dlmf.nist.gov/13.18.E11]: Translation Error - (LaTeX -> Mathematica) Error while translating DLMF/DRMF Macro: The arguments of semantic macros must be wrapped in curly brackets! It seems you wrote \paraU(...) instead of \paraU{...} [\paraU]
-4544-a [http://dlmf.nist.gov/13.18.E11]: Translation Error - (LaTeX -> Mathematica) Error while translating DLMF/DRMF Macro: The arguments of semantic macros must be wrapped in curly brackets! It seems you wrote \paraU(...) instead of \paraU{...} [\paraU]
+4544 [http://dlmf.nist.gov/13.18.E11]: Translation Error - (LaTeX -> Mathematica) Error while translating DLMF/DRMF Macro: Unable to retrieve correct number of arguments for the macro \paraU [\paraU]
+4544-a [http://dlmf.nist.gov/13.18.E11]: Translation Error - (LaTeX -> Mathematica) Error while translating DLMF/DRMF Macro: Unable to retrieve correct number of arguments for the macro \paraU [\paraU]
 4545 [http://dlmf.nist.gov/13.18.E12]: Failure [Simple: NaN]
 4546 [http://dlmf.nist.gov/13.18.E13]: Failure [Simple: NaN]
 4547 [http://dlmf.nist.gov/13.18.E14]: Failure [Simple: NaN]
@@ -341,8 +341,8 @@ Overall: [TOTAL: 418, SKIPPED: 125, DEFINITIONS: 33, STARTED_TEST_CASES: 260, ER
 4563-a [http://dlmf.nist.gov/13.20.E10]: Failure [Simple: NaN]
 4564 [http://dlmf.nist.gov/13.20.E11]: Skipped - Invalid test case: bigO
 4565 [http://dlmf.nist.gov/13.20.E12]: Skipped - Invalid test case: bigO
-4566 [http://dlmf.nist.gov/13.20.E13]: All Aborted: [Simple: Aborted]
-4567 [http://dlmf.nist.gov/13.20.E14]: All Aborted: [Simple: Aborted]
+4566 [http://dlmf.nist.gov/13.20.E13]: Failure [Simple: NaN]
+4567 [http://dlmf.nist.gov/13.20.E14]: Failure [Simple: NaN]
 4568 [http://dlmf.nist.gov/13.20.E15]: Failure [Simple: NaN]
 4569 [http://dlmf.nist.gov/13.20.E16]: Skipped - Invalid test case: bigO
 4570 [http://dlmf.nist.gov/13.20.E17]: Skipped - Invalid test case: bigO
@@ -374,18 +374,18 @@ Overall: [TOTAL: 418, SKIPPED: 125, DEFINITIONS: 33, STARTED_TEST_CASES: 260, ER
 4596 [http://dlmf.nist.gov/13.21.E24]: Skipped - Invalid test case: bigO
 4597 [http://dlmf.nist.gov/13.21.E25]: Skipped - Invalid test case: bigO
 4598 [http://dlmf.nist.gov/13.22.E1]: Skipped - Invalid test case: bigO
-4599 [http://dlmf.nist.gov/13.23.E1]: All Aborted: [Simple: Aborted]
-4600 [http://dlmf.nist.gov/13.23.E2]: All Aborted: [Simple: Aborted]
-4601 [http://dlmf.nist.gov/13.23.E3]: All Aborted: [Simple: Aborted]
-4602 [http://dlmf.nist.gov/13.23.E4]: All Aborted: [Simple: Aborted]
-4603 [http://dlmf.nist.gov/13.23.E5]: All Aborted: [Simple: Aborted]
+4599 [http://dlmf.nist.gov/13.23.E1]: All Aborted: [Simple: NaN]
+4600 [http://dlmf.nist.gov/13.23.E2]: All Aborted: [Simple: NaN]
+4601 [http://dlmf.nist.gov/13.23.E3]: All Aborted: [Simple: NaN]
+4602 [http://dlmf.nist.gov/13.23.E4]: All Aborted: [Simple: NaN]
+4603 [http://dlmf.nist.gov/13.23.E5]: Successful under condition [Simple: ConditionalExpression[0, And[Less[Times[2, Re[μ]], Plus[1, ν, Conjugate[ν]]], Less[Re[Plus[κ, ν]], 0], Greater[Re[Plus[μ, ν]], Rational[-1, 2]]]]]
 4604 [http://dlmf.nist.gov/13.23.E6]: Failure [Simple: NaN]
 4605 [http://dlmf.nist.gov/13.23.E7]: Failure [Simple: NaN]
-4606 [http://dlmf.nist.gov/13.23.E8]: All Aborted: [Simple: Aborted]
-4607 [http://dlmf.nist.gov/13.23.E9]: All Aborted: [Simple: Aborted]
-4608 [http://dlmf.nist.gov/13.23.E10]: All Aborted: [Simple: Aborted]
-4609 [http://dlmf.nist.gov/13.23.E11]: All Aborted: [Simple: Aborted]
-4610 [http://dlmf.nist.gov/13.23.E12]: All Aborted: [Simple: Aborted]
+4606 [http://dlmf.nist.gov/13.23.E8]: All Aborted: [Simple: NaN]
+4607 [http://dlmf.nist.gov/13.23.E9]: All Aborted: [Simple: NaN]
+4608 [http://dlmf.nist.gov/13.23.E10]: All Aborted: [Simple: NaN]
+4609 [http://dlmf.nist.gov/13.23.E11]: All Aborted: [Simple: NaN]
+4610 [http://dlmf.nist.gov/13.23.E12]: All Aborted: [Simple: NaN]
 4611 [http://dlmf.nist.gov/13.23.E13]: Skipped - Invalid test case: Generic function g(\mu)
 4612 [http://dlmf.nist.gov/13.23.E14]: Skipped - Invalid test case: Generic function f(x)
 4613 [http://dlmf.nist.gov/13.24.E1]: Failure [Simple: NaN]
@@ -417,4 +417,4 @@ Overall: [TOTAL: 418, SKIPPED: 125, DEFINITIONS: 33, STARTED_TEST_CASES: 260, ER
 4639 [http://dlmf.nist.gov/13.29.E8]: Skipped - Unable to analyze test case: Null
 4640 [http://dlmf.nist.gov/13.31.E1]: Definition - Line is a non-semantic definition.
 4641 [http://dlmf.nist.gov/13.31.E2]: Definition - Line is a non-semantic definition.
-4642 [http://dlmf.nist.gov/13.31.E3]: All Aborted: [Simple: Aborted]
+4642 [http://dlmf.nist.gov/13.31.E3]: All Aborted: [Simple: NaN]

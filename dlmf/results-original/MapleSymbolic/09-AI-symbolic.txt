@@ -1,4 +1,4 @@
-Overall: [TOTAL: 314, SKIPPED: 54, DEFINITIONS: 25, STARTED_TEST_CASES: 235, ERROR_TRANS: 9, MISSING: 46, SUCCESS_TRANS: 180, SUCCESS_SYMB: 54, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 125, ABORTED: 0, ERROR: 1] for test expression: (#LHS)-(#RHS)
+Overall: [TOTAL: 317, SKIPPED: 56, DEFINITIONS: 25, STARTED_TEST_CASES: 236, ERROR_TRANS: 8, MISSING: 47, SUCCESS_TRANS: 181, SUCCESS_SYMB: 55, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 125, NO_TEST_VALUES: 0, ABORTED: 0, ERROR: 1] for test expression: (#LHS)-(#RHS)
 [Simple Simplify: ON, EXPonential Conversion (ConvEXP): ON, HYPergeometric Conversion (ConvHYP): ON, Expansion (EXP): ON, Expansion via EXP (EXP+EXP): ON, Expansion via HYP (EXP+HYP): ON]
 2718 [http://dlmf.nist.gov/9.2.E1]: Definition - Line is a non-semantic definition.
 2719 [http://dlmf.nist.gov/9.2.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
@@ -20,8 +20,8 @@ Overall: [TOTAL: 314, SKIPPED: 54, DEFINITIONS: 25, STARTED_TEST_CASES: 235, ERR
 2728-a [http://dlmf.nist.gov/9.2.E11]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2729 [http://dlmf.nist.gov/9.2.E12]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2730 [http://dlmf.nist.gov/9.2.E13]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-2731 [http://dlmf.nist.gov/9.2.E14]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-2732 [http://dlmf.nist.gov/9.2.E15]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+2731 [http://dlmf.nist.gov/9.2.E14]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+2732 [http://dlmf.nist.gov/9.2.E15]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2733 [http://dlmf.nist.gov/9.2.E16]: Definition - Line is a non-semantic definition.
 2734 [http://dlmf.nist.gov/9.4.E1]: Skipped - Invalid test case: cdots
 2735 [http://dlmf.nist.gov/9.4.E2]: Skipped - Invalid test case: cdots
@@ -30,9 +30,9 @@ Overall: [TOTAL: 314, SKIPPED: 54, DEFINITIONS: 25, STARTED_TEST_CASES: 235, ERR
 2738 [http://dlmf.nist.gov/9.5.E1]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2739 [http://dlmf.nist.gov/9.5.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2740 [http://dlmf.nist.gov/9.5.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-2741 [http://dlmf.nist.gov/9.5.E4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+2741 [http://dlmf.nist.gov/9.5.E4]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2742 [http://dlmf.nist.gov/9.5.E5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-2743 [http://dlmf.nist.gov/9.5.E6]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+2743 [http://dlmf.nist.gov/9.5.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2744 [http://dlmf.nist.gov/9.5.E7]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2745 [http://dlmf.nist.gov/9.5.E8]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2746 [http://dlmf.nist.gov/9.6.E1]: Definition - Line is a non-semantic definition.
@@ -101,6 +101,7 @@ Overall: [TOTAL: 314, SKIPPED: 54, DEFINITIONS: 25, STARTED_TEST_CASES: 235, ERR
 2771 [http://dlmf.nist.gov/9.6.E26]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2772 [http://dlmf.nist.gov/9.7.E1]: Definition - Line is a non-semantic definition.
 2773 [https://dlmf.nist.gov/9.7#Ex1]: Skipped - no semantic math
+2773-a [https://dlmf.nist.gov/9.7#Ex1]: Skipped - no semantic math
 2774 [https://dlmf.nist.gov/9.7#Ex2]: Skipped - no semantic math
 2775 [http://dlmf.nist.gov/9.7.E3]: Definition - Line is a non-semantic definition.
 2776 [http://dlmf.nist.gov/9.7.E4]: Skipped - Unable to analyze test case: Null
@@ -142,13 +143,13 @@ Overall: [TOTAL: 314, SKIPPED: 54, DEFINITIONS: 25, STARTED_TEST_CASES: 235, ERR
 2812 [https://dlmf.nist.gov/9.8#Ex2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2813 [https://dlmf.nist.gov/9.8#Ex3]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 2814 [http://dlmf.nist.gov/9.8.E15]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
-2814-a [http://dlmf.nist.gov/9.8.E15]: Translation Error - (LaTeX -> Maple) Error while translating DLMF/DRMF Macro: The arguments of semantic macros must be wrapped in curly brackets! It seems you wrote \AirymodM(...) instead of \AirymodM{...} [\AirymodM]
+2814-a [http://dlmf.nist.gov/9.8.E15]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2815 [http://dlmf.nist.gov/9.8.E16]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 2815-a [http://dlmf.nist.gov/9.8.E16]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2816 [http://dlmf.nist.gov/9.8.E17]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2816-a [http://dlmf.nist.gov/9.8.E17]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2817 [https://dlmf.nist.gov/9.8#Ex4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-2818 [https://dlmf.nist.gov/9.8#Ex5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: Aborted, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+2818 [https://dlmf.nist.gov/9.8#Ex5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2819 [http://dlmf.nist.gov/9.8.E19]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 2820 [http://dlmf.nist.gov/9.8.E20]: Skipped - Unable to analyze test case: Null
 2821 [http://dlmf.nist.gov/9.8.E21]: Skipped - Unable to analyze test case: Null
@@ -189,13 +190,13 @@ Overall: [TOTAL: 314, SKIPPED: 54, DEFINITIONS: 25, STARTED_TEST_CASES: 235, ERR
 2852 [http://dlmf.nist.gov/9.10.E5]: Skipped - Unable to analyze test case: Null
 2853 [http://dlmf.nist.gov/9.10.E6]: Skipped - Invalid test case: bigO
 2854 [http://dlmf.nist.gov/9.10.E7]: Skipped - Invalid test case: bigO
-2855 [http://dlmf.nist.gov/9.10.E8]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
-2856 [http://dlmf.nist.gov/9.10.E9]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
+2855 [http://dlmf.nist.gov/9.10.E8]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
+2856 [http://dlmf.nist.gov/9.10.E9]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
 2857 [http://dlmf.nist.gov/9.10.E10]: Definition - Line is a non-semantic definition.
 2858 [https://dlmf.nist.gov/9.10#Ex1]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 2859 [https://dlmf.nist.gov/9.10#Ex2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2860 [http://dlmf.nist.gov/9.10.E12]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-2861 [http://dlmf.nist.gov/9.10.E13]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NULL, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+2861 [http://dlmf.nist.gov/9.10.E13]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2862 [http://dlmf.nist.gov/9.10.E14]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2863 [http://dlmf.nist.gov/9.10.E15]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2864 [http://dlmf.nist.gov/9.10.E16]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
@@ -211,21 +212,21 @@ Overall: [TOTAL: 314, SKIPPED: 54, DEFINITIONS: 25, STARTED_TEST_CASES: 235, ERR
 2874 [http://dlmf.nist.gov/9.11.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2875 [http://dlmf.nist.gov/9.11.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2876 [http://dlmf.nist.gov/9.11.E4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-2877 [http://dlmf.nist.gov/9.11.E5]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
-2878 [http://dlmf.nist.gov/9.11.E6]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
-2879 [http://dlmf.nist.gov/9.11.E7]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
-2880 [http://dlmf.nist.gov/9.11.E8]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
-2881 [http://dlmf.nist.gov/9.11.E9]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
-2882 [http://dlmf.nist.gov/9.11.E10]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
+2877 [http://dlmf.nist.gov/9.11.E5]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
+2878 [http://dlmf.nist.gov/9.11.E6]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
+2879 [http://dlmf.nist.gov/9.11.E7]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
+2880 [http://dlmf.nist.gov/9.11.E8]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
+2881 [http://dlmf.nist.gov/9.11.E9]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
+2882 [http://dlmf.nist.gov/9.11.E10]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
 2883 [http://dlmf.nist.gov/9.11.E11]: Skipped - Invalid test case: Generic function f\left(\frac{w_{2}}{w_{1}}\right)
 2884 [http://dlmf.nist.gov/9.11.E12]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2885 [http://dlmf.nist.gov/9.11.E13]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2886 [http://dlmf.nist.gov/9.11.E14]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-2887 [http://dlmf.nist.gov/9.11.E15]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NULL, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-2888 [http://dlmf.nist.gov/9.11.E16]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: Aborted, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-2889 [http://dlmf.nist.gov/9.11.E17]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: Aborted, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+2887 [http://dlmf.nist.gov/9.11.E15]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+2888 [http://dlmf.nist.gov/9.11.E16]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+2889 [http://dlmf.nist.gov/9.11.E17]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2890 [http://dlmf.nist.gov/9.11.E18]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-2891 [http://dlmf.nist.gov/9.11.E19]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: Aborted, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+2891 [http://dlmf.nist.gov/9.11.E19]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2891-a [http://dlmf.nist.gov/9.11.E19]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2892 [http://dlmf.nist.gov/9.12.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2893 [http://dlmf.nist.gov/9.12.E2]: Definition - Line is a non-semantic definition.
@@ -236,7 +237,7 @@ Overall: [TOTAL: 314, SKIPPED: 54, DEFINITIONS: 25, STARTED_TEST_CASES: 235, ERR
 2898 [http://dlmf.nist.gov/9.12.E5]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 2899 [http://dlmf.nist.gov/9.12.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2899-a [http://dlmf.nist.gov/9.12.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-2899-b [http://dlmf.nist.gov/9.12.E6]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
+2899-b [http://dlmf.nist.gov/9.12.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2900 [http://dlmf.nist.gov/9.12.E7]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 2900-a [http://dlmf.nist.gov/9.12.E7]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 2900-b [http://dlmf.nist.gov/9.12.E7]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: NaN, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
@@ -286,11 +287,13 @@ Overall: [TOTAL: 314, SKIPPED: 54, DEFINITIONS: 25, STARTED_TEST_CASES: 235, ERR
 2939 [http://dlmf.nist.gov/9.13.E12]: Skipped - Invalid test case: cases
 2940 [http://dlmf.nist.gov/9.13.E13]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \modcylinder [\modcylinder]
 2941 [https://dlmf.nist.gov/9.13#Ex7]: Skipped - no semantic math
+2941-a [https://dlmf.nist.gov/9.13#Ex7]: Skipped - no semantic math
 2942 [https://dlmf.nist.gov/9.13#Ex8]: Skipped - no semantic math
+2942-a [https://dlmf.nist.gov/9.13#Ex8]: Skipped - no semantic math
 2943 [http://dlmf.nist.gov/9.13.E15]: Skipped - Invalid test case: cases
 2944 [http://dlmf.nist.gov/9.13.E16]: Skipped - Invalid test case: cases
 2945 [http://dlmf.nist.gov/9.13.E17]: Definition - Line is a non-semantic definition.
-2946 [http://dlmf.nist.gov/9.13.E18]: Skipped - no semantic math
+2946 [http://dlmf.nist.gov/9.13.E18]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \modcylinder [\modcylinder]
 2947 [http://dlmf.nist.gov/9.13.E19]: Definition - Line is a non-semantic definition.
 2948 [http://dlmf.nist.gov/9.13.E20]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2949 [http://dlmf.nist.gov/9.13.E21]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]

@@ -1,5 +1,0 @@
-\paraW, 14
-\dilHermitepolyHe, 4
-\FishersHh, 2
-\paraUbar, 2
-\nabla, 1

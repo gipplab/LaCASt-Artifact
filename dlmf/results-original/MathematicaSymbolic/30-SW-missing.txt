@@ -1,4 +1,4 @@
-\sphwavePsreal, 15
+\sphwavePsreal, 17
 \spheigvalLambda, 9
 \sphwavePs, 5
 \sphwaveQsreal, 4

@@ -1,3 +1,0 @@
-\EulernumberE, 13
-\perBernoulliB, 2
-\perEulerE, 2

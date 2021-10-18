@@ -1,7 +1,0 @@
-\scincgamma, 15
-\gencosint, 7
-\gensinint, 6
-\genshiftcosint, 4
-\genshiftsinint, 2
-\textstyle, 1
-\terminant, 1

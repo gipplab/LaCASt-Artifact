@@ -1,7 +1,7 @@
-Overall: [TOTAL: 302, SKIPPED: 84, DEFINITIONS: 14, STARTED_TEST_CASES: 204, ERROR_TRANS: 5, MISSING: 36, SUCCESS_TRANS: 163, SUCCESS_SYMB: 57, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 8, FAILURE: 79, ABORTED: 19, ERROR: 0] for test expression: (#LHS)-(#RHS)
+Overall: [TOTAL: 314, SKIPPED: 96, DEFINITIONS: 14, STARTED_TEST_CASES: 204, ERROR_TRANS: 5, MISSING: 36, SUCCESS_TRANS: 163, SUCCESS_SYMB: 56, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 18, FAILURE: 78, NO_TEST_VALUES: 0, ABORTED: 11, ERROR: 0] for test expression: (#LHS)-(#RHS)
 [SIMPLE]
-2445 [http://dlmf.nist.gov/8.2.E1]: Successful [Simple: 0]
-2446 [http://dlmf.nist.gov/8.2.E2]: Successful under condition [Simple: 0.0 under condition: Or[Unequal[Im[z], 0], Greater[Re[z], 0]]]
+2445 [http://dlmf.nist.gov/8.2.E1]: Successful under condition [Simple: ConditionalExpression[0, Greater[Re[a], 0]]]
+2446 [http://dlmf.nist.gov/8.2.E2]: Successful under condition [Simple: ConditionalExpression[0, Or[Unequal[Im[z], 0], Greater[Re[z], 0]]]]
 2447 [http://dlmf.nist.gov/8.2.E3]: Successful [Simple: 0]
 2448 [https://dlmf.nist.gov/8.2#Ex1]: Successful [Simple: 0]
 2449 [https://dlmf.nist.gov/8.2#Ex2]: Successful [Simple: 0]
@@ -21,8 +21,8 @@ Overall: [TOTAL: 302, SKIPPED: 84, DEFINITIONS: 14, STARTED_TEST_CASES: 204, ERR
 2460-a [http://dlmf.nist.gov/8.4.E1]: Successful [Simple: 0]
 2461 [http://dlmf.nist.gov/8.4.E2]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \scincgamma [\scincgamma]
 2462 [http://dlmf.nist.gov/8.4.E3]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \scincgamma [\scincgamma]
-2463 [http://dlmf.nist.gov/8.4.E4]: Successful under condition [Simple: 0.0 under condition: And[Greater[Re[z], 0], Equal[Im[z], 0]]]
-2463-a [http://dlmf.nist.gov/8.4.E4]: Failure [Simple: NaN]
+2463 [http://dlmf.nist.gov/8.4.E4]: Successful under condition [Simple: ConditionalExpression[0, And[Greater[Re[z], 0], Equal[Im[z], 0]]]]
+2463-a [http://dlmf.nist.gov/8.4.E4]: Successful under condition [Simple: ConditionalExpression[0, And[Greater[Re[z], 0], Equal[z, Re[z]]]]]
 2464 [http://dlmf.nist.gov/8.4.E5]: Successful [Simple: 0]
 2465 [http://dlmf.nist.gov/8.4.E6]: Failure [Simple: NaN]
 2465-a [http://dlmf.nist.gov/8.4.E6]: Successful [Simple: 0]
@@ -44,19 +44,19 @@ Overall: [TOTAL: 302, SKIPPED: 84, DEFINITIONS: 14, STARTED_TEST_CASES: 204, ERR
 2477-a [http://dlmf.nist.gov/8.5.E3]: Successful [Simple: 0]
 2478 [http://dlmf.nist.gov/8.5.E4]: Successful [Simple: 0]
 2479 [http://dlmf.nist.gov/8.5.E5]: Successful [Simple: 0]
-2480 [http://dlmf.nist.gov/8.6.E1]: All Aborted: [Simple: Aborted]
-2481 [http://dlmf.nist.gov/8.6.E2]: All Aborted: [Simple: Aborted]
-2482 [http://dlmf.nist.gov/8.6.E3]: Successful [Simple: 0]
-2483 [http://dlmf.nist.gov/8.6.E4]: Successful under condition [Simple: 0.0 under condition: Or[Unequal[Im[z], 0], Greater[Re[z], 0]]]
-2484 [http://dlmf.nist.gov/8.6.E5]: Successful [Simple: 0]
-2485 [http://dlmf.nist.gov/8.6.E6]: All Aborted: [Simple: Aborted]
-2486 [http://dlmf.nist.gov/8.6.E7]: Successful [Simple: 0]
+2480 [http://dlmf.nist.gov/8.6.E1]: All Aborted: [Simple: NaN]
+2481 [http://dlmf.nist.gov/8.6.E2]: All Aborted: [Simple: NaN]
+2482 [http://dlmf.nist.gov/8.6.E3]: Successful under condition [Simple: ConditionalExpression[0, Greater[Re[a], 0]]]
+2483 [http://dlmf.nist.gov/8.6.E4]: Successful under condition [Simple: ConditionalExpression[0, And[Or[Unequal[Im[z], 0], Greater[Re[z], 0]], Less[Re[a], 1]]]]
+2484 [http://dlmf.nist.gov/8.6.E5]: Successful under condition [Simple: ConditionalExpression[0, Greater[Re[z], 0]]]
+2485 [http://dlmf.nist.gov/8.6.E6]: Successful under condition [Simple: ConditionalExpression[0, And[Less[Re[a], 1], Greater[Re[z], 0], Equal[Im[z], 0]]]]
+2486 [http://dlmf.nist.gov/8.6.E7]: Successful under condition [Simple: ConditionalExpression[0, Greater[Re[z], 0]]]
 2487 [http://dlmf.nist.gov/8.6.E8]: Failure [Simple: NaN]
-2488 [http://dlmf.nist.gov/8.6.E9]: All Aborted: [Simple: Aborted]
-2488-a [http://dlmf.nist.gov/8.6.E9]: All Aborted: [Simple: Aborted]
-2489 [http://dlmf.nist.gov/8.6.E10]: All Aborted: [Simple: Aborted]
-2490 [http://dlmf.nist.gov/8.6.E11]: All Aborted: [Simple: Aborted]
-2491 [http://dlmf.nist.gov/8.6.E12]: All Aborted: [Simple: Aborted]
+2488 [http://dlmf.nist.gov/8.6.E9]: Failure [Simple: NaN]
+2488-a [http://dlmf.nist.gov/8.6.E9]: Failure [Simple: NaN]
+2489 [http://dlmf.nist.gov/8.6.E10]: All Aborted: [Simple: NaN]
+2490 [http://dlmf.nist.gov/8.6.E11]: All Aborted: [Simple: NaN]
+2491 [http://dlmf.nist.gov/8.6.E12]: All Aborted: [Simple: NaN]
 2492 [http://dlmf.nist.gov/8.7.E1]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \scincgamma [\scincgamma]
 2492-a [http://dlmf.nist.gov/8.7.E1]: Successful [Simple: 0]
 2493 [http://dlmf.nist.gov/8.7.E2]: Successful [Simple: 0]
@@ -92,6 +92,7 @@ Overall: [TOTAL: 302, SKIPPED: 84, DEFINITIONS: 14, STARTED_TEST_CASES: 204, ERR
 2520 [http://dlmf.nist.gov/8.10.E2]: Failure [Simple: NaN]
 2521 [http://dlmf.nist.gov/8.10.E3]: Failure [Simple: NaN]
 2522 [http://dlmf.nist.gov/8.10.E4]: Skipped - no semantic math
+2522-a [http://dlmf.nist.gov/8.10.E4]: Skipped - no semantic math
 2523 [http://dlmf.nist.gov/8.10.E5]: Failure [Simple: NaN]
 2523-a [http://dlmf.nist.gov/8.10.E5]: Failure [Simple: NaN]
 2524 [https://dlmf.nist.gov/8.10#Ex1]: Skipped - no semantic math
@@ -101,6 +102,7 @@ Overall: [TOTAL: 302, SKIPPED: 84, DEFINITIONS: 14, STARTED_TEST_CASES: 204, ERR
 2528 [http://dlmf.nist.gov/8.10.E7]: Failure [Simple: NaN]
 2528-a [http://dlmf.nist.gov/8.10.E7]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \scincgamma [\scincgamma]
 2529 [http://dlmf.nist.gov/8.10.E8]: Skipped - no semantic math
+2529-a [http://dlmf.nist.gov/8.10.E8]: Skipped - no semantic math
 2530 [https://dlmf.nist.gov/8.10#Ex5]: Failure [Simple: NaN]
 2531 [https://dlmf.nist.gov/8.10#Ex6]: Failure [Simple: NaN]
 2532 [http://dlmf.nist.gov/8.10.E10]: Failure [Simple: NaN]
@@ -108,7 +110,13 @@ Overall: [TOTAL: 302, SKIPPED: 84, DEFINITIONS: 14, STARTED_TEST_CASES: 204, ERR
 2533 [http://dlmf.nist.gov/8.10.E11]: Failure [Simple: NaN]
 2533-a [http://dlmf.nist.gov/8.10.E11]: Failure [Simple: NaN]
 2534 [https://dlmf.nist.gov/8.10#Ex7]: Skipped - no semantic math
+2534-a [https://dlmf.nist.gov/8.10#Ex7]: Skipped - no semantic math
+2534-b [https://dlmf.nist.gov/8.10#Ex7]: Skipped - no semantic math
+2534-c [https://dlmf.nist.gov/8.10#Ex7]: Skipped - no semantic math
 2535 [https://dlmf.nist.gov/8.10#Ex8]: Skipped - no semantic math
+2535-a [https://dlmf.nist.gov/8.10#Ex8]: Skipped - no semantic math
+2535-b [https://dlmf.nist.gov/8.10#Ex8]: Skipped - no semantic math
+2535-c [https://dlmf.nist.gov/8.10#Ex8]: Skipped - no semantic math
 2536 [http://dlmf.nist.gov/8.10.E13]: Failure [Simple: NaN]
 2536-a [http://dlmf.nist.gov/8.10.E13]: Failure [Simple: NaN]
 2537 [http://dlmf.nist.gov/8.11.E1]: Definition - Line is a non-semantic definition.
@@ -126,6 +134,10 @@ Overall: [TOTAL: 302, SKIPPED: 84, DEFINITIONS: 14, STARTED_TEST_CASES: 204, ERR
 2549 [http://dlmf.nist.gov/8.11.E11]: Skipped - Invalid test case: bigO
 2550 [http://dlmf.nist.gov/8.11.E12]: Skipped - Unable to analyze test case: Null
 2551 [http://dlmf.nist.gov/8.11.E13]: Skipped - no semantic math
+2551-a [http://dlmf.nist.gov/8.11.E13]: Skipped - no semantic math
+2551-b [http://dlmf.nist.gov/8.11.E13]: Skipped - no semantic math
+2551-c [http://dlmf.nist.gov/8.11.E13]: Skipped - no semantic math
+2551-d [http://dlmf.nist.gov/8.11.E13]: Skipped - no semantic math
 2552 [http://dlmf.nist.gov/8.11.E14]: Definition - Line is a non-semantic definition.
 2553 [http://dlmf.nist.gov/8.11.E15]: Failure [Simple: NaN]
 2554 [http://dlmf.nist.gov/8.11.E16]: Skipped - Unable to analyze test case: Null
@@ -176,14 +188,14 @@ Overall: [TOTAL: 302, SKIPPED: 84, DEFINITIONS: 14, STARTED_TEST_CASES: 204, ERR
 2597 [http://dlmf.nist.gov/8.12.E22]: Skipped - Unable to analyze test case: Null
 2598 [http://dlmf.nist.gov/8.13.E1]: Failure [Simple: NaN]
 2598-a [http://dlmf.nist.gov/8.13.E1]: Failure [Simple: NaN]
-2599 [http://dlmf.nist.gov/8.14.E1]: All Aborted: [Simple: Aborted]
-2600 [http://dlmf.nist.gov/8.14.E2]: All Aborted: [Simple: Aborted]
-2601 [http://dlmf.nist.gov/8.14.E3]: All Aborted: [Simple: Aborted]
-2602 [http://dlmf.nist.gov/8.14.E4]: Successful [Simple: 0]
-2603 [http://dlmf.nist.gov/8.14.E5]: All Aborted: [Simple: Aborted]
-2604 [http://dlmf.nist.gov/8.14.E6]: All Aborted: [Simple: Aborted]
+2599 [http://dlmf.nist.gov/8.14.E1]: All Aborted: [Simple: NaN]
+2600 [http://dlmf.nist.gov/8.14.E2]: All Aborted: [Simple: NaN]
+2601 [http://dlmf.nist.gov/8.14.E3]: Failure [Simple: NaN]
+2602 [http://dlmf.nist.gov/8.14.E4]: Successful under condition [Simple: ConditionalExpression[0, And[Greater[Re[a], 0], Greater[Re[Plus[a, b]], 0]]]]
+2603 [http://dlmf.nist.gov/8.14.E5]: All Aborted: [Simple: NaN]
+2604 [http://dlmf.nist.gov/8.14.E6]: All Aborted: [Simple: NaN]
 2605 [http://dlmf.nist.gov/8.15.E1]: Failure [Simple: NaN]
-2606 [http://dlmf.nist.gov/8.17.E1]: Successful under condition [Simple: 0.0 under condition: And[Greater[Re[a], 0], Or[LessEqual[Re[x], 1], NotElement[x, Reals]]]]
+2606 [http://dlmf.nist.gov/8.17.E1]: Successful under condition [Simple: ConditionalExpression[0, And[Greater[Re[a], 0], Or[LessEqual[Re[x], 1], NotElement[x, Reals]]]]]
 2607 [http://dlmf.nist.gov/8.17.E2]: Successful [Simple: 0]
 2608 [http://dlmf.nist.gov/8.17.E3]: Successful [Simple: 0]
 2609 [http://dlmf.nist.gov/8.17.E4]: Failure [Simple: NaN]
@@ -192,23 +204,23 @@ Overall: [TOTAL: 302, SKIPPED: 84, DEFINITIONS: 14, STARTED_TEST_CASES: 204, ERR
 2612 [http://dlmf.nist.gov/8.17.E7]: Successful [Simple: 0]
 2613 [http://dlmf.nist.gov/8.17.E8]: Successful [Simple: 0]
 2614 [http://dlmf.nist.gov/8.17.E9]: Failure [Simple: NaN]
-2615 [http://dlmf.nist.gov/8.17.E10]: All Aborted: [Simple: Aborted]
+2615 [http://dlmf.nist.gov/8.17.E10]: All Aborted: [Simple: NaN]
 2616 [https://dlmf.nist.gov/8.17#Ex1]: Definition - Line is a non-semantic definition.
 2617 [https://dlmf.nist.gov/8.17#Ex2]: Definition - Line is a non-semantic definition.
-2618 [http://dlmf.nist.gov/8.17.E12]: Failure [Simple: NaN]
+2618 [http://dlmf.nist.gov/8.17.E12]: Successful [Simple: 0]
 2619 [http://dlmf.nist.gov/8.17.E13]: Successful [Simple: 0]
 2620 [http://dlmf.nist.gov/8.17.E14]: Successful [Simple: 0]
-2621 [http://dlmf.nist.gov/8.17.E15]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
+2621 [http://dlmf.nist.gov/8.17.E15]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
 2622 [http://dlmf.nist.gov/8.17.E16]: Failure [Simple: NaN]
-2623 [http://dlmf.nist.gov/8.17.E17]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
+2623 [http://dlmf.nist.gov/8.17.E17]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
 2624 [http://dlmf.nist.gov/8.17.E18]: Failure [Simple: NaN]
-2625 [http://dlmf.nist.gov/8.17.E19]: Failure [Simple: NaN]
-2626 [http://dlmf.nist.gov/8.17.E20]: Failure [Simple: NaN]
-2627 [http://dlmf.nist.gov/8.17.E21]: Failure [Simple: NaN]
+2625 [http://dlmf.nist.gov/8.17.E19]: Successful [Simple: 0]
+2626 [http://dlmf.nist.gov/8.17.E20]: Successful [Simple: 0]
+2627 [http://dlmf.nist.gov/8.17.E21]: Successful [Simple: 0]
 2628 [http://dlmf.nist.gov/8.17.E22]: Skipped - Invalid test case: cdots
 2629 [https://dlmf.nist.gov/8.17#Ex3]: Skipped - no semantic math
 2630 [https://dlmf.nist.gov/8.17#Ex4]: Skipped - no semantic math
-2631 [http://dlmf.nist.gov/8.17.E24]: Failure [Simple: NaN]
+2631 [http://dlmf.nist.gov/8.17.E24]: Successful [Simple: 0]
 2632 [http://dlmf.nist.gov/8.18.E1]: Skipped - Invalid test case: bigO
 2633 [http://dlmf.nist.gov/8.18.E2]: Failure [Simple: NaN]
 2634 [http://dlmf.nist.gov/8.18.E3]: Skipped - Invalid test case: bigO
@@ -230,12 +242,12 @@ Overall: [TOTAL: 302, SKIPPED: 84, DEFINITIONS: 14, STARTED_TEST_CASES: 204, ERR
 2650 [http://dlmf.nist.gov/8.18.E17]: Skipped - no semantic math
 2651 [http://dlmf.nist.gov/8.18.E18]: Failure [Simple: NaN]
 2652 [http://dlmf.nist.gov/8.19.E1]: Successful [Simple: 0]
-2653 [http://dlmf.nist.gov/8.19.E2]: Successful under condition [Simple: 0.0 under condition: Or[Unequal[z, Re[z]], Greater[Re[z], 0]]]
-2654 [http://dlmf.nist.gov/8.19.E3]: Successful under condition [Simple: 0.0 under condition: Greater[Re[z], 0]]
-2655 [http://dlmf.nist.gov/8.19.E4]: Successful under condition [Simple: 0.0 under condition: Greater[Re[z], 0]]
+2653 [http://dlmf.nist.gov/8.19.E2]: Successful under condition [Simple: ConditionalExpression[0, Or[Unequal[z, Re[z]], Greater[Re[z], 0]]]]
+2654 [http://dlmf.nist.gov/8.19.E3]: Successful under condition [Simple: ConditionalExpression[0, Greater[Re[z], 0]]]
+2655 [http://dlmf.nist.gov/8.19.E4]: Successful under condition [Simple: ConditionalExpression[0, And[Greater[Re[p], 0], Greater[Re[z], 0]]]]
 2656 [http://dlmf.nist.gov/8.19.E5]: Successful [Simple: 0]
-2657 [http://dlmf.nist.gov/8.19.E6]: Successful [Simple: 0]
-2658 [http://dlmf.nist.gov/8.19.E7]: Failure [Simple: NaN]
+2657 [http://dlmf.nist.gov/8.19.E6]: Failure [Simple: NaN]
+2658 [http://dlmf.nist.gov/8.19.E7]: Successful [Simple: 0]
 2659 [http://dlmf.nist.gov/8.19.E8]: Translation Error - (LaTeX -> Mathematica) No translation possible for given token: Unable to identify interval of SUM
 2660 [http://dlmf.nist.gov/8.19.E9]: Failure [Simple: NaN]
 2661 [http://dlmf.nist.gov/8.19.E10]: Successful [Simple: 0]
@@ -243,7 +255,7 @@ Overall: [TOTAL: 302, SKIPPED: 84, DEFINITIONS: 14, STARTED_TEST_CASES: 204, ERR
 2663 [http://dlmf.nist.gov/8.19.E12]: Successful [Simple: 0]
 2664 [http://dlmf.nist.gov/8.19.E13]: Successful [Simple: 0]
 2665 [http://dlmf.nist.gov/8.19.E14]: Successful [Simple: 0]
-2666 [http://dlmf.nist.gov/8.19.E15]: All Aborted: [Simple: Aborted]
+2666 [http://dlmf.nist.gov/8.19.E15]: All Aborted: [Simple: NaN]
 2667 [http://dlmf.nist.gov/8.19.E16]: Successful [Simple: 0]
 2668 [http://dlmf.nist.gov/8.19.E17]: Skipped - Invalid test case: cdots
 2669 [http://dlmf.nist.gov/8.19.E18]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Cannot translate operation mp
@@ -253,12 +265,12 @@ Overall: [TOTAL: 302, SKIPPED: 84, DEFINITIONS: 14, STARTED_TEST_CASES: 204, ERR
 2672 [http://dlmf.nist.gov/8.19.E21]: Failure [Simple: NaN]
 2672-a [http://dlmf.nist.gov/8.19.E21]: Failure [Simple: NaN]
 2673 [http://dlmf.nist.gov/8.19.E22]: Failure [Simple: NaN]
-2674 [http://dlmf.nist.gov/8.19.E23]: Successful under condition [Simple: 0.0 under condition: And[Greater[Re[z], 0], Equal[Im[z], 0]]]
+2674 [http://dlmf.nist.gov/8.19.E23]: Successful under condition [Simple: ConditionalExpression[0, And[Greater[Re[z], 0], Equal[Im[z], 0]]]]
 2675 [http://dlmf.nist.gov/8.19.E24]: Failure [Simple: NaN]
-2676 [http://dlmf.nist.gov/8.19.E25]: All Aborted: [Simple: Aborted]
+2676 [http://dlmf.nist.gov/8.19.E25]: Failure [Simple: NaN]
 2677 [http://dlmf.nist.gov/8.19.E26]: Failure [Simple: NaN]
 2678 [http://dlmf.nist.gov/8.19.E27]: Failure [Simple: NaN]
-2678-a [http://dlmf.nist.gov/8.19.E27]: Successful [Simple: 0]
+2678-a [http://dlmf.nist.gov/8.19.E27]: Successful under condition [Simple: ConditionalExpression[0, Greater[Re[p], 0]]]
 2679 [http://dlmf.nist.gov/8.20.E1]: Successful [Simple: 0]
 2680 [http://dlmf.nist.gov/8.20.E2]: Skipped - Unable to analyze test case: Null
 2681 [http://dlmf.nist.gov/8.20.E3]: Skipped - Unable to analyze test case: Null
@@ -271,8 +283,8 @@ Overall: [TOTAL: 302, SKIPPED: 84, DEFINITIONS: 14, STARTED_TEST_CASES: 204, ERR
 2687-a [http://dlmf.nist.gov/8.21.E1]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \genshiftcosint [\genshiftcosint]
 2688 [http://dlmf.nist.gov/8.21.E2]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \gencosint [\gencosint]
 2688-a [http://dlmf.nist.gov/8.21.E2]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \gencosint [\gencosint]
-2689 [http://dlmf.nist.gov/8.21.E3]: All Aborted: [Simple: Aborted]
-2689-a [http://dlmf.nist.gov/8.21.E3]: All Aborted: [Simple: Aborted]
+2689 [http://dlmf.nist.gov/8.21.E3]: Successful under condition [Simple: ConditionalExpression[0, Inequality[0, Less, Re[a], Less, 1]]]
+2689-a [http://dlmf.nist.gov/8.21.E3]: Successful under condition [Simple: ConditionalExpression[0, Inequality[0, Less, Re[a], Less, 1]]]
 2690 [http://dlmf.nist.gov/8.21.E4]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \genshiftsinint [\genshiftsinint]
 2691 [http://dlmf.nist.gov/8.21.E5]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \genshiftcosint [\genshiftcosint]
 2692 [http://dlmf.nist.gov/8.21.E6]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \gensinint [\gensinint]
@@ -301,4 +313,4 @@ Overall: [TOTAL: 302, SKIPPED: 84, DEFINITIONS: 14, STARTED_TEST_CASES: 204, ERR
 2715 [http://dlmf.nist.gov/8.22.E1]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \terminant [\terminant]
 2715-a [http://dlmf.nist.gov/8.22.E1]: Successful [Simple: 0]
 2716 [http://dlmf.nist.gov/8.22.E2]: Definition - Line is a non-semantic definition.
-2717 [http://dlmf.nist.gov/8.22.E3]: All Aborted: [Simple: Aborted]
+2717 [http://dlmf.nist.gov/8.22.E3]: Failure [Simple: NaN]

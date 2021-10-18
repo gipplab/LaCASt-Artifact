@@ -1,4 +1,4 @@
-Overall: [TOTAL: 203, SKIPPED: 59, DEFINITIONS: 5, STARTED_TEST_CASES: 139, ERROR_TRANS: 2, MISSING: 7, SUCCESS_TRANS: 130, SUCCESS_SYMB: 41, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 77, ABORTED: 0, ERROR: 12] for test expression: (#LHS)-(#RHS)
+Overall: [TOTAL: 205, SKIPPED: 56, DEFINITIONS: 5, STARTED_TEST_CASES: 144, ERROR_TRANS: 2, MISSING: 6, SUCCESS_TRANS: 136, SUCCESS_SYMB: 41, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 85, NO_TEST_VALUES: 0, ABORTED: 0, ERROR: 10] for test expression: (#LHS)-(#RHS)
 [Simple Simplify: ON, EXPonential Conversion (ConvEXP): ON, HYPergeometric Conversion (ConvHYP): ON, Expansion (EXP): ON, Expansion via EXP (EXP+EXP): ON, Expansion via HYP (EXP+HYP): ON]
 1991 [http://dlmf.nist.gov/5.2.E1]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 1992 [http://dlmf.nist.gov/5.2.E2]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
@@ -38,7 +38,7 @@ Overall: [TOTAL: 203, SKIPPED: 59, DEFINITIONS: 5, STARTED_TEST_CASES: 139, ERRO
 2024 [http://dlmf.nist.gov/5.5.E1]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 2025 [http://dlmf.nist.gov/5.5.E2]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 2026 [http://dlmf.nist.gov/5.5.E3]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
-2027 [http://dlmf.nist.gov/5.5.E4]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
+2027 [http://dlmf.nist.gov/5.5.E4]: Successful [Simple: 0, ConvEXP: NaN, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 2028 [http://dlmf.nist.gov/5.5.E5]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 2029 [http://dlmf.nist.gov/5.5.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2030 [http://dlmf.nist.gov/5.5.E7]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
@@ -60,7 +60,7 @@ Overall: [TOTAL: 203, SKIPPED: 59, DEFINITIONS: 5, STARTED_TEST_CASES: 139, ERRO
 2043 [http://dlmf.nist.gov/5.7.E2]: Skipped - Invalid test case: dots
 2044 [http://dlmf.nist.gov/5.7.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2045 [http://dlmf.nist.gov/5.7.E4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-2046 [http://dlmf.nist.gov/5.7.E5]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
+2046 [http://dlmf.nist.gov/5.7.E5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2047 [http://dlmf.nist.gov/5.7.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2047-a [http://dlmf.nist.gov/5.7.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2048 [http://dlmf.nist.gov/5.7.E7]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
@@ -71,13 +71,13 @@ Overall: [TOTAL: 203, SKIPPED: 59, DEFINITIONS: 5, STARTED_TEST_CASES: 139, ERRO
 2053 [http://dlmf.nist.gov/5.8.E4]: Definition - Line is a non-semantic definition.
 2054 [http://dlmf.nist.gov/5.8.E5]: Skipped - Invalid test case: cdots
 2055 [http://dlmf.nist.gov/5.9.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-2056 [http://dlmf.nist.gov/5.9.E2]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
-2057 [http://dlmf.nist.gov/5.9.E3]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \diff [\diff]
+2056 [http://dlmf.nist.gov/5.9.E2]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+2057 [http://dlmf.nist.gov/5.9.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2058 [http://dlmf.nist.gov/5.9.E4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-2059 [http://dlmf.nist.gov/5.9.E5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+2059 [http://dlmf.nist.gov/5.9.E5]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2060 [http://dlmf.nist.gov/5.9.E6]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 2061 [http://dlmf.nist.gov/5.9.E7]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
-2062 [http://dlmf.nist.gov/5.9.E8]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
+2062 [http://dlmf.nist.gov/5.9.E8]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2063 [http://dlmf.nist.gov/5.9.E9]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 2064 [http://dlmf.nist.gov/5.9.E10]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2065 [http://dlmf.nist.gov/5.9.E11]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
@@ -92,7 +92,7 @@ Overall: [TOTAL: 203, SKIPPED: 59, DEFINITIONS: 5, STARTED_TEST_CASES: 139, ERRO
 2072-a [http://dlmf.nist.gov/5.9.E18]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 2072-b [http://dlmf.nist.gov/5.9.E18]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 2072-c [http://dlmf.nist.gov/5.9.E18]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
-2073 [http://dlmf.nist.gov/5.9.E19]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: NULL, EXP+HYP: 0]
+2073 [http://dlmf.nist.gov/5.9.E19]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 2074 [http://dlmf.nist.gov/5.10.E1]: Skipped - Invalid test case: cdots
 2075 [https://dlmf.nist.gov/5.10#Ex1]: Skipped - no semantic math
 2076 [https://dlmf.nist.gov/5.10#Ex2]: Skipped - no semantic math
@@ -138,16 +138,16 @@ Overall: [TOTAL: 203, SKIPPED: 59, DEFINITIONS: 5, STARTED_TEST_CASES: 139, ERRO
 2115 [http://dlmf.nist.gov/5.12.E5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2116 [http://dlmf.nist.gov/5.12.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2117 [http://dlmf.nist.gov/5.12.E7]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-2118 [http://dlmf.nist.gov/5.12.E8]: Skipped - Unable to analyze test case: Null
-2119 [http://dlmf.nist.gov/5.12.E9]: Skipped - Unable to analyze test case: Null
-2120 [http://dlmf.nist.gov/5.12.E10]: Skipped - Unable to analyze test case: Null
-2121 [http://dlmf.nist.gov/5.12.E11]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
-2122 [http://dlmf.nist.gov/5.12.E12]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
-2123 [http://dlmf.nist.gov/5.13.E1]: Skipped - Unable to analyze test case: Null
-2124 [http://dlmf.nist.gov/5.13.E2]: Skipped - Unable to analyze test case: Null
-2125 [http://dlmf.nist.gov/5.13.E3]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
+2118 [http://dlmf.nist.gov/5.12.E8]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+2119 [http://dlmf.nist.gov/5.12.E9]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+2120 [http://dlmf.nist.gov/5.12.E10]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+2121 [http://dlmf.nist.gov/5.12.E11]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+2122 [http://dlmf.nist.gov/5.12.E12]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+2123 [http://dlmf.nist.gov/5.13.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+2124 [http://dlmf.nist.gov/5.13.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+2125 [http://dlmf.nist.gov/5.13.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2126 [http://dlmf.nist.gov/5.13.E4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-2127 [http://dlmf.nist.gov/5.13.E5]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
+2127 [http://dlmf.nist.gov/5.13.E5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2128 [http://dlmf.nist.gov/5.14.E1]: Skipped - Invalid test case: cdots
 2129 [http://dlmf.nist.gov/5.14.E2]: Skipped - Invalid test case: cdots
 2130 [http://dlmf.nist.gov/5.14.E3]: Definition - Line is a non-semantic definition.
@@ -161,7 +161,7 @@ Overall: [TOTAL: 203, SKIPPED: 59, DEFINITIONS: 5, STARTED_TEST_CASES: 139, ERRO
 2138 [http://dlmf.nist.gov/5.15.E4]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 2139 [http://dlmf.nist.gov/5.15.E5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2140 [http://dlmf.nist.gov/5.15.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-2141 [http://dlmf.nist.gov/5.15.E7]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
+2141 [http://dlmf.nist.gov/5.15.E7]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2142 [http://dlmf.nist.gov/5.15.E8]: Skipped - Unable to analyze test case: Null
 2143 [http://dlmf.nist.gov/5.16.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2144 [http://dlmf.nist.gov/5.16.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
@@ -173,17 +173,18 @@ Overall: [TOTAL: 203, SKIPPED: 59, DEFINITIONS: 5, STARTED_TEST_CASES: 139, ERRO
 2149 [http://dlmf.nist.gov/5.17.E4]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \BarnesG [\BarnesG]
 2150 [http://dlmf.nist.gov/5.17.E5]: Skipped - Unable to analyze test case: Null
 2151 [http://dlmf.nist.gov/5.17.E6]: Skipped - no semantic math
+2151-a [http://dlmf.nist.gov/5.17.E6]: Skipped - no semantic math
 2152 [http://dlmf.nist.gov/5.17.E7]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2152-a [http://dlmf.nist.gov/5.17.E7]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2152-b [http://dlmf.nist.gov/5.17.E7]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2153 [http://dlmf.nist.gov/5.18.E1]: Successful [Simple: 0, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2154 [http://dlmf.nist.gov/5.18.E2]: Skipped - Invalid test case: cdots, cdots
 2155 [http://dlmf.nist.gov/5.18.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-2156 [http://dlmf.nist.gov/5.18.E4]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
-2157 [http://dlmf.nist.gov/5.18.E5]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
-2157-a [http://dlmf.nist.gov/5.18.E5]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
-2158 [http://dlmf.nist.gov/5.18.E6]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
-2159 [http://dlmf.nist.gov/5.18.E7]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
+2156 [http://dlmf.nist.gov/5.18.E4]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+2157 [http://dlmf.nist.gov/5.18.E5]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+2157-a [http://dlmf.nist.gov/5.18.E5]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+2158 [http://dlmf.nist.gov/5.18.E6]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+2159 [http://dlmf.nist.gov/5.18.E7]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2160 [http://dlmf.nist.gov/5.18.E8]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2161 [http://dlmf.nist.gov/5.18.E9]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2162 [http://dlmf.nist.gov/5.18.E10]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
@@ -192,6 +193,7 @@ Overall: [TOTAL: 203, SKIPPED: 59, DEFINITIONS: 5, STARTED_TEST_CASES: 139, ERRO
 2165 [https://dlmf.nist.gov/5.19#Ex1]: Skipped - no semantic math
 2166 [https://dlmf.nist.gov/5.19#Ex2]: Skipped - no semantic math
 2167 [http://dlmf.nist.gov/5.19.E2]: Skipped - no semantic math
+2167-a [http://dlmf.nist.gov/5.19.E2]: Skipped - no semantic math
 2168 [http://dlmf.nist.gov/5.19.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2168-a [http://dlmf.nist.gov/5.19.E3]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 2169 [https://dlmf.nist.gov/5.19#Ex3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]

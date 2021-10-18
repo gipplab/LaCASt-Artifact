@@ -1,4 +1,4 @@
-Overall: [TOTAL: 221, SKIPPED: 47, DEFINITIONS: 0, STARTED_TEST_CASES: 174, ERROR_TRANS: 12, MISSING: 35, SUCCESS_TRANS: 117, SUCCESS_SYMB: 15, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 93, ABORTED: 9, ERROR: 0] for test expression: (#LHS)-(#RHS)
+Overall: [TOTAL: 229, SKIPPED: 54, DEFINITIONS: 0, STARTED_TEST_CASES: 175, ERROR_TRANS: 11, MISSING: 15, SUCCESS_TRANS: 149, SUCCESS_SYMB: 17, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 129, NO_TEST_VALUES: 0, ABORTED: 2, ERROR: 1] for test expression: (#LHS)-(#RHS)
 [Simple Simplify: ON, EXPonential Conversion (ConvEXP): ON, HYPergeometric Conversion (ConvHYP): ON, Expansion (EXP): ON, Expansion via EXP (EXP+EXP): ON, Expansion via HYP (EXP+HYP): ON]
 7354 [https://dlmf.nist.gov/24.1#Ex1]: Skipped - no semantic math
 7355 [https://dlmf.nist.gov/24.1#Ex2]: Skipped - no semantic math
@@ -10,13 +10,13 @@ Overall: [TOTAL: 221, SKIPPED: 47, DEFINITIONS: 0, STARTED_TEST_CASES: 174, ERRO
 7361 [http://dlmf.nist.gov/24.2.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7362 [http://dlmf.nist.gov/24.2.E4]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 7363 [http://dlmf.nist.gov/24.2.E5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-7364 [http://dlmf.nist.gov/24.2.E6]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \EulernumberE [\EulernumberE]
-7365 [https://dlmf.nist.gov/24.2#Ex3]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \EulernumberE [\EulernumberE]
-7366 [https://dlmf.nist.gov/24.2#Ex4]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \EulernumberE [\EulernumberE]
+7364 [http://dlmf.nist.gov/24.2.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7365 [https://dlmf.nist.gov/24.2#Ex3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7366 [https://dlmf.nist.gov/24.2#Ex4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7367 [http://dlmf.nist.gov/24.2.E8]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-7368 [http://dlmf.nist.gov/24.2.E9]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \EulernumberE [\EulernumberE]
-7368-a [http://dlmf.nist.gov/24.2.E9]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty expression tag
-7369 [http://dlmf.nist.gov/24.2.E10]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \EulernumberE [\EulernumberE]
+7368 [http://dlmf.nist.gov/24.2.E9]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
+7368-a [http://dlmf.nist.gov/24.2.E9]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
+7369 [http://dlmf.nist.gov/24.2.E10]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7370 [https://dlmf.nist.gov/24.2#Ex5]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \perBernoulliB [\perBernoulliB]
 7371 [https://dlmf.nist.gov/24.2#Ex6]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \perEulerE [\perEulerE]
 7372 [https://dlmf.nist.gov/24.2#Ex7]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \perBernoulliB [\perBernoulliB]
@@ -35,32 +35,32 @@ Overall: [TOTAL: 221, SKIPPED: 47, DEFINITIONS: 0, STARTED_TEST_CASES: 174, ERRO
 7385 [http://dlmf.nist.gov/24.4.E12]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7386 [http://dlmf.nist.gov/24.4.E13]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7387 [http://dlmf.nist.gov/24.4.E14]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-7388 [http://dlmf.nist.gov/24.4.E15]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \EulernumberE [\EulernumberE]
-7389 [http://dlmf.nist.gov/24.4.E16]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \EulernumberE [\EulernumberE]
-7390 [http://dlmf.nist.gov/24.4.E17]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \EulernumberE [\EulernumberE]
+7388 [http://dlmf.nist.gov/24.4.E15]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7389 [http://dlmf.nist.gov/24.4.E16]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7390 [http://dlmf.nist.gov/24.4.E17]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7391 [http://dlmf.nist.gov/24.4.E18]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7392 [http://dlmf.nist.gov/24.4.E19]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7393 [http://dlmf.nist.gov/24.4.E20]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7394 [http://dlmf.nist.gov/24.4.E21]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7395 [http://dlmf.nist.gov/24.4.E22]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7396 [http://dlmf.nist.gov/24.4.E23]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-7397 [http://dlmf.nist.gov/24.4.E24]: All Aborted: [Simple: Aborted, ConvEXP: Aborted, ConvHYP: Aborted, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: Aborted]
+7397 [http://dlmf.nist.gov/24.4.E24]: All Aborted: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7398 [http://dlmf.nist.gov/24.4.E25]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 7398-a [http://dlmf.nist.gov/24.4.E25]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 7399 [http://dlmf.nist.gov/24.4.E26]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 7399-a [http://dlmf.nist.gov/24.4.E26]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7400 [http://dlmf.nist.gov/24.4.E27]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
-7401 [http://dlmf.nist.gov/24.4.E28]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \EulernumberE [\EulernumberE]
+7401 [http://dlmf.nist.gov/24.4.E28]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 7402 [http://dlmf.nist.gov/24.4.E29]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7402-a [http://dlmf.nist.gov/24.4.E29]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7403 [http://dlmf.nist.gov/24.4.E30]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7403-a [http://dlmf.nist.gov/24.4.E30]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7404 [http://dlmf.nist.gov/24.4.E31]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-7404-a [http://dlmf.nist.gov/24.4.E31]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \EulernumberE [\EulernumberE]
+7404-a [http://dlmf.nist.gov/24.4.E31]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7405 [http://dlmf.nist.gov/24.4.E32]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7405-a [http://dlmf.nist.gov/24.4.E32]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7406 [http://dlmf.nist.gov/24.4.E33]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-7406-a [http://dlmf.nist.gov/24.4.E33]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \EulernumberE [\EulernumberE]
+7406-a [http://dlmf.nist.gov/24.4.E33]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7407 [http://dlmf.nist.gov/24.4.E34]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 7408 [http://dlmf.nist.gov/24.4.E35]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 7409 [http://dlmf.nist.gov/24.4.E36]: Skipped - no semantic math
@@ -70,27 +70,27 @@ Overall: [TOTAL: 221, SKIPPED: 47, DEFINITIONS: 0, STARTED_TEST_CASES: 174, ERRO
 7413 [http://dlmf.nist.gov/24.5.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7414 [http://dlmf.nist.gov/24.5.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7415 [http://dlmf.nist.gov/24.5.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-7416 [http://dlmf.nist.gov/24.5.E4]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \EulernumberE [\EulernumberE]
-7417 [http://dlmf.nist.gov/24.5.E5]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \EulernumberE [\EulernumberE]
+7416 [http://dlmf.nist.gov/24.5.E4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7417 [http://dlmf.nist.gov/24.5.E5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7418 [http://dlmf.nist.gov/24.5.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7419 [http://dlmf.nist.gov/24.5.E7]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7420 [http://dlmf.nist.gov/24.5.E8]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7421 [https://dlmf.nist.gov/24.5#Ex1]: Skipped - no semantic math
 7422 [https://dlmf.nist.gov/24.5#Ex2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7423 [https://dlmf.nist.gov/24.5#Ex3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-7424 [https://dlmf.nist.gov/24.5#Ex4]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \EulernumberE [\EulernumberE]
+7424 [https://dlmf.nist.gov/24.5#Ex4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7425 [http://dlmf.nist.gov/24.6.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-7426 [http://dlmf.nist.gov/24.6.E2]: All Aborted: [Simple: Aborted, ConvEXP: Aborted, ConvHYP: Aborted, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: Aborted]
-7427 [http://dlmf.nist.gov/24.6.E3]: All Aborted: [Simple: Aborted, ConvEXP: Aborted, ConvHYP: Aborted, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: Aborted]
-7428 [http://dlmf.nist.gov/24.6.E4]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \EulernumberE [\EulernumberE]
-7429 [http://dlmf.nist.gov/24.6.E5]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \EulernumberE [\EulernumberE]
-7430 [http://dlmf.nist.gov/24.6.E6]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \EulernumberE [\EulernumberE]
-7431 [http://dlmf.nist.gov/24.6.E7]: Failure [Simple: Aborted, ConvEXP: Aborted, ConvHYP: Aborted, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-7432 [http://dlmf.nist.gov/24.6.E8]: Failure [Simple: Aborted, ConvEXP: Aborted, ConvHYP: Aborted, EXP: Aborted, EXP+EXP: NaN, EXP+HYP: NaN]
-7433 [http://dlmf.nist.gov/24.6.E9]: Failure [Simple: Aborted, ConvEXP: Aborted, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-7434 [http://dlmf.nist.gov/24.6.E10]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \EulernumberE [\EulernumberE]
-7435 [http://dlmf.nist.gov/24.6.E11]: All Aborted: [Simple: Aborted, ConvEXP: Aborted, ConvHYP: Aborted, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: Aborted]
-7436 [http://dlmf.nist.gov/24.6.E12]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \EulernumberE [\EulernumberE]
+7426 [http://dlmf.nist.gov/24.6.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7427 [http://dlmf.nist.gov/24.6.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7428 [http://dlmf.nist.gov/24.6.E4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7429 [http://dlmf.nist.gov/24.6.E5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7430 [http://dlmf.nist.gov/24.6.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7431 [http://dlmf.nist.gov/24.6.E7]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7432 [http://dlmf.nist.gov/24.6.E8]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7433 [http://dlmf.nist.gov/24.6.E9]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7434 [http://dlmf.nist.gov/24.6.E10]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7435 [http://dlmf.nist.gov/24.6.E11]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7436 [http://dlmf.nist.gov/24.6.E12]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7437 [http://dlmf.nist.gov/24.7.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7437-a [http://dlmf.nist.gov/24.7.E1]: Successful [Simple: NaN, ConvEXP: 0, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7438 [http://dlmf.nist.gov/24.7.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
@@ -98,23 +98,24 @@ Overall: [TOTAL: 221, SKIPPED: 47, DEFINITIONS: 0, STARTED_TEST_CASES: 174, ERRO
 7439 [http://dlmf.nist.gov/24.7.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7440 [http://dlmf.nist.gov/24.7.E4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7441 [http://dlmf.nist.gov/24.7.E5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-7442 [http://dlmf.nist.gov/24.7.E6]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \EulernumberE [\EulernumberE]
-7443 [http://dlmf.nist.gov/24.7.E7]: Failure [Simple: Aborted, ConvEXP: Aborted, ConvHYP: Aborted, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: NaN]
-7444 [http://dlmf.nist.gov/24.7.E8]: Failure [Simple: NaN, ConvEXP: Aborted, ConvHYP: NaN, EXP: Aborted, EXP+EXP: NaN, EXP+HYP: NaN]
-7445 [http://dlmf.nist.gov/24.7.E9]: Failure [Simple: NaN, ConvEXP: Aborted, ConvHYP: NaN, EXP: Aborted, EXP+EXP: NaN, EXP+HYP: NaN]
-7446 [http://dlmf.nist.gov/24.7.E10]: Failure [Simple: NaN, ConvEXP: Aborted, ConvHYP: NaN, EXP: Aborted, EXP+EXP: NaN, EXP+HYP: NaN]
+7442 [http://dlmf.nist.gov/24.7.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7443 [http://dlmf.nist.gov/24.7.E7]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7444 [http://dlmf.nist.gov/24.7.E8]: All Aborted: []
+7445 [http://dlmf.nist.gov/24.7.E9]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7446 [http://dlmf.nist.gov/24.7.E10]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7447 [http://dlmf.nist.gov/24.7.E11]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-7448 [http://dlmf.nist.gov/24.8.E1]: All Aborted: [Simple: Aborted, ConvEXP: Aborted, ConvHYP: Aborted, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: Aborted]
-7449 [http://dlmf.nist.gov/24.8.E2]: All Aborted: [Simple: Aborted, ConvEXP: Aborted, ConvHYP: Aborted, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: Aborted]7450 [http://dlmf.nist.gov/24.8.E3]: Translation Error - (LaTeX -> Maple) No translation possible for given token: Unable to identify interval of SUM
-7451 [http://dlmf.nist.gov/24.8.E4]: All Aborted: [Simple: Aborted, ConvEXP: Aborted, ConvHYP: Aborted, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: Aborted]
-7452 [http://dlmf.nist.gov/24.8.E5]: All Aborted: [Simple: Aborted, ConvEXP: Aborted, ConvHYP: Aborted, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: Aborted]
+7448 [http://dlmf.nist.gov/24.8.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7449 [http://dlmf.nist.gov/24.8.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7450 [http://dlmf.nist.gov/24.8.E3]: Translation Error - (LaTeX -> Maple) No translation possible for given token: Unable to identify interval of SUM
+7451 [http://dlmf.nist.gov/24.8.E4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7452 [http://dlmf.nist.gov/24.8.E5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7453 [http://dlmf.nist.gov/24.8.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-7454 [http://dlmf.nist.gov/24.8.E7]: Failure [Simple: Aborted, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7454 [http://dlmf.nist.gov/24.8.E7]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7455 [http://dlmf.nist.gov/24.8.E8]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-7456 [http://dlmf.nist.gov/24.8.E9]: Translation Error - java.lang.StringIndexOutOfBoundsException: begin 14, end 1, length 17 [7456: {}\EulernumberE{2n} EQUAL (-1)^{n}\sum_{k=1}^{\infty}\frac{k^{2n}}{\cosh@{\tfrac{1}{2}\cpi k}}-4\sum_{k=0}^{\infty}\frac{(-1)^{k}(2k+1)^{2n}}{\expe ^{2\cpi(2k+1)}-1}; http://dlmf.nist.gov/24.8.E9]
+7456 [http://dlmf.nist.gov/24.8.E9]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7457 [http://dlmf.nist.gov/24.9.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7458 [http://dlmf.nist.gov/24.9.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-7459 [http://dlmf.nist.gov/24.9.E3]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \EulernumberE [\EulernumberE]
+7459 [http://dlmf.nist.gov/24.9.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7459-a [http://dlmf.nist.gov/24.9.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7460 [http://dlmf.nist.gov/24.9.E4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7460-a [http://dlmf.nist.gov/24.9.E4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
@@ -122,13 +123,14 @@ Overall: [TOTAL: 221, SKIPPED: 47, DEFINITIONS: 0, STARTED_TEST_CASES: 174, ERRO
 7461-a [http://dlmf.nist.gov/24.9.E5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7462 [http://dlmf.nist.gov/24.9.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7462-a [http://dlmf.nist.gov/24.9.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-7463 [http://dlmf.nist.gov/24.9.E7]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \EulernumberE [\EulernumberE]
-7463-a [http://dlmf.nist.gov/24.9.E7]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \EulernumberE [\EulernumberE]
+7463 [http://dlmf.nist.gov/24.9.E7]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7463-a [http://dlmf.nist.gov/24.9.E7]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7464 [http://dlmf.nist.gov/24.9.E8]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-7465 [http://dlmf.nist.gov/24.9.E09]: All Aborted: [Simple: Aborted, ConvEXP: Aborted, ConvHYP: Aborted, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: Aborted]
-7466 [http://dlmf.nist.gov/24.9.E10]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \EulernumberE [\EulernumberE]
-7466-a [http://dlmf.nist.gov/24.9.E10]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \EulernumberE [\EulernumberE]
-7467 [http://dlmf.nist.gov/24.10.E1]: Translation Error - java.lang.NullPointerException [7467: \BernoullinumberB{2n}+\sum_{(p-1)\divides 2n}\frac{1}{p} EQUAL {\iunit nt\expe g\expe r}; http://dlmf.nist.gov/24.10.E1]
+7465 [http://dlmf.nist.gov/24.9.E9]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7465-a [http://dlmf.nist.gov/24.9.E9]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7466 [http://dlmf.nist.gov/24.9.E10]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7466-a [http://dlmf.nist.gov/24.9.E10]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7467 [http://dlmf.nist.gov/24.10.E1]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Unable to retrieve free variables for limit expression.
 7468 [http://dlmf.nist.gov/24.10.E2]: Skipped - Unable to analyze test case: Null
 7469 [http://dlmf.nist.gov/24.10.E3]: Skipped - Unable to analyze test case: Null
 7470 [http://dlmf.nist.gov/24.10.E4]: Skipped - Unable to analyze test case: Null
@@ -144,38 +146,45 @@ Overall: [TOTAL: 221, SKIPPED: 47, DEFINITIONS: 0, STARTED_TEST_CASES: 174, ERRO
 7480 [http://dlmf.nist.gov/24.11.E5]: Skipped - Unable to analyze test case: Null
 7481 [http://dlmf.nist.gov/24.11.E6]: Skipped - Unable to analyze test case: Null
 7482 [http://dlmf.nist.gov/24.12.E1]: Skipped - no semantic math
+7482-a [http://dlmf.nist.gov/24.12.E1]: Skipped - no semantic math
+7482-b [http://dlmf.nist.gov/24.12.E1]: Skipped - no semantic math
 7483 [http://dlmf.nist.gov/24.12.E2]: Skipped - no semantic math
+7483-a [http://dlmf.nist.gov/24.12.E2]: Skipped - no semantic math
 7484 [http://dlmf.nist.gov/24.12.E3]: Skipped - Unable to analyze test case: Null
-7485 [https://dlmf.nist.gov/24.12#Ex1]: Skipped - no semantic math
-7486 [https://dlmf.nist.gov/24.12#Ex2]: Skipped - no semantic math
-7487 [https://dlmf.nist.gov/24.12#Ex3]: Skipped - no semantic math
-7488 [https://dlmf.nist.gov/24.12#Ex4]: Skipped - no semantic math
+7485 [https://dlmf.nist.gov/24.12#Ex1]: Skipped - Unable to analyze test case: Null
+7486 [https://dlmf.nist.gov/24.12#Ex2]: Skipped - Unable to analyze test case: Null
+7487 [https://dlmf.nist.gov/24.12#Ex3]: Skipped - Unable to analyze test case: Null
+7488 [https://dlmf.nist.gov/24.12#Ex4]: Skipped - Unable to analyze test case: Null
 7489 [http://dlmf.nist.gov/24.12.E6]: Skipped - Unable to analyze test case: Null
 7490 [http://dlmf.nist.gov/24.12.E7]: Skipped - no semantic math
-7491 [http://dlmf.nist.gov/24.12.E8]: Skipped - no semantic math
+7490-a [http://dlmf.nist.gov/24.12.E7]: Skipped - no semantic math
+7490-b [http://dlmf.nist.gov/24.12.E7]: Skipped - no semantic math
+7491 [http://dlmf.nist.gov/24.12.E8]: Skipped - Unable to analyze test case: Null
 7492 [http://dlmf.nist.gov/24.12.E9]: Skipped - no semantic math
+7492-a [http://dlmf.nist.gov/24.12.E9]: Skipped - no semantic math
 7493 [http://dlmf.nist.gov/24.12.E10]: Skipped - no semantic math
-7494 [http://dlmf.nist.gov/24.12.E11]: Skipped - no semantic math
-7495 [http://dlmf.nist.gov/24.13.E1]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty expression tag
+7493-a [http://dlmf.nist.gov/24.12.E10]: Skipped - no semantic math
+7494 [http://dlmf.nist.gov/24.12.E11]: Skipped - Unable to analyze test case: Null
+7495 [http://dlmf.nist.gov/24.13.E1]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
 7496 [http://dlmf.nist.gov/24.13.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7497 [http://dlmf.nist.gov/24.13.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7498 [http://dlmf.nist.gov/24.13.E4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-7499 [http://dlmf.nist.gov/24.13.E5]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \EulernumberE [\EulernumberE]
+7499 [http://dlmf.nist.gov/24.13.E5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7500 [http://dlmf.nist.gov/24.13.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-7501 [http://dlmf.nist.gov/24.13.E7]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty expression tag
+7501 [http://dlmf.nist.gov/24.13.E7]: Translation Error - (LaTeX -> Maple) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
 7502 [http://dlmf.nist.gov/24.13.E8]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7502-a [http://dlmf.nist.gov/24.13.E8]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7503 [http://dlmf.nist.gov/24.13.E9]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7503-a [http://dlmf.nist.gov/24.13.E9]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-7504 [http://dlmf.nist.gov/24.13.E10]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \EulernumberE [\EulernumberE]
+7504 [http://dlmf.nist.gov/24.13.E10]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7505 [http://dlmf.nist.gov/24.13.E11]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7506 [http://dlmf.nist.gov/24.14.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7507 [http://dlmf.nist.gov/24.14.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7508 [http://dlmf.nist.gov/24.14.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-7509 [http://dlmf.nist.gov/24.14.E4]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \EulernumberE [\EulernumberE]
+7509 [http://dlmf.nist.gov/24.14.E4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7509-a [http://dlmf.nist.gov/24.14.E4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7510 [http://dlmf.nist.gov/24.14.E5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-7511 [http://dlmf.nist.gov/24.14.E6]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \EulernumberE [\EulernumberE]
+7511 [http://dlmf.nist.gov/24.14.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7512 [http://dlmf.nist.gov/24.14.E7]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7513 [http://dlmf.nist.gov/24.14.E8]: Translation Error - (LaTeX -> Maple) No translation possible for given token: Unable to identify interval of SUM
 7514 [http://dlmf.nist.gov/24.14.E9]: Translation Error - (LaTeX -> Maple) No translation possible for given token: Unable to identify interval of SUM
@@ -193,7 +202,7 @@ Overall: [TOTAL: 221, SKIPPED: 47, DEFINITIONS: 0, STARTED_TEST_CASES: 174, ERRO
 7526 [http://dlmf.nist.gov/24.15.E9]: Skipped - Unable to analyze test case: Null
 7527 [http://dlmf.nist.gov/24.15.E10]: Skipped - Unable to analyze test case: Null
 7528 [http://dlmf.nist.gov/24.15.E11]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-7529 [http://dlmf.nist.gov/24.15.E12]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \EulernumberE [\EulernumberE]
+7529 [http://dlmf.nist.gov/24.15.E12]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7530 [http://dlmf.nist.gov/24.16.E1]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \genBernoullipolyB [\genBernoullipolyB]
 7531 [http://dlmf.nist.gov/24.16.E2]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \genEulerpolyE [\genEulerpolyE]
 7532 [https://dlmf.nist.gov/24.16#Ex1]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \genBernoullipolyB [\genBernoullipolyB]
@@ -216,7 +225,7 @@ Overall: [TOTAL: 221, SKIPPED: 47, DEFINITIONS: 0, STARTED_TEST_CASES: 174, ERRO
 7549 [http://dlmf.nist.gov/24.17.E6]: Skipped - no semantic math
 7550 [http://dlmf.nist.gov/24.17.E7]: Skipped - Invalid test case: bigO
 7551 [http://dlmf.nist.gov/24.17.E8]: Skipped - Invalid test case: Generic function F(x)
-7552 [http://dlmf.nist.gov/24.19.E1]: Translation Error - java.lang.NullPointerException [7552: N_{2n} EQUAL \frac{2(2n)!}{(2\cpi)^{2n}}\left(\prod_{p-1\divides 2n}p\right)\left(\prod_{p}\frac{p^{2n}}{p^{2n}-1}\right); http://dlmf.nist.gov/24.19.E1]
-7553 [https://dlmf.nist.gov/24.19#Ex1]: Translation Error - java.lang.NullPointerException [7553: D_{2n} EQUAL \prod_{p-1\divides 2n}p; https://dlmf.nist.gov/24.19#Ex1]
+7552 [http://dlmf.nist.gov/24.19.E1]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Unable to retrieve free variables for limit expression.
+7553 [https://dlmf.nist.gov/24.19#Ex1]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Unable to retrieve free variables for limit expression.
 7554 [https://dlmf.nist.gov/24.19#Ex2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7555 [http://dlmf.nist.gov/24.19.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]

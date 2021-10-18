@@ -1,4 +1,4 @@
-Overall: [TOTAL: 225, SKIPPED: 62, DEFINITIONS: 57, STARTED_TEST_CASES: 106, ERROR_TRANS: 7, MISSING: 9, SUCCESS_TRANS: 90, SUCCESS_SYMB: 16, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 2, FAILURE: 63, ABORTED: 9, ERROR: 0] for test expression: (#LHS)-(#RHS)
+Overall: [TOTAL: 226, SKIPPED: 63, DEFINITIONS: 57, STARTED_TEST_CASES: 106, ERROR_TRANS: 7, MISSING: 9, SUCCESS_TRANS: 90, SUCCESS_SYMB: 15, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 1, FAILURE: 69, NO_TEST_VALUES: 0, ABORTED: 5, ERROR: 0] for test expression: (#LHS)-(#RHS)
 [SIMPLE]
 4050 [http://dlmf.nist.gov/12.2.E1]: Definition - Line is a non-semantic definition.
 4051 [http://dlmf.nist.gov/12.2.E2]: Failure [Simple: NaN]
@@ -34,15 +34,15 @@ Overall: [TOTAL: 225, SKIPPED: 62, DEFINITIONS: 57, STARTED_TEST_CASES: 106, ERR
 4076 [http://dlmf.nist.gov/12.4.E4]: Definition - Line is a non-semantic definition.
 4077 [http://dlmf.nist.gov/12.4.E5]: Skipped - no semantic math
 4078 [http://dlmf.nist.gov/12.4.E6]: Skipped - no semantic math
-4079 [http://dlmf.nist.gov/12.5.E1]: Successful [Simple: 0]
-4080 [http://dlmf.nist.gov/12.5.E2]: Successful under condition [Simple: 0.0 under condition: And[Greater[Plus[1, a, Conjugate[a]], 0], Unequal[Re[z], 0], Or[GreaterEqual[Re[Power[z, 2]], 0], NotElement[Power[z, 2], Reals]]]]
-4081 [http://dlmf.nist.gov/12.5.E3]: Successful under condition [Simple: 0.0 under condition: And[Greater[Plus[3, a, Conjugate[a]], 0], Unequal[Re[z], 0], Or[GreaterEqual[Re[Power[z, 2]], 0], NotElement[Power[z, 2], Reals]]]]
+4079 [http://dlmf.nist.gov/12.5.E1]: Successful under condition [Simple: ConditionalExpression[0, Greater[Plus[a, Conjugate[a]], -1]]]
+4080 [http://dlmf.nist.gov/12.5.E2]: Failure [Simple: NaN]
+4081 [http://dlmf.nist.gov/12.5.E3]: Failure [Simple: NaN]
 4082 [http://dlmf.nist.gov/12.5.E4]: Failure [Simple: NaN]
 4083 [http://dlmf.nist.gov/12.5.E5]: Failure [Simple: NaN]
-4084 [http://dlmf.nist.gov/12.5.E6]: All Aborted: [Simple: Aborted]
+4084 [http://dlmf.nist.gov/12.5.E6]: Failure [Simple: NaN]
 4085 [http://dlmf.nist.gov/12.5.E7]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: A limited expression ends with no argument left.
-4086 [http://dlmf.nist.gov/12.5.E8]: All Aborted: [Simple: Aborted]
-4087 [http://dlmf.nist.gov/12.5.E9]: All Aborted: [Simple: Aborted]
+4086 [http://dlmf.nist.gov/12.5.E8]: All Aborted: [Simple: NaN]
+4087 [http://dlmf.nist.gov/12.5.E9]: All Aborted: [Simple: NaN]
 4088 [http://dlmf.nist.gov/12.7.E1]: Successful [Simple: 0]
 4088-a [http://dlmf.nist.gov/12.7.E1]: Successful [Simple: 0]
 4089 [http://dlmf.nist.gov/12.7.E2]: Successful [Simple: 0]
@@ -84,6 +84,7 @@ Overall: [TOTAL: 225, SKIPPED: 62, DEFINITIONS: 57, STARTED_TEST_CASES: 106, ERR
 4116 [http://dlmf.nist.gov/12.9.E3]: Skipped - Unable to analyze test case: Null
 4117 [http://dlmf.nist.gov/12.9.E4]: Skipped - Unable to analyze test case: Null
 4118 [https://dlmf.nist.gov/12.10#Ex1]: Skipped - no semantic math
+4118-a [https://dlmf.nist.gov/12.10#Ex1]: Skipped - no semantic math
 4119 [https://dlmf.nist.gov/12.10#Ex2]: Skipped - no semantic math
 4120 [http://dlmf.nist.gov/12.10.E2]: Failure [Simple: NaN]
 4120-a [http://dlmf.nist.gov/12.10.E2]: Failure [Simple: NaN]
@@ -156,25 +157,25 @@ Overall: [TOTAL: 225, SKIPPED: 62, DEFINITIONS: 57, STARTED_TEST_CASES: 106, ERR
 4187 [http://dlmf.nist.gov/12.11.E7]: Definition - Line is a non-semantic definition.
 4188 [http://dlmf.nist.gov/12.11.E8]: Skipped - no semantic math
 4189 [http://dlmf.nist.gov/12.11.E9]: Skipped - Unable to analyze test case: Null
-4190 [http://dlmf.nist.gov/12.12.E1]: All Aborted: [Simple: Aborted]
+4190 [http://dlmf.nist.gov/12.12.E1]: All Aborted: [Simple: NaN]
 4191 [http://dlmf.nist.gov/12.12.E2]: Failure [Simple: NaN]
-4192 [http://dlmf.nist.gov/12.12.E3]: All Aborted: [Simple: Aborted]
+4192 [http://dlmf.nist.gov/12.12.E3]: All Aborted: [Simple: NaN]
 4193 [http://dlmf.nist.gov/12.12.E4]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \paraUbar [\paraUbar]
 4194 [http://dlmf.nist.gov/12.13.E1]: Failure [Simple: NaN]
 4195 [http://dlmf.nist.gov/12.13.E2]: Failure [Simple: NaN]
 4196 [http://dlmf.nist.gov/12.13.E3]: Failure [Simple: NaN]
 4197 [http://dlmf.nist.gov/12.13.E4]: Failure [Simple: NaN]
 4198 [http://dlmf.nist.gov/12.13.E5]: Failure [Simple: NaN]
-4199 [http://dlmf.nist.gov/12.13.E6]: Translation Error - (LaTeX -> Mathematica) Error while translating DLMF/DRMF Macro: The arguments of semantic macros must be wrapped in curly brackets! It seems you wrote \erfc(...) instead of \erfc{...} [\erfc]
+4199 [http://dlmf.nist.gov/12.13.E6]: Translation Error - (LaTeX -> Mathematica) No translation possible for given token: Unable to identify interval of SUM
 4200 [http://dlmf.nist.gov/12.14.E1]: Failure [Simple: NaN]
 4201 [http://dlmf.nist.gov/12.14.E2]: Failure [Simple: NaN]
-4202 [http://dlmf.nist.gov/12.14.E3]: All Aborted: [Simple: Aborted]
+4202 [http://dlmf.nist.gov/12.14.E3]: Failure [Simple: NaN]
 4203 [http://dlmf.nist.gov/12.14.E4]: Failure [Simple: NaN]
 4204 [https://dlmf.nist.gov/12.14#Ex1]: Definition - Line is a non-semantic definition.
 4205 [https://dlmf.nist.gov/12.14#Ex2]: Definition - Line is a non-semantic definition.
 4206 [http://dlmf.nist.gov/12.14.E6]: Definition - Line is a non-semantic definition.
 4207 [http://dlmf.nist.gov/12.14.E7]: Definition - Line is a non-semantic definition.
-4208 [http://dlmf.nist.gov/12.14.E8]: All Aborted: [Simple: Aborted]
+4208 [http://dlmf.nist.gov/12.14.E8]: All Aborted: [Simple: NaN]
 4209 [http://dlmf.nist.gov/12.14.E9]: Definition - Line is a non-semantic definition.
 4210 [http://dlmf.nist.gov/12.14.E10]: Definition - Line is a non-semantic definition.
 4211 [https://dlmf.nist.gov/12.14#Ex3]: Definition - Line is a non-semantic definition.
@@ -185,8 +186,8 @@ Overall: [TOTAL: 225, SKIPPED: 62, DEFINITIONS: 57, STARTED_TEST_CASES: 106, ERR
 4216 [https://dlmf.nist.gov/12.14#Ex8]: Skipped - no semantic math
 4217 [http://dlmf.nist.gov/12.14.E13]: Failure [Simple: NaN]
 4217-a [http://dlmf.nist.gov/12.14.E13]: Failure [Simple: NaN]
-4218 [http://dlmf.nist.gov/12.14.E14]: All Aborted: [Simple: Aborted]
-4218-a [http://dlmf.nist.gov/12.14.E14]: All Aborted: [Simple: Aborted]
+4218 [http://dlmf.nist.gov/12.14.E14]: Failure [Simple: NaN]
+4218-a [http://dlmf.nist.gov/12.14.E14]: Failure [Simple: NaN]
 4219 [http://dlmf.nist.gov/12.14.E15]: Failure [Simple: NaN]
 4219-a [http://dlmf.nist.gov/12.14.E15]: Successful [Simple: 0]
 4220 [http://dlmf.nist.gov/12.14.E16]: Failure [Simple: NaN]

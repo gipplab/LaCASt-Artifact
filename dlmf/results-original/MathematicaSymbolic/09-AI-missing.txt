@@ -8,6 +8,6 @@
 \genAiryODEB, 3
 \pvint, 3
 \zderivAirybeta, 2
+\modcylinder, 2
 \zAirybeta, 2
 \scterminant, 1
-\modcylinder, 1

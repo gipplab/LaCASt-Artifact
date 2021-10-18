@@ -1,4 +1,4 @@
-Overall: [TOTAL: 132, SKIPPED: 20, DEFINITIONS: 5, STARTED_TEST_CASES: 107, ERROR_TRANS: 1, MISSING: 50, SUCCESS_TRANS: 56, SUCCESS_SYMB: 13, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 43, ABORTED: 0, ERROR: 0] for test expression: (#LHS)-(#RHS)
+Overall: [TOTAL: 132, SKIPPED: 20, DEFINITIONS: 5, STARTED_TEST_CASES: 107, ERROR_TRANS: 0, MISSING: 50, SUCCESS_TRANS: 57, SUCCESS_SYMB: 12, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 45, NO_TEST_VALUES: 0, ABORTED: 0, ERROR: 0] for test expression: (#LHS)-(#RHS)
 [Simple Simplify: ON, EXPonential Conversion (ConvEXP): ON, HYPergeometric Conversion (ConvHYP): ON, Expansion (EXP): ON, Expansion via EXP (EXP+EXP): ON, Expansion via HYP (EXP+HYP): ON]
 2176 [http://dlmf.nist.gov/6.2.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2177 [http://dlmf.nist.gov/6.2.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
@@ -15,7 +15,7 @@ Overall: [TOTAL: 132, SKIPPED: 20, DEFINITIONS: 5, STARTED_TEST_CASES: 107, ERRO
 2184 [http://dlmf.nist.gov/6.2.E9]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 2185 [http://dlmf.nist.gov/6.2.E10]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 2185-a [http://dlmf.nist.gov/6.2.E10]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
-2186 [http://dlmf.nist.gov/6.2.E11]: Translation Error - (LaTeX -> Maple) Error while translating DLMF/DRMF Macro: The arguments of semantic macros must be wrapped in curly brackets! It seems you wrote \cosint(...) instead of \cosint{...} [\cosint]
+2186 [http://dlmf.nist.gov/6.2.E11]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 2187 [http://dlmf.nist.gov/6.2.E12]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \cosintCin [\cosintCin]
 2188 [http://dlmf.nist.gov/6.2.E13]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \cosintCin [\cosintCin]
 2189 [https://dlmf.nist.gov/6.2#Ex1]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
@@ -57,7 +57,7 @@ Overall: [TOTAL: 132, SKIPPED: 20, DEFINITIONS: 5, STARTED_TEST_CASES: 107, ERRO
 2216 [http://dlmf.nist.gov/6.6.E4]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \expintEin [\expintEin]
 2217 [http://dlmf.nist.gov/6.6.E5]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 2218 [http://dlmf.nist.gov/6.6.E6]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
-2219 [http://dlmf.nist.gov/6.7.E1]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
+2219 [http://dlmf.nist.gov/6.7.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2219-a [http://dlmf.nist.gov/6.7.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2220 [http://dlmf.nist.gov/6.7.E2]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \expintEi [\expintEi]
 2221 [http://dlmf.nist.gov/6.7.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
@@ -110,7 +110,7 @@ Overall: [TOTAL: 132, SKIPPED: 20, DEFINITIONS: 5, STARTED_TEST_CASES: 107, ERRO
 2263 [http://dlmf.nist.gov/6.13.E2]: Skipped - Unable to analyze test case: Null
 2264 [http://dlmf.nist.gov/6.14.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2265 [http://dlmf.nist.gov/6.14.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-2266 [http://dlmf.nist.gov/6.14.E3]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
+2266 [http://dlmf.nist.gov/6.14.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2267 [http://dlmf.nist.gov/6.14.E4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2268 [http://dlmf.nist.gov/6.14.E5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2268-a [http://dlmf.nist.gov/6.14.E5]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]

@@ -1,4 +1,4 @@
-Overall: [TOTAL: 240, SKIPPED: 33, DEFINITIONS: 1, STARTED_TEST_CASES: 206, ERROR_TRANS: 5, MISSING: 4, SUCCESS_TRANS: 197, SUCCESS_SYMB: 52, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 1, FAILURE: 134, ABORTED: 10, ERROR: 0] for test expression: (#LHS)-(#RHS)
+Overall: [TOTAL: 241, SKIPPED: 34, DEFINITIONS: 1, STARTED_TEST_CASES: 206, ERROR_TRANS: 4, MISSING: 4, SUCCESS_TRANS: 198, SUCCESS_SYMB: 51, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 2, FAILURE: 135, NO_TEST_VALUES: 0, ABORTED: 10, ERROR: 0] for test expression: (#LHS)-(#RHS)
 [SIMPLE]
 4939 [http://dlmf.nist.gov/15.1.E1]: Successful [Simple: 0]
 4939-a [http://dlmf.nist.gov/15.1.E1]: Successful [Simple: 0]
@@ -36,10 +36,10 @@ Overall: [TOTAL: 240, SKIPPED: 33, DEFINITIONS: 1, STARTED_TEST_CASES: 206, ERRO
 4967 [http://dlmf.nist.gov/15.4.E19]: Successful [Simple: 0]
 4968 [http://dlmf.nist.gov/15.4.E20]: Failure [Simple: NaN]
 4969 [http://dlmf.nist.gov/15.4.E21]: Successful [Simple: 0]
-4970 [http://dlmf.nist.gov/15.4.E22]: All Aborted: [Simple: Aborted]
+4970 [http://dlmf.nist.gov/15.4.E22]: All Aborted: [Simple: NaN]
 4971 [http://dlmf.nist.gov/15.4.E23]: Failure [Simple: NaN]
 4972 [http://dlmf.nist.gov/15.4.E24]: Failure [Simple: NaN]
-4973 [http://dlmf.nist.gov/15.4.E25]: All Aborted: [Simple: Aborted]
+4973 [http://dlmf.nist.gov/15.4.E25]: Failure [Simple: NaN]
 4974 [http://dlmf.nist.gov/15.4.E26]: Successful [Simple: 0]
 4975 [http://dlmf.nist.gov/15.4.E27]: Successful [Simple: 0]
 4976 [http://dlmf.nist.gov/15.4.E28]: Successful [Simple: 0]
@@ -51,12 +51,12 @@ Overall: [TOTAL: 240, SKIPPED: 33, DEFINITIONS: 1, STARTED_TEST_CASES: 206, ERRO
 4982 [http://dlmf.nist.gov/15.5.E1]: Successful [Simple: 0]
 4983 [http://dlmf.nist.gov/15.5.E2]: Successful [Simple: 0]
 4984 [http://dlmf.nist.gov/15.5.E3]: Failure [Simple: NaN]
-4985 [http://dlmf.nist.gov/15.5.E4]: All Aborted: [Simple: Aborted]
+4985 [http://dlmf.nist.gov/15.5.E4]: All Aborted: [Simple: NaN]
 4986 [http://dlmf.nist.gov/15.5.E5]: Failure [Simple: NaN]
-4987 [http://dlmf.nist.gov/15.5.E6]: All Aborted: [Simple: Aborted]
+4987 [http://dlmf.nist.gov/15.5.E6]: All Aborted: [Simple: NaN]
 4988 [http://dlmf.nist.gov/15.5.E7]: Failure [Simple: NaN]
 4989 [http://dlmf.nist.gov/15.5.E8]: Failure [Simple: NaN]
-4990 [http://dlmf.nist.gov/15.5.E9]: All Aborted: [Simple: Aborted]
+4990 [http://dlmf.nist.gov/15.5.E9]: Failure [Simple: NaN]
 4991 [http://dlmf.nist.gov/15.5.E10]: Failure [Simple: NaN]
 4992 [http://dlmf.nist.gov/15.5.E11]: Successful [Simple: 0]
 4993 [http://dlmf.nist.gov/15.5.E12]: Successful [Simple: 0]
@@ -70,15 +70,15 @@ Overall: [TOTAL: 240, SKIPPED: 33, DEFINITIONS: 1, STARTED_TEST_CASES: 206, ERRO
 5001 [http://dlmf.nist.gov/15.5.E20]: Successful [Simple: 0]
 5001-a [http://dlmf.nist.gov/15.5.E20]: Successful [Simple: 0]
 5002 [http://dlmf.nist.gov/15.5.E21]: Successful [Simple: 0]
-5003 [http://dlmf.nist.gov/15.6.E1]: Successful under condition [Simple: 0.0 under condition: Or[LessEqual[Re[z], 1], NotElement[z, Reals]]]
+5003 [http://dlmf.nist.gov/15.6.E1]: Successful under condition [Simple: ConditionalExpression[0, And[Less[Re[b], Re[c]], Greater[Re[b], 0], Or[LessEqual[Re[z], 1], NotElement[z, Reals]]]]]
 5004 [http://dlmf.nist.gov/15.6.E2]: Failure [Simple: NaN]
 5005 [http://dlmf.nist.gov/15.6.E3]: Failure [Simple: NaN]
 5006 [http://dlmf.nist.gov/15.6.E4]: Failure [Simple: NaN]
 5007 [http://dlmf.nist.gov/15.6.E5]: Failure [Simple: NaN]
-5008 [http://dlmf.nist.gov/15.6.E6]: All Aborted: [Simple: Aborted]
-5009 [http://dlmf.nist.gov/15.6.E7]: All Aborted: [Simple: Aborted]
-5010 [http://dlmf.nist.gov/15.6.E8]: Successful [Simple: 0]
-5011 [http://dlmf.nist.gov/15.6.E9]: All Aborted: [Simple: Aborted]
+5008 [http://dlmf.nist.gov/15.6.E6]: All Aborted: [Simple: NaN]
+5009 [http://dlmf.nist.gov/15.6.E7]: Failure [Simple: NaN]
+5010 [http://dlmf.nist.gov/15.6.E8]: Successful under condition [Simple: ConditionalExpression[0, And[Greater[Re[c], Re[d]], Greater[Re[d], 0]]]]
+5011 [http://dlmf.nist.gov/15.6.E9]: All Aborted: [Simple: NaN]
 5012 [http://dlmf.nist.gov/15.7.E1]: Skipped - Invalid test case: cdots
 5013 [https://dlmf.nist.gov/15.7#Ex1]: Skipped - no semantic math
 5014 [https://dlmf.nist.gov/15.7#Ex2]: Skipped - no semantic math
@@ -100,10 +100,10 @@ Overall: [TOTAL: 240, SKIPPED: 33, DEFINITIONS: 1, STARTED_TEST_CASES: 206, ERRO
 5027-a [http://dlmf.nist.gov/15.8.E6]: Failure [Simple: NaN]
 5028 [http://dlmf.nist.gov/15.8.E7]: Failure [Simple: NaN]
 5028-a [http://dlmf.nist.gov/15.8.E7]: Failure [Simple: NaN]
-5029 [http://dlmf.nist.gov/15.8.E8]: Failure [Simple: NaN]
-5030 [http://dlmf.nist.gov/15.8.E9]: All Aborted: [Simple: Aborted]
-5031 [http://dlmf.nist.gov/15.8.E10]: Failure [Simple: NaN]
-5032 [http://dlmf.nist.gov/15.8.E11]: Translation Error - (LaTeX -> Mathematica) Error while translating DLMF/DRMF Macro: The arguments of semantic macros must be wrapped in curly brackets! It seems you wrote \ln(...) instead of \ln{...} [\ln]
+5029 [http://dlmf.nist.gov/15.8.E8]: All Aborted: [Simple: NaN]
+5030 [http://dlmf.nist.gov/15.8.E9]: All Aborted: [Simple: NaN]
+5031 [http://dlmf.nist.gov/15.8.E10]: All Aborted: [Simple: NaN]
+5032 [http://dlmf.nist.gov/15.8.E11]: All Aborted: [Simple: NaN]
 5033 [http://dlmf.nist.gov/15.8.E12]: Translation Error - (LaTeX -> Mathematica) No translation possible for given token: Accents are not supported.
 5034 [http://dlmf.nist.gov/15.8.E13]: Failure [Simple: NaN]
 5035 [http://dlmf.nist.gov/15.8.E14]: Failure [Simple: NaN]
@@ -232,8 +232,9 @@ Overall: [TOTAL: 240, SKIPPED: 33, DEFINITIONS: 1, STARTED_TEST_CASES: 206, ERRO
 5136 [https://dlmf.nist.gov/15.12#Ex1]: Skipped - no semantic math
 5137 [https://dlmf.nist.gov/15.12#Ex2]: Skipped - no semantic math
 5138 [http://dlmf.nist.gov/15.12.E13]: Skipped - no semantic math
+5138-a [http://dlmf.nist.gov/15.12.E13]: Skipped - no semantic math
 5139 [http://dlmf.nist.gov/15.13.E1]: Skipped - Invalid test case: cases
-5140 [http://dlmf.nist.gov/15.14.E1]: All Aborted: [Simple: Aborted]
+5140 [http://dlmf.nist.gov/15.14.E1]: All Aborted: [Simple: NaN]
 5141 [http://dlmf.nist.gov/15.15.E1]: Failure [Simple: NaN]
 5142 [http://dlmf.nist.gov/15.16.E1]: Failure [Simple: NaN]
 5143 [http://dlmf.nist.gov/15.16.E2]: Failure [Simple: NaN]

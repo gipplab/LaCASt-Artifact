@@ -1,12 +1,12 @@
-Overall: [TOTAL: 471, SKIPPED: 165, DEFINITIONS: 39, STARTED_TEST_CASES: 267, ERROR_TRANS: 32, MISSING: 125, SUCCESS_TRANS: 110, SUCCESS_SYMB: 7, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 92, ABORTED: 11, ERROR: 0] for test expression: (#LHS)-(#RHS)
+Overall: [TOTAL: 483, SKIPPED: 176, DEFINITIONS: 39, STARTED_TEST_CASES: 268, ERROR_TRANS: 32, MISSING: 121, SUCCESS_TRANS: 115, SUCCESS_SYMB: 7, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 94, NO_TEST_VALUES: 0, ABORTED: 14, ERROR: 0] for test expression: (#LHS)-(#RHS)
 [SIMPLE]
 8080 [https://dlmf.nist.gov/28.1#Ex1]: Skipped - Unable to analyze test case: Null
 8081 [https://dlmf.nist.gov/28.1#Ex2]: Skipped - Unable to analyze test case: Null
 8082 [https://dlmf.nist.gov/28.1#Ex3]: Skipped - Unable to analyze test case: Null
-8083 [https://dlmf.nist.gov/28.1#Ex4]: Skipped - no semantic math
-8084 [https://dlmf.nist.gov/28.1#Ex5]: Skipped - no semantic math
-8085 [https://dlmf.nist.gov/28.1#Ex6]: Skipped - no semantic math
-8086 [https://dlmf.nist.gov/28.1#Ex7]: Skipped - no semantic math
+8083 [https://dlmf.nist.gov/28.1#Ex4]: Skipped - Unable to analyze test case: Null
+8084 [https://dlmf.nist.gov/28.1#Ex5]: Skipped - Unable to analyze test case: Null
+8085 [https://dlmf.nist.gov/28.1#Ex6]: Skipped - Unable to analyze test case: Null
+8086 [https://dlmf.nist.gov/28.1#Ex7]: Skipped - Unable to analyze test case: Null
 8087 [https://dlmf.nist.gov/28.1#Ex8]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \radMathieuMc [\radMathieuMc]
 8088 [https://dlmf.nist.gov/28.1#Ex9]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \radMathieuMc [\radMathieuMc]
 8089 [https://dlmf.nist.gov/28.1#Ex10]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \radMathieuMs [\radMathieuMs]
@@ -22,29 +22,32 @@ Overall: [TOTAL: 471, SKIPPED: 165, DEFINITIONS: 39, STARTED_TEST_CASES: 267, ER
 8099 [https://dlmf.nist.gov/28.1#Ex16]: Failure [Simple: NaN]
 8100 [https://dlmf.nist.gov/28.1#Ex17]: Failure [Simple: NaN]
 8101 [https://dlmf.nist.gov/28.1#Ex18]: Failure [Simple: NaN]
-8102 [http://dlmf.nist.gov/28.2.E1]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
+8102 [http://dlmf.nist.gov/28.2.E1]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
 8103 [http://dlmf.nist.gov/28.2.E2]: Skipped - no semantic math
 8104 [http://dlmf.nist.gov/28.2.E3]: Skipped - no semantic math
-8105 [https://dlmf.nist.gov/28.2#Ex1]: Skipped - no semantic math
-8106 [https://dlmf.nist.gov/28.2#Ex2]: Skipped - no semantic math
-8107 [https://dlmf.nist.gov/28.2#Ex3]: Skipped - no semantic math
+8105 [https://dlmf.nist.gov/28.2#Ex1]: Skipped - Unable to analyze test case: Null
+8106 [https://dlmf.nist.gov/28.2#Ex2]: Skipped - Unable to analyze test case: Null
+8107 [https://dlmf.nist.gov/28.2#Ex3]: Skipped - Unable to analyze test case: Null
 8108 [http://dlmf.nist.gov/28.2.E5]: Skipped - no semantic math
-8109 [http://dlmf.nist.gov/28.2.E6]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag
+8109 [http://dlmf.nist.gov/28.2.E6]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
 8110 [http://dlmf.nist.gov/28.2.E7]: Skipped - no semantic math
+8110-a [http://dlmf.nist.gov/28.2.E7]: Skipped - no semantic math
 8111 [http://dlmf.nist.gov/28.2.E8]: Skipped - no semantic math
+8111-a [http://dlmf.nist.gov/28.2.E8]: Skipped - no semantic math
 8112 [http://dlmf.nist.gov/28.2.E9]: Skipped - no semantic math
 8113 [http://dlmf.nist.gov/28.2.E10]: Skipped - no semantic math
 8114 [http://dlmf.nist.gov/28.2.E11]: Skipped - no semantic math
 8115 [http://dlmf.nist.gov/28.2.E12]: Skipped - no semantic math
 8116 [http://dlmf.nist.gov/28.2.E13]: Skipped - no semantic math
 8117 [http://dlmf.nist.gov/28.2.E14]: Failure [Simple: NaN]
-8118 [http://dlmf.nist.gov/28.2.E15]: Skipped - no semantic math
-8119 [http://dlmf.nist.gov/28.2.E16]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag
-8119-a [http://dlmf.nist.gov/28.2.E16]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag
+8118 [http://dlmf.nist.gov/28.2.E15]: Skipped - Unable to analyze test case: Null
+8119 [http://dlmf.nist.gov/28.2.E16]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
+8119-a [http://dlmf.nist.gov/28.2.E16]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
 8120 [http://dlmf.nist.gov/28.2.E17]: Failure [Simple: NaN]
 8121 [http://dlmf.nist.gov/28.2.E18]: Failure [Simple: NaN]
 8122 [http://dlmf.nist.gov/28.2.E19]: Skipped - no semantic math
 8123 [http://dlmf.nist.gov/28.2.E20]: Skipped - no semantic math
+8123-a [http://dlmf.nist.gov/28.2.E20]: Skipped - no semantic math
 8124 [http://dlmf.nist.gov/28.2.E21]: Skipped - Invalid test case: array
 8125 [http://dlmf.nist.gov/28.2.E22]: Skipped - Invalid test case: array
 8126 [http://dlmf.nist.gov/28.2.E23]: Successful [Simple: 0]
@@ -65,8 +68,8 @@ Overall: [TOTAL: 471, SKIPPED: 165, DEFINITIONS: 39, STARTED_TEST_CASES: 267, ER
 8141 [http://dlmf.nist.gov/28.2.E35]: Failure [Simple: NaN]
 8142 [http://dlmf.nist.gov/28.2.E36]: Failure [Simple: NaN]
 8143 [http://dlmf.nist.gov/28.2.E37]: Failure [Simple: NaN]
-8144 [http://dlmf.nist.gov/28.2.E38]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag
-8145 [http://dlmf.nist.gov/28.2.E39]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag
+8144 [http://dlmf.nist.gov/28.2.E38]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
+8145 [http://dlmf.nist.gov/28.2.E39]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
 8146 [http://dlmf.nist.gov/28.4.E1]: Failure [Simple: NaN]
 8147 [http://dlmf.nist.gov/28.4.E2]: Failure [Simple: NaN]
 8148 [http://dlmf.nist.gov/28.4.E3]: Failure [Simple: NaN]
@@ -85,6 +88,7 @@ Overall: [TOTAL: 471, SKIPPED: 165, DEFINITIONS: 39, STARTED_TEST_CASES: 267, ER
 8161 [http://dlmf.nist.gov/28.4.E11]: Skipped - no semantic math
 8162 [http://dlmf.nist.gov/28.4.E12]: Skipped - no semantic math
 8163 [https://dlmf.nist.gov/28.4#Ex10]: Skipped - no semantic math
+8163-a [https://dlmf.nist.gov/28.4#Ex10]: Skipped - no semantic math
 8164 [https://dlmf.nist.gov/28.4#Ex11]: Skipped - no semantic math
 8165 [https://dlmf.nist.gov/28.4#Ex12]: Skipped - no semantic math
 8166 [https://dlmf.nist.gov/28.4#Ex13]: Skipped - no semantic math
@@ -163,24 +167,24 @@ Overall: [TOTAL: 471, SKIPPED: 165, DEFINITIONS: 39, STARTED_TEST_CASES: 267, ER
 8237 [https://dlmf.nist.gov/28.8#Ex6]: Definition - Line is a non-semantic definition.
 8238 [http://dlmf.nist.gov/28.8.E11]: Definition - Line is a non-semantic definition.
 8239 [http://dlmf.nist.gov/28.8.E12]: Definition - Line is a non-semantic definition.
-8240 [http://dlmf.nist.gov/28.10.E1]: All Aborted: [Simple: Aborted]
-8241 [http://dlmf.nist.gov/28.10.E2]: All Aborted: [Simple: Aborted]
+8240 [http://dlmf.nist.gov/28.10.E1]: Failure [Simple: NaN]
+8241 [http://dlmf.nist.gov/28.10.E2]: All Aborted: [Simple: NaN]
 8242 [http://dlmf.nist.gov/28.10.E3]: Failure [Simple: NaN]
-8243 [http://dlmf.nist.gov/28.10.E4]: All Aborted: [Simple: Aborted]
+8243 [http://dlmf.nist.gov/28.10.E4]: All Aborted: [Simple: NaN]
 8244 [http://dlmf.nist.gov/28.10.E5]: Failure [Simple: NaN]
-8245 [http://dlmf.nist.gov/28.10.E6]: All Aborted: [Simple: Aborted]
-8246 [http://dlmf.nist.gov/28.10.E7]: All Aborted: [Simple: Aborted]
-8247 [http://dlmf.nist.gov/28.10.E8]: All Aborted: [Simple: Aborted]
-8248 [http://dlmf.nist.gov/28.10.E9]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag
-8249 [http://dlmf.nist.gov/28.10.E10]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag
+8245 [http://dlmf.nist.gov/28.10.E6]: All Aborted: [Simple: NaN]
+8246 [http://dlmf.nist.gov/28.10.E7]: All Aborted: [Simple: NaN]
+8247 [http://dlmf.nist.gov/28.10.E8]: All Aborted: [Simple: NaN]
+8248 [http://dlmf.nist.gov/28.10.E9]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
+8249 [http://dlmf.nist.gov/28.10.E10]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
 8250 [http://dlmf.nist.gov/28.11.E1]: Definition - Line is a non-semantic definition.
 8251 [https://dlmf.nist.gov/28.11#Ex1]: Definition - Line is a non-semantic definition.
 8252 [https://dlmf.nist.gov/28.11#Ex2]: Definition - Line is a non-semantic definition.
-8253 [http://dlmf.nist.gov/28.11.E3]: All Aborted: [Simple: Aborted]
-8254 [http://dlmf.nist.gov/28.11.E4]: All Aborted: [Simple: Aborted]
-8255 [http://dlmf.nist.gov/28.11.E5]: All Aborted: [Simple: Aborted]
-8256 [http://dlmf.nist.gov/28.11.E6]: All Aborted: [Simple: Aborted]
-8257 [http://dlmf.nist.gov/28.11.E7]: All Aborted: [Simple: Aborted]
+8253 [http://dlmf.nist.gov/28.11.E3]: All Aborted: [Simple: NaN]
+8254 [http://dlmf.nist.gov/28.11.E4]: All Aborted: [Simple: NaN]
+8255 [http://dlmf.nist.gov/28.11.E5]: All Aborted: [Simple: NaN]
+8256 [http://dlmf.nist.gov/28.11.E6]: All Aborted: [Simple: NaN]
+8257 [http://dlmf.nist.gov/28.11.E7]: All Aborted: [Simple: NaN]
 8258 [http://dlmf.nist.gov/28.12.E1]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Mathieueigvallambda [\Mathieueigvallambda]
 8259 [http://dlmf.nist.gov/28.12.E2]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Mathieueigvallambda [\Mathieueigvallambda]
 8259-a [http://dlmf.nist.gov/28.12.E2]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Mathieueigvallambda [\Mathieueigvallambda]
@@ -188,7 +192,7 @@ Overall: [TOTAL: 471, SKIPPED: 165, DEFINITIONS: 39, STARTED_TEST_CASES: 267, ER
 8261 [http://dlmf.nist.gov/28.12.E4]: Failure [Simple: NaN]
 8262 [http://dlmf.nist.gov/28.12.E5]: Failure [Simple: NaN]
 8263 [http://dlmf.nist.gov/28.12.E6]: Failure [Simple: NaN]
-8264 [http://dlmf.nist.gov/28.12.E7]: Skipped - Unable to analyze test case: Null
+8264 [http://dlmf.nist.gov/28.12.E7]: Failure [Simple: NaN]
 8265 [http://dlmf.nist.gov/28.12.E8]: Failure [Simple: NaN]
 8266 [http://dlmf.nist.gov/28.12.E9]: Failure [Simple: NaN]
 8267 [http://dlmf.nist.gov/28.12.E10]: Failure [Simple: NaN]
@@ -219,7 +223,7 @@ Overall: [TOTAL: 471, SKIPPED: 165, DEFINITIONS: 39, STARTED_TEST_CASES: 267, ER
 8290 [http://dlmf.nist.gov/28.19.E2]: Definition - Line is a non-semantic definition.
 8291 [http://dlmf.nist.gov/28.19.E3]: Definition - Line is a non-semantic definition.
 8292 [http://dlmf.nist.gov/28.19.E4]: Failure [Simple: NaN]
-8293 [http://dlmf.nist.gov/28.20.E1]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
+8293 [http://dlmf.nist.gov/28.20.E1]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
 8294 [http://dlmf.nist.gov/28.20.E2]: Skipped - no semantic math
 8295 [http://dlmf.nist.gov/28.20.E3]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \modMathieuCe [\modMathieuCe]
 8295-a [http://dlmf.nist.gov/28.20.E3]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \modMathieuCe [\modMathieuCe]
@@ -376,11 +380,11 @@ Overall: [TOTAL: 471, SKIPPED: 165, DEFINITIONS: 39, STARTED_TEST_CASES: 267, ER
 8429 [https://dlmf.nist.gov/28.28#Ex14]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \radMathieuDc [\radMathieuDc]
 8430 [https://dlmf.nist.gov/28.28#Ex15]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \radMathieuDsc [\radMathieuDsc]
 8431 [https://dlmf.nist.gov/28.28#Ex16]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \radMathieuDsc [\radMathieuDsc]
-8432 [http://dlmf.nist.gov/28.28.E41]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \radMathieuDsc [\radMathieuDsc]
-8433 [http://dlmf.nist.gov/28.28.E42]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \radMathieuDsc [\radMathieuDsc]
+8432 [http://dlmf.nist.gov/28.28.E41]: All Aborted: [Simple: NaN]
+8433 [http://dlmf.nist.gov/28.28.E42]: All Aborted: [Simple: NaN]
 8434 [http://dlmf.nist.gov/28.28.E43]: Definition - Line is a non-semantic definition.
-8435 [http://dlmf.nist.gov/28.28.E44]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \radMathieuDsc [\radMathieuDsc]
-8436 [http://dlmf.nist.gov/28.28.E45]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \radMathieuDsc [\radMathieuDsc]
+8435 [http://dlmf.nist.gov/28.28.E44]: All Aborted: [Simple: NaN]
+8436 [http://dlmf.nist.gov/28.28.E45]: All Aborted: [Simple: NaN]
 8437 [http://dlmf.nist.gov/28.28.E46]: Definition - Line is a non-semantic definition.
 8438 [http://dlmf.nist.gov/28.28.E47]: Translation Error - (LaTeX -> Mathematica) No translation possible for given token: Accents are not supported.
 8439 [http://dlmf.nist.gov/28.28.E48]: Translation Error - (LaTeX -> Mathematica) No translation possible for given token: Accents are not supported.
@@ -393,17 +397,25 @@ Overall: [TOTAL: 471, SKIPPED: 165, DEFINITIONS: 39, STARTED_TEST_CASES: 267, ER
 8446 [http://dlmf.nist.gov/28.29.E6]: Failure [Simple: NaN]
 8446-a [http://dlmf.nist.gov/28.29.E6]: Failure [Simple: NaN]
 8447 [http://dlmf.nist.gov/28.29.E7]: Failure [Simple: NaN]
-8448 [http://dlmf.nist.gov/28.29.E8]: Skipped - no semantic math
-8449 [http://dlmf.nist.gov/28.29.E9]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag
+8448 [http://dlmf.nist.gov/28.29.E8]: Skipped - Unable to analyze test case: Null
+8449 [http://dlmf.nist.gov/28.29.E9]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
 8450 [http://dlmf.nist.gov/28.29.E10]: Definition - Line is a non-semantic definition.
 8451 [http://dlmf.nist.gov/28.29.E11]: Skipped - no semantic math
 8452 [http://dlmf.nist.gov/28.29.E12]: Skipped - no semantic math
 8453 [http://dlmf.nist.gov/28.29.E13]: Failure [Simple: NaN]
-8454 [http://dlmf.nist.gov/28.29.E14]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag
+8454 [http://dlmf.nist.gov/28.29.E14]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
 8455 [http://dlmf.nist.gov/28.29.E15]: Skipped - no semantic math
 8456 [http://dlmf.nist.gov/28.29.E16]: Definition - Line is a non-semantic definition.
 8457 [http://dlmf.nist.gov/28.29.E17]: Definition - Line is a non-semantic definition.
 8458 [http://dlmf.nist.gov/28.29.E18]: Skipped - no semantic math
+8458-a [http://dlmf.nist.gov/28.29.E18]: Skipped - no semantic math
+8458-b [http://dlmf.nist.gov/28.29.E18]: Skipped - no semantic math
+8458-c [http://dlmf.nist.gov/28.29.E18]: Skipped - no semantic math
+8458-d [http://dlmf.nist.gov/28.29.E18]: Skipped - no semantic math
+8458-e [http://dlmf.nist.gov/28.29.E18]: Skipped - no semantic math
+8458-f [http://dlmf.nist.gov/28.29.E18]: Skipped - no semantic math
+8458-g [http://dlmf.nist.gov/28.29.E18]: Skipped - no semantic math
+8458-h [http://dlmf.nist.gov/28.29.E18]: Skipped - no semantic math
 8459 [http://dlmf.nist.gov/28.29.E19]: Definition - Line is a non-semantic definition.
 8460 [https://dlmf.nist.gov/28.29#Ex1]: Skipped - Invalid test case: littleo
 8461 [https://dlmf.nist.gov/28.29#Ex2]: Skipped - Invalid test case: littleo
@@ -415,12 +427,12 @@ Overall: [TOTAL: 471, SKIPPED: 165, DEFINITIONS: 39, STARTED_TEST_CASES: 267, ER
 8467 [http://dlmf.nist.gov/28.30.E2]: Failure [Simple: NaN]
 8468 [http://dlmf.nist.gov/28.30.E3]: Skipped - no semantic math
 8469 [http://dlmf.nist.gov/28.30.E4]: Skipped - Invalid test case: Generic function f(x)
-8470 [http://dlmf.nist.gov/28.31.E1]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
+8470 [http://dlmf.nist.gov/28.31.E1]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
 8471 [https://dlmf.nist.gov/28.31#Ex1]: Skipped - no semantic math
 8472 [https://dlmf.nist.gov/28.31#Ex2]: Skipped - no semantic math
 8473 [https://dlmf.nist.gov/28.31#Ex3]: Skipped - no semantic math
 8474 [https://dlmf.nist.gov/28.31#Ex4]: Failure [Simple: NaN]
-8475 [http://dlmf.nist.gov/28.31.E3]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
+8475 [http://dlmf.nist.gov/28.31.E3]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
 8476 [http://dlmf.nist.gov/28.31.E4]: Failure [Simple: NaN]
 8477 [http://dlmf.nist.gov/28.31.E5]: Failure [Simple: NaN]
 8478 [https://dlmf.nist.gov/28.31#Ex5]: Skipped - no semantic math
@@ -436,17 +448,17 @@ Overall: [TOTAL: 471, SKIPPED: 165, DEFINITIONS: 39, STARTED_TEST_CASES: 267, ER
 8488 [http://dlmf.nist.gov/28.31.E11]: Definition - Line is a non-semantic definition.
 8489 [http://dlmf.nist.gov/28.31.E12]: Failure [Simple: NaN]
 8489-a [http://dlmf.nist.gov/28.31.E12]: Failure [Simple: NaN]
-8490 [https://dlmf.nist.gov/28.31#Ex14]: Skipped - no semantic math
+8490 [https://dlmf.nist.gov/28.31#Ex14]: Skipped - Unable to analyze test case: Null
 8491 [https://dlmf.nist.gov/28.31#Ex15]: Skipped - Unable to analyze test case: Null
 8492 [https://dlmf.nist.gov/28.31#Ex16]: Skipped - Unable to analyze test case: Null
-8493 [https://dlmf.nist.gov/28.31#Ex17]: Skipped - no semantic math
+8493 [https://dlmf.nist.gov/28.31#Ex17]: Skipped - Unable to analyze test case: Null
 8494 [https://dlmf.nist.gov/28.31#Ex18]: Skipped - Unable to analyze test case: Null
 8495 [https://dlmf.nist.gov/28.31#Ex19]: Skipped - Unable to analyze test case: Null
-8496 [https://dlmf.nist.gov/28.31#Ex20]: Skipped - no semantic math
-8497 [https://dlmf.nist.gov/28.31#Ex21]: Skipped - no semantic math
+8496 [https://dlmf.nist.gov/28.31#Ex20]: Skipped - Unable to analyze test case: Null
+8497 [https://dlmf.nist.gov/28.31#Ex21]: Skipped - Unable to analyze test case: Null
 8498 [http://dlmf.nist.gov/28.31.E16]: Definition - Line is a non-semantic definition.
 8499 [http://dlmf.nist.gov/28.31.E17]: Definition - Line is a non-semantic definition.
-8500 [http://dlmf.nist.gov/28.31.E18]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
+8500 [http://dlmf.nist.gov/28.31.E18]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
 8501 [https://dlmf.nist.gov/28.31#Ex22]: Skipped - no semantic math
 8502 [https://dlmf.nist.gov/28.31#Ex23]: Skipped - no semantic math
 8503 [https://dlmf.nist.gov/28.31#Ex24]: Skipped - no semantic math
@@ -470,4 +482,4 @@ Overall: [TOTAL: 471, SKIPPED: 165, DEFINITIONS: 39, STARTED_TEST_CASES: 267, ER
 8520 [http://dlmf.nist.gov/28.33.E1]: Successful [Simple: 0]
 8521 [http://dlmf.nist.gov/28.33.E2]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \modMathieuM [\modMathieuM]
 8522 [http://dlmf.nist.gov/28.33.E3]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \modMathieuM [\modMathieuM]
-8523 [http://dlmf.nist.gov/28.33.E4]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
+8523 [http://dlmf.nist.gov/28.33.E4]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.

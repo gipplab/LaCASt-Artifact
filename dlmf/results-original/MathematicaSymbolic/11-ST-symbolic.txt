@@ -1,4 +1,4 @@
-Overall: [TOTAL: 179, SKIPPED: 55, DEFINITIONS: 0, STARTED_TEST_CASES: 124, ERROR_TRANS: 0, MISSING: 12, SUCCESS_TRANS: 112, SUCCESS_SYMB: 35, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 1, FAILURE: 65, ABORTED: 11, ERROR: 0] for test expression: (#LHS)-(#RHS)
+Overall: [TOTAL: 179, SKIPPED: 55, DEFINITIONS: 0, STARTED_TEST_CASES: 124, ERROR_TRANS: 0, MISSING: 12, SUCCESS_TRANS: 112, SUCCESS_SYMB: 30, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 7, FAILURE: 68, NO_TEST_VALUES: 0, ABORTED: 7, ERROR: 0] for test expression: (#LHS)-(#RHS)
 [SIMPLE]
 3880 [http://dlmf.nist.gov/11.2.E1]: Successful [Simple: 0]
 3881 [http://dlmf.nist.gov/11.2.E2]: Failure [Simple: NaN]
@@ -55,15 +55,15 @@ Overall: [TOTAL: 179, SKIPPED: 55, DEFINITIONS: 0, STARTED_TEST_CASES: 124, ERRO
 3929 [https://dlmf.nist.gov/11.4#Ex2]: Successful [Simple: 0]
 3930 [https://dlmf.nist.gov/11.4#Ex3]: Successful [Simple: 0]
 3931 [https://dlmf.nist.gov/11.4#Ex4]: Successful [Simple: 0]
-3932 [http://dlmf.nist.gov/11.5.E1]: Successful [Simple: 0]
-3932-a [http://dlmf.nist.gov/11.5.E1]: Successful [Simple: 0]
-3933 [http://dlmf.nist.gov/11.5.E2]: Successful [Simple: 0]
-3934 [http://dlmf.nist.gov/11.5.E3]: All Aborted: [Simple: Aborted]
-3935 [http://dlmf.nist.gov/11.5.E4]: Successful [Simple: 0]
+3932 [http://dlmf.nist.gov/11.5.E1]: Successful under condition [Simple: ConditionalExpression[0, Greater[Re[ν], Rational[-1, 2]]]]
+3932-a [http://dlmf.nist.gov/11.5.E1]: Successful under condition [Simple: ConditionalExpression[0, Greater[Re[ν], Rational[-1, 2]]]]
+3933 [http://dlmf.nist.gov/11.5.E2]: Successful under condition [Simple: ConditionalExpression[0, Greater[Re[z], 0]]]
+3934 [http://dlmf.nist.gov/11.5.E3]: Failure [Simple: NaN]
+3935 [http://dlmf.nist.gov/11.5.E4]: Successful under condition [Simple: ConditionalExpression[0, Greater[Re[ν], Rational[-1, 2]]]]
 3936 [http://dlmf.nist.gov/11.5.E5]: Successful [Simple: 0]
-3937 [http://dlmf.nist.gov/11.5.E6]: All Aborted: [Simple: Aborted]
-3938 [http://dlmf.nist.gov/11.5.E7]: All Aborted: [Simple: Aborted]
-3939 [http://dlmf.nist.gov/11.5.E8]: All Aborted: [Simple: Aborted]
+3937 [http://dlmf.nist.gov/11.5.E6]: All Aborted: [Simple: NaN]
+3938 [http://dlmf.nist.gov/11.5.E7]: All Aborted: [Simple: NaN]
+3939 [http://dlmf.nist.gov/11.5.E8]: All Aborted: [Simple: NaN]
 3940 [http://dlmf.nist.gov/11.5.E9]: Failure [Simple: NaN]
 3941 [http://dlmf.nist.gov/11.6.E1]: Skipped - Unable to analyze test case: Null
 3942 [http://dlmf.nist.gov/11.6.E2]: Skipped - Unable to analyze test case: Null
@@ -84,16 +84,16 @@ Overall: [TOTAL: 179, SKIPPED: 55, DEFINITIONS: 0, STARTED_TEST_CASES: 124, ERRO
 3957 [http://dlmf.nist.gov/11.7.E4]: Successful [Simple: 0]
 3958 [http://dlmf.nist.gov/11.7.E5]: Failure [Simple: NaN]
 3959 [http://dlmf.nist.gov/11.7.E6]: Failure [Simple: NaN]
-3960 [http://dlmf.nist.gov/11.7.E7]: All Aborted: [Simple: Aborted]
+3960 [http://dlmf.nist.gov/11.7.E7]: Successful under condition [Simple: ConditionalExpression[0, Inequality[Rational[-3, 2], Less, Re[ν], Less, Rational[1, 2]]]]
 3961 [https://dlmf.nist.gov/11.7#Ex1]: Successful [Simple: 0]
 3962 [https://dlmf.nist.gov/11.7#Ex2]: Successful [Simple: 0]
-3963 [http://dlmf.nist.gov/11.7.E9]: All Aborted: [Simple: Aborted]
-3964 [http://dlmf.nist.gov/11.7.E10]: All Aborted: [Simple: Aborted]
-3965 [http://dlmf.nist.gov/11.7.E11]: All Aborted: [Simple: Aborted]
-3966 [http://dlmf.nist.gov/11.7.E12]: All Aborted: [Simple: Aborted]
-3967 [http://dlmf.nist.gov/11.7.E13]: All Aborted: [Simple: Aborted]
+3963 [http://dlmf.nist.gov/11.7.E9]: Successful under condition [Simple: ConditionalExpression[0, Inequality[-2, Less, Re[ν], Less, 0]]]
+3964 [http://dlmf.nist.gov/11.7.E10]: All Aborted: [Simple: NaN]
+3965 [http://dlmf.nist.gov/11.7.E11]: All Aborted: [Simple: NaN]
+3966 [http://dlmf.nist.gov/11.7.E12]: All Aborted: [Simple: NaN]
+3967 [http://dlmf.nist.gov/11.7.E13]: All Aborted: [Simple: NaN]
 3968 [http://dlmf.nist.gov/11.7.E14]: Failure [Simple: NaN]
-3969 [http://dlmf.nist.gov/11.7.E15]: Successful under condition [Simple: 0.0 under condition: And[Greater[Re[a], 1], Equal[Im[a], 0]]]
+3969 [http://dlmf.nist.gov/11.7.E15]: Successful under condition [Simple: ConditionalExpression[0, And[Greater[Re[a], 1], Equal[Im[a], 0]]]]
 3970 [https://dlmf.nist.gov/11.7#Ex3]: Skipped - Unable to analyze test case: Null
 3971 [https://dlmf.nist.gov/11.7#Ex4]: Failure [Simple: NaN]
 3972 [http://dlmf.nist.gov/11.9.E1]: Failure [Simple: NaN]
@@ -106,7 +106,7 @@ Overall: [TOTAL: 179, SKIPPED: 55, DEFINITIONS: 0, STARTED_TEST_CASES: 124, ERRO
 3979 [http://dlmf.nist.gov/11.9.E7]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Lommels [\Lommels]
 3980 [http://dlmf.nist.gov/11.9.E8]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Lommels [\Lommels]
 3981 [http://dlmf.nist.gov/11.9.E9]: Skipped - Unable to analyze test case: Null
-3982 [http://dlmf.nist.gov/11.10.E1]: All Aborted: [Simple: Aborted]
+3982 [http://dlmf.nist.gov/11.10.E1]: Failure [Simple: NaN]
 3983 [http://dlmf.nist.gov/11.10.E2]: Failure [Simple: NaN]
 3984 [http://dlmf.nist.gov/11.10.E3]: Failure [Simple: NaN]
 3985 [http://dlmf.nist.gov/11.10.E4]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \AngerWeberA [\AngerWeberA]
@@ -142,7 +142,7 @@ Overall: [TOTAL: 179, SKIPPED: 55, DEFINITIONS: 0, STARTED_TEST_CASES: 124, ERRO
 4012 [http://dlmf.nist.gov/11.10.E26]: Skipped - no semantic math
 4013 [http://dlmf.nist.gov/11.10.E27]: Skipped - Unable to analyze test case: Null
 4014 [http://dlmf.nist.gov/11.10.E28]: Skipped - Unable to analyze test case: Null
-4015 [http://dlmf.nist.gov/11.10.E29]: Successful [Simple: 0]
+4015 [http://dlmf.nist.gov/11.10.E29]: Failure [Simple: NaN]
 4016 [http://dlmf.nist.gov/11.10.E30]: Skipped - Unable to analyze test case: Null
 4017 [http://dlmf.nist.gov/11.10.E31]: Skipped - Unable to analyze test case: Null
 4018 [http://dlmf.nist.gov/11.10.E32]: Failure [Simple: NaN]

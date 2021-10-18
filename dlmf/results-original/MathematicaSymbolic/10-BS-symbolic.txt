@@ -1,4 +1,4 @@
-Overall: [TOTAL: 1021, SKIPPED: 298, DEFINITIONS: 70, STARTED_TEST_CASES: 653, ERROR_TRANS: 32, MISSING: 135, SUCCESS_TRANS: 486, SUCCESS_SYMB: 104, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 11, FAILURE: 255, ABORTED: 116, ERROR: 0] for test expression: (#LHS)-(#RHS)
+Overall: [TOTAL: 1028, SKIPPED: 301, DEFINITIONS: 70, STARTED_TEST_CASES: 657, ERROR_TRANS: 27, MISSING: 107, SUCCESS_TRANS: 523, SUCCESS_SYMB: 95, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 22, FAILURE: 297, NO_TEST_VALUES: 0, ABORTED: 109, ERROR: 0] for test expression: (#LHS)-(#RHS)
 [SIMPLE]
 2970 [http://dlmf.nist.gov/10.2.E1]: Failure [Simple: NaN]
 2971 [http://dlmf.nist.gov/10.2.E2]: Successful [Simple: 0]
@@ -68,44 +68,44 @@ Overall: [TOTAL: 1021, SKIPPED: 298, DEFINITIONS: 70, STARTED_TEST_CASES: 653, E
 3028 [http://dlmf.nist.gov/10.8.E1]: Failure [Simple: NaN]
 3029 [http://dlmf.nist.gov/10.8.E2]: Failure [Simple: NaN]
 3030 [http://dlmf.nist.gov/10.8.E3]: Failure [Simple: NaN]
-3031 [http://dlmf.nist.gov/10.9.E1]: Successful under condition [Simple: 0.0 under condition: Element[z, Reals]]
-3031-a [http://dlmf.nist.gov/10.9.E1]: Successful under condition [Simple: 0.0 under condition: Element[z, Reals]]
-3032 [http://dlmf.nist.gov/10.9.E2]: All Aborted: [Simple: Aborted]
-3032-a [http://dlmf.nist.gov/10.9.E2]: All Aborted: [Simple: Aborted]
-3033 [http://dlmf.nist.gov/10.9.E3]: All Aborted: [Simple: Aborted]
-3034 [http://dlmf.nist.gov/10.9.E4]: Successful under condition [Simple: 0.0 under condition: Element[z, Reals]]
-3034-a [http://dlmf.nist.gov/10.9.E4]: Successful under condition [Simple: 0.0 under condition: Element[z, Reals]]
-3035 [http://dlmf.nist.gov/10.9.E5]: Successful under condition [Simple: 0.0 under condition: Greater[Re[z], 0]]
-3036 [http://dlmf.nist.gov/10.9.E6]: All Aborted: [Simple: Aborted]
-3037 [http://dlmf.nist.gov/10.9.E7]: All Aborted: [Simple: Aborted]
-3038 [https://dlmf.nist.gov/10.9#Ex1]: All Aborted: [Simple: Aborted]
-3039 [https://dlmf.nist.gov/10.9#Ex2]: All Aborted: [Simple: Aborted]
-3040 [https://dlmf.nist.gov/10.9#Ex3]: All Aborted: [Simple: Aborted]
-3041 [https://dlmf.nist.gov/10.9#Ex4]: All Aborted: [Simple: Aborted]
-3042 [http://dlmf.nist.gov/10.9.E10]: All Aborted: [Simple: Aborted]
-3043 [http://dlmf.nist.gov/10.9.E11]: All Aborted: [Simple: Aborted]
-3044 [https://dlmf.nist.gov/10.9#Ex5]: All Aborted: [Simple: Aborted]
-3045 [https://dlmf.nist.gov/10.9#Ex6]: All Aborted: [Simple: Aborted]
-3046 [http://dlmf.nist.gov/10.9.E13]: All Aborted: [Simple: Aborted]
-3047 [http://dlmf.nist.gov/10.9.E14]: All Aborted: [Simple: Aborted]
-3048 [http://dlmf.nist.gov/10.9.E15]: All Aborted: [Simple: Aborted]
-3049 [http://dlmf.nist.gov/10.9.E16]: All Aborted: [Simple: Aborted]
+3031 [http://dlmf.nist.gov/10.9.E1]: Successful under condition [Simple: ConditionalExpression[0, Element[z, Reals]]]
+3031-a [http://dlmf.nist.gov/10.9.E1]: Successful under condition [Simple: ConditionalExpression[0, Element[z, Reals]]]
+3032 [http://dlmf.nist.gov/10.9.E2]: Failure [Simple: NaN]
+3032-a [http://dlmf.nist.gov/10.9.E2]: All Aborted: [Simple: NaN]
+3033 [http://dlmf.nist.gov/10.9.E3]: All Aborted: [Simple: NaN]
+3034 [http://dlmf.nist.gov/10.9.E4]: Successful under condition [Simple: ConditionalExpression[0, And[Element[z, Reals], Greater[Plus[ν, Conjugate[ν]], -1]]]]
+3034-a [http://dlmf.nist.gov/10.9.E4]: Successful under condition [Simple: ConditionalExpression[0, And[Element[z, Reals], Greater[Re[ν], Rational[-1, 2]]]]]
+3035 [http://dlmf.nist.gov/10.9.E5]: Successful under condition [Simple: ConditionalExpression[0, And[Greater[Re[z], 0], Greater[Plus[ν, Conjugate[ν]], -1]]]]
+3036 [http://dlmf.nist.gov/10.9.E6]: All Aborted: [Simple: NaN]
+3037 [http://dlmf.nist.gov/10.9.E7]: All Aborted: [Simple: NaN]
+3038 [https://dlmf.nist.gov/10.9#Ex1]: All Aborted: [Simple: NaN]
+3039 [https://dlmf.nist.gov/10.9#Ex2]: All Aborted: [Simple: NaN]
+3040 [https://dlmf.nist.gov/10.9#Ex3]: All Aborted: [Simple: NaN]
+3041 [https://dlmf.nist.gov/10.9#Ex4]: All Aborted: [Simple: NaN]
+3042 [http://dlmf.nist.gov/10.9.E10]: All Aborted: [Simple: NaN]
+3043 [http://dlmf.nist.gov/10.9.E11]: All Aborted: [Simple: NaN]
+3044 [https://dlmf.nist.gov/10.9#Ex5]: Failure [Simple: NaN]
+3045 [https://dlmf.nist.gov/10.9#Ex6]: Failure [Simple: NaN]
+3046 [http://dlmf.nist.gov/10.9.E13]: All Aborted: [Simple: NaN]
+3047 [http://dlmf.nist.gov/10.9.E14]: All Aborted: [Simple: NaN]
+3048 [http://dlmf.nist.gov/10.9.E15]: All Aborted: [Simple: NaN]
+3049 [http://dlmf.nist.gov/10.9.E16]: All Aborted: [Simple: NaN]
 3050 [http://dlmf.nist.gov/10.9.E17]: Failure [Simple: NaN]
-3051 [https://dlmf.nist.gov/10.9#Ex7]: All Aborted: [Simple: Aborted]
-3052 [https://dlmf.nist.gov/10.9#Ex8]: All Aborted: [Simple: Aborted]
+3051 [https://dlmf.nist.gov/10.9#Ex7]: All Aborted: [Simple: NaN]
+3052 [https://dlmf.nist.gov/10.9#Ex8]: All Aborted: [Simple: NaN]
 3053 [http://dlmf.nist.gov/10.9.E19]: Failure [Simple: NaN]
 3054 [http://dlmf.nist.gov/10.9.E20]: Failure [Simple: NaN]
 3055 [https://dlmf.nist.gov/10.9#Ex9]: Failure [Simple: NaN]
 3056 [https://dlmf.nist.gov/10.9#Ex10]: Failure [Simple: NaN]
-3057 [http://dlmf.nist.gov/10.9.E22]: All Aborted: [Simple: Aborted]
+3057 [http://dlmf.nist.gov/10.9.E22]: All Aborted: [Simple: NaN]
 3058 [http://dlmf.nist.gov/10.9.E23]: Failure [Simple: NaN]
-3059 [http://dlmf.nist.gov/10.9.E24]: All Aborted: [Simple: Aborted]
-3060 [http://dlmf.nist.gov/10.9.E25]: All Aborted: [Simple: Aborted]
-3061 [http://dlmf.nist.gov/10.9.E26]: All Aborted: [Simple: Aborted]
-3062 [http://dlmf.nist.gov/10.9.E27]: All Aborted: [Simple: Aborted]
+3059 [http://dlmf.nist.gov/10.9.E24]: All Aborted: [Simple: NaN]
+3060 [http://dlmf.nist.gov/10.9.E25]: All Aborted: [Simple: NaN]
+3061 [http://dlmf.nist.gov/10.9.E26]: Failure [Simple: NaN]
+3062 [http://dlmf.nist.gov/10.9.E27]: All Aborted: [Simple: NaN]
 3063 [http://dlmf.nist.gov/10.9.E28]: Failure [Simple: NaN]
-3064 [http://dlmf.nist.gov/10.9.E29]: All Aborted: [Simple: Aborted]
-3065 [http://dlmf.nist.gov/10.9.E30]: All Aborted: [Simple: Aborted]
+3064 [http://dlmf.nist.gov/10.9.E29]: All Aborted: [Simple: NaN]
+3065 [http://dlmf.nist.gov/10.9.E30]: All Aborted: [Simple: NaN]
 3066 [http://dlmf.nist.gov/10.10.E1]: Skipped - Invalid test case: cdots
 3067 [http://dlmf.nist.gov/10.10.E2]: Skipped - Invalid test case: cdots
 3068 [http://dlmf.nist.gov/10.11.E1]: Failure [Simple: NaN]
@@ -135,6 +135,7 @@ Overall: [TOTAL: 1021, SKIPPED: 298, DEFINITIONS: 70, STARTED_TEST_CASES: 653, E
 3092 [http://dlmf.nist.gov/10.13.E2]: Skipped - no semantic math
 3093 [http://dlmf.nist.gov/10.13.E3]: Skipped - no semantic math
 3094 [http://dlmf.nist.gov/10.13.E4]: Skipped - no semantic math
+3094-a [http://dlmf.nist.gov/10.13.E4]: Skipped - no semantic math
 3095 [http://dlmf.nist.gov/10.13.E5]: Skipped - no semantic math
 3096 [http://dlmf.nist.gov/10.13.E6]: Skipped - no semantic math
 3097 [http://dlmf.nist.gov/10.13.E7]: Skipped - no semantic math
@@ -173,7 +174,7 @@ Overall: [TOTAL: 1021, SKIPPED: 298, DEFINITIONS: 70, STARTED_TEST_CASES: 653, E
 3124 [https://dlmf.nist.gov/10.16#Ex4]: Successful [Simple: 0]
 3124-a [https://dlmf.nist.gov/10.16#Ex4]: Failure [Simple: NaN]
 3125 [https://dlmf.nist.gov/10.16#Ex5]: Failure [Simple: NaN]
-3126 [https://dlmf.nist.gov/10.16#Ex6]: All Aborted: [Simple: Aborted]
+3126 [https://dlmf.nist.gov/10.16#Ex6]: All Aborted: [Simple: NaN]
 3127 [https://dlmf.nist.gov/10.16#Ex7]: Failure [Simple: NaN]
 3128 [https://dlmf.nist.gov/10.16#Ex8]: Failure [Simple: NaN]
 3129 [http://dlmf.nist.gov/10.16.E5]: Successful [Simple: 0]
@@ -222,18 +223,18 @@ Overall: [TOTAL: 1021, SKIPPED: 298, DEFINITIONS: 70, STARTED_TEST_CASES: 653, E
 3166 [https://dlmf.nist.gov/10.18#Ex12]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Hankelphasederivphi [\Hankelphasederivphi]
 3167 [http://dlmf.nist.gov/10.18.E9]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Hankelphasetheta [\Hankelphasetheta]
 3167-a [http://dlmf.nist.gov/10.18.E9]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Hankelphasetheta [\Hankelphasetheta]
-3168 [http://dlmf.nist.gov/10.18.E10]: All Aborted: [Simple: Aborted]
+3168 [http://dlmf.nist.gov/10.18.E10]: All Aborted: [Simple: NaN]
 3169 [http://dlmf.nist.gov/10.18.E11]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Hankelphasederivphi [\Hankelphasederivphi]
 3169-a [http://dlmf.nist.gov/10.18.E11]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Hankelphasetheta [\Hankelphasetheta]
 3170 [http://dlmf.nist.gov/10.18.E12]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Hankelphasederivphi [\Hankelphasederivphi]
-3171 [http://dlmf.nist.gov/10.18.E13]: Translation Error - (LaTeX -> Mathematica) Error while translating DLMF/DRMF Macro: The arguments of semantic macros must be wrapped in curly brackets! It seems you wrote \HankelmodM(...) instead of \HankelmodM{...} [\HankelmodM]
+3171 [http://dlmf.nist.gov/10.18.E13]: Failure [Simple: NaN]
 3172 [http://dlmf.nist.gov/10.18.E14]: Skipped - no semantic math
 3173 [http://dlmf.nist.gov/10.18.E15]: Skipped - no semantic math
 3174 [http://dlmf.nist.gov/10.18.E16]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Hankelphasetheta [\Hankelphasetheta]
 3175 [http://dlmf.nist.gov/10.18.E17]: Skipped - Unable to analyze test case: Null
 3176 [http://dlmf.nist.gov/10.18.E18]: Skipped - Unable to analyze test case: Null
 3177 [http://dlmf.nist.gov/10.18.E19]: Skipped - Unable to analyze test case: Null
-3178 [http://dlmf.nist.gov/10.18.E20]: Skipped - no semantic math
+3178 [http://dlmf.nist.gov/10.18.E20]: Skipped - Unable to analyze test case: Null
 3179 [http://dlmf.nist.gov/10.18.E21]: Skipped - Unable to analyze test case: Null
 3180 [http://dlmf.nist.gov/10.19.E1]: Skipped - Unable to analyze test case: Null
 3181 [http://dlmf.nist.gov/10.19.E2]: Skipped - Unable to analyze test case: Null
@@ -271,10 +272,10 @@ Overall: [TOTAL: 1021, SKIPPED: 298, DEFINITIONS: 70, STARTED_TEST_CASES: 653, E
 3213 [https://dlmf.nist.gov/10.19#Ex29]: Definition - Line is a non-semantic definition.
 3214 [https://dlmf.nist.gov/10.19#Ex30]: Definition - Line is a non-semantic definition.
 3215 [http://dlmf.nist.gov/10.20.E1]: Failure [Simple: NaN]
-3216 [http://dlmf.nist.gov/10.20.E2]: All Aborted: [Simple: Aborted]
-3216-a [http://dlmf.nist.gov/10.20.E2]: All Aborted: [Simple: Aborted]
-3217 [http://dlmf.nist.gov/10.20.E3]: All Aborted: [Simple: Aborted]
-3217-a [http://dlmf.nist.gov/10.20.E3]: All Aborted: [Simple: Aborted]
+3216 [http://dlmf.nist.gov/10.20.E2]: All Aborted: [Simple: NaN]
+3216-a [http://dlmf.nist.gov/10.20.E2]: All Aborted: [Simple: NaN]
+3217 [http://dlmf.nist.gov/10.20.E3]: All Aborted: [Simple: NaN]
+3217-a [http://dlmf.nist.gov/10.20.E3]: All Aborted: [Simple: NaN]
 3218 [http://dlmf.nist.gov/10.20.E4]: Skipped - Unable to analyze test case: Null
 3219 [http://dlmf.nist.gov/10.20.E5]: Skipped - Unable to analyze test case: Null
 3220 [http://dlmf.nist.gov/10.20.E6]: Skipped - Unable to analyze test case: Null
@@ -293,41 +294,43 @@ Overall: [TOTAL: 1021, SKIPPED: 298, DEFINITIONS: 70, STARTED_TEST_CASES: 653, E
 3233 [https://dlmf.nist.gov/10.20#Ex6]: Skipped - no semantic math
 3234 [https://dlmf.nist.gov/10.20#Ex7]: Skipped - no semantic math
 3235 [https://dlmf.nist.gov/10.20#Ex8]: Skipped - no semantic math
-3236 [http://dlmf.nist.gov/10.20.E15]: Skipped - no semantic math
-3237 [http://dlmf.nist.gov/10.20.E16]: Skipped - no semantic math
+3236 [http://dlmf.nist.gov/10.20.E15]: Failure [Simple: NaN]
+3236-a [http://dlmf.nist.gov/10.20.E15]: Failure [Simple: NaN]
+3237 [http://dlmf.nist.gov/10.20.E16]: Failure [Simple: NaN]
+3237-a [http://dlmf.nist.gov/10.20.E16]: Failure [Simple: NaN]
 3238 [http://dlmf.nist.gov/10.20.E17]: Failure [Simple: NaN]
 3238-a [http://dlmf.nist.gov/10.20.E17]: Failure [Simple: NaN]
 3239 [http://dlmf.nist.gov/10.20.E18]: Definition - Line is a non-semantic definition.
-3240 [https://dlmf.nist.gov/10.21#Ex1]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \zderivBesselj [\zderivBesselj]
-3241 [https://dlmf.nist.gov/10.21#Ex2]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \zderivBesselj [\zderivBesselj]
-3242 [https://dlmf.nist.gov/10.21#Ex3]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \zBesselj [\zBesselj]
-3242-a [https://dlmf.nist.gov/10.21#Ex3]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \zBesselj [\zBesselj]
-3242-b [https://dlmf.nist.gov/10.21#Ex3]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \zBesselj [\zBesselj]
-3242-c [https://dlmf.nist.gov/10.21#Ex3]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \zBesselj [\zBesselj]
-3242-d [https://dlmf.nist.gov/10.21#Ex3]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \zBesselj [\zBesselj]
-3243 [https://dlmf.nist.gov/10.21#Ex4]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \zBessely [\zBessely]
-3243-a [https://dlmf.nist.gov/10.21#Ex4]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \zBessely [\zBessely]
-3243-b [https://dlmf.nist.gov/10.21#Ex4]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \zBessely [\zBessely]
-3243-c [https://dlmf.nist.gov/10.21#Ex4]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \zBessely [\zBessely]
-3243-d [https://dlmf.nist.gov/10.21#Ex4]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \zBessely [\zBessely]
-3244 [http://dlmf.nist.gov/10.21.E3]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \zderivBesselj [\zderivBesselj]
-3244-a [http://dlmf.nist.gov/10.21.E3]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \zderivBesselj [\zderivBesselj]
-3244-b [http://dlmf.nist.gov/10.21.E3]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \zBessely [\zBessely]
-3244-c [http://dlmf.nist.gov/10.21.E3]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \zderivBessely [\zderivBessely]
-3244-d [http://dlmf.nist.gov/10.21.E3]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \zBesselj [\zBesselj]
-3244-e [http://dlmf.nist.gov/10.21.E3]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \zderivBesselj [\zderivBesselj]
-3244-f [http://dlmf.nist.gov/10.21.E3]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \zBessely [\zBessely]
+3240 [https://dlmf.nist.gov/10.21#Ex1]: Failure [Simple: NaN]
+3241 [https://dlmf.nist.gov/10.21#Ex2]: Failure [Simple: NaN]
+3242 [https://dlmf.nist.gov/10.21#Ex3]: Failure [Simple: NaN]
+3242-a [https://dlmf.nist.gov/10.21#Ex3]: Failure [Simple: NaN]
+3242-b [https://dlmf.nist.gov/10.21#Ex3]: Failure [Simple: NaN]
+3242-c [https://dlmf.nist.gov/10.21#Ex3]: Failure [Simple: NaN]
+3242-d [https://dlmf.nist.gov/10.21#Ex3]: Failure [Simple: NaN]
+3243 [https://dlmf.nist.gov/10.21#Ex4]: Failure [Simple: NaN]
+3243-a [https://dlmf.nist.gov/10.21#Ex4]: Failure [Simple: NaN]
+3243-b [https://dlmf.nist.gov/10.21#Ex4]: Failure [Simple: NaN]
+3243-c [https://dlmf.nist.gov/10.21#Ex4]: Failure [Simple: NaN]
+3243-d [https://dlmf.nist.gov/10.21#Ex4]: Failure [Simple: NaN]
+3244 [http://dlmf.nist.gov/10.21.E3]: Failure [Simple: NaN]
+3244-a [http://dlmf.nist.gov/10.21.E3]: Failure [Simple: NaN]
+3244-b [http://dlmf.nist.gov/10.21.E3]: Failure [Simple: NaN]
+3244-c [http://dlmf.nist.gov/10.21.E3]: Failure [Simple: NaN]
+3244-d [http://dlmf.nist.gov/10.21.E3]: Failure [Simple: NaN]
+3244-e [http://dlmf.nist.gov/10.21.E3]: Failure [Simple: NaN]
+3244-f [http://dlmf.nist.gov/10.21.E3]: Failure [Simple: NaN]
 3245 [http://dlmf.nist.gov/10.21.E4]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \BesselC [\BesselC]
 3246 [http://dlmf.nist.gov/10.21.E5]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \BesselC [\BesselC]
 3246-a [http://dlmf.nist.gov/10.21.E5]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \BesselC [\BesselC]
 3247 [http://dlmf.nist.gov/10.21.E6]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \BesselC [\BesselC]
 3247-a [http://dlmf.nist.gov/10.21.E6]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \BesselC [\BesselC]
 3248 [https://dlmf.nist.gov/10.21#Ex5]: Skipped - no semantic math
-3249 [https://dlmf.nist.gov/10.21#Ex6]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \zderivBesselj [\zderivBesselj]
-3250 [https://dlmf.nist.gov/10.21#Ex7]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \zBesselj [\zBesselj]
-3251 [https://dlmf.nist.gov/10.21#Ex8]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \zBessely [\zBessely]
-3252 [https://dlmf.nist.gov/10.21#Ex9]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \zderivBesselj [\zderivBesselj]
-3253 [https://dlmf.nist.gov/10.21#Ex10]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \zderivBessely [\zderivBessely]
+3249 [https://dlmf.nist.gov/10.21#Ex6]: Failure [Simple: NaN]
+3250 [https://dlmf.nist.gov/10.21#Ex7]: Failure [Simple: NaN]
+3251 [https://dlmf.nist.gov/10.21#Ex8]: Failure [Simple: NaN]
+3252 [https://dlmf.nist.gov/10.21#Ex9]: Failure [Simple: NaN]
+3253 [https://dlmf.nist.gov/10.21#Ex10]: Failure [Simple: NaN]
 3254 [https://dlmf.nist.gov/10.21#Ex11]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \BesselC [\BesselC]
 3255 [https://dlmf.nist.gov/10.21#Ex12]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \BesselC [\BesselC]
 3256 [http://dlmf.nist.gov/10.21.E11]: Successful [Simple: 0]
@@ -337,13 +340,13 @@ Overall: [TOTAL: 1021, SKIPPED: 298, DEFINITIONS: 70, STARTED_TEST_CASES: 653, E
 3260 [https://dlmf.nist.gov/10.21#Ex16]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Hankelphasederivphi [\Hankelphasederivphi]
 3261 [https://dlmf.nist.gov/10.21#Ex17]: Skipped - Invalid test case: fDiff
 3262 [https://dlmf.nist.gov/10.21#Ex18]: Skipped - Invalid test case: fDiff
-3263 [http://dlmf.nist.gov/10.21.E15]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \zBesselj [\zBesselj]
+3263 [http://dlmf.nist.gov/10.21.E15]: Failure [Simple: NaN]
 3264 [http://dlmf.nist.gov/10.21.E16]: Translation Error - (LaTeX -> Mathematica) CRITICAL! POM-Tagger Error Reached: Encountered " "^" "^ "" at line 1, column 113.
 Was expecting:
     "}" ...
     
-3265 [http://dlmf.nist.gov/10.21.E17]: All Aborted: [Simple: Aborted]
-3266 [http://dlmf.nist.gov/10.21.E18]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
+3265 [http://dlmf.nist.gov/10.21.E17]: All Aborted: [Simple: NaN]
+3266 [http://dlmf.nist.gov/10.21.E18]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
 3267 [http://dlmf.nist.gov/10.21.E19]: Skipped - Unable to analyze test case: Null
 3268 [http://dlmf.nist.gov/10.21.E20]: Skipped - Unable to analyze test case: Null
 3269 [http://dlmf.nist.gov/10.21.E21]: Skipped - Unable to analyze test case: Null
@@ -399,7 +402,7 @@ Was expecting:
 3318 [http://dlmf.nist.gov/10.21.E47]: Definition - Line is a non-semantic definition.
 3319 [http://dlmf.nist.gov/10.21.E48]: Skipped - Unable to analyze test case: Null
 3320 [http://dlmf.nist.gov/10.21.E49]: Skipped - Unable to analyze test case: Null
-3321 [http://dlmf.nist.gov/10.21.E50]: Skipped - no semantic math
+3321 [http://dlmf.nist.gov/10.21.E50]: Skipped - Unable to analyze test case: Null
 3322 [https://dlmf.nist.gov/10.21#Ex47]: Definition - Line is a non-semantic definition.
 3323 [https://dlmf.nist.gov/10.21#Ex48]: Definition - Line is a non-semantic definition.
 3324 [https://dlmf.nist.gov/10.21#Ex49]: Definition - Line is a non-semantic definition.
@@ -429,26 +432,26 @@ Was expecting:
 3347-a [http://dlmf.nist.gov/10.22.E9]: Failure [Simple: NaN]
 3348 [http://dlmf.nist.gov/10.22.E10]: Failure [Simple: NaN]
 3349 [http://dlmf.nist.gov/10.22.E11]: Failure [Simple: NaN]
-3350 [http://dlmf.nist.gov/10.22.E12]: All Aborted: [Simple: Aborted]
-3350-a [http://dlmf.nist.gov/10.22.E12]: All Aborted: [Simple: Aborted]
+3350 [http://dlmf.nist.gov/10.22.E12]: All Aborted: [Simple: NaN]
+3350-a [http://dlmf.nist.gov/10.22.E12]: All Aborted: [Simple: NaN]
 3351 [http://dlmf.nist.gov/10.22.E13]: Failure [Simple: NaN]
 3352 [http://dlmf.nist.gov/10.22.E14]: Failure [Simple: NaN]
 3353 [http://dlmf.nist.gov/10.22.E15]: Failure [Simple: NaN]
 3354 [http://dlmf.nist.gov/10.22.E16]: Failure [Simple: NaN]
 3355 [http://dlmf.nist.gov/10.22.E17]: Failure [Simple: NaN]
 3356 [http://dlmf.nist.gov/10.22.E18]: Failure [Simple: NaN]
-3357 [http://dlmf.nist.gov/10.22.E19]: All Aborted: [Simple: Aborted]
-3358 [http://dlmf.nist.gov/10.22.E20]: All Aborted: [Simple: Aborted]
-3359 [http://dlmf.nist.gov/10.22.E21]: All Aborted: [Simple: Aborted]
-3360 [http://dlmf.nist.gov/10.22.E22]: All Aborted: [Simple: Aborted]
-3361 [http://dlmf.nist.gov/10.22.E23]: All Aborted: [Simple: Aborted]
-3362 [http://dlmf.nist.gov/10.22.E24]: All Aborted: [Simple: Aborted]
-3363 [http://dlmf.nist.gov/10.22.E25]: All Aborted: [Simple: Aborted]
-3364 [http://dlmf.nist.gov/10.22.E26]: All Aborted: [Simple: Aborted]
-3365 [http://dlmf.nist.gov/10.22.E27]: Successful [Simple: 0]
-3366 [http://dlmf.nist.gov/10.22.E28]: Successful [Simple: 0]
+3357 [http://dlmf.nist.gov/10.22.E19]: Successful under condition [Simple: ConditionalExpression[0, And[GreaterEqual[Re[z], 0], Or[Greater[Im[z], 0], Greater[Re[z], 0]], Greater[Re[μ], -1], Greater[Re[ν], -1]]]]
+3358 [http://dlmf.nist.gov/10.22.E20]: Successful under condition [Simple: ConditionalExpression[0, And[GreaterEqual[Re[z], 0], Or[Greater[Im[z], 0], Greater[Re[z], 0]], Greater[Re[μ], Rational[-1, 2]]]]]
+3359 [http://dlmf.nist.gov/10.22.E21]: All Aborted: [Simple: NaN]
+3360 [http://dlmf.nist.gov/10.22.E22]: All Aborted: [Simple: NaN]
+3361 [http://dlmf.nist.gov/10.22.E23]: All Aborted: [Simple: NaN]
+3362 [http://dlmf.nist.gov/10.22.E24]: All Aborted: [Simple: NaN]
+3363 [http://dlmf.nist.gov/10.22.E25]: All Aborted: [Simple: NaN]
+3364 [http://dlmf.nist.gov/10.22.E26]: All Aborted: [Simple: NaN]
+3365 [http://dlmf.nist.gov/10.22.E27]: Successful under condition [Simple: ConditionalExpression[0, Greater[Re[ν], 0]]]
+3366 [http://dlmf.nist.gov/10.22.E28]: Successful under condition [Simple: ConditionalExpression[0, Greater[Re[ν], 0]]]
 3367 [http://dlmf.nist.gov/10.22.E29]: Successful [Simple: 0]
-3368 [http://dlmf.nist.gov/10.22.E30]: All Aborted: [Simple: Aborted]
+3368 [http://dlmf.nist.gov/10.22.E30]: Failure [Simple: NaN]
 3368-a [http://dlmf.nist.gov/10.22.E30]: Failure [Simple: NaN]
 3369 [http://dlmf.nist.gov/10.22.E31]: Failure [Simple: NaN]
 3370 [http://dlmf.nist.gov/10.22.E32]: Failure [Simple: NaN]
@@ -458,27 +461,27 @@ Was expecting:
 3374 [http://dlmf.nist.gov/10.22.E36]: Failure [Simple: NaN]
 3375 [http://dlmf.nist.gov/10.22.E37]: Failure [Simple: NaN]
 3376 [http://dlmf.nist.gov/10.22.E38]: Failure [Simple: NaN]
-3377 [http://dlmf.nist.gov/10.22.E39]: Successful under condition [Simple: 0.0 under condition: And[Equal[Im[x], 0], Greater[Re[x], 0]]]
-3377-a [http://dlmf.nist.gov/10.22.E39]: Successful under condition [Simple: 0.0 under condition: And[GreaterEqual[Re[x], 0], Equal[Im[x], 0]]]
-3378 [http://dlmf.nist.gov/10.22.E40]: All Aborted: [Simple: Aborted]
-3379 [http://dlmf.nist.gov/10.22.E41]: Successful [Simple: 0]
-3380 [http://dlmf.nist.gov/10.22.E42]: All Aborted: [Simple: Aborted]
-3381 [http://dlmf.nist.gov/10.22.E43]: Successful [Simple: 0]
-3382 [http://dlmf.nist.gov/10.22.E44]: All Aborted: [Simple: Aborted]
-3383 [http://dlmf.nist.gov/10.22.E45]: All Aborted: [Simple: Aborted]
-3384 [http://dlmf.nist.gov/10.22.E46]: All Aborted: [Simple: Aborted]
-3385 [http://dlmf.nist.gov/10.22.E47]: All Aborted: [Simple: Aborted]
-3386 [http://dlmf.nist.gov/10.22.E48]: All Aborted: [Simple: Aborted]
-3387 [http://dlmf.nist.gov/10.22.E49]: All Aborted: [Simple: Aborted]
-3388 [http://dlmf.nist.gov/10.22.E50]: All Aborted: [Simple: Aborted]
-3389 [http://dlmf.nist.gov/10.22.E51]: All Aborted: [Simple: Aborted]
-3390 [http://dlmf.nist.gov/10.22.E52]: All Aborted: [Simple: Aborted]
-3391 [http://dlmf.nist.gov/10.22.E53]: All Aborted: [Simple: Aborted]
-3392 [http://dlmf.nist.gov/10.22.E54]: All Aborted: [Simple: Aborted]
+3377 [http://dlmf.nist.gov/10.22.E39]: Successful under condition [Simple: ConditionalExpression[0, And[Equal[Im[x], 0], Greater[Re[x], 0]]]]
+3377-a [http://dlmf.nist.gov/10.22.E39]: Successful under condition [Simple: ConditionalExpression[0, And[GreaterEqual[Re[x], 0], Equal[Im[x], 0]]]]
+3378 [http://dlmf.nist.gov/10.22.E40]: All Aborted: [Simple: NaN]
+3379 [http://dlmf.nist.gov/10.22.E41]: Successful under condition [Simple: ConditionalExpression[0, Greater[Re[ν], -1]]]
+3380 [http://dlmf.nist.gov/10.22.E42]: Successful under condition [Simple: ConditionalExpression[0, Inequality[-1, Less, Re[ν], Less, 1]]]
+3381 [http://dlmf.nist.gov/10.22.E43]: Successful under condition [Simple: ConditionalExpression[0, And[Less[Re[μ], Rational[1, 2]], Greater[Re[Plus[μ, ν]], -1]]]]
+3382 [http://dlmf.nist.gov/10.22.E44]: All Aborted: [Simple: NaN]
+3383 [http://dlmf.nist.gov/10.22.E45]: All Aborted: [Simple: NaN]
+3384 [http://dlmf.nist.gov/10.22.E46]: All Aborted: [Simple: NaN]
+3385 [http://dlmf.nist.gov/10.22.E47]: All Aborted: [Simple: NaN]
+3386 [http://dlmf.nist.gov/10.22.E48]: All Aborted: [Simple: NaN]
+3387 [http://dlmf.nist.gov/10.22.E49]: All Aborted: [Simple: NaN]
+3388 [http://dlmf.nist.gov/10.22.E50]: All Aborted: [Simple: NaN]
+3389 [http://dlmf.nist.gov/10.22.E51]: All Aborted: [Simple: NaN]
+3390 [http://dlmf.nist.gov/10.22.E52]: All Aborted: [Simple: NaN]
+3391 [http://dlmf.nist.gov/10.22.E53]: All Aborted: [Simple: NaN]
+3392 [http://dlmf.nist.gov/10.22.E54]: All Aborted: [Simple: NaN]
 3393 [http://dlmf.nist.gov/10.22.E55]: Failure [Simple: NaN]
-3394 [http://dlmf.nist.gov/10.22.E56]: All Aborted: [Simple: Aborted]
-3395 [http://dlmf.nist.gov/10.22.E57]: All Aborted: [Simple: Aborted]
-3396 [http://dlmf.nist.gov/10.22.E58]: All Aborted: [Simple: Aborted]
+3394 [http://dlmf.nist.gov/10.22.E56]: All Aborted: [Simple: NaN]
+3395 [http://dlmf.nist.gov/10.22.E57]: All Aborted: [Simple: NaN]
+3396 [http://dlmf.nist.gov/10.22.E58]: All Aborted: [Simple: NaN]
 3397 [http://dlmf.nist.gov/10.22.E59]: Skipped - Invalid test case: cases
 3398 [http://dlmf.nist.gov/10.22.E60]: Skipped - Invalid test case: cases
 3399 [http://dlmf.nist.gov/10.22.E61]: Skipped - Invalid test case: cases
@@ -486,13 +489,13 @@ Was expecting:
 3401 [http://dlmf.nist.gov/10.22.E63]: Skipped - Invalid test case: cases
 3402 [http://dlmf.nist.gov/10.22.E64]: Skipped - Invalid test case: cases
 3403 [http://dlmf.nist.gov/10.22.E65]: Skipped - Invalid test case: cases
-3404 [http://dlmf.nist.gov/10.22.E66]: All Aborted: [Simple: Aborted]
-3405 [http://dlmf.nist.gov/10.22.E67]: Translation Error - (LaTeX -> Mathematica) Error while translating DLMF/DRMF Macro: The arguments of semantic macros must be wrapped in curly brackets! It seems you wrote \modBesselI(...) instead of \modBesselI{...} [\modBesselI]
-3406 [http://dlmf.nist.gov/10.22.E68]: Translation Error - (LaTeX -> Mathematica) Error while translating DLMF/DRMF Macro: The arguments of semantic macros must be wrapped in curly brackets! It seems you wrote \modBesselK(...) instead of \modBesselK{...} [\modBesselK]
+3404 [http://dlmf.nist.gov/10.22.E66]: All Aborted: [Simple: NaN]
+3405 [http://dlmf.nist.gov/10.22.E67]: All Aborted: [Simple: NaN]
+3406 [http://dlmf.nist.gov/10.22.E68]: All Aborted: [Simple: NaN]
 3407 [http://dlmf.nist.gov/10.22.E69]: Skipped - Invalid test case: array
-3408 [http://dlmf.nist.gov/10.22.E70]: All Aborted: [Simple: Aborted]
-3409 [http://dlmf.nist.gov/10.22.E71]: Translation Error - (LaTeX -> Mathematica) Error while translating DLMF/DRMF Macro: The arguments of semantic macros must be wrapped in curly brackets! It seems you wrote \FerrersP(...) instead of \FerrersP{...} [\FerrersP]
-3410 [http://dlmf.nist.gov/10.22.E72]: All Aborted: [Simple: Aborted]
+3408 [http://dlmf.nist.gov/10.22.E70]: All Aborted: [Simple: NaN]
+3409 [http://dlmf.nist.gov/10.22.E71]: Failure [Simple: NaN]
+3410 [http://dlmf.nist.gov/10.22.E72]: Failure [Simple: NaN]
 3411 [https://dlmf.nist.gov/10.22#Ex7]: Definition - Line is a non-semantic definition.
 3412 [https://dlmf.nist.gov/10.22#Ex8]: Definition - Line is a non-semantic definition.
 3413 [http://dlmf.nist.gov/10.22.E74]: Skipped - Invalid test case: cases
@@ -523,7 +526,7 @@ Was expecting:
 3436 [http://dlmf.nist.gov/10.23.E18]: Skipped - Invalid test case: Generic function f(t)
 3437 [http://dlmf.nist.gov/10.23.E19]: Skipped - Invalid test case: Generic function f(t)
 3438 [http://dlmf.nist.gov/10.23.E20]: Skipped - Invalid test case: Generic function f(x-)
-3439 [http://dlmf.nist.gov/10.23.E21]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \zBesselj [\zBesselj]
+3439 [http://dlmf.nist.gov/10.23.E21]: Failure [Simple: NaN]
 3440 [http://dlmf.nist.gov/10.24.E1]: Failure [Simple: NaN]
 3441 [https://dlmf.nist.gov/10.24#Ex1]: Successful [Simple: 0]
 3442 [https://dlmf.nist.gov/10.24#Ex2]: Successful [Simple: 0]
@@ -571,40 +574,40 @@ Was expecting:
 3479 [http://dlmf.nist.gov/10.30.E3]: Skipped - Unable to analyze test case: Null
 3480 [http://dlmf.nist.gov/10.30.E4]: Skipped - Unable to analyze test case: Null
 3481 [http://dlmf.nist.gov/10.30.E5]: Skipped - Unable to analyze test case: Null
-3482 [http://dlmf.nist.gov/10.31.E1]: All Aborted: [Simple: Aborted]
+3482 [http://dlmf.nist.gov/10.31.E1]: Failure [Simple: NaN]
 3483 [http://dlmf.nist.gov/10.31.E2]: Failure [Simple: NaN]
 3484 [http://dlmf.nist.gov/10.31.E3]: Failure [Simple: NaN]
 3485 [http://dlmf.nist.gov/10.32.E1]: Successful [Simple: 0]
 3485-a [http://dlmf.nist.gov/10.32.E1]: Successful [Simple: 0]
 3485-b [http://dlmf.nist.gov/10.32.E1]: Failure [Simple: NaN]
 3485-c [http://dlmf.nist.gov/10.32.E1]: Failure [Simple: NaN]
-3486 [http://dlmf.nist.gov/10.32.E2]: All Aborted: [Simple: Aborted]
-3486-a [http://dlmf.nist.gov/10.32.E2]: All Aborted: [Simple: Aborted]
-3486-b [http://dlmf.nist.gov/10.32.E2]: All Aborted: [Simple: Aborted]
-3486-c [http://dlmf.nist.gov/10.32.E2]: All Aborted: [Simple: Aborted]
-3487 [http://dlmf.nist.gov/10.32.E3]: All Aborted: [Simple: Aborted]
-3488 [http://dlmf.nist.gov/10.32.E4]: All Aborted: [Simple: Aborted]
-3489 [http://dlmf.nist.gov/10.32.E5]: All Aborted: [Simple: Aborted]
-3489-a [http://dlmf.nist.gov/10.32.E5]: All Aborted: [Simple: Aborted]
-3490 [http://dlmf.nist.gov/10.32.E6]: All Aborted: [Simple: Aborted]
-3490-a [http://dlmf.nist.gov/10.32.E6]: All Aborted: [Simple: Aborted]
-3491 [http://dlmf.nist.gov/10.32.E7]: All Aborted: [Simple: Aborted]
-3491-a [http://dlmf.nist.gov/10.32.E7]: All Aborted: [Simple: Aborted]
-3492 [http://dlmf.nist.gov/10.32.E8]: All Aborted: [Simple: Aborted]
-3492-a [http://dlmf.nist.gov/10.32.E8]: All Aborted: [Simple: Aborted]
-3493 [http://dlmf.nist.gov/10.32.E9]: All Aborted: [Simple: Aborted]
-3494 [http://dlmf.nist.gov/10.32.E10]: Successful under condition [Simple: 0.0 under condition: Greater[Re[Power[z, 2]], 0]]
-3495 [http://dlmf.nist.gov/10.32.E11]: All Aborted: [Simple: Aborted]
+3486 [http://dlmf.nist.gov/10.32.E2]: All Aborted: [Simple: NaN]
+3486-a [http://dlmf.nist.gov/10.32.E2]: All Aborted: [Simple: NaN]
+3486-b [http://dlmf.nist.gov/10.32.E2]: All Aborted: [Simple: NaN]
+3486-c [http://dlmf.nist.gov/10.32.E2]: All Aborted: [Simple: NaN]
+3487 [http://dlmf.nist.gov/10.32.E3]: All Aborted: [Simple: NaN]
+3488 [http://dlmf.nist.gov/10.32.E4]: All Aborted: [Simple: NaN]
+3489 [http://dlmf.nist.gov/10.32.E5]: All Aborted: [Simple: NaN]
+3489-a [http://dlmf.nist.gov/10.32.E5]: All Aborted: [Simple: NaN]
+3490 [http://dlmf.nist.gov/10.32.E6]: All Aborted: [Simple: NaN]
+3490-a [http://dlmf.nist.gov/10.32.E6]: All Aborted: [Simple: NaN]
+3491 [http://dlmf.nist.gov/10.32.E7]: All Aborted: [Simple: NaN]
+3491-a [http://dlmf.nist.gov/10.32.E7]: All Aborted: [Simple: NaN]
+3492 [http://dlmf.nist.gov/10.32.E8]: All Aborted: [Simple: NaN]
+3492-a [http://dlmf.nist.gov/10.32.E8]: All Aborted: [Simple: NaN]
+3493 [http://dlmf.nist.gov/10.32.E9]: All Aborted: [Simple: NaN]
+3494 [http://dlmf.nist.gov/10.32.E10]: Failure [Simple: NaN]
+3495 [http://dlmf.nist.gov/10.32.E11]: All Aborted: [Simple: NaN]
 3496 [http://dlmf.nist.gov/10.32.E12]: Failure [Simple: NaN]
-3497 [http://dlmf.nist.gov/10.32.E13]: All Aborted: [Simple: Aborted]
-3498 [http://dlmf.nist.gov/10.32.E14]: All Aborted: [Simple: Aborted]
-3499 [http://dlmf.nist.gov/10.32.E15]: All Aborted: [Simple: Aborted]
-3500 [http://dlmf.nist.gov/10.32.E16]: All Aborted: [Simple: Aborted]
-3500-a [http://dlmf.nist.gov/10.32.E16]: All Aborted: [Simple: Aborted]
-3501 [http://dlmf.nist.gov/10.32.E17]: All Aborted: [Simple: Aborted]
-3501-a [http://dlmf.nist.gov/10.32.E17]: All Aborted: [Simple: Aborted]
-3502 [http://dlmf.nist.gov/10.32.E18]: Translation Error - (LaTeX -> Mathematica) Error while translating DLMF/DRMF Macro: The arguments of semantic macros must be wrapped in curly brackets! It seems you wrote \modBesselK(...) instead of \modBesselK{...} [\modBesselK]
-3503 [http://dlmf.nist.gov/10.32.E19]: All Aborted: [Simple: Aborted]
+3497 [http://dlmf.nist.gov/10.32.E13]: All Aborted: [Simple: NaN]
+3498 [http://dlmf.nist.gov/10.32.E14]: All Aborted: [Simple: NaN]
+3499 [http://dlmf.nist.gov/10.32.E15]: Failure [Simple: NaN]
+3500 [http://dlmf.nist.gov/10.32.E16]: All Aborted: [Simple: NaN]
+3500-a [http://dlmf.nist.gov/10.32.E16]: All Aborted: [Simple: NaN]
+3501 [http://dlmf.nist.gov/10.32.E17]: All Aborted: [Simple: NaN]
+3501-a [http://dlmf.nist.gov/10.32.E17]: All Aborted: [Simple: NaN]
+3502 [http://dlmf.nist.gov/10.32.E18]: Failure [Simple: NaN]
+3503 [http://dlmf.nist.gov/10.32.E19]: All Aborted: [Simple: NaN]
 3504 [http://dlmf.nist.gov/10.33.E1]: Skipped - Invalid test case: cdots
 3505 [http://dlmf.nist.gov/10.33.E2]: Skipped - Invalid test case: cdots
 3506 [http://dlmf.nist.gov/10.34.E1]: Failure [Simple: NaN]
@@ -618,7 +621,7 @@ Was expecting:
 3511-a [http://dlmf.nist.gov/10.34.E6]: Failure [Simple: NaN]
 3512 [https://dlmf.nist.gov/10.34#Ex1]: Failure [Simple: NaN]
 3513 [https://dlmf.nist.gov/10.34#Ex2]: Failure [Simple: NaN]
-3514 [http://dlmf.nist.gov/10.35.E1]: All Aborted: [Simple: Aborted]
+3514 [http://dlmf.nist.gov/10.35.E1]: All Aborted: [Simple: NaN]
 3515 [http://dlmf.nist.gov/10.35.E2]: Successful [Simple: 0]
 3516 [http://dlmf.nist.gov/10.35.E3]: Failure [Simple: NaN]
 3517 [http://dlmf.nist.gov/10.35.E4]: Failure [Simple: NaN]
@@ -628,6 +631,7 @@ Was expecting:
 3520 [https://dlmf.nist.gov/10.35#Ex2]: Skipped - Invalid test case: dots
 3521 [http://dlmf.nist.gov/10.36.E1]: Skipped - no semantic math
 3522 [http://dlmf.nist.gov/10.36.E2]: Skipped - no semantic math
+3522-a [http://dlmf.nist.gov/10.36.E2]: Skipped - no semantic math
 3523 [http://dlmf.nist.gov/10.37.E1]: Failure [Simple: NaN]
 3524 [http://dlmf.nist.gov/10.38.E1]: Failure [Simple: NaN]
 3524-a [http://dlmf.nist.gov/10.38.E1]: Failure [Simple: NaN]
@@ -693,16 +697,16 @@ Was expecting:
 3581 [https://dlmf.nist.gov/10.43#Ex4]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \modcylinder [\modcylinder]
 3581-a [https://dlmf.nist.gov/10.43#Ex4]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \modcylinder [\modcylinder]
 3582 [http://dlmf.nist.gov/10.43.E4]: Failure [Simple: NaN]
-3582-a [http://dlmf.nist.gov/10.43.E4]: Failure [Simple: NaN]
-3583 [http://dlmf.nist.gov/10.43.E5]: All Aborted: [Simple: Aborted]
-3584 [http://dlmf.nist.gov/10.43.E6]: All Aborted: [Simple: Aborted]
-3585 [http://dlmf.nist.gov/10.43.E7]: Successful [Simple: 0]
-3585-a [http://dlmf.nist.gov/10.43.E7]: Successful [Simple: 0]
+3582-a [http://dlmf.nist.gov/10.43.E4]: All Aborted: [Simple: NaN]
+3583 [http://dlmf.nist.gov/10.43.E5]: Failure [Simple: NaN]
+3584 [http://dlmf.nist.gov/10.43.E6]: All Aborted: [Simple: NaN]
+3585 [http://dlmf.nist.gov/10.43.E7]: Successful under condition [Simple: ConditionalExpression[0, Greater[Re[ν], Rational[-1, 2]]]]
+3585-a [http://dlmf.nist.gov/10.43.E7]: Successful under condition [Simple: ConditionalExpression[0, Greater[Re[ν], Rational[-1, 2]]]]
 3586 [http://dlmf.nist.gov/10.43.E8]: Successful [Simple: 0]
 3586-a [http://dlmf.nist.gov/10.43.E8]: Successful [Simple: 0]
-3587 [http://dlmf.nist.gov/10.43.E9]: All Aborted: [Simple: Aborted]
-3587-a [http://dlmf.nist.gov/10.43.E9]: Successful under condition [Simple: 0.0 under condition: Greater[Re[x], 0]]
-3588 [http://dlmf.nist.gov/10.43.E10]: Successful under condition [Simple: 0.0 under condition: And[Greater[Re[x], 0], Equal[x, Re[x]]]]
+3587 [http://dlmf.nist.gov/10.43.E9]: Failure [Simple: NaN]
+3587-a [http://dlmf.nist.gov/10.43.E9]: Successful under condition [Simple: ConditionalExpression[0, And[Greater[Re[x], 0], Greater[Plus[ν, Conjugate[ν]], -1]]]]
+3588 [http://dlmf.nist.gov/10.43.E10]: Successful under condition [Simple: ConditionalExpression[0, And[Greater[Re[x], 0], Equal[x, Re[x]], Greater[Times[2, Re[ν]], 1]]]]
 3589 [http://dlmf.nist.gov/10.43.E11]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \BickleyKi [\BickleyKi]
 3590 [http://dlmf.nist.gov/10.43.E12]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \BickleyKi [\BickleyKi]
 3591 [http://dlmf.nist.gov/10.43.E13]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \BickleyKi [\BickleyKi]
@@ -710,18 +714,18 @@ Was expecting:
 3593 [http://dlmf.nist.gov/10.43.E15]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \BickleyKi [\BickleyKi]
 3594 [http://dlmf.nist.gov/10.43.E16]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \BickleyKi [\BickleyKi]
 3595 [http://dlmf.nist.gov/10.43.E17]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \BickleyKi [\BickleyKi]
-3596 [http://dlmf.nist.gov/10.43.E18]: Successful [Simple: 0]
-3597 [http://dlmf.nist.gov/10.43.E19]: Successful [Simple: 0]
-3598 [http://dlmf.nist.gov/10.43.E20]: All Aborted: [Simple: Aborted]
-3599 [http://dlmf.nist.gov/10.43.E21]: Successful [Simple: 0]
+3596 [http://dlmf.nist.gov/10.43.E18]: Successful under condition [Simple: ConditionalExpression[0, Inequality[-1, Less, Re[ν], Less, 1]]]
+3597 [http://dlmf.nist.gov/10.43.E19]: Successful under condition [Simple: ConditionalExpression[0, And[Greater[Re[μ], Re[ν]], Greater[Re[Plus[μ, ν]], 0]]]]
+3598 [http://dlmf.nist.gov/10.43.E20]: Failure [Simple: NaN]
+3599 [http://dlmf.nist.gov/10.43.E21]: Successful under condition [Simple: ConditionalExpression[0, LessEqual[Im[a], 1]]]
 3600 [http://dlmf.nist.gov/10.43.E22]: Skipped - Invalid test case: cases
-3601 [http://dlmf.nist.gov/10.43.E23]: All Aborted: [Simple: Aborted]
-3602 [http://dlmf.nist.gov/10.43.E24]: All Aborted: [Simple: Aborted]
-3603 [http://dlmf.nist.gov/10.43.E25]: All Aborted: [Simple: Aborted]
-3604 [http://dlmf.nist.gov/10.43.E26]: All Aborted: [Simple: Aborted]
-3605 [http://dlmf.nist.gov/10.43.E27]: All Aborted: [Simple: Aborted]
-3606 [http://dlmf.nist.gov/10.43.E28]: All Aborted: [Simple: Aborted]
-3607 [http://dlmf.nist.gov/10.43.E29]: All Aborted: [Simple: Aborted]
+3601 [http://dlmf.nist.gov/10.43.E23]: All Aborted: [Simple: NaN]
+3602 [http://dlmf.nist.gov/10.43.E24]: All Aborted: [Simple: NaN]
+3603 [http://dlmf.nist.gov/10.43.E25]: All Aborted: [Simple: NaN]
+3604 [http://dlmf.nist.gov/10.43.E26]: All Aborted: [Simple: NaN]
+3605 [http://dlmf.nist.gov/10.43.E27]: All Aborted: [Simple: NaN]
+3606 [http://dlmf.nist.gov/10.43.E28]: All Aborted: [Simple: NaN]
+3607 [http://dlmf.nist.gov/10.43.E29]: All Aborted: [Simple: NaN]
 3608 [http://dlmf.nist.gov/10.43.E30]: Definition - Line is a non-semantic definition.
 3609 [http://dlmf.nist.gov/10.43.E31]: Skipped - Invalid test case: Generic function g(x)
 3610 [https://dlmf.nist.gov/10.43#Ex5]: Skipped - Unable to analyze test case: Null
@@ -734,7 +738,7 @@ Was expecting:
 3615-a [http://dlmf.nist.gov/10.44.E3]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \modcylinder [\modcylinder]
 3616 [http://dlmf.nist.gov/10.44.E4]: Failure [Simple: NaN]
 3617 [http://dlmf.nist.gov/10.44.E5]: Successful [Simple: 0]
-3618 [http://dlmf.nist.gov/10.44.E6]: All Aborted: [Simple: Aborted]
+3618 [http://dlmf.nist.gov/10.44.E6]: Failure [Simple: NaN]
 3619 [http://dlmf.nist.gov/10.45.E1]: Failure [Simple: NaN]
 3620 [http://dlmf.nist.gov/10.45.E2]: Successful [Simple: 0]
 3621 [http://dlmf.nist.gov/10.45.E2]: Successful [Simple: 0]
@@ -778,21 +782,23 @@ Was expecting:
 3653 [http://dlmf.nist.gov/10.47.E16]: Skipped - no semantic math
 3654 [http://dlmf.nist.gov/10.47.E17]: Failure [Simple: NaN]
 3655 [http://dlmf.nist.gov/10.49.E1]: Skipped - no semantic math
-3656 [http://dlmf.nist.gov/10.49.E2]: Failure [Simple: NaN]
+3655-a [http://dlmf.nist.gov/10.49.E1]: Skipped - no semantic math
+3655-b [http://dlmf.nist.gov/10.49.E1]: Skipped - no semantic math
+3656 [http://dlmf.nist.gov/10.49.E2]: All Aborted: [Simple: NaN]
 3657 [https://dlmf.nist.gov/10.49#Ex1]: Successful [Simple: 0]
 3658 [https://dlmf.nist.gov/10.49#Ex2]: Successful [Simple: 0]
 3659 [https://dlmf.nist.gov/10.49#Ex3]: Successful [Simple: 0]
-3660 [http://dlmf.nist.gov/10.49.E4]: Failure [Simple: NaN]
+3660 [http://dlmf.nist.gov/10.49.E4]: All Aborted: [Simple: NaN]
 3661 [https://dlmf.nist.gov/10.49#Ex4]: Successful [Simple: 0]
 3662 [https://dlmf.nist.gov/10.49#Ex5]: Successful [Simple: 0]
 3663 [https://dlmf.nist.gov/10.49#Ex6]: Successful [Simple: 0]
 3664 [http://dlmf.nist.gov/10.49.E6]: Failure [Simple: NaN]
 3665 [http://dlmf.nist.gov/10.49.E7]: Failure [Simple: NaN]
-3666 [http://dlmf.nist.gov/10.49.E8]: Failure [Simple: NaN]
+3666 [http://dlmf.nist.gov/10.49.E8]: All Aborted: [Simple: NaN]
 3667 [https://dlmf.nist.gov/10.49#Ex7]: Failure [Simple: NaN]
 3668 [https://dlmf.nist.gov/10.49#Ex8]: Failure [Simple: NaN]
 3669 [https://dlmf.nist.gov/10.49#Ex9]: Failure [Simple: NaN]
-3670 [http://dlmf.nist.gov/10.49.E10]: Failure [Simple: NaN]
+3670 [http://dlmf.nist.gov/10.49.E10]: All Aborted: [Simple: NaN]
 3671 [https://dlmf.nist.gov/10.49#Ex10]: Failure [Simple: NaN]
 3672 [https://dlmf.nist.gov/10.49#Ex11]: Failure [Simple: NaN]
 3673 [https://dlmf.nist.gov/10.49#Ex12]: Failure [Simple: NaN]
@@ -821,7 +827,7 @@ Was expecting:
 3695-a [https://dlmf.nist.gov/10.50#Ex4]: Failure [Simple: NaN]
 3696 [https://dlmf.nist.gov/10.50#Ex5]: Successful [Simple: 0]
 3697 [https://dlmf.nist.gov/10.50#Ex6]: Failure [Simple: NaN]
-3698 [http://dlmf.nist.gov/10.50.E4]: Failure [Simple: NaN]
+3698 [http://dlmf.nist.gov/10.50.E4]: All Aborted: [Simple: NaN]
 3699 [https://dlmf.nist.gov/10.51#Ex1]: Skipped - no semantic math
 3700 [https://dlmf.nist.gov/10.51#Ex2]: Skipped - no semantic math
 3701 [https://dlmf.nist.gov/10.51#Ex3]: Skipped - no semantic math
@@ -846,29 +852,29 @@ Was expecting:
 3720 [http://dlmf.nist.gov/10.53.E2]: Failure [Simple: NaN]
 3721 [http://dlmf.nist.gov/10.53.E3]: Failure [Simple: NaN]
 3722 [http://dlmf.nist.gov/10.53.E4]: Failure [Simple: NaN]
-3723 [http://dlmf.nist.gov/10.54.E1]: Successful under condition [Simple: 0.0 under condition: And[Element[z, Reals], Greater[Re[n], -1]]]
-3724 [http://dlmf.nist.gov/10.54.E2]: All Aborted: [Simple: Aborted]
-3725 [http://dlmf.nist.gov/10.54.E3]: All Aborted: [Simple: Aborted]
+3723 [http://dlmf.nist.gov/10.54.E1]: Successful under condition [Simple: ConditionalExpression[0, And[Element[z, Reals], Greater[Re[n], -1]]]]
+3724 [http://dlmf.nist.gov/10.54.E2]: All Aborted: [Simple: NaN]
+3725 [http://dlmf.nist.gov/10.54.E3]: All Aborted: [Simple: NaN]
 3726 [http://dlmf.nist.gov/10.54.E4]: Failure [Simple: NaN]
 3727 [https://dlmf.nist.gov/10.54#Ex1]: Failure [Simple: NaN]
 3728 [https://dlmf.nist.gov/10.54#Ex2]: Failure [Simple: NaN]
 3729 [http://dlmf.nist.gov/10.56.E1]: Failure [Simple: NaN]
-3730 [http://dlmf.nist.gov/10.56.E2]: All Aborted: [Simple: Aborted]
+3730 [http://dlmf.nist.gov/10.56.E2]: All Aborted: [Simple: NaN]
 3731 [http://dlmf.nist.gov/10.56.E3]: Failure [Simple: NaN]
 3732 [http://dlmf.nist.gov/10.56.E4]: Failure [Simple: NaN]
-3733 [http://dlmf.nist.gov/10.56.E5]: All Aborted: [Simple: Aborted]
+3733 [http://dlmf.nist.gov/10.56.E5]: All Aborted: [Simple: NaN]
 3734 [http://dlmf.nist.gov/10.57.E1]: Failure [Simple: NaN]
 3735 [https://dlmf.nist.gov/10.58#Ex1]: Definition - Line is a non-semantic definition.
 3736 [https://dlmf.nist.gov/10.58#Ex2]: Definition - Line is a non-semantic definition.
-3737 [https://dlmf.nist.gov/10.58#Ex3]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \zBesselj [\zBesselj]
-3738 [https://dlmf.nist.gov/10.58#Ex4]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \zBessely [\zBessely]
+3737 [https://dlmf.nist.gov/10.58#Ex3]: Failure [Simple: NaN]
+3738 [https://dlmf.nist.gov/10.58#Ex4]: Failure [Simple: NaN]
 3739 [http://dlmf.nist.gov/10.59.E1]: Skipped - Invalid test case: cases
 3740 [http://dlmf.nist.gov/10.60.E1]: Failure [Simple: NaN]
 3741 [http://dlmf.nist.gov/10.60.E2]: Failure [Simple: NaN]
 3742 [http://dlmf.nist.gov/10.60.E3]: Failure [Simple: NaN]
-3743 [http://dlmf.nist.gov/10.60.E4]: All Aborted: [Simple: Aborted]
-3744 [http://dlmf.nist.gov/10.60.E5]: All Aborted: [Simple: Aborted]
-3745 [http://dlmf.nist.gov/10.60.E6]: All Aborted: [Simple: Aborted]
+3743 [http://dlmf.nist.gov/10.60.E4]: All Aborted: [Simple: NaN]
+3744 [http://dlmf.nist.gov/10.60.E5]: All Aborted: [Simple: NaN]
+3745 [http://dlmf.nist.gov/10.60.E6]: All Aborted: [Simple: NaN]
 3746 [http://dlmf.nist.gov/10.60.E7]: Failure [Simple: NaN]
 3747 [http://dlmf.nist.gov/10.60.E8]: Failure [Simple: NaN]
 3748 [http://dlmf.nist.gov/10.60.E9]: Failure [Simple: NaN]
@@ -876,7 +882,7 @@ Was expecting:
 3750 [http://dlmf.nist.gov/10.60.E11]: Successful [Simple: 0]
 3751 [http://dlmf.nist.gov/10.60.E12]: Failure [Simple: NaN]
 3752 [http://dlmf.nist.gov/10.60.E13]: Failure [Simple: NaN]
-3753 [http://dlmf.nist.gov/10.60.E14]: All Aborted: [Simple: Aborted]
+3753 [http://dlmf.nist.gov/10.60.E14]: All Aborted: [Simple: NaN]
 3754 [http://dlmf.nist.gov/10.61.E1]: Failure [Simple: NaN]
 3754-a [http://dlmf.nist.gov/10.61.E1]: Failure [Simple: NaN]
 3754-b [http://dlmf.nist.gov/10.61.E1]: Failure [Simple: NaN]
@@ -922,18 +928,19 @@ Was expecting:
 3787 [https://dlmf.nist.gov/10.63#Ex16]: Definition - Line is a non-semantic definition.
 3788 [https://dlmf.nist.gov/10.63#Ex17]: Skipped - no semantic math
 3789 [https://dlmf.nist.gov/10.63#Ex18]: Skipped - no semantic math
+3789-a [https://dlmf.nist.gov/10.63#Ex18]: Skipped - no semantic math
 3790 [https://dlmf.nist.gov/10.63#Ex19]: Skipped - no semantic math
 3791 [https://dlmf.nist.gov/10.63#Ex20]: Skipped - no semantic math
 3792 [http://dlmf.nist.gov/10.63.E7]: Skipped - no semantic math
-3793 [http://dlmf.nist.gov/10.64.E1]: All Aborted: [Simple: Aborted]
-3794 [http://dlmf.nist.gov/10.64.E2]: All Aborted: [Simple: Aborted]
+3793 [http://dlmf.nist.gov/10.64.E1]: All Aborted: [Simple: NaN]
+3794 [http://dlmf.nist.gov/10.64.E2]: All Aborted: [Simple: NaN]
 3795 [https://dlmf.nist.gov/10.65#Ex1]: Failure [Simple: NaN]
 3796 [https://dlmf.nist.gov/10.65#Ex2]: Failure [Simple: NaN]
 3797 [https://dlmf.nist.gov/10.65#Ex3]: Failure [Simple: NaN]
 3798 [https://dlmf.nist.gov/10.65#Ex4]: Failure [Simple: NaN]
-3799 [http://dlmf.nist.gov/10.65.E3]: All Aborted: [Simple: Aborted]
-3800 [http://dlmf.nist.gov/10.65.E4]: All Aborted: [Simple: Aborted]
-3801 [https://dlmf.nist.gov/10.65#Ex5]: All Aborted: [Simple: Aborted]
+3799 [http://dlmf.nist.gov/10.65.E3]: All Aborted: [Simple: NaN]
+3800 [http://dlmf.nist.gov/10.65.E4]: All Aborted: [Simple: NaN]
+3801 [https://dlmf.nist.gov/10.65#Ex5]: All Aborted: [Simple: NaN]
 3802 [https://dlmf.nist.gov/10.65#Ex6]: Failure [Simple: NaN]
 3803 [http://dlmf.nist.gov/10.65.E6]: Successful [Simple: 0]
 3804 [http://dlmf.nist.gov/10.65.E7]: Successful [Simple: 0]
@@ -941,8 +948,8 @@ Was expecting:
 3806 [http://dlmf.nist.gov/10.65.E9]: Successful [Simple: 0]
 3807 [http://dlmf.nist.gov/10.66.E1]: Failure [Simple: NaN]
 3807-a [http://dlmf.nist.gov/10.66.E1]: Failure [Simple: NaN]
-3808 [https://dlmf.nist.gov/10.66#Ex1]: All Aborted: [Simple: Aborted]
-3809 [https://dlmf.nist.gov/10.66#Ex2]: All Aborted: [Simple: Aborted]
+3808 [https://dlmf.nist.gov/10.66#Ex1]: All Aborted: [Simple: NaN]
+3809 [https://dlmf.nist.gov/10.66#Ex2]: All Aborted: [Simple: NaN]
 3810 [http://dlmf.nist.gov/10.67.E1]: Skipped - Unable to analyze test case: Null
 3811 [http://dlmf.nist.gov/10.67.E2]: Skipped - Unable to analyze test case: Null
 3812 [http://dlmf.nist.gov/10.67.E3]: Skipped - Unable to analyze test case: Null
@@ -982,7 +989,7 @@ Was expecting:
 3842 [http://dlmf.nist.gov/10.68.E11]: Translation Error - (LaTeX -> Mathematica) Error while translating DLMF/DRMF Macro: Unable to retrieve correct number of arguments for the macro \HankelmodM [\HankelmodM]
 3842-a [http://dlmf.nist.gov/10.68.E11]: Translation Error - (LaTeX -> Mathematica) Error while translating DLMF/DRMF Macro: Unable to retrieve correct number of arguments for the macro \cos [\cos]
 3843 [http://dlmf.nist.gov/10.68.E12]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Hankelphasetheta [\Hankelphasetheta]
-3843-a [http://dlmf.nist.gov/10.68.E12]: Translation Error - (LaTeX -> Mathematica) The current implementation is wrong: MathTermTranslator don't expected brackets but found )
+3843-a [http://dlmf.nist.gov/10.68.E12]: Translation Error - (LaTeX -> Mathematica) Parenthesis mismatch in expression: Found unexpected bracket: ). We are not in set-mode so parenthesis logic must be valid!
 3844 [https://dlmf.nist.gov/10.68#Ex13]: Translation Error - (LaTeX -> Mathematica) Error while translating DLMF/DRMF Macro: Unable to retrieve correct number of arguments for the macro \HankelmodM [\HankelmodM]
 3845 [https://dlmf.nist.gov/10.68#Ex14]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Hankelphasetheta [\Hankelphasetheta]
 3846 [https://dlmf.nist.gov/10.68#Ex15]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Hankelphasetheta [\Hankelphasetheta]
@@ -1006,14 +1013,14 @@ Was expecting:
 3864 [https://dlmf.nist.gov/10.70#Ex3]: Skipped - Unable to analyze test case: Null
 3865 [https://dlmf.nist.gov/10.70#Ex4]: Skipped - Unable to analyze test case: Null
 3866 [http://dlmf.nist.gov/10.71.E1]: Failure [Simple: NaN]
-3866-a [http://dlmf.nist.gov/10.71.E1]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
+3866-a [http://dlmf.nist.gov/10.71.E1]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
 3867 [http://dlmf.nist.gov/10.71.E2]: Failure [Simple: NaN]
-3867-a [http://dlmf.nist.gov/10.71.E2]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
+3867-a [http://dlmf.nist.gov/10.71.E2]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
 3868 [http://dlmf.nist.gov/10.71.E3]: Translation Error - (LaTeX -> Mathematica) No translation possible for given token: Accents are not supported.
 3868-a [http://dlmf.nist.gov/10.71.E3]: Translation Error - (LaTeX -> Mathematica) No translation possible for given token: Accents are not supported.
 3869 [http://dlmf.nist.gov/10.71.E4]: Translation Error - (LaTeX -> Mathematica) No translation possible for given token: Accents are not supported.
-3870 [http://dlmf.nist.gov/10.71.E5]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
-3870-a [http://dlmf.nist.gov/10.71.E5]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
+3870 [http://dlmf.nist.gov/10.71.E5]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
+3870-a [http://dlmf.nist.gov/10.71.E5]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
 3871 [http://dlmf.nist.gov/10.71.E6]: Failure [Simple: NaN]
 3872 [http://dlmf.nist.gov/10.71.E7]: Failure [Simple: NaN]
 3873 [https://dlmf.nist.gov/10.71#Ex1]: Successful [Simple: 0]

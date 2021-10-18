@@ -7,6 +7,6 @@
 \zAiryb, 4
 \genAiryODEB, 3
 \pvint, 3
+\modcylinder, 2
 \zAirybeta, 2
 \zderivAirybeta, 2
-\modcylinder, 1
