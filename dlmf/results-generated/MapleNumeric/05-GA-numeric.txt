@@ -1,0 +1,81 @@
+Overall: [TOTAL: 190, SKIPPED: 113, DEFINITIONS: 0, STARTED_TEST_CASES: 77, ERROR_TRANS: 0, MISSING: 0, SUCCESS_TRANS: 77, SUCCESS_SYMB: 0, SUCCESS_NUM: 45, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 16, NO_TEST_VALUES: 0, ABORTED: 4, ERROR: 12] for test expression: (#LHS)-(#RHS)
+1997 [http://dlmf.nist.gov/5.2.E6]: Successful [Tested: 18]
+2004 [http://dlmf.nist.gov/5.4.E3]: Error - There are no valid test values.
+2005 [http://dlmf.nist.gov/5.4.E4]: Successful [Tested: 6]
+2005-a [http://dlmf.nist.gov/5.4.E4]: Successful [Tested: 6]
+2008 [http://dlmf.nist.gov/5.4.E7]: Successful [Tested: 1]
+2010 [http://dlmf.nist.gov/5.4.E9]: Successful [Tested: 1]
+2019 [http://dlmf.nist.gov/5.4.E16]: Successful [Tested: 6]
+2020 [http://dlmf.nist.gov/5.4.E17]: Successful [Tested: 6]
+2021 [http://dlmf.nist.gov/5.4.E18]: Successful [Tested: 6]
+2022 [http://dlmf.nist.gov/5.4.E19]: Skipped - Because timed out
+2029 [http://dlmf.nist.gov/5.5.E6]: Successful [Tested: 15]
+2030 [http://dlmf.nist.gov/5.5.E7]: Successful [Tested: 3]
+2032 [http://dlmf.nist.gov/5.5.E9]: Successful [Tested: 21]
+2033 [http://dlmf.nist.gov/5.6.E1]: Successful [Tested: 3]
+2033-a [http://dlmf.nist.gov/5.6.E1]: Successful [Tested: 3]
+2034 [http://dlmf.nist.gov/5.6.E2]: Successful [Tested: 3]
+2035 [http://dlmf.nist.gov/5.6.E3]: Successful [Tested: 3]
+2036 [http://dlmf.nist.gov/5.6.E4]: Successful [Tested: 3]
+2036-a [http://dlmf.nist.gov/5.6.E4]: Successful [Tested: 3]
+2037 [http://dlmf.nist.gov/5.6.E5]: Successful [Tested: 3]
+2037-a [http://dlmf.nist.gov/5.6.E5]: Successful [Tested: 3]
+2038 [http://dlmf.nist.gov/5.6.E6]: Successful [Tested: 18]
+2039 [http://dlmf.nist.gov/5.6.E7]: Successful [Tested: 18]
+2040 [http://dlmf.nist.gov/5.6.E8]: Failed [30/83]: {{.5333333333 <= .1250000000, {a := -3/2, b := 3/2, z := 2}}, {2. <= .5000000000, {a := -3/2, b := -1/2, z := 2}}, {1.333333333 <= .2500000000, {a := -3/2, b := 1/2, z := 2}}, {.2954089752 <= .8838834762e-1, {a := -3/2, b := 2, z := 2}}, {1.454656456 <= 1., {a := 3/2, b := 1/2, z := 1/2*3^(1/2)+1/2*I}}, ...}
+2041 [http://dlmf.nist.gov/5.6.E9]: Successful [Tested: 18]
+2042 [http://dlmf.nist.gov/5.7.E1]: Failed [50/50]: {{2.444337041-.9752791869*I, {c[k] := 1/2*3^(1/2)+1/2*I, z := 1/2*3^(1/2)+1/2*I}}, {2.444337041+1.756771621*I, {c[k] := -1/2+1/2*I*3^(1/2), z := 1/2*3^(1/2)+1/2*I}}, {-.287713767-.9752791869*I, {c[k] := 1/2-1/2*I*3^(1/2), z := 1/2*3^(1/2)+1/2*I}}, {-.287713767+1.756771621*I, {c[k] := -1/2*3^(1/2)-1/2*I, z := 1/2*3^(1/2)+1/2*I}}, {.3283116370+3.189784323*I, {c[k] := -3/2, z := 1/2*3^(1/2)+1/2*I}}, ...}
+2044 [http://dlmf.nist.gov/5.7.E3]: Successful [Tested: 6]
+2045 [http://dlmf.nist.gov/5.7.E4]: Successful [Tested: 1]
+2047 [http://dlmf.nist.gov/5.7.E6]: Successful [Tested: 1]
+2047-a [http://dlmf.nist.gov/5.7.E6]: Successful [Tested: 1]
+2049 [http://dlmf.nist.gov/5.7.E8]: Successful [Tested: 6]
+2052 [http://dlmf.nist.gov/5.8.E3]: Successful [Tested: 6]
+2055 [http://dlmf.nist.gov/5.9.E1]: Skipped - Because timed out
+2058 [http://dlmf.nist.gov/5.9.E4]: Failed [1/1]: {{Float(undefined)+Float(undefined)*I, {z := 1}}}
+2059 [http://dlmf.nist.gov/5.9.E5]: Error - There are no valid test values.
+2064 [http://dlmf.nist.gov/5.9.E10]: Failed [1/1]: {{.1131418844-.393012476e-1*I, {z := 2}}}
+2065 [http://dlmf.nist.gov/5.9.E11]: Error [{{ln(GAMMA(1.+z))+.5772156649*z, {c := 2}}, {.3627983593+.4645558136*I, {z := 2}}}]
+2066 [http://dlmf.nist.gov/5.9.E12]: Successful [Tested: 1]
+2067 [http://dlmf.nist.gov/5.9.E13]: Successful [Tested: 1]
+2068 [http://dlmf.nist.gov/5.9.E14]: Successful [Tested: 1]
+2069 [http://dlmf.nist.gov/5.9.E15]: Successful [Tested: 1]
+2070 [http://dlmf.nist.gov/5.9.E16]: Successful [Tested: 1]
+2070-a [http://dlmf.nist.gov/5.9.E16]: Successful [Tested: 1]
+2071 [http://dlmf.nist.gov/5.9.E17]: Failed [42/42]: {{.9666504222+.3394950970*I, {c := -3/2, z := 1/2*3^(1/2)+1/2*I}}, {.3622891065+1.557241225*I, {c := -3/2, z := -1/2+1/2*I*3^(1/2)}}, {.8622891063-.6912158211*I, {c := -3/2, z := 1/2-1/2*I*3^(1/2)}}, {-.1138310784-2.481210069*I, {c := -3/2, z := -1/2*3^(1/2)-1/2*I}}, {1.280372306, {c := -3/2, z := 3/2}}, ...}
+2092 [http://dlmf.nist.gov/5.11.E5]: Failed [300/300]: {{.2536529683+.1464466095*I, {g[k] := 1/2*3^(1/2)+1/2*I, a[2*k] := 1/2*3^(1/2)+1/2*I, k := 1}}, {-.5253324962e-1-.303300858e-1*I, {g[k] := 1/2*3^(1/2)+1/2*I, a[2*k] := 1/2*3^(1/2)+1/2*I, k := 2}}, {-1.430371229-.8258252140*I, {g[k] := 1/2*3^(1/2)+1/2*I, a[2*k] := 1/2*3^(1/2)+1/2*I, k := 3}}, {-1.112372436+.5124720135*I, {g[k] := -1/2+1/2*I*3^(1/2), a[2*k] := 1/2*3^(1/2)+1/2*I, k := 1}}, {-1.418558654+.3356953182*I, {g[k] := -1/2+1/2*I*3^(1/2), a[2*k] := 1/2*3^(1/2)+1/2*I, k := 2}}, ...}
+2097 [http://dlmf.nist.gov/5.11.E10]: Failed [300/300]: {{-1.892613380-.1706947928*I, {g[k] := 1/2*3^(1/2)+1/2*I, z := 1/2*3^(1/2)+1/2*I, K := 3, R[K] := 1/2*3^(1/2)+1/2*I}}, {-.4529896033-2.955992714*I, {g[k] := -1/2+1/2*I*3^(1/2), z := 1/2*3^(1/2)+1/2*I, K := 3, R[K] := 1/2*3^(1/2)+1/2*I}}, {.8926845412+1.268928985*I, {g[k] := 1/2-1/2*I*3^(1/2), z := 1/2*3^(1/2)+1/2*I, K := 3, R[K] := 1/2*3^(1/2)+1/2*I}}, {2.332308320-1.516368937*I, {g[k] := -1/2*3^(1/2)-1/2*I, z := 1/2*3^(1/2)+1/2*I, K := 3, R[K] := 1/2*3^(1/2)+1/2*I}}, {2.459386806-3.301918498*I, {g[k] := -3/2, z := 1/2*3^(1/2)+1/2*I, K := 3, R[K] := 1/2*3^(1/2)+1/2*I}}, ...}
+2104 [https://dlmf.nist.gov/5.11#Ex10]: Error [{{(.8660254040+.5000000000*I)*(-1.500000000, -1.500000000)-.2577724456e-12, {a := -3/2, b := -3/2, G[2] := 1/2*3^(1/2)+1/2*I}}, {(-.5000000000+.8660254040*I)*(-1.500000000, -1.500000000)-.2577724456e-12, {a := -3/2, b := -3/2, G[2] := -1/2+1/2*I*3^(1/2)}}, {(.5000000000-.8660254040*I)*(-1.500000000, -1.500000000)-.2577724456e-12, {a := -3/2, b := -3/2, G[2] := 1/2-1/2*I*3^(1/2)}}, {(-.8660254040-.5000000000*I)*(-1.500000000, -1.500000000)-.2577724456e-12, {a := -3/2, b := -3/2, G[2] := -1/2*3^(1/2)-1/2*I}}, {(2.250000000, 2.250000000)-.2577724456e-12, {a := -3/2, b := -3/2, G[2] := -3/2}}, ...}]
+2106 [https://dlmf.nist.gov/5.11#Ex12]: Error [{{(.8660254040+.5000000000*I)*(-1.500000000, -1.500000000)+.5484520118e-14, {a := -3/2, b := -3/2, H[1] := 1/2*3^(1/2)+1/2*I}}, {(-.5000000000+.8660254040*I)*(-1.500000000, -1.500000000)+.5484520118e-14, {a := -3/2, b := -3/2, H[1] := -1/2+1/2*I*3^(1/2)}}, {(.5000000000-.8660254040*I)*(-1.500000000, -1.500000000)+.5484520118e-14, {a := -3/2, b := -3/2, H[1] := 1/2-1/2*I*3^(1/2)}}, {(-.8660254040-.5000000000*I)*(-1.500000000, -1.500000000)+.5484520118e-14, {a := -3/2, b := -3/2, H[1] := -1/2*3^(1/2)-1/2*I}}, {(2.250000000, 2.250000000)+.5484520118e-14, {a := -3/2, b := -3/2, H[1] := -3/2}}, ...}]
+2107 [https://dlmf.nist.gov/5.11#Ex13]: Error [{{(.8660254040+.5000000000*I)*(-1.500000000, -1.500000000)-.9475996551e-13, {a := -3/2, b := -3/2, H[2] := 1/2*3^(1/2)+1/2*I}}, {(-.5000000000+.8660254040*I)*(-1.500000000, -1.500000000)-.9475996551e-13, {a := -3/2, b := -3/2, H[2] := -1/2+1/2*I*3^(1/2)}}, {(.5000000000-.8660254040*I)*(-1.500000000, -1.500000000)-.9475996551e-13, {a := -3/2, b := -3/2, H[2] := 1/2-1/2*I*3^(1/2)}}, {(-.8660254040-.5000000000*I)*(-1.500000000, -1.500000000)-.9475996551e-13, {a := -3/2, b := -3/2, H[2] := -1/2*3^(1/2)-1/2*I}}, {(2.250000000, 2.250000000)-.9475996551e-13, {a := -3/2, b := -3/2, H[2] := -3/2}}, ...}]
+2111 [http://dlmf.nist.gov/5.12.E1]: Failed [21/36]: {{"numeric exception: division by zero", {a := -3/2, b := -3/2}}, {"numeric exception: division by zero", {a := -3/2, b := 3/2}}, {"numeric exception: division by zero", {a := -3/2, b := -1/2}}, {"numeric exception: division by zero", {a := -3/2, b := 1/2}}, {"numeric exception: division by zero", {a := -3/2, b := -2}}, ...}
+2111-a [http://dlmf.nist.gov/5.12.E1]: Skip - symbolical successful subtest
+2112 [http://dlmf.nist.gov/5.12.E2]: Failed [21/36]: {{"numeric exception: division by zero", {a := -3/2, b := -3/2}}, {"numeric exception: division by zero", {a := -3/2, b := 3/2}}, {"numeric exception: division by zero", {a := -3/2, b := -1/2}}, {"numeric exception: division by zero", {a := -3/2, b := 1/2}}, {"numeric exception: division by zero", {a := -3/2, b := -2}}, ...}
+2113 [http://dlmf.nist.gov/5.12.E3]: Failed [21/36]: {{"numeric exception: division by zero", {a := -3/2, b := -3/2}}, {"numeric exception: division by zero", {a := -3/2, b := 3/2}}, {"numeric exception: division by zero", {a := -3/2, b := -1/2}}, {"numeric exception: division by zero", {a := -3/2, b := 1/2}}, {"numeric exception: division by zero", {a := -3/2, b := -2}}, ...}
+2114 [http://dlmf.nist.gov/5.12.E4]: Skipped - Because timed out
+2115 [http://dlmf.nist.gov/5.12.E5]: Successful [Tested: 18]
+2116 [http://dlmf.nist.gov/5.12.E6]: Successful [Tested: 18]
+2117 [http://dlmf.nist.gov/5.12.E7]: Successful [Tested: 6]
+2126 [http://dlmf.nist.gov/5.13.E4]: Skipped - Because timed out
+2135 [http://dlmf.nist.gov/5.15.E1]: Successful [Tested: 1]
+2136 [http://dlmf.nist.gov/5.15.E2]: Successful [Tested: 3]
+2137 [http://dlmf.nist.gov/5.15.E3]: Successful [Tested: 3]
+2139 [http://dlmf.nist.gov/5.15.E5]: Successful [Tested: 3]
+2140 [http://dlmf.nist.gov/5.15.E6]: Failed [3/3]: {{"numeric exception: division by zero", {z := 1, n := 1}}, {"numeric exception: division by zero", {z := 1, n := 2}}, {"numeric exception: division by zero", {z := 1, n := 3}}}
+2143 [http://dlmf.nist.gov/5.16.E1]: Successful [Tested: 1]
+2144 [http://dlmf.nist.gov/5.16.E2]: Successful [Tested: 1]
+2144-a [http://dlmf.nist.gov/5.16.E2]: Skip - symbolical successful subtest
+2152 [http://dlmf.nist.gov/5.17.E7]: Failed [10/10]: {{.6172709270+.5000000000*I, {C := 1/2*3^(1/2)+1/2*I}}, {-.7487544770+.8660254040*I, {C := -1/2+1/2*I*3^(1/2)}}, {.2512455230-.8660254040*I, {C := 1/2-1/2*I*3^(1/2)}}, {-1.114779881-.5000000000*I, {C := -1/2*3^(1/2)-1/2*I}}, {-1.748754477, {C := -3/2}}, ...}
+2152-a [http://dlmf.nist.gov/5.17.E7]: Successful [Tested: 1]
+2152-b [http://dlmf.nist.gov/5.17.E7]: Successful [Tested: 1]
+2155 [http://dlmf.nist.gov/5.18.E3]: Error [{{QPochhammer(-3/2,1/2*3^(1/2)+1/2*I,infinity)-1.*product(1+3/2*(1/2*3^(1/2)+1/2*I)^k,k = 0 .. infinity), {a := -3/2, q := 1/2*3^(1/2)+1/2*I}}, {QPochhammer(-3/2,-1/2+1/2*I*3^(1/2),infinity)-1.*product(1+3/2*(-1/2+1/2*I*3^(1/2))^k,k = 0 .. infinity), {a := -3/2, q := -1/2+1/2*I*3^(1/2)}}, {QPochhammer(-3/2,1/2-1/2*I*3^(1/2),infinity)-1.*product(1+3/2*(1/2-1/2*I*3^(1/2))^k,k = 0 .. infinity), {a := -3/2, q := 1/2-1/2*I*3^(1/2)}}, {QPochhammer(-3/2,-1/2*3^(1/2)-1/2*I,infinity)-1.*product(1+3/2*(-1/2*3^(1/2)-1/2*I)^k,k = 0 .. infinity), {a := -3/2, q := -1/2*3^(1/2)-1/2*I}}, {QPochhammer(-3/2,-3/2,infinity)-1.*product(1+3/2*(-3/2)^k,k = 0 .. infinity), {a := -3/2, q := -3/2}}, ...}]
+2160 [http://dlmf.nist.gov/5.18.E8]: Error [{{QGAMMA(1/2*3^(1/2)+1/2*I,3/2) < QGAMMA(-3/2,3/2), {q := 1/2*3^(1/2)+1/2*I, r := -3/2, x := 3/2}}, {QGAMMA(1/2*3^(1/2)+1/2*I,1/2) < QGAMMA(-3/2,1/2), {q := 1/2*3^(1/2)+1/2*I, r := -3/2, x := 1/2}}, {QGAMMA(1/2*3^(1/2)+1/2*I,2) < QGAMMA(-3/2,2), {q := 1/2*3^(1/2)+1/2*I, r := -3/2, x := 2}}, {QGAMMA(1/2*3^(1/2)+1/2*I,3/2) < QGAMMA(3/2,3/2), {q := 1/2*3^(1/2)+1/2*I, r := 3/2, x := 3/2}}, {QGAMMA(1/2*3^(1/2)+1/2*I,1/2) < QGAMMA(3/2,1/2), {q := 1/2*3^(1/2)+1/2*I, r := 3/2, x := 1/2}}, ...}]
+2161 [http://dlmf.nist.gov/5.18.E9]: Error [{{QGAMMA(-3/2,3/2) < QGAMMA(1/2*3^(1/2)+1/2*I,3/2), {q := 1/2*3^(1/2)+1/2*I, r := -3/2, x := 3/2}}, {QGAMMA(-3/2,1/2) < QGAMMA(1/2*3^(1/2)+1/2*I,1/2), {q := 1/2*3^(1/2)+1/2*I, r := -3/2, x := 1/2}}, {QGAMMA(-3/2,2) < QGAMMA(1/2*3^(1/2)+1/2*I,2), {q := 1/2*3^(1/2)+1/2*I, r := -3/2, x := 2}}, {QGAMMA(3/2,3/2) < QGAMMA(1/2*3^(1/2)+1/2*I,3/2), {q := 1/2*3^(1/2)+1/2*I, r := 3/2, x := 3/2}}, {QGAMMA(3/2,1/2) < QGAMMA(1/2*3^(1/2)+1/2*I,1/2), {q := 1/2*3^(1/2)+1/2*I, r := 3/2, x := 1/2}}, ...}]
+2162 [http://dlmf.nist.gov/5.18.E10]: Error [{{QGAMMA(1,1/2*3^(1/2)+1/2*I)-.8197354427+.2970463383*I, {z := 1/2*3^(1/2)+1/2*I}}, {QGAMMA(1,1/2-1/2*I*3^(1/2))-.3798048916-.5172790993*I, {z := 1/2-1/2*I*3^(1/2)}}, {QGAMMA(1,3/2)-.8862269255, {z := 3/2}}, {QGAMMA(1,1/2)-1.772453851, {z := 1/2}}, {QGAMMA(1,2)-1., {z := 2}}}]
+2168 [http://dlmf.nist.gov/5.19.E3]: Failed [10/10]: {{.7702822630+.5000000000*I, {S := 1/2*3^(1/2)+1/2*I}}, {-.5957431410+.8660254040*I, {S := -1/2+1/2*I*3^(1/2)}}, {.4042568590-.8660254040*I, {S := 1/2-1/2*I*3^(1/2)}}, {-.9617685450-.5000000000*I, {S := -1/2*3^(1/2)-1/2*I}}, {-1.595743141, {S := -3/2}}, ...}
+2168-a [http://dlmf.nist.gov/5.19.E3]: Skip - symbolical successful subtest
+2169 [https://dlmf.nist.gov/5.19#Ex3]: Failed [180/180]: {{3.866025403+.5000000000*I, {r := -3/2, V := 1/2*3^(1/2)+1/2*I, n := 1}}, {-6.202558068+.5000000000*I, {r := -3/2, V := 1/2*3^(1/2)+1/2*I, n := 2}}, {15.00319234+.5000000000*I, {r := -3/2, V := 1/2*3^(1/2)+1/2*I, n := 3}}, {-2.133974595+.5000000000*I, {r := 3/2, V := 1/2*3^(1/2)+1/2*I, n := 1}}, {-6.202558068+.5000000000*I, {r := 3/2, V := 1/2*3^(1/2)+1/2*I, n := 2}}, ...}
+2170 [https://dlmf.nist.gov/5.19#Ex4]: Failed [174/180]: {{-1.133974596+.5000000000*I, {r := -3/2, S := 1/2*3^(1/2)+1/2*I, n := 1}}, {10.29080337+.5000000000*I, {r := -3/2, S := 1/2*3^(1/2)+1/2*I, n := 2}}, {-27.40830850+.5000000000*I, {r := -3/2, S := 1/2*3^(1/2)+1/2*I, n := 3}}, {-1.133974596+.5000000000*I, {r := 3/2, S := 1/2*3^(1/2)+1/2*I, n := 1}}, {-8.558752558+.5000000000*I, {r := 3/2, S := 1/2*3^(1/2)+1/2*I, n := 2}}, ...}
+2170-a [https://dlmf.nist.gov/5.19#Ex4]: Failed [180/180]: {{2.577350269+.3333333333*I, {r := -3/2, V := 1/2*3^(1/2)+1/2*I, n := 1}}, {-8.270077423+.6666666667*I, {r := -3/2, V := 1/2*3^(1/2)+1/2*I, n := 2}}, {30.00638471+1.*I, {r := -3/2, V := 1/2*3^(1/2)+1/2*I, n := 3}}, {1.422649731-.3333333333*I, {r := 3/2, V := 1/2*3^(1/2)+1/2*I, n := 1}}, {8.270077423-.6666666667*I, {r := 3/2, V := 1/2*3^(1/2)+1/2*I, n := 2}}, ...}
+2171 [http://dlmf.nist.gov/5.20.E1]: Error [{{"numeric exception: division by zero", {x[j] := 1/2*3^(1/2)+1/2*I, W := 1/2*3^(1/2)+1/2*I, x[ell] := 1/2*3^(1/2)+1/2*I, n := 1}}, {"numeric exception: division by zero", {x[j] := 1/2*3^(1/2)+1/2*I, W := 1/2*3^(1/2)+1/2*I, x[ell] := 1/2*3^(1/2)+1/2*I, n := 2}}, {"numeric exception: division by zero", {x[j] := 1/2*3^(1/2)+1/2*I, W := 1/2*3^(1/2)+1/2*I, x[ell] := 1/2*3^(1/2)+1/2*I, n := 3}}, {.2694518135+.669872980e-1*I+.5198603854*j-.1732867952*j^2, {x[j] := -1/2+1/2*I*3^(1/2), W := 1/2*3^(1/2)+1/2*I, x[ell] := 1/2*3^(1/2)+1/2*I, n := 1}}, {-.3271217770-.3660254040*I+.8664339758*j-.1732867952*j^2, {x[j] := -1/2+1/2*I*3^(1/2), W := 1/2*3^(1/2)+1/2*I, x[ell] := 1/2*3^(1/2)+1/2*I, n := 2}}, ...}]
+2174 [http://dlmf.nist.gov/5.20.E4]: Error [{{"numeric exception: division by zero", {theta[ell] := 1/2*3^(1/2)+1/2*I, W := 1/2*3^(1/2)+1/2*I, theta[j] := 1/2*3^(1/2)+1/2*I}}, {.8660254040+.5000000000*I-.4093014520*n*j+.2046507260*j^2-.2046507260*j+.4093014520*n, {theta[ell] := 1/2*3^(1/2)+1/2*I, W := 1/2*3^(1/2)+1/2*I, theta[j] := -1/2+1/2*I*3^(1/2)}}, {.8660254040+.5000000000*I+.6010614025*n*j-.3005307012*j^2+.3005307012*j-.6010614025*n, {theta[ell] := 1/2*3^(1/2)+1/2*I, W := 1/2*3^(1/2)+1/2*I, theta[j] := 1/2-1/2*I*3^(1/2)}}, {.8660254040+.5000000000*I+.6129563305*n*j-.3064781652*j^2+.3064781652*j-.6129563305*n, {theta[ell] := 1/2*3^(1/2)+1/2*I, W := 1/2*3^(1/2)+1/2*I, theta[j] := -1/2*3^(1/2)-1/2*I}}, {.8660254040+.5000000000*I+.4019045370*n*j-.2009522685*j^2+.2009522685*j-.4019045370*n, {theta[ell] := 1/2*3^(1/2)+1/2*I, W := 1/2*3^(1/2)+1/2*I, theta[j] := -3/2}}, ...}]
