@@ -1,6 +1,6 @@
-Overall: [TOTAL: 203, SKIPPED: 54, DEFINITIONS: 5, STARTED_TEST_CASES: 144, ERROR_TRANS: 2, MISSING: 3, SUCCESS_TRANS: 139, SUCCESS_SYMB: 57, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 8, FAILURE: 57, ABORTED: 17, ERROR: 0] for test expression: (#LHS)-(#RHS)
+Overall: [TOTAL: 205, SKIPPED: 56, DEFINITIONS: 5, STARTED_TEST_CASES: 144, ERROR_TRANS: 2, MISSING: 2, SUCCESS_TRANS: 140, SUCCESS_SYMB: 54, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 13, FAILURE: 60, NO_TEST_VALUES: 0, ABORTED: 13, ERROR: 0] for test expression: (#LHS)-(#RHS)
 [SIMPLE]
-1991 [http://dlmf.nist.gov/5.2.E1]: Successful [Simple: 0]
+1991 [http://dlmf.nist.gov/5.2.E1]: Successful under condition [Simple: ConditionalExpression[0, Greater[Re[z], 0]]]
 1992 [http://dlmf.nist.gov/5.2.E2]: Successful [Simple: 0]
 1993 [http://dlmf.nist.gov/5.2.E3]: Skipped - Invalid test case: dots, dots
 1994 [https://dlmf.nist.gov/5.2#Ex1]: Successful [Simple: 0]
@@ -70,29 +70,29 @@ Overall: [TOTAL: 203, SKIPPED: 54, DEFINITIONS: 5, STARTED_TEST_CASES: 144, ERRO
 2052 [http://dlmf.nist.gov/5.8.E3]: Failure [Simple: NaN]
 2053 [http://dlmf.nist.gov/5.8.E4]: Definition - Line is a non-semantic definition.
 2054 [http://dlmf.nist.gov/5.8.E5]: Skipped - Invalid test case: cdots
-2055 [http://dlmf.nist.gov/5.9.E1]: All Aborted: [Simple: Aborted]
+2055 [http://dlmf.nist.gov/5.9.E1]: Successful under condition [Simple: ConditionalExpression[0, And[Greater[Re[z], 0], Greater[Re[μ], 0], Greater[Re[ν], 0]]]]
 2056 [http://dlmf.nist.gov/5.9.E2]: Failure [Simple: NaN]
-2057 [http://dlmf.nist.gov/5.9.E3]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \diff [\diff]
+2057 [http://dlmf.nist.gov/5.9.E3]: All Aborted: [Simple: NaN]
 2058 [http://dlmf.nist.gov/5.9.E4]: Successful [Simple: 0]
-2059 [http://dlmf.nist.gov/5.9.E5]: All Aborted: [Simple: Aborted]
-2060 [http://dlmf.nist.gov/5.9.E6]: Successful [Simple: 0]
-2061 [http://dlmf.nist.gov/5.9.E7]: Successful [Simple: 0]
-2062 [http://dlmf.nist.gov/5.9.E8]: Successful under condition [Simple: 0.0 under condition: And[Greater[Re[n], 1], Equal[Im[n], 0]]]
-2063 [http://dlmf.nist.gov/5.9.E9]: Successful under condition [Simple: 0.0 under condition: And[Greater[Re[n], 1], Equal[Im[n], 0]]]
-2064 [http://dlmf.nist.gov/5.9.E10]: All Aborted: [Simple: Aborted]
-2065 [http://dlmf.nist.gov/5.9.E11]: All Aborted: [Simple: Aborted]
-2066 [http://dlmf.nist.gov/5.9.E12]: All Aborted: [Simple: Aborted]
-2067 [http://dlmf.nist.gov/5.9.E13]: All Aborted: [Simple: Aborted]
-2068 [http://dlmf.nist.gov/5.9.E14]: Successful under condition [Simple: 0.0 under condition: Greater[Re[z], 0]]
-2069 [http://dlmf.nist.gov/5.9.E15]: All Aborted: [Simple: Aborted]
-2070 [http://dlmf.nist.gov/5.9.E16]: Failure [Simple: NaN]
-2070-a [http://dlmf.nist.gov/5.9.E16]: Successful under condition [Simple: 0.0 under condition: Greater[Re[z], 0]]
+2059 [http://dlmf.nist.gov/5.9.E5]: Failure [Simple: NaN]
+2060 [http://dlmf.nist.gov/5.9.E6]: Successful under condition [Simple: ConditionalExpression[0, Inequality[0, Less, Re[z], Less, 1]]]
+2061 [http://dlmf.nist.gov/5.9.E7]: Successful under condition [Simple: ConditionalExpression[0, Inequality[-1, Less, Re[z], Less, 1]]]
+2062 [http://dlmf.nist.gov/5.9.E8]: Successful under condition [Simple: ConditionalExpression[0, And[Greater[Re[n], 1], Equal[Im[n], 0]]]]
+2063 [http://dlmf.nist.gov/5.9.E9]: Successful under condition [Simple: ConditionalExpression[0, And[Greater[Re[n], 1], Equal[Im[n], 0]]]]
+2064 [http://dlmf.nist.gov/5.9.E10]: All Aborted: [Simple: NaN]
+2065 [http://dlmf.nist.gov/5.9.E11]: All Aborted: [Simple: NaN]
+2066 [http://dlmf.nist.gov/5.9.E12]: All Aborted: [Simple: NaN]
+2067 [http://dlmf.nist.gov/5.9.E13]: All Aborted: [Simple: NaN]
+2068 [http://dlmf.nist.gov/5.9.E14]: Successful under condition [Simple: ConditionalExpression[0, Greater[Re[z], 0]]]
+2069 [http://dlmf.nist.gov/5.9.E15]: All Aborted: [Simple: NaN]
+2070 [http://dlmf.nist.gov/5.9.E16]: Successful under condition [Simple: ConditionalExpression[0, Greater[Re[z], 0]]]
+2070-a [http://dlmf.nist.gov/5.9.E16]: Successful under condition [Simple: ConditionalExpression[0, Greater[Re[z], 0]]]
 2071 [http://dlmf.nist.gov/5.9.E17]: Failure [Simple: NaN]
 2072 [http://dlmf.nist.gov/5.9.E18]: Successful [Simple: 0]
 2072-a [http://dlmf.nist.gov/5.9.E18]: Successful [Simple: 0]
 2072-b [http://dlmf.nist.gov/5.9.E18]: Successful [Simple: 0]
 2072-c [http://dlmf.nist.gov/5.9.E18]: Successful [Simple: 0]
-2073 [http://dlmf.nist.gov/5.9.E19]: All Aborted: [Simple: Aborted]
+2073 [http://dlmf.nist.gov/5.9.E19]: Failure [Simple: NaN]
 2074 [http://dlmf.nist.gov/5.10.E1]: Skipped - Invalid test case: cdots
 2075 [https://dlmf.nist.gov/5.10#Ex1]: Skipped - no semantic math
 2076 [https://dlmf.nist.gov/5.10#Ex2]: Skipped - no semantic math
@@ -130,24 +130,24 @@ Overall: [TOTAL: 203, SKIPPED: 54, DEFINITIONS: 5, STARTED_TEST_CASES: 144, ERRO
 2108 [http://dlmf.nist.gov/5.11.E17]: Definition - Line is a non-semantic definition.
 2109 [http://dlmf.nist.gov/5.11.E18]: Definition - Line is a non-semantic definition.
 2110 [http://dlmf.nist.gov/5.11.E19]: Skipped - Unable to analyze test case: Null
-2111 [http://dlmf.nist.gov/5.12.E1]: Successful under condition [Simple: 0.0 under condition: And[Greater[Re[a], 0], Greater[Re[b], 0]]]
-2111-a [http://dlmf.nist.gov/5.12.E1]: Successful under condition [Simple: 0.0 under condition: And[Greater[Re[a], 0], Greater[Re[b], 0]]]
-2112 [http://dlmf.nist.gov/5.12.E2]: Successful under condition [Simple: 0.0 under condition: And[Greater[Re[a], 0], Greater[Re[b], 0]]]
-2113 [http://dlmf.nist.gov/5.12.E3]: Successful under condition [Simple: 0.0 under condition: And[Greater[Re[a], 0], Greater[Re[b], 0]]]
+2111 [http://dlmf.nist.gov/5.12.E1]: Successful under condition [Simple: ConditionalExpression[0, And[Greater[Re[a], 0], Greater[Re[b], 0]]]]
+2111-a [http://dlmf.nist.gov/5.12.E1]: Successful under condition [Simple: ConditionalExpression[0, And[Greater[Re[a], 0], Greater[Re[b], 0]]]]
+2112 [http://dlmf.nist.gov/5.12.E2]: Successful under condition [Simple: ConditionalExpression[0, And[Greater[Re[a], 0], Greater[Re[b], 0]]]]
+2113 [http://dlmf.nist.gov/5.12.E3]: Successful under condition [Simple: ConditionalExpression[0, And[Greater[Re[a], 0], Greater[Re[b], 0]]]]
 2114 [http://dlmf.nist.gov/5.12.E4]: Failure [Simple: NaN]
-2115 [http://dlmf.nist.gov/5.12.E5]: All Aborted: [Simple: Aborted]
-2116 [http://dlmf.nist.gov/5.12.E6]: All Aborted: [Simple: Aborted]
+2115 [http://dlmf.nist.gov/5.12.E5]: All Aborted: [Simple: NaN]
+2116 [http://dlmf.nist.gov/5.12.E6]: All Aborted: [Simple: NaN]
 2117 [http://dlmf.nist.gov/5.12.E7]: Failure [Simple: NaN]
 2118 [http://dlmf.nist.gov/5.12.E8]: Failure [Simple: NaN]
-2119 [http://dlmf.nist.gov/5.12.E9]: All Aborted: [Simple: Aborted]
+2119 [http://dlmf.nist.gov/5.12.E9]: All Aborted: [Simple: NaN]
 2120 [http://dlmf.nist.gov/5.12.E10]: Failure [Simple: NaN]
 2121 [http://dlmf.nist.gov/5.12.E11]: Failure [Simple: NaN]
 2122 [http://dlmf.nist.gov/5.12.E12]: Failure [Simple: NaN]
-2123 [http://dlmf.nist.gov/5.13.E1]: All Aborted: [Simple: Aborted]
-2124 [http://dlmf.nist.gov/5.13.E2]: All Aborted: [Simple: Aborted]
-2125 [http://dlmf.nist.gov/5.13.E3]: All Aborted: [Simple: Aborted]
-2126 [http://dlmf.nist.gov/5.13.E4]: All Aborted: [Simple: Aborted]
-2127 [http://dlmf.nist.gov/5.13.E5]: All Aborted: [Simple: Aborted]
+2123 [http://dlmf.nist.gov/5.13.E1]: Failure [Simple: NaN]
+2124 [http://dlmf.nist.gov/5.13.E2]: All Aborted: [Simple: NaN]
+2125 [http://dlmf.nist.gov/5.13.E3]: Failure [Simple: NaN]
+2126 [http://dlmf.nist.gov/5.13.E4]: All Aborted: [Simple: NaN]
+2127 [http://dlmf.nist.gov/5.13.E5]: All Aborted: [Simple: NaN]
 2128 [http://dlmf.nist.gov/5.14.E1]: Skipped - Invalid test case: cdots
 2129 [http://dlmf.nist.gov/5.14.E2]: Skipped - Invalid test case: cdots
 2130 [http://dlmf.nist.gov/5.14.E3]: Definition - Line is a non-semantic definition.
@@ -173,6 +173,7 @@ Overall: [TOTAL: 203, SKIPPED: 54, DEFINITIONS: 5, STARTED_TEST_CASES: 144, ERRO
 2149 [http://dlmf.nist.gov/5.17.E4]: Failure [Simple: NaN]
 2150 [http://dlmf.nist.gov/5.17.E5]: Skipped - Unable to analyze test case: Null
 2151 [http://dlmf.nist.gov/5.17.E6]: Skipped - no semantic math
+2151-a [http://dlmf.nist.gov/5.17.E6]: Skipped - no semantic math
 2152 [http://dlmf.nist.gov/5.17.E7]: Failure [Simple: NaN]
 2152-a [http://dlmf.nist.gov/5.17.E7]: Successful [Simple: 0]
 2152-b [http://dlmf.nist.gov/5.17.E7]: Successful [Simple: 0]
@@ -186,12 +187,13 @@ Overall: [TOTAL: 203, SKIPPED: 54, DEFINITIONS: 5, STARTED_TEST_CASES: 144, ERRO
 2159 [http://dlmf.nist.gov/5.18.E7]: Failure [Simple: NaN]
 2160 [http://dlmf.nist.gov/5.18.E8]: Failure [Simple: NaN]
 2161 [http://dlmf.nist.gov/5.18.E9]: Failure [Simple: NaN]
-2162 [http://dlmf.nist.gov/5.18.E10]: All Aborted: [Simple: Aborted]
+2162 [http://dlmf.nist.gov/5.18.E10]: All Aborted: [Simple: NaN]
 2163 [http://dlmf.nist.gov/5.18.E11]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \qBeta [\qBeta]
 2164 [http://dlmf.nist.gov/5.18.E12]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \qBeta [\qBeta]
 2165 [https://dlmf.nist.gov/5.19#Ex1]: Skipped - no semantic math
 2166 [https://dlmf.nist.gov/5.19#Ex2]: Skipped - no semantic math
 2167 [http://dlmf.nist.gov/5.19.E2]: Skipped - no semantic math
+2167-a [http://dlmf.nist.gov/5.19.E2]: Skipped - no semantic math
 2168 [http://dlmf.nist.gov/5.19.E3]: Failure [Simple: NaN]
 2168-a [http://dlmf.nist.gov/5.19.E3]: Successful [Simple: 0]
 2169 [https://dlmf.nist.gov/5.19#Ex3]: Failure [Simple: NaN]

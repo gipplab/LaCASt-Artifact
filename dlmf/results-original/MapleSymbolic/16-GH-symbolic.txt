@@ -1,4 +1,4 @@
-Overall: [TOTAL: 108, SKIPPED: 47, DEFINITIONS: 8, STARTED_TEST_CASES: 53, ERROR_TRANS: 3, MISSING: 27, SUCCESS_TRANS: 23, SUCCESS_SYMB: 3, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 18, ABORTED: 0, ERROR: 2] for test expression: (#LHS)-(#RHS)
+Overall: [TOTAL: 110, SKIPPED: 49, DEFINITIONS: 8, STARTED_TEST_CASES: 53, ERROR_TRANS: 3, MISSING: 27, SUCCESS_TRANS: 23, SUCCESS_SYMB: 4, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 17, NO_TEST_VALUES: 0, ABORTED: 0, ERROR: 2] for test expression: (#LHS)-(#RHS)
 [Simple Simplify: ON, EXPonential Conversion (ConvEXP): ON, HYPergeometric Conversion (ConvHYP): ON, Expansion (EXP): ON, Expansion via EXP (EXP+EXP): ON, Expansion via HYP (EXP+HYP): ON]
 5147 [http://dlmf.nist.gov/16.2.E1]: Skipped - Invalid test case: dots
 5148 [http://dlmf.nist.gov/16.2.E2]: Skipped - no semantic math
@@ -10,9 +10,11 @@ Overall: [TOTAL: 108, SKIPPED: 47, DEFINITIONS: 8, STARTED_TEST_CASES: 53, ERROR
 5154 [http://dlmf.nist.gov/16.3.E3]: Skipped - Invalid test case: dots
 5155 [http://dlmf.nist.gov/16.3.E4]: Skipped - Invalid test case: dots
 5156 [http://dlmf.nist.gov/16.3.E5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-5157 [http://dlmf.nist.gov/16.3.E6]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
-5158 [http://dlmf.nist.gov/16.3.E7]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5157 [http://dlmf.nist.gov/16.3.E6]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+5158 [http://dlmf.nist.gov/16.3.E7]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 5159 [http://dlmf.nist.gov/16.4.E1]: Skipped - no semantic math
+5159-a [http://dlmf.nist.gov/16.4.E1]: Skipped - no semantic math
+5159-b [http://dlmf.nist.gov/16.4.E1]: Skipped - no semantic math
 5160 [http://dlmf.nist.gov/16.4.E2]: Skipped - no semantic math
 5161 [http://dlmf.nist.gov/16.4.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5162 [http://dlmf.nist.gov/16.4.E4]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
@@ -42,7 +44,7 @@ Overall: [TOTAL: 108, SKIPPED: 47, DEFINITIONS: 8, STARTED_TEST_CASES: 53, ERROR
 5186 [http://dlmf.nist.gov/16.8.E4]: Skipped - no semantic math
 5187 [http://dlmf.nist.gov/16.8.E5]: Skipped - no semantic math
 5188 [https://dlmf.nist.gov/16.8#Ex3]: Skipped - Invalid test case: dots
-5189 [https://dlmf.nist.gov/16.8#Ex4]: Skipped - Unable to analyze test case: Null
+5189 [https://dlmf.nist.gov/16.8#Ex4]: Skipped - Invalid test case: dots
 5190 [http://dlmf.nist.gov/16.8.E7]: Skipped - Invalid test case: dots
 5191 [http://dlmf.nist.gov/16.8.E8]: Skipped - Invalid test case: dots
 5192 [http://dlmf.nist.gov/16.8.E9]: Skipped - Invalid test case: dots
@@ -63,7 +65,7 @@ Overall: [TOTAL: 108, SKIPPED: 47, DEFINITIONS: 8, STARTED_TEST_CASES: 53, ERROR
 5207 [http://dlmf.nist.gov/16.11.E9]: Skipped - Unable to analyze test case: Null
 5208 [http://dlmf.nist.gov/16.11.E10]: Skipped - Invalid test case: dots
 5209 [http://dlmf.nist.gov/16.11.E11]: Skipped - Invalid test case: dots
-5210 [http://dlmf.nist.gov/16.12.E1]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
+5210 [http://dlmf.nist.gov/16.12.E1]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5211 [http://dlmf.nist.gov/16.12.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5212 [http://dlmf.nist.gov/16.12.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 5213 [http://dlmf.nist.gov/16.13.E1]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \AppellF [\AppellF]
@@ -78,8 +80,8 @@ Overall: [TOTAL: 108, SKIPPED: 47, DEFINITIONS: 8, STARTED_TEST_CASES: 53, ERROR
 5222 [https://dlmf.nist.gov/16.14#Ex6]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \AppellF [\AppellF]
 5223 [https://dlmf.nist.gov/16.14#Ex7]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \AppellF [\AppellF]
 5224 [https://dlmf.nist.gov/16.14#Ex8]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \AppellF [\AppellF]
-5225 [http://dlmf.nist.gov/16.14.E5]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
-5226 [http://dlmf.nist.gov/16.14.E6]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
+5225 [http://dlmf.nist.gov/16.14.E5]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
+5226 [http://dlmf.nist.gov/16.14.E6]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
 5227 [http://dlmf.nist.gov/16.15.E1]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \AppellF [\AppellF]
 5228 [http://dlmf.nist.gov/16.15.E2]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \AppellF [\AppellF]
 5229 [http://dlmf.nist.gov/16.15.E3]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \AppellF [\AppellF]
@@ -92,7 +94,7 @@ Overall: [TOTAL: 108, SKIPPED: 47, DEFINITIONS: 8, STARTED_TEST_CASES: 53, ERROR
 5236 [http://dlmf.nist.gov/16.16.E6]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \AppellF [\AppellF]
 5237 [http://dlmf.nist.gov/16.16.E7]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \AppellF [\AppellF]
 5238 [http://dlmf.nist.gov/16.16.E8]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \AppellF [\AppellF]
-5238-a [http://dlmf.nist.gov/16.16.E8]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
+5238-a [http://dlmf.nist.gov/16.16.E8]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
 5239 [http://dlmf.nist.gov/16.16.E9]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \AppellF [\AppellF]
 5240 [http://dlmf.nist.gov/16.16.E10]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \AppellF [\AppellF]
 5241 [http://dlmf.nist.gov/16.17.E1]: Skipped - Invalid test case: dots, dots

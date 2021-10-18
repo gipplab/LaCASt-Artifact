@@ -1,5 +1,0 @@
-\genBernoullipolyB, 5
-\perEulerE, 4
-\det, 2
-\perBernoulliB, 2
-\genEulerpolyE, 2

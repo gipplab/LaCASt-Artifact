@@ -1,4 +1,4 @@
-Overall: [TOTAL: 146, SKIPPED: 8, DEFINITIONS: 10, STARTED_TEST_CASES: 128, ERROR_TRANS: 22, MISSING: 8, SUCCESS_TRANS: 98, SUCCESS_SYMB: 1, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 81, ABORTED: 16, ERROR: 0] for test expression: (#LHS)-(#RHS)
+Overall: [TOTAL: 146, SKIPPED: 7, DEFINITIONS: 10, STARTED_TEST_CASES: 129, ERROR_TRANS: 23, MISSING: 8, SUCCESS_TRANS: 98, SUCCESS_SYMB: 1, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 79, NO_TEST_VALUES: 0, ABORTED: 18, ERROR: 0] for test expression: (#LHS)-(#RHS)
 [SIMPLE]
 6704 [http://dlmf.nist.gov/20.2.E1]: Failure [Simple: NaN]
 6704-a [http://dlmf.nist.gov/20.2.E1]: Translation Error - (LaTeX -> Mathematica) No translation possible for given token: Unable to identify interval of SUM
@@ -35,42 +35,42 @@ Overall: [TOTAL: 146, SKIPPED: 8, DEFINITIONS: 10, STARTED_TEST_CASES: 128, ERRO
 6721 [http://dlmf.nist.gov/20.4.E4]: Translation Error - (LaTeX -> Mathematica) No translation possible for given token: Unable to identify interval of PROD
 6722 [http://dlmf.nist.gov/20.4.E5]: Translation Error - (LaTeX -> Mathematica) No translation possible for given token: Unable to identify interval of PROD
 6723 [http://dlmf.nist.gov/20.4.E6]: Failure [Simple: NaN]
-6724 [http://dlmf.nist.gov/20.4.E7]: Translation Error - (LaTeX -> Mathematica) Error while translating DLMF/DRMF Macro: The arguments of semantic macros must be wrapped in curly brackets! It seems you wrote \Jacobithetaq(...) instead of \Jacobithetaq{...} [\Jacobithetaq]
+6724 [http://dlmf.nist.gov/20.4.E7]: Translation Error - (LaTeX -> Mathematica) Error while translating DLMF/DRMF Macro: Unable to retrieve correct number of arguments for the macro \Jacobithetaq [\Jacobithetaq]
 6724-a [http://dlmf.nist.gov/20.4.E7]: Failure [Simple: NaN]
 6724-b [http://dlmf.nist.gov/20.4.E7]: Failure [Simple: NaN]
 6724-c [http://dlmf.nist.gov/20.4.E7]: Failure [Simple: NaN]
 6725 [http://dlmf.nist.gov/20.4.E8]: Failure [Simple: NaN]
 6726 [http://dlmf.nist.gov/20.4.E9]: Failure [Simple: NaN]
-6727 [http://dlmf.nist.gov/20.4.E10]: All Aborted: [Simple: Aborted]
-6728 [http://dlmf.nist.gov/20.4.E11]: All Aborted: [Simple: Aborted]
+6727 [http://dlmf.nist.gov/20.4.E10]: All Aborted: [Simple: NaN]
+6728 [http://dlmf.nist.gov/20.4.E11]: All Aborted: [Simple: NaN]
 6729 [http://dlmf.nist.gov/20.4.E12]: Failure [Simple: NaN]
 6730 [http://dlmf.nist.gov/20.5.E1]: Translation Error - (LaTeX -> Mathematica) No translation possible for given token: Unable to identify interval of PROD
 6731 [http://dlmf.nist.gov/20.5.E2]: Translation Error - (LaTeX -> Mathematica) No translation possible for given token: Unable to identify interval of PROD
 6732 [http://dlmf.nist.gov/20.5.E3]: Translation Error - (LaTeX -> Mathematica) No translation possible for given token: Unable to identify interval of PROD
 6733 [http://dlmf.nist.gov/20.5.E4]: Translation Error - (LaTeX -> Mathematica) No translation possible for given token: Unable to identify interval of PROD
-6734 [http://dlmf.nist.gov/20.5.E5]: All Aborted: [Simple: Aborted]
+6734 [http://dlmf.nist.gov/20.5.E5]: Failure [Simple: NaN]
 6735 [http://dlmf.nist.gov/20.5.E6]: Failure [Simple: NaN]
-6736 [http://dlmf.nist.gov/20.5.E7]: All Aborted: [Simple: Aborted]
-6737 [http://dlmf.nist.gov/20.5.E8]: All Aborted: [Simple: Aborted]
+6736 [http://dlmf.nist.gov/20.5.E7]: All Aborted: [Simple: NaN]
+6737 [http://dlmf.nist.gov/20.5.E8]: All Aborted: [Simple: NaN]
 6738 [http://dlmf.nist.gov/20.5.E9]: Failure [Simple: NaN]
 6738-a [http://dlmf.nist.gov/20.5.E9]: Failure [Simple: NaN]
 6739 [http://dlmf.nist.gov/20.5.E10]: Failure [Simple: NaN]
 6739-a [http://dlmf.nist.gov/20.5.E10]: Failure [Simple: NaN]
 6740 [http://dlmf.nist.gov/20.5.E11]: Failure [Simple: NaN]
 6740-a [http://dlmf.nist.gov/20.5.E11]: Failure [Simple: NaN]
-6741 [http://dlmf.nist.gov/20.5.E12]: All Aborted: [Simple: Aborted]
-6741-a [http://dlmf.nist.gov/20.5.E12]: Failure [Simple: NaN]
-6742 [http://dlmf.nist.gov/20.5.E13]: All Aborted: [Simple: Aborted]
-6742-a [http://dlmf.nist.gov/20.5.E13]: All Aborted: [Simple: Aborted]
-6743 [http://dlmf.nist.gov/20.5.E14]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag
-6744 [http://dlmf.nist.gov/20.5.E15]: All Aborted: [Simple: Aborted]
-6745 [http://dlmf.nist.gov/20.5.E16]: All Aborted: [Simple: Aborted]
-6746 [http://dlmf.nist.gov/20.5.E17]: All Aborted: [Simple: Aborted]
+6741 [http://dlmf.nist.gov/20.5.E12]: All Aborted: [Simple: NaN]
+6741-a [http://dlmf.nist.gov/20.5.E12]: All Aborted: [Simple: NaN]
+6742 [http://dlmf.nist.gov/20.5.E13]: All Aborted: [Simple: NaN]
+6742-a [http://dlmf.nist.gov/20.5.E13]: All Aborted: [Simple: NaN]
+6743 [http://dlmf.nist.gov/20.5.E14]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
+6744 [http://dlmf.nist.gov/20.5.E15]: All Aborted: [Simple: NaN]
+6745 [http://dlmf.nist.gov/20.5.E16]: All Aborted: [Simple: NaN]
+6746 [http://dlmf.nist.gov/20.5.E17]: All Aborted: [Simple: NaN]
 6747 [http://dlmf.nist.gov/20.6.E1]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: No translation available for the operator \min [\min]
 6748 [http://dlmf.nist.gov/20.6.E2]: Translation Error - (LaTeX -> Mathematica) The current implementation is wrong: Wrong translation method used. You have to specify an open bracket to translate it like a sequence.
-6749 [http://dlmf.nist.gov/20.6.E3]: All Aborted: [Simple: Aborted]
-6750 [http://dlmf.nist.gov/20.6.E4]: All Aborted: [Simple: Aborted]
-6751 [http://dlmf.nist.gov/20.6.E5]: All Aborted: [Simple: Aborted]
+6749 [http://dlmf.nist.gov/20.6.E3]: All Aborted: [Simple: NaN]
+6750 [http://dlmf.nist.gov/20.6.E4]: All Aborted: [Simple: NaN]
+6751 [http://dlmf.nist.gov/20.6.E5]: All Aborted: [Simple: NaN]
 6752 [http://dlmf.nist.gov/20.6.E6]: Definition - Line is a non-semantic definition.
 6753 [http://dlmf.nist.gov/20.6.E7]: Definition - Line is a non-semantic definition.
 6754 [http://dlmf.nist.gov/20.6.E8]: Definition - Line is a non-semantic definition.
@@ -108,28 +108,28 @@ Overall: [TOTAL: 146, SKIPPED: 8, DEFINITIONS: 10, STARTED_TEST_CASES: 128, ERRO
 6784 [http://dlmf.nist.gov/20.7.E27]: Failure [Simple: NaN]
 6785 [http://dlmf.nist.gov/20.7.E28]: Failure [Simple: NaN]
 6786 [http://dlmf.nist.gov/20.7.E29]: Failure [Simple: NaN]
-6787 [http://dlmf.nist.gov/20.7.E30]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
-6788 [http://dlmf.nist.gov/20.7.E31]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
-6789 [http://dlmf.nist.gov/20.7.E32]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
-6790 [http://dlmf.nist.gov/20.7.E33]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
+6787 [http://dlmf.nist.gov/20.7.E30]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
+6788 [http://dlmf.nist.gov/20.7.E31]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
+6789 [http://dlmf.nist.gov/20.7.E32]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
+6790 [http://dlmf.nist.gov/20.7.E33]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
 6791 [http://dlmf.nist.gov/20.7.E34]: Failure [Simple: NaN]
 6791-a [http://dlmf.nist.gov/20.7.E34]: Failure [Simple: NaN]
-6792 [http://dlmf.nist.gov/20.8.E1]: All Aborted: [Simple: Aborted]
+6792 [http://dlmf.nist.gov/20.8.E1]: All Aborted: [Simple: NaN]
 6793 [http://dlmf.nist.gov/20.9.E1]: Definition - Line is a non-semantic definition.
 6794 [https://dlmf.nist.gov/20.9#Ex1]: Failure [Simple: NaN]
 6795 [https://dlmf.nist.gov/20.9#Ex2]: Failure [Simple: NaN]
 6796 [http://dlmf.nist.gov/20.9.E3]: Failure [Simple: NaN]
 6797 [http://dlmf.nist.gov/20.9.E4]: Failure [Simple: NaN]
-6798 [http://dlmf.nist.gov/20.9.E5]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
+6798 [http://dlmf.nist.gov/20.9.E5]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
 6799 [http://dlmf.nist.gov/20.10.E1]: Failure [Simple: NaN]
 6800 [http://dlmf.nist.gov/20.10.E2]: Failure [Simple: NaN]
-6801 [http://dlmf.nist.gov/20.10.E3]: All Aborted: [Simple: Aborted]
-6802 [http://dlmf.nist.gov/20.10.E4]: Failure [Simple: NaN]
+6801 [http://dlmf.nist.gov/20.10.E3]: All Aborted: [Simple: NaN]
+6802 [http://dlmf.nist.gov/20.10.E4]: All Aborted: [Simple: NaN]
 6802-a [http://dlmf.nist.gov/20.10.E4]: Failure [Simple: NaN]
-6803 [http://dlmf.nist.gov/20.10.E5]: Failure [Simple: NaN]
+6803 [http://dlmf.nist.gov/20.10.E5]: All Aborted: [Simple: NaN]
 6803-a [http://dlmf.nist.gov/20.10.E5]: Failure [Simple: NaN]
 6804 [http://dlmf.nist.gov/20.11.E1]: Definition - Line is a non-semantic definition.
-6805 [http://dlmf.nist.gov/20.11.E2]: Skipped - no semantic math
+6805 [http://dlmf.nist.gov/20.11.E2]: Translation Error - (LaTeX -> Mathematica) No translation possible for given token: Unable to identify interval of SUM
 6806 [http://dlmf.nist.gov/20.11.E3]: Skipped - no semantic math
 6807 [http://dlmf.nist.gov/20.11.E4]: Skipped - Invalid test case: Generic function f(a,b)
 6808 [http://dlmf.nist.gov/20.11.E5]: Failure [Simple: NaN]

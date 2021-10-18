@@ -1,4 +1,4 @@
-Overall: [TOTAL: 659, SKIPPED: 99, DEFINITIONS: 7, STARTED_TEST_CASES: 553, ERROR_TRANS: 1, MISSING: 58, SUCCESS_TRANS: 494, SUCCESS_SYMB: 270, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 223, ABORTED: 0, ERROR: 1] for test expression: (#LHS)-(#RHS)
+Overall: [TOTAL: 670, SKIPPED: 111, DEFINITIONS: 7, STARTED_TEST_CASES: 552, ERROR_TRANS: 1, MISSING: 58, SUCCESS_TRANS: 493, SUCCESS_SYMB: 265, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 225, NO_TEST_VALUES: 0, ABORTED: 0, ERROR: 3] for test expression: (#LHS)-(#RHS)
 [Simple Simplify: ON, EXPonential Conversion (ConvEXP): ON, HYPergeometric Conversion (ConvHYP): ON, Expansion (EXP): ON, Expansion via EXP (EXP+EXP): ON, Expansion via HYP (EXP+HYP): ON]
 1462 [http://dlmf.nist.gov/4.2.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 1463 [http://dlmf.nist.gov/4.2.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
@@ -11,7 +11,7 @@ Overall: [TOTAL: 659, SKIPPED: 99, DEFINITIONS: 7, STARTED_TEST_CASES: 553, ERRO
 1469 [http://dlmf.nist.gov/4.2.E8]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 1470 [http://dlmf.nist.gov/4.2.E9]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 1471 [http://dlmf.nist.gov/4.2.E10]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
-1472 [http://dlmf.nist.gov/4.2.E11]: Successful [Simple: 0., ConvEXP: 0., ConvHYP: 0., EXP: 0., EXP+EXP: 0., EXP+HYP: 0.]
+1472 [http://dlmf.nist.gov/4.2.E11]: Skipped - no semantic math
 1473 [http://dlmf.nist.gov/4.2.E12]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 1474 [http://dlmf.nist.gov/4.2.E13]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 1475 [http://dlmf.nist.gov/4.2.E14]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
@@ -63,7 +63,7 @@ Overall: [TOTAL: 659, SKIPPED: 99, DEFINITIONS: 7, STARTED_TEST_CASES: 553, ERRO
 1510-a [http://dlmf.nist.gov/4.4.E11]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 1511 [http://dlmf.nist.gov/4.4.E12]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 1511-a [http://dlmf.nist.gov/4.4.E12]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
-1512 [http://dlmf.nist.gov/4.4.E13]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
+1512 [http://dlmf.nist.gov/4.4.E13]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 1513 [http://dlmf.nist.gov/4.4.E14]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 1514 [http://dlmf.nist.gov/4.4.E15]: Skipped - no semantic math
 1515 [http://dlmf.nist.gov/4.4.E16]: Skipped - no semantic math
@@ -77,18 +77,24 @@ Overall: [TOTAL: 659, SKIPPED: 99, DEFINITIONS: 7, STARTED_TEST_CASES: 553, ERRO
 1520-a [http://dlmf.nist.gov/4.5.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 1521 [http://dlmf.nist.gov/4.5.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 1522 [http://dlmf.nist.gov/4.5.E4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-1523 [http://dlmf.nist.gov/4.5.E5]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
+1523 [http://dlmf.nist.gov/4.5.E5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 1524 [http://dlmf.nist.gov/4.5.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 1525 [http://dlmf.nist.gov/4.5.E7]: Skipped - no semantic math
+1525-a [http://dlmf.nist.gov/4.5.E7]: Skipped - no semantic math
 1526 [http://dlmf.nist.gov/4.5.E8]: Skipped - no semantic math
 1527 [http://dlmf.nist.gov/4.5.E9]: Skipped - no semantic math
 1528 [http://dlmf.nist.gov/4.5.E10]: Skipped - no semantic math
+1528-a [http://dlmf.nist.gov/4.5.E10]: Skipped - no semantic math
 1529 [http://dlmf.nist.gov/4.5.E11]: Skipped - no semantic math
+1529-a [http://dlmf.nist.gov/4.5.E11]: Skipped - no semantic math
 1530 [http://dlmf.nist.gov/4.5.E12]: Skipped - no semantic math
 1531 [http://dlmf.nist.gov/4.5.E13]: Skipped - no semantic math
+1531-a [http://dlmf.nist.gov/4.5.E13]: Skipped - no semantic math
 1532 [http://dlmf.nist.gov/4.5.E14]: Skipped - no semantic math
 1533 [http://dlmf.nist.gov/4.5.E15]: Skipped - no semantic math
+1533-a [http://dlmf.nist.gov/4.5.E15]: Skipped - no semantic math
 1534 [http://dlmf.nist.gov/4.5.E16]: Skipped - no semantic math
+1534-a [http://dlmf.nist.gov/4.5.E16]: Skipped - no semantic math
 1535 [http://dlmf.nist.gov/4.6.E1]: Skipped - Invalid test case: cdots
 1536 [http://dlmf.nist.gov/4.6.E2]: Skipped - Invalid test case: cdots
 1537 [http://dlmf.nist.gov/4.6.E3]: Skipped - Invalid test case: cdots
@@ -124,7 +130,7 @@ Overall: [TOTAL: 659, SKIPPED: 99, DEFINITIONS: 7, STARTED_TEST_CASES: 553, ERRO
 1566-a [http://dlmf.nist.gov/4.8.E10]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 1567 [http://dlmf.nist.gov/4.8.E11]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 1568 [http://dlmf.nist.gov/4.8.E12]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-1569 [http://dlmf.nist.gov/4.8.E13]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
+1569 [http://dlmf.nist.gov/4.8.E13]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 1570 [http://dlmf.nist.gov/4.8.E14]: Skipped - no semantic math
 1571 [http://dlmf.nist.gov/4.8.E15]: Skipped - no semantic math
 1572 [http://dlmf.nist.gov/4.8.E16]: Skipped - no semantic math
@@ -146,7 +152,7 @@ Overall: [TOTAL: 659, SKIPPED: 99, DEFINITIONS: 7, STARTED_TEST_CASES: 553, ERRO
 1588 [http://dlmf.nist.gov/4.10.E8]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 1589 [http://dlmf.nist.gov/4.10.E9]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 1590 [http://dlmf.nist.gov/4.10.E10]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-1591 [http://dlmf.nist.gov/4.10.E11]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
+1591 [http://dlmf.nist.gov/4.10.E11]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 1592 [http://dlmf.nist.gov/4.10.E12]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 1593 [http://dlmf.nist.gov/4.10.E13]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 1594 [http://dlmf.nist.gov/4.12.E1]: Skipped - no semantic math
@@ -154,12 +160,13 @@ Overall: [TOTAL: 659, SKIPPED: 99, DEFINITIONS: 7, STARTED_TEST_CASES: 553, ERRO
 1596 [http://dlmf.nist.gov/4.12.E3]: Skipped - no semantic math
 1597 [http://dlmf.nist.gov/4.12.E4]: Skipped - no semantic math
 1598 [http://dlmf.nist.gov/4.12.E5]: Skipped - no semantic math
+1598-a [http://dlmf.nist.gov/4.12.E5]: Skipped - no semantic math
 1599 [http://dlmf.nist.gov/4.12.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 1600 [http://dlmf.nist.gov/4.12.E7]: Skipped - Invalid test case: cdots
 1601 [http://dlmf.nist.gov/4.12.E8]: Skipped - no semantic math
-1602 [http://dlmf.nist.gov/4.12.E9]: Skipped - no semantic math
+1602 [http://dlmf.nist.gov/4.12.E9]: Skipped - Invalid test case: cdots
 1603 [http://dlmf.nist.gov/4.12.E10]: Definition - Line is a non-semantic definition.
-1604 [http://dlmf.nist.gov/4.13.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+1604 [http://dlmf.nist.gov/4.13.E1]: Skipped - no semantic math
 1605 [https://dlmf.nist.gov/4.13#Ex1]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 1605-a [https://dlmf.nist.gov/4.13#Ex1]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 1606 [https://dlmf.nist.gov/4.13#Ex2]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
@@ -171,6 +178,10 @@ Overall: [TOTAL: 659, SKIPPED: 99, DEFINITIONS: 7, STARTED_TEST_CASES: 553, ERRO
 1611 [http://dlmf.nist.gov/4.13.E5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 1612 [http://dlmf.nist.gov/4.13.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 1613 [http://dlmf.nist.gov/4.13.E7]: Skipped - no semantic math
+1613-a [http://dlmf.nist.gov/4.13.E7]: Skipped - no semantic math
+1613-b [http://dlmf.nist.gov/4.13.E7]: Skipped - no semantic math
+1613-c [http://dlmf.nist.gov/4.13.E7]: Skipped - no semantic math
+1613-d [http://dlmf.nist.gov/4.13.E7]: Skipped - no semantic math
 1614 [http://dlmf.nist.gov/4.13.E8]: Skipped - no semantic math
 1615 [http://dlmf.nist.gov/4.13.E9]: Skipped - no semantic math
 1616 [http://dlmf.nist.gov/4.13.E10]: Skipped - Invalid test case: bigO
@@ -419,13 +430,13 @@ Overall: [TOTAL: 659, SKIPPED: 99, DEFINITIONS: 7, STARTED_TEST_CASES: 553, ERRO
 1795 [http://dlmf.nist.gov/4.26.E14]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 1796 [http://dlmf.nist.gov/4.26.E15]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 1797 [http://dlmf.nist.gov/4.26.E16]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
-1798 [http://dlmf.nist.gov/4.26.E17]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
-1799 [http://dlmf.nist.gov/4.26.E18]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
+1798 [http://dlmf.nist.gov/4.26.E17]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+1799 [http://dlmf.nist.gov/4.26.E18]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 1800 [http://dlmf.nist.gov/4.26.E19]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 1801 [http://dlmf.nist.gov/4.26.E20]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 1802 [http://dlmf.nist.gov/4.26.E21]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-1803 [http://dlmf.nist.gov/4.28.E1]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: NaN, EXP+EXP: 0, EXP+HYP: NaN]
-1804 [http://dlmf.nist.gov/4.28.E2]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: NaN, EXP+EXP: 0, EXP+HYP: NaN]
+1803 [http://dlmf.nist.gov/4.28.E1]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
+1804 [http://dlmf.nist.gov/4.28.E2]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 1805 [http://dlmf.nist.gov/4.28.E3]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 1805-a [http://dlmf.nist.gov/4.28.E3]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 1806 [http://dlmf.nist.gov/4.28.E4]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
@@ -521,7 +532,7 @@ Overall: [TOTAL: 659, SKIPPED: 99, DEFINITIONS: 7, STARTED_TEST_CASES: 553, ERRO
 1881 [http://dlmf.nist.gov/4.36.E2]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 1882 [http://dlmf.nist.gov/4.36.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 1883 [http://dlmf.nist.gov/4.36.E4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-1884 [http://dlmf.nist.gov/4.36.E5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+1884 [http://dlmf.nist.gov/4.36.E5]: Successful [Simple: NaN, ConvEXP: 0, ConvHYP: NaN, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 1885 [http://dlmf.nist.gov/4.37.E1]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Asinh [\Asinh]
 1886 [http://dlmf.nist.gov/4.37.E2]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Acosh [\Acosh]
 1887 [http://dlmf.nist.gov/4.37.E3]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Atanh [\Atanh]
@@ -605,10 +616,10 @@ Overall: [TOTAL: 659, SKIPPED: 99, DEFINITIONS: 7, STARTED_TEST_CASES: 553, ERRO
 1941 [http://dlmf.nist.gov/4.40.E4]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 1942 [http://dlmf.nist.gov/4.40.E5]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 1943 [http://dlmf.nist.gov/4.40.E6]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
-1944 [http://dlmf.nist.gov/4.40.E7]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-1945 [http://dlmf.nist.gov/4.40.E8]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+1944 [http://dlmf.nist.gov/4.40.E7]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+1945 [http://dlmf.nist.gov/4.40.E8]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 1946 [http://dlmf.nist.gov/4.40.E9]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-1947 [http://dlmf.nist.gov/4.40.E10]: Skipped - Unable to analyze test case: Null
+1947 [http://dlmf.nist.gov/4.40.E10]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 1948 [http://dlmf.nist.gov/4.40.E11]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 1949 [http://dlmf.nist.gov/4.40.E12]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 1950 [http://dlmf.nist.gov/4.40.E13]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]

@@ -1,9 +1,9 @@
-Overall: [TOTAL: 182, SKIPPED: 19, DEFINITIONS: 14, STARTED_TEST_CASES: 149, ERROR_TRANS: 1, MISSING: 47, SUCCESS_TRANS: 101, SUCCESS_SYMB: 52, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 48, ABORTED: 0, ERROR: 1] for test expression: (#LHS)-(#RHS)
+Overall: [TOTAL: 182, SKIPPED: 18, DEFINITIONS: 14, STARTED_TEST_CASES: 150, ERROR_TRANS: 0, MISSING: 49, SUCCESS_TRANS: 101, SUCCESS_SYMB: 49, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 51, NO_TEST_VALUES: 0, ABORTED: 0, ERROR: 1] for test expression: (#LHS)-(#RHS)
 [Simple Simplify: ON, EXPonential Conversion (ConvEXP): ON, HYPergeometric Conversion (ConvHYP): ON, Expansion (EXP): ON, Expansion via EXP (EXP+EXP): ON, Expansion via HYP (EXP+HYP): ON]
 2286 [http://dlmf.nist.gov/7.2.E1]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 2287 [http://dlmf.nist.gov/7.2.E2]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 2287-a [http://dlmf.nist.gov/7.2.E2]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
-2288 [http://dlmf.nist.gov/7.2.E3]: Translation Error - java.lang.StringIndexOutOfBoundsException: begin 12, end 1, length 14 [2288: {}\Faddeevaw@{z} EQUAL \expe ^{-z^{2}}\left(1+\frac{2\iunit }{\sqrt{\cpi}}\int_{0}^{z}\expe ^{t^{2}}\diff{t}\right); http://dlmf.nist.gov/7.2.E3]
+2288 [http://dlmf.nist.gov/7.2.E3]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Faddeevaw [\Faddeevaw]
 2288-a [http://dlmf.nist.gov/7.2.E3]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 2289 [https://dlmf.nist.gov/7.2#Ex1]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 2290 [https://dlmf.nist.gov/7.2#Ex2]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
@@ -24,8 +24,8 @@ Overall: [TOTAL: 182, SKIPPED: 19, DEFINITIONS: 14, STARTED_TEST_CASES: 149, ERR
 2305 [https://dlmf.nist.gov/7.4#Ex2]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 2306 [https://dlmf.nist.gov/7.4#Ex3]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2307 [https://dlmf.nist.gov/7.4#Ex4]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-2308 [https://dlmf.nist.gov/7.4#Ex5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-2309 [https://dlmf.nist.gov/7.4#Ex6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+2308 [https://dlmf.nist.gov/7.4#Ex5]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+2309 [https://dlmf.nist.gov/7.4#Ex6]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2310 [https://dlmf.nist.gov/7.4#Ex7]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2311 [https://dlmf.nist.gov/7.4#Ex8]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2312 [http://dlmf.nist.gov/7.5.E1]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Faddeevaw [\Faddeevaw]
@@ -57,23 +57,23 @@ Overall: [TOTAL: 182, SKIPPED: 19, DEFINITIONS: 14, STARTED_TEST_CASES: 149, ERR
 2333 [http://dlmf.nist.gov/7.6.E9]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \modsphBesseli [\modsphBesseli]
 2334 [http://dlmf.nist.gov/7.6.E10]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \sphBesselJ [\sphBesselJ]
 2335 [http://dlmf.nist.gov/7.6.E11]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \sphBesselJ [\sphBesselJ]
-2336 [http://dlmf.nist.gov/7.7.E1]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
+2336 [http://dlmf.nist.gov/7.7.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2337 [http://dlmf.nist.gov/7.7.E2]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Faddeevaw [\Faddeevaw]
 2337-a [http://dlmf.nist.gov/7.7.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2338 [http://dlmf.nist.gov/7.7.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-2339 [http://dlmf.nist.gov/7.7.E4]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
+2339 [http://dlmf.nist.gov/7.7.E4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2340 [http://dlmf.nist.gov/7.7.E5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2341 [http://dlmf.nist.gov/7.7.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2342 [http://dlmf.nist.gov/7.7.E7]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-2343 [http://dlmf.nist.gov/7.7.E8]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
+2343 [http://dlmf.nist.gov/7.7.E8]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2344 [http://dlmf.nist.gov/7.7.E9]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 2345 [http://dlmf.nist.gov/7.7.E10]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2346 [http://dlmf.nist.gov/7.7.E11]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2347 [http://dlmf.nist.gov/7.7.E12]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: NaN, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 2348 [http://dlmf.nist.gov/7.7.E13]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2349 [http://dlmf.nist.gov/7.7.E14]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-2350 [http://dlmf.nist.gov/7.7.E15]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-2351 [http://dlmf.nist.gov/7.7.E16]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+2350 [http://dlmf.nist.gov/7.7.E15]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+2351 [http://dlmf.nist.gov/7.7.E16]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2352 [http://dlmf.nist.gov/7.8.E1]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \MillsM [\MillsM]
 2352-a [http://dlmf.nist.gov/7.8.E1]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 2353 [http://dlmf.nist.gov/7.8.E2]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \MillsM [\MillsM]
@@ -85,7 +85,7 @@ Overall: [TOTAL: 182, SKIPPED: 19, DEFINITIONS: 14, STARTED_TEST_CASES: 149, ERR
 2356-a [http://dlmf.nist.gov/7.8.E5]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \MillsM [\MillsM]
 2356-b [http://dlmf.nist.gov/7.8.E5]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \MillsM [\MillsM]
 2356-c [http://dlmf.nist.gov/7.8.E5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-2357 [http://dlmf.nist.gov/7.8.E6]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
+2357 [http://dlmf.nist.gov/7.8.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2358 [http://dlmf.nist.gov/7.8.E7]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2359 [http://dlmf.nist.gov/7.8.E8]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2360 [http://dlmf.nist.gov/7.9.E1]: Skipped - Invalid test case: cdots
@@ -93,7 +93,7 @@ Overall: [TOTAL: 182, SKIPPED: 19, DEFINITIONS: 14, STARTED_TEST_CASES: 149, ERR
 2362 [http://dlmf.nist.gov/7.9.E3]: Skipped - Invalid test case: cdots
 2363 [http://dlmf.nist.gov/7.10.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2364 [http://dlmf.nist.gov/7.10.E2]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Faddeevaw [\Faddeevaw]
-2365 [http://dlmf.nist.gov/7.10.E3]: Skipped - Unable to analyze test case: Null
+2365 [http://dlmf.nist.gov/7.10.E3]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Faddeevaw [\Faddeevaw]
 2366 [https://dlmf.nist.gov/7.10#Ex1]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 2367 [https://dlmf.nist.gov/7.10#Ex2]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 2368 [http://dlmf.nist.gov/7.11.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
@@ -112,7 +112,7 @@ Overall: [TOTAL: 182, SKIPPED: 19, DEFINITIONS: 14, STARTED_TEST_CASES: 149, ERR
 2378 [http://dlmf.nist.gov/7.12.E2]: Skipped - Unable to analyze test case: Null
 2379 [http://dlmf.nist.gov/7.12.E3]: Skipped - Unable to analyze test case: Null
 2380 [http://dlmf.nist.gov/7.12.E4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-2381 [http://dlmf.nist.gov/7.12.E5]: Failure [Simple: NULL, ConvEXP: NaN, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
+2381 [http://dlmf.nist.gov/7.12.E5]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2382 [http://dlmf.nist.gov/7.12.E6]: Definition - Line is a non-semantic definition.
 2383 [http://dlmf.nist.gov/7.12.E7]: Definition - Line is a non-semantic definition.
 2384 [https://dlmf.nist.gov/7.13#Ex1]: Skipped - Unable to analyze test case: Null
@@ -132,7 +132,7 @@ Overall: [TOTAL: 182, SKIPPED: 19, DEFINITIONS: 14, STARTED_TEST_CASES: 149, ERR
 2398 [http://dlmf.nist.gov/7.14.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2399 [http://dlmf.nist.gov/7.14.E2]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 2400 [http://dlmf.nist.gov/7.14.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-2401 [http://dlmf.nist.gov/7.14.E4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NULL, EXP+EXP: NaN, EXP+HYP: NULL]
+2401 [http://dlmf.nist.gov/7.14.E4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2402 [http://dlmf.nist.gov/7.14.E5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2403 [http://dlmf.nist.gov/7.14.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 2404 [http://dlmf.nist.gov/7.14.E7]: Successful [Simple: NaN, ConvEXP: 0, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]

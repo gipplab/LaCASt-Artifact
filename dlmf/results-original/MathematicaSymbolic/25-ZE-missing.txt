@@ -1,4 +1,4 @@
-\DirichletL, 9
+\DirichletL, 8
 \EulersumH, 7
 \perBernoulliB, 6
 \StieltjesConstants, 3

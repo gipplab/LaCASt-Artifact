@@ -1,4 +1,4 @@
-Overall: [TOTAL: 225, SKIPPED: 62, DEFINITIONS: 57, STARTED_TEST_CASES: 106, ERROR_TRANS: 4, MISSING: 23, SUCCESS_TRANS: 79, SUCCESS_SYMB: 25, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 51, ABORTED: 0, ERROR: 3] for test expression: (#LHS)-(#RHS)
+Overall: [TOTAL: 226, SKIPPED: 63, DEFINITIONS: 57, STARTED_TEST_CASES: 106, ERROR_TRANS: 4, MISSING: 23, SUCCESS_TRANS: 79, SUCCESS_SYMB: 25, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 51, NO_TEST_VALUES: 0, ABORTED: 0, ERROR: 3] for test expression: (#LHS)-(#RHS)
 [Simple Simplify: ON, EXPonential Conversion (ConvEXP): ON, HYPergeometric Conversion (ConvHYP): ON, Expansion (EXP): ON, Expansion via EXP (EXP+EXP): ON, Expansion via HYP (EXP+HYP): ON]
 4050 [http://dlmf.nist.gov/12.2.E1]: Definition - Line is a non-semantic definition.
 4051 [http://dlmf.nist.gov/12.2.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
@@ -28,8 +28,8 @@ Overall: [TOTAL: 225, SKIPPED: 62, DEFINITIONS: 57, STARTED_TEST_CASES: 106, ERR
 4070 [http://dlmf.nist.gov/12.2.E21]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \paraUbar [\paraUbar]
 4071 [http://dlmf.nist.gov/12.2.E22]: Skipped - Invalid test case: Generic function F(a,x)
 4072 [http://dlmf.nist.gov/12.2.E23]: Skipped - Invalid test case: Generic function G(a,x)
-4073 [http://dlmf.nist.gov/12.4.E1]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
-4074 [http://dlmf.nist.gov/12.4.E2]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
+4073 [http://dlmf.nist.gov/12.4.E1]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+4074 [http://dlmf.nist.gov/12.4.E2]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 4075 [http://dlmf.nist.gov/12.4.E3]: Definition - Line is a non-semantic definition.
 4076 [http://dlmf.nist.gov/12.4.E4]: Definition - Line is a non-semantic definition.
 4077 [http://dlmf.nist.gov/12.4.E5]: Skipped - no semantic math
@@ -38,7 +38,7 @@ Overall: [TOTAL: 225, SKIPPED: 62, DEFINITIONS: 57, STARTED_TEST_CASES: 106, ERR
 4080 [http://dlmf.nist.gov/12.5.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 4081 [http://dlmf.nist.gov/12.5.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 4082 [http://dlmf.nist.gov/12.5.E4]: Successful [Simple: NaN, ConvEXP: NaN, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-4083 [http://dlmf.nist.gov/12.5.E5]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
+4083 [http://dlmf.nist.gov/12.5.E5]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 4084 [http://dlmf.nist.gov/12.5.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 4085 [http://dlmf.nist.gov/12.5.E7]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: A limited expression ends with no argument left.
 4086 [http://dlmf.nist.gov/12.5.E8]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
@@ -84,6 +84,7 @@ Overall: [TOTAL: 225, SKIPPED: 62, DEFINITIONS: 57, STARTED_TEST_CASES: 106, ERR
 4116 [http://dlmf.nist.gov/12.9.E3]: Skipped - Unable to analyze test case: Null
 4117 [http://dlmf.nist.gov/12.9.E4]: Skipped - Unable to analyze test case: Null
 4118 [https://dlmf.nist.gov/12.10#Ex1]: Skipped - no semantic math
+4118-a [https://dlmf.nist.gov/12.10#Ex1]: Skipped - no semantic math
 4119 [https://dlmf.nist.gov/12.10#Ex2]: Skipped - no semantic math
 4120 [http://dlmf.nist.gov/12.10.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 4120-a [http://dlmf.nist.gov/12.10.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
@@ -160,12 +161,12 @@ Overall: [TOTAL: 225, SKIPPED: 62, DEFINITIONS: 57, STARTED_TEST_CASES: 106, ERR
 4191 [http://dlmf.nist.gov/12.12.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 4192 [http://dlmf.nist.gov/12.12.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 4193 [http://dlmf.nist.gov/12.12.E4]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \paraUbar [\paraUbar]
-4194 [http://dlmf.nist.gov/12.13.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: Aborted, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-4195 [http://dlmf.nist.gov/12.13.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: Aborted, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-4196 [http://dlmf.nist.gov/12.13.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: Aborted, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-4197 [http://dlmf.nist.gov/12.13.E4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: Aborted, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-4198 [http://dlmf.nist.gov/12.13.E5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NULL, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-4199 [http://dlmf.nist.gov/12.13.E6]: Translation Error - (LaTeX -> Maple) Error while translating DLMF/DRMF Macro: The arguments of semantic macros must be wrapped in curly brackets! It seems you wrote \erfc(...) instead of \erfc{...} [\erfc]
+4194 [http://dlmf.nist.gov/12.13.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+4195 [http://dlmf.nist.gov/12.13.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+4196 [http://dlmf.nist.gov/12.13.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+4197 [http://dlmf.nist.gov/12.13.E4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+4198 [http://dlmf.nist.gov/12.13.E5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+4199 [http://dlmf.nist.gov/12.13.E6]: Translation Error - (LaTeX -> Maple) No translation possible for given token: Unable to identify interval of SUM
 4200 [http://dlmf.nist.gov/12.14.E1]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \paraW [\paraW]
 4201 [http://dlmf.nist.gov/12.14.E2]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \paraW [\paraW]
 4202 [http://dlmf.nist.gov/12.14.E3]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \paraW [\paraW]

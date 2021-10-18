@@ -1,4 +1,4 @@
-Overall: [TOTAL: 319, SKIPPED: 45, DEFINITIONS: 10, STARTED_TEST_CASES: 264, ERROR_TRANS: 1, MISSING: 27, SUCCESS_TRANS: 232, SUCCESS_SYMB: 46, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 172, ABORTED: 6, ERROR: 8] for test expression: (#LHS)-(#RHS)
+Overall: [TOTAL: 325, SKIPPED: 52, DEFINITIONS: 11, STARTED_TEST_CASES: 262, ERROR_TRANS: 5, MISSING: 27, SUCCESS_TRANS: 230, SUCCESS_SYMB: 46, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 178, NO_TEST_VALUES: 0, ABORTED: 4, ERROR: 2] for test expression: (#LHS)-(#RHS)
 [Simple Simplify: ON, EXPonential Conversion (ConvEXP): ON, HYPergeometric Conversion (ConvHYP): ON, Expansion (EXP): ON, Expansion via EXP (EXP+EXP): ON, Expansion via HYP (EXP+HYP): ON]
 6881 [http://dlmf.nist.gov/22.2.E1]: Definition - Line is a non-semantic definition.
 6882 [https://dlmf.nist.gov/22.2#Ex1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
@@ -17,8 +17,7 @@ Overall: [TOTAL: 319, SKIPPED: 45, DEFINITIONS: 10, STARTED_TEST_CASES: 264, ERR
 6890-a [http://dlmf.nist.gov/22.2.E8]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 6891 [http://dlmf.nist.gov/22.2.E9]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 6891-a [http://dlmf.nist.gov/22.2.E9]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-6892 [http://dlmf.nist.gov/22.2.E10]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-6892-a [http://dlmf.nist.gov/22.2.E10]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+6892 [http://dlmf.nist.gov/22.2.E10]: Definition - Line is a non-semantic definition.
 6893 [http://dlmf.nist.gov/22.2.E11]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 6894 [http://dlmf.nist.gov/22.2.E12]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 6895 [http://dlmf.nist.gov/22.6.E1]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
@@ -107,16 +106,22 @@ Overall: [TOTAL: 319, SKIPPED: 45, DEFINITIONS: 10, STARTED_TEST_CASES: 264, ERR
 6960 [http://dlmf.nist.gov/22.9.E8]: Skipped - no semantic math
 6961 [http://dlmf.nist.gov/22.9.E9]: Skipped - no semantic math
 6962 [http://dlmf.nist.gov/22.9.E10]: Skipped - no semantic math
+6962-a [http://dlmf.nist.gov/22.9.E10]: Skipped - no semantic math
 6963 [http://dlmf.nist.gov/22.9.E11]: Skipped - no semantic math
+6963-a [http://dlmf.nist.gov/22.9.E11]: Skipped - no semantic math
 6964 [http://dlmf.nist.gov/22.9.E12]: Skipped - no semantic math
 6965 [http://dlmf.nist.gov/22.9.E13]: Skipped - no semantic math
 6966 [http://dlmf.nist.gov/22.9.E14]: Skipped - no semantic math
 6967 [http://dlmf.nist.gov/22.9.E15]: Skipped - no semantic math
 6968 [http://dlmf.nist.gov/22.9.E16]: Skipped - no semantic math
 6969 [http://dlmf.nist.gov/22.9.E17]: Skipped - no semantic math
+6969-a [http://dlmf.nist.gov/22.9.E17]: Skipped - no semantic math
 6970 [http://dlmf.nist.gov/22.9.E18]: Skipped - no semantic math
+6970-a [http://dlmf.nist.gov/22.9.E18]: Skipped - no semantic math
 6971 [http://dlmf.nist.gov/22.9.E19]: Skipped - no semantic math
+6971-a [http://dlmf.nist.gov/22.9.E19]: Skipped - no semantic math
 6972 [http://dlmf.nist.gov/22.9.E20]: Skipped - no semantic math
+6972-a [http://dlmf.nist.gov/22.9.E20]: Skipped - no semantic math
 6973 [http://dlmf.nist.gov/22.9.E21]: Skipped - no semantic math
 6974 [http://dlmf.nist.gov/22.9.E22]: Skipped - no semantic math
 6975 [http://dlmf.nist.gov/22.9.E23]: Skipped - no semantic math
@@ -129,45 +134,45 @@ Overall: [TOTAL: 319, SKIPPED: 45, DEFINITIONS: 10, STARTED_TEST_CASES: 264, ERR
 6982 [http://dlmf.nist.gov/22.10.E7]: Skipped - Invalid test case: bigO
 6983 [http://dlmf.nist.gov/22.10.E8]: Skipped - Invalid test case: bigO
 6984 [http://dlmf.nist.gov/22.10.E9]: Skipped - Invalid test case: bigO
-6985 [http://dlmf.nist.gov/22.11.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: Aborted, EXP: NaN, EXP+EXP: Aborted, EXP+HYP: NaN]
-6986 [http://dlmf.nist.gov/22.11.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: Aborted, EXP: NaN, EXP+EXP: Aborted, EXP+HYP: NaN]
+6985 [http://dlmf.nist.gov/22.11.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+6986 [http://dlmf.nist.gov/22.11.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 6987 [http://dlmf.nist.gov/22.11.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-6988 [http://dlmf.nist.gov/22.11.E4]: Failure [Simple: Aborted, ConvEXP: NaN, ConvHYP: Aborted, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: NaN]
-6989 [http://dlmf.nist.gov/22.11.E5]: Failure [Simple: Aborted, ConvEXP: Aborted, ConvHYP: Aborted, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: NaN]
-6990 [http://dlmf.nist.gov/22.11.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: Aborted, EXP: Aborted, EXP+EXP: NaN, EXP+HYP: NaN]
-6991 [http://dlmf.nist.gov/22.11.E7]: Failure [Simple: Aborted, ConvEXP: Aborted, ConvHYP: Aborted, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: NaN]
-6992 [http://dlmf.nist.gov/22.11.E8]: Failure [Simple: Aborted, ConvEXP: Aborted, ConvHYP: Aborted, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: NaN]
-6993 [http://dlmf.nist.gov/22.11.E9]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: Aborted, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-6994 [http://dlmf.nist.gov/22.11.E10]: All Aborted: [Simple: Aborted, ConvEXP: Aborted, ConvHYP: Aborted, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: Aborted]
-6995 [http://dlmf.nist.gov/22.11.E11]: All Aborted: [Simple: Aborted, ConvEXP: Aborted, ConvHYP: Aborted, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: Aborted]
-6996 [http://dlmf.nist.gov/22.11.E12]: Failure [Simple: NaN, ConvEXP: Aborted, ConvHYP: Aborted, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: NaN]
-6997 [http://dlmf.nist.gov/22.11.E13]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: Aborted, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: NaN]
+6988 [http://dlmf.nist.gov/22.11.E4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+6989 [http://dlmf.nist.gov/22.11.E5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+6990 [http://dlmf.nist.gov/22.11.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+6991 [http://dlmf.nist.gov/22.11.E7]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+6992 [http://dlmf.nist.gov/22.11.E8]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+6993 [http://dlmf.nist.gov/22.11.E9]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+6994 [http://dlmf.nist.gov/22.11.E10]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+6995 [http://dlmf.nist.gov/22.11.E11]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+6996 [http://dlmf.nist.gov/22.11.E12]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+6997 [http://dlmf.nist.gov/22.11.E13]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 6998 [http://dlmf.nist.gov/22.11.E14]: Translation Error - (LaTeX -> Maple) Error while translating DLMF/DRMF Macro: Unable to retrieve correct number of arguments for the macro \ccompellintKk [\ccompellintKk]
 6999 [http://dlmf.nist.gov/22.12.E1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-7000 [http://dlmf.nist.gov/22.12.E2]: Failure [Simple: Aborted, ConvEXP: NaN, ConvHYP: NaN, EXP: Aborted, EXP+EXP: NaN, EXP+HYP: NaN]
-7000-a [http://dlmf.nist.gov/22.12.E2]: Successful [Simple: Aborted, ConvEXP: Aborted, ConvHYP: 0, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: Aborted]
-7001 [http://dlmf.nist.gov/22.12.E3]: Failure [Simple: Aborted, ConvEXP: NaN, ConvHYP: NaN, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: Aborted]
-7001-a [http://dlmf.nist.gov/22.12.E3]: All Aborted: [Simple: Aborted, ConvEXP: Aborted, ConvHYP: Aborted, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: Aborted]
-7002 [http://dlmf.nist.gov/22.12.E4]: Failure [Simple: Aborted, ConvEXP: Aborted, ConvHYP: NaN, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: Aborted]
-7002-a [http://dlmf.nist.gov/22.12.E4]: Failure [Simple: Aborted, ConvEXP: Aborted, ConvHYP: NULL, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: Aborted]
-7003 [http://dlmf.nist.gov/22.12.E5]: Failure [Simple: Aborted, ConvEXP: NaN, ConvHYP: NaN, EXP: Aborted, EXP+EXP: NaN, EXP+HYP: Aborted]
-7003-a [http://dlmf.nist.gov/22.12.E5]: All Aborted: [Simple: Aborted, ConvEXP: Aborted, ConvHYP: Aborted, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: Aborted]
-7004 [http://dlmf.nist.gov/22.12.E6]: Failure [Simple: Aborted, ConvEXP: Aborted, ConvHYP: NaN, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: Aborted]
-7004-a [http://dlmf.nist.gov/22.12.E6]: All Aborted: [Simple: Aborted, ConvEXP: Aborted, ConvHYP: Aborted, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: Aborted]
-7005 [http://dlmf.nist.gov/22.12.E7]: Failure [Simple: Aborted, ConvEXP: Aborted, ConvHYP: NaN, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: Aborted]
-7005-a [http://dlmf.nist.gov/22.12.E7]: Failure [Simple: Aborted, ConvEXP: NULL, ConvHYP: NULL, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: Aborted]
-7006 [http://dlmf.nist.gov/22.12.E8]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: Aborted, EXP+EXP: NaN, EXP+HYP: NaN]
-7006-a [http://dlmf.nist.gov/22.12.E8]: Successful [Simple: Aborted, ConvEXP: 0, ConvHYP: 0, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: Aborted]
-7007 [http://dlmf.nist.gov/22.12.E9]: Failure [Simple: Aborted, ConvEXP: NaN, ConvHYP: NaN, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: Aborted]
-7007-a [http://dlmf.nist.gov/22.12.E9]: Successful [Simple: Aborted, ConvEXP: Aborted, ConvHYP: 0, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: Aborted]
-7008 [http://dlmf.nist.gov/22.12.E10]: Failure [Simple: Aborted, ConvEXP: Aborted, ConvHYP: NaN, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: Aborted]
-7008-a [http://dlmf.nist.gov/22.12.E10]: Failure [Simple: Aborted, ConvEXP: Aborted, ConvHYP: NULL, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: Aborted]
-7009 [http://dlmf.nist.gov/22.12.E11]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: Aborted, EXP+EXP: NaN, EXP+HYP: NaN]
-7009-a [http://dlmf.nist.gov/22.12.E11]: Successful [Simple: Aborted, ConvEXP: 0, ConvHYP: 0, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: Aborted]
-7010 [http://dlmf.nist.gov/22.12.E12]: Failure [Simple: Aborted, ConvEXP: NaN, ConvHYP: NaN, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: Aborted]
-7010-a [http://dlmf.nist.gov/22.12.E12]: All Aborted: [Simple: Aborted, ConvEXP: Aborted, ConvHYP: Aborted, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: Aborted]
-7011 [http://dlmf.nist.gov/22.12.E13]: Failure [Simple: Aborted, ConvEXP: Aborted, ConvHYP: NaN, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: Aborted]
-7011-a [http://dlmf.nist.gov/22.12.E13]: Failure [Simple: Aborted, ConvEXP: Aborted, ConvHYP: NULL, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: Aborted]
+7000 [http://dlmf.nist.gov/22.12.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7000-a [http://dlmf.nist.gov/22.12.E2]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7001 [http://dlmf.nist.gov/22.12.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7001-a [http://dlmf.nist.gov/22.12.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7002 [http://dlmf.nist.gov/22.12.E4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7002-a [http://dlmf.nist.gov/22.12.E4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7003 [http://dlmf.nist.gov/22.12.E5]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7003-a [http://dlmf.nist.gov/22.12.E5]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7004 [http://dlmf.nist.gov/22.12.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7004-a [http://dlmf.nist.gov/22.12.E6]: All Aborted: []
+7005 [http://dlmf.nist.gov/22.12.E7]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7005-a [http://dlmf.nist.gov/22.12.E7]: All Aborted: []
+7006 [http://dlmf.nist.gov/22.12.E8]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7006-a [http://dlmf.nist.gov/22.12.E8]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7007 [http://dlmf.nist.gov/22.12.E9]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7007-a [http://dlmf.nist.gov/22.12.E9]: All Aborted: []
+7008 [http://dlmf.nist.gov/22.12.E10]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7008-a [http://dlmf.nist.gov/22.12.E10]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7009 [http://dlmf.nist.gov/22.12.E11]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7009-a [http://dlmf.nist.gov/22.12.E11]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7010 [http://dlmf.nist.gov/22.12.E12]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7010-a [http://dlmf.nist.gov/22.12.E12]: All Aborted: []
+7011 [http://dlmf.nist.gov/22.12.E13]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7011-a [http://dlmf.nist.gov/22.12.E13]: All Errors: [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7012 [http://dlmf.nist.gov/22.13.E1]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 7013 [http://dlmf.nist.gov/22.13.E2]: Successful [Simple: 0, ConvEXP: 0, ConvHYP: 0, EXP: 0, EXP+EXP: 0, EXP+HYP: 0]
 7014 [http://dlmf.nist.gov/22.13.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
@@ -228,19 +233,19 @@ Overall: [TOTAL: 319, SKIPPED: 45, DEFINITIONS: 10, STARTED_TEST_CASES: 264, ERR
 7064-a [http://dlmf.nist.gov/22.15.E9]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7065 [http://dlmf.nist.gov/22.15.E10]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7065-a [http://dlmf.nist.gov/22.15.E10]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-7066 [http://dlmf.nist.gov/22.15.E11]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NULL, EXP+HYP: NaN]
-7067 [http://dlmf.nist.gov/22.15.E12]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
-7068 [http://dlmf.nist.gov/22.15.E13]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
-7069 [http://dlmf.nist.gov/22.15.E14]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
+7066 [http://dlmf.nist.gov/22.15.E11]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7067 [http://dlmf.nist.gov/22.15.E12]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7068 [http://dlmf.nist.gov/22.15.E13]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7069 [http://dlmf.nist.gov/22.15.E14]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7070 [http://dlmf.nist.gov/22.15.E15]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-7071 [http://dlmf.nist.gov/22.15.E16]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
-7072 [http://dlmf.nist.gov/22.15.E17]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
+7071 [http://dlmf.nist.gov/22.15.E16]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7072 [http://dlmf.nist.gov/22.15.E17]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7073 [http://dlmf.nist.gov/22.15.E18]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7074 [http://dlmf.nist.gov/22.15.E19]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-7075 [http://dlmf.nist.gov/22.15.E20]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
+7075 [http://dlmf.nist.gov/22.15.E20]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7076 [http://dlmf.nist.gov/22.15.E21]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
-7077 [http://dlmf.nist.gov/22.15.E22]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
-7078 [http://dlmf.nist.gov/22.15.E23]: All Errors: [Simple: NULL, ConvEXP: NULL, ConvHYP: NULL, EXP: NULL, EXP+EXP: NULL, EXP+HYP: NULL]
+7077 [http://dlmf.nist.gov/22.15.E22]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
+7078 [http://dlmf.nist.gov/22.15.E23]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7079 [https://dlmf.nist.gov/22.15#Ex4]: Skipped - Unable to analyze test case: Null
 7080 [http://dlmf.nist.gov/22.16.E1]: Missing Macro Error - (LaTeX -> Maple) No translation possible for given token: Cannot extract information from feature set: \Asin [\Asin]
 7081 [http://dlmf.nist.gov/22.16.E2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
@@ -250,7 +255,7 @@ Overall: [TOTAL: 319, SKIPPED: 45, DEFINITIONS: 10, STARTED_TEST_CASES: 264, ERR
 7085 [http://dlmf.nist.gov/22.16.E6]: Skipped - Invalid test case: bigO
 7086 [http://dlmf.nist.gov/22.16.E7]: Skipped - Invalid test case: bigO
 7087 [http://dlmf.nist.gov/22.16.E8]: Skipped - Invalid test case: bigO
-7088 [http://dlmf.nist.gov/22.16.E9]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: Aborted, EXP: Aborted, EXP+EXP: Aborted, EXP+HYP: NaN]
+7088 [http://dlmf.nist.gov/22.16.E9]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7089 [http://dlmf.nist.gov/22.16.E10]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7090 [http://dlmf.nist.gov/22.16.E11]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7091 [http://dlmf.nist.gov/22.16.E12]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
@@ -285,9 +290,9 @@ Overall: [TOTAL: 319, SKIPPED: 45, DEFINITIONS: 10, STARTED_TEST_CASES: 264, ERR
 7118 [http://dlmf.nist.gov/22.17.E4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7119 [https://dlmf.nist.gov/22.17#Ex1]: Definition - Line is a non-semantic definition.
 7120 [https://dlmf.nist.gov/22.17#Ex2]: Definition - Line is a non-semantic definition.
-7121 [http://dlmf.nist.gov/22.17.E6]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
-7122 [http://dlmf.nist.gov/22.17.E7]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
-7123 [http://dlmf.nist.gov/22.17.E8]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
+7121 [http://dlmf.nist.gov/22.17.E6]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
+7122 [http://dlmf.nist.gov/22.17.E7]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
+7123 [http://dlmf.nist.gov/22.17.E8]: Translation Error - (LaTeX -> Maple) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
 7124 [http://dlmf.nist.gov/22.18.E1]: Skipped - no semantic math
 7125 [https://dlmf.nist.gov/22.18#Ex1]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7126 [https://dlmf.nist.gov/22.18#Ex2]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
@@ -304,6 +309,7 @@ Overall: [TOTAL: 319, SKIPPED: 45, DEFINITIONS: 10, STARTED_TEST_CASES: 264, ERR
 7137 [http://dlmf.nist.gov/22.19.E3]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7138 [http://dlmf.nist.gov/22.19.E4]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7139 [http://dlmf.nist.gov/22.19.E5]: Skipped - no semantic math
+7139-a [http://dlmf.nist.gov/22.19.E5]: Skipped - no semantic math
 7140 [http://dlmf.nist.gov/22.19.E6]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7141 [http://dlmf.nist.gov/22.19.E7]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]
 7142 [http://dlmf.nist.gov/22.19.E8]: Failure [Simple: NaN, ConvEXP: NaN, ConvHYP: NaN, EXP: NaN, EXP+EXP: NaN, EXP+HYP: NaN]

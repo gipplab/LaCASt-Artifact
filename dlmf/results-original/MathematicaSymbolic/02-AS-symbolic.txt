@@ -1,4 +1,4 @@
-Overall: [TOTAL: 387, SKIPPED: 237, DEFINITIONS: 14, STARTED_TEST_CASES: 136, ERROR_TRANS: 20, MISSING: 51, SUCCESS_TRANS: 65, SUCCESS_SYMB: 4, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 2, FAILURE: 56, ABORTED: 3, ERROR: 0] for test expression: (#LHS)-(#RHS)
+Overall: [TOTAL: 396, SKIPPED: 234, DEFINITIONS: 14, STARTED_TEST_CASES: 148, ERROR_TRANS: 20, MISSING: 51, SUCCESS_TRANS: 77, SUCCESS_SYMB: 4, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 3, FAILURE: 67, NO_TEST_VALUES: 0, ABORTED: 3, ERROR: 0] for test expression: (#LHS)-(#RHS)
 [SIMPLE]
 650 [http://dlmf.nist.gov/2.1.E1]: Definition - Line is a non-semantic definition.
 651 [http://dlmf.nist.gov/2.1.E2]: Skipped - Invalid test case: Generic function f(x)
@@ -15,14 +15,14 @@ Overall: [TOTAL: 387, SKIPPED: 237, DEFINITIONS: 14, STARTED_TEST_CASES: 136, ER
 662 [http://dlmf.nist.gov/2.1.E12]: Failure [Simple: NaN]
 663 [http://dlmf.nist.gov/2.1.E13]: Skipped - Invalid test case: Generic function f(x)
 664 [http://dlmf.nist.gov/2.1.E14]: Skipped - Unable to analyze test case: Null
-665 [http://dlmf.nist.gov/2.1.E15]: Skipped - no semantic math
+665 [http://dlmf.nist.gov/2.1.E15]: Skipped - Unable to analyze test case: Null
 666 [http://dlmf.nist.gov/2.1.E16]: Skipped - Unable to analyze test case: Null
-667 [http://dlmf.nist.gov/2.1.E17]: Skipped - no semantic math
-668 [https://dlmf.nist.gov/2.1#Ex3]: Skipped - no semantic math
+667 [http://dlmf.nist.gov/2.1.E17]: Skipped - Unable to analyze test case: Null
+668 [https://dlmf.nist.gov/2.1#Ex3]: Skipped - Unable to analyze test case: Null
 669 [http://dlmf.nist.gov/2.1.E18]: Skipped - Unable to analyze test case: Null
 670 [http://dlmf.nist.gov/2.1.E19]: Skipped - Invalid test case: littleo
 671 [http://dlmf.nist.gov/2.1.E20]: Skipped - Invalid test case: Generic function f(x)
-672 [http://dlmf.nist.gov/2.1.E21]: Skipped - no semantic math
+672 [http://dlmf.nist.gov/2.1.E21]: Skipped - Unable to analyze test case: Null
 673 [http://dlmf.nist.gov/2.2.E1]: Skipped - Unable to analyze test case: Null
 674 [http://dlmf.nist.gov/2.2.E2]: Skipped - Unable to analyze test case: Null
 675 [http://dlmf.nist.gov/2.2.E3]: Failure [Simple: NaN]
@@ -63,6 +63,7 @@ Overall: [TOTAL: 387, SKIPPED: 237, DEFINITIONS: 14, STARTED_TEST_CASES: 136, ER
 710 [https://dlmf.nist.gov/2.3#Ex7]: Skipped - no semantic math
 711 [https://dlmf.nist.gov/2.3#Ex8]: Skipped - no semantic math
 712 [http://dlmf.nist.gov/2.3.E27]: Skipped - no semantic math
+712-a [http://dlmf.nist.gov/2.3.E27]: Skipped - no semantic math
 713 [http://dlmf.nist.gov/2.3.E28]: Failure [Simple: NaN]
 713-a [http://dlmf.nist.gov/2.3.E28]: Failure [Simple: NaN]
 714 [http://dlmf.nist.gov/2.3.E29]: Skipped - Invalid test case: Generic function f(\alpha,w)
@@ -87,7 +88,7 @@ Overall: [TOTAL: 387, SKIPPED: 237, DEFINITIONS: 14, STARTED_TEST_CASES: 136, ER
 733 [http://dlmf.nist.gov/2.4.E14]: Successful [Simple: 0]
 734 [http://dlmf.nist.gov/2.4.E15]: Skipped - Unable to analyze test case: Null
 735 [https://dlmf.nist.gov/2.4#Ex3]: Skipped - no semantic math
-736 [https://dlmf.nist.gov/2.4#Ex4]: Skipped - no semantic math
+736 [https://dlmf.nist.gov/2.4#Ex4]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
 737 [http://dlmf.nist.gov/2.4.E17]: Translation Error - (LaTeX -> Mathematica) No translation possible for given token: Unable to identify interval of INT
 738 [http://dlmf.nist.gov/2.4.E18]: Skipped - no semantic math
 739 [http://dlmf.nist.gov/2.4.E19]: Skipped - Invalid test case: Generic function f(\alpha,w)
@@ -100,7 +101,7 @@ Overall: [TOTAL: 387, SKIPPED: 237, DEFINITIONS: 14, STARTED_TEST_CASES: 136, ER
 746 [http://dlmf.nist.gov/2.5.E5]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \Mellintrans [\Mellintrans]
 747 [http://dlmf.nist.gov/2.5.E6]: Translation Error - (LaTeX -> Mathematica) No translation possible for given token: Unable to identify interval of SUM
 748 [http://dlmf.nist.gov/2.5.E7]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \Mellintrans [\Mellintrans]
-749 [http://dlmf.nist.gov/2.5.E8]: All Aborted: [Simple: Aborted]
+749 [http://dlmf.nist.gov/2.5.E8]: All Aborted: [Simple: NaN]
 750 [http://dlmf.nist.gov/2.5.E9]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \Mellintrans [\Mellintrans]
 751 [http://dlmf.nist.gov/2.5.E10]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \Mellintrans [\Mellintrans]
 752 [http://dlmf.nist.gov/2.5.E11]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \Mellintrans [\Mellintrans]
@@ -114,19 +115,27 @@ Overall: [TOTAL: 387, SKIPPED: 237, DEFINITIONS: 14, STARTED_TEST_CASES: 136, ER
 760 [http://dlmf.nist.gov/2.5.E19]: Skipped - Invalid test case: Generic function f(t)
 761 [http://dlmf.nist.gov/2.5.E20]: Skipped - Invalid test case: bigO
 762 [http://dlmf.nist.gov/2.5.E21]: Skipped - no semantic math
+762-a [http://dlmf.nist.gov/2.5.E21]: Skipped - no semantic math
+762-b [http://dlmf.nist.gov/2.5.E21]: Skipped - no semantic math
+762-c [http://dlmf.nist.gov/2.5.E21]: Skipped - no semantic math
+762-d [http://dlmf.nist.gov/2.5.E21]: Skipped - no semantic math
 763 [http://dlmf.nist.gov/2.5.E22]: Skipped - no semantic math
 764 [http://dlmf.nist.gov/2.5.E23]: Skipped - no semantic math
+764-a [http://dlmf.nist.gov/2.5.E23]: Skipped - no semantic math
+764-b [http://dlmf.nist.gov/2.5.E23]: Skipped - no semantic math
+764-c [http://dlmf.nist.gov/2.5.E23]: Skipped - no semantic math
+764-d [http://dlmf.nist.gov/2.5.E23]: Skipped - no semantic math
 765 [http://dlmf.nist.gov/2.5.E24]: Skipped - no semantic math
-766 [http://dlmf.nist.gov/2.5.E25]: Skipped - no semantic math
+766 [http://dlmf.nist.gov/2.5.E25]: Skipped - Unable to analyze test case: Null
 767 [http://dlmf.nist.gov/2.5.E26]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \Mellintrans [\Mellintrans]
-768 [http://dlmf.nist.gov/2.5.E27]: Skipped - no semantic math
+768 [http://dlmf.nist.gov/2.5.E27]: Skipped - Unable to analyze test case: Null
 769 [http://dlmf.nist.gov/2.5.E28]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \Mellintrans [\Mellintrans]
 770 [http://dlmf.nist.gov/2.5.E29]: Skipped - no semantic math
 771 [http://dlmf.nist.gov/2.5.E30]: Failure [Simple: NaN]
 772 [http://dlmf.nist.gov/2.5.E31]: Skipped - no semantic math
 773 [http://dlmf.nist.gov/2.5.E32]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \Mellintrans [\Mellintrans]
 774 [http://dlmf.nist.gov/2.5.E33]: Failure [Simple: NaN]
-775 [http://dlmf.nist.gov/2.5.E34]: Skipped - no semantic math
+775 [http://dlmf.nist.gov/2.5.E34]: Skipped - Unable to analyze test case: Null
 776 [http://dlmf.nist.gov/2.5.E35]: Failure [Simple: NaN]
 777 [http://dlmf.nist.gov/2.5.E36]: Failure [Simple: NaN]
 778 [http://dlmf.nist.gov/2.5.E37]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \Laplacetrans [\Laplacetrans]
@@ -145,7 +154,7 @@ Overall: [TOTAL: 387, SKIPPED: 237, DEFINITIONS: 14, STARTED_TEST_CASES: 136, ER
 791 [http://dlmf.nist.gov/2.6.E1]: Failure [Simple: NaN]
 792 [http://dlmf.nist.gov/2.6.E2]: Failure [Simple: NaN]
 793 [http://dlmf.nist.gov/2.6.E3]: Skipped - Unable to analyze test case: Null
-794 [http://dlmf.nist.gov/2.6.E4]: Successful under condition [Simple: 0.0 under condition: And[LessEqual[Times[α, Arg[Power[x, -1]]], Pi], Greater[Re[x], 0]]]
+794 [http://dlmf.nist.gov/2.6.E4]: Successful under condition [Simple: ConditionalExpression[0, And[LessEqual[Times[α, Arg[Power[x, -1]]], Pi], Greater[Re[x], 0], Greater[α, 0], Greater[Re[β], 0]]]]
 795 [http://dlmf.nist.gov/2.6.E5]: Failure [Simple: NaN]
 796 [http://dlmf.nist.gov/2.6.E6]: Skipped - Unable to analyze test case: Null
 797 [http://dlmf.nist.gov/2.6.E7]: Skipped - Unable to analyze test case: Null
@@ -215,7 +224,7 @@ Overall: [TOTAL: 387, SKIPPED: 237, DEFINITIONS: 14, STARTED_TEST_CASES: 136, ER
 861 [http://dlmf.nist.gov/2.7.E6]: Translation Error - (LaTeX -> Mathematica) No translation possible for given token: Unable to identify interval of SUM
 862 [https://dlmf.nist.gov/2.7#Ex3]: Skipped - no semantic math
 863 [https://dlmf.nist.gov/2.7#Ex4]: Skipped - no semantic math
-864 [http://dlmf.nist.gov/2.7.E8]: Skipped - no semantic math
+864 [http://dlmf.nist.gov/2.7.E8]: Skipped - Unable to analyze test case: Null
 865 [http://dlmf.nist.gov/2.7.E9]: Skipped - no semantic math
 866 [http://dlmf.nist.gov/2.7.E10]: Skipped - no semantic math
 867 [http://dlmf.nist.gov/2.7.E11]: Skipped - no semantic math
@@ -226,23 +235,23 @@ Overall: [TOTAL: 387, SKIPPED: 237, DEFINITIONS: 14, STARTED_TEST_CASES: 136, ER
 871-a [http://dlmf.nist.gov/2.7.E15]: Failure [Simple: NaN]
 872 [http://dlmf.nist.gov/2.7.E16]: Failure [Simple: NaN]
 872-a [http://dlmf.nist.gov/2.7.E16]: Failure [Simple: NaN]
-873 [https://dlmf.nist.gov/2.7#Ex5]: Skipped - no semantic math
-874 [https://dlmf.nist.gov/2.7#Ex6]: Skipped - no semantic math
-875 [https://dlmf.nist.gov/2.7#Ex7]: Skipped - no semantic math
-876 [https://dlmf.nist.gov/2.7#Ex8]: Skipped - no semantic math
+873 [https://dlmf.nist.gov/2.7#Ex5]: Failure [Simple: NaN]
+874 [https://dlmf.nist.gov/2.7#Ex6]: Failure [Simple: NaN]
+875 [https://dlmf.nist.gov/2.7#Ex7]: Failure [Simple: NaN]
+876 [https://dlmf.nist.gov/2.7#Ex8]: Failure [Simple: NaN]
 877 [https://dlmf.nist.gov/2.7#Ex9]: Skipped - no semantic math
 878 [https://dlmf.nist.gov/2.7#Ex10]: Skipped - no semantic math
 879 [http://dlmf.nist.gov/2.7.E20]: Skipped - Invalid test case: Generic function f(x)
 880 [http://dlmf.nist.gov/2.7.E21]: Failure [Simple: NaN]
 881 [http://dlmf.nist.gov/2.7.E22]: Failure [Simple: NaN]
-882 [http://dlmf.nist.gov/2.7.E23]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
+882 [http://dlmf.nist.gov/2.7.E23]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
 883 [http://dlmf.nist.gov/2.7.E24]: Skipped - Invalid test case: Generic function F(x)
 884 [http://dlmf.nist.gov/2.7.E25]: Skipped - Invalid test case: Generic function g(t)
 885 [http://dlmf.nist.gov/2.7.E26]: Skipped - Unable to analyze test case: Null
 886 [http://dlmf.nist.gov/2.7.E27]: Skipped - Unable to analyze test case: Null
 887 [http://dlmf.nist.gov/2.7.E28]: Skipped - Unable to analyze test case: Null
 888 [http://dlmf.nist.gov/2.7.E29]: Skipped - Unable to analyze test case: Null
-889 [http://dlmf.nist.gov/2.7.E30]: Skipped - no semantic math
+889 [http://dlmf.nist.gov/2.7.E30]: Skipped - Unable to analyze test case: Null
 890 [http://dlmf.nist.gov/2.7.E31]: Failure [Simple: NaN]
 891 [http://dlmf.nist.gov/2.7.E32]: Skipped - Invalid test case: bigO
 892 [http://dlmf.nist.gov/2.7.E33]: Skipped - Unable to analyze test case: Null
@@ -265,12 +274,12 @@ Overall: [TOTAL: 387, SKIPPED: 237, DEFINITIONS: 14, STARTED_TEST_CASES: 136, ER
 909 [http://dlmf.nist.gov/2.8.E10]: Failure [Simple: NaN]
 910 [http://dlmf.nist.gov/2.8.E11]: Skipped - Invalid test case: bigO
 911 [http://dlmf.nist.gov/2.8.E12]: Skipped - Invalid test case: bigO
-912 [http://dlmf.nist.gov/2.8.E13]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
+912 [http://dlmf.nist.gov/2.8.E13]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
 913 [http://dlmf.nist.gov/2.8.E14]: Failure [Simple: NaN]
 914 [http://dlmf.nist.gov/2.8.E15]: Skipped - Invalid test case: bigO
 915 [http://dlmf.nist.gov/2.8.E16]: Skipped - Invalid test case: bigO
 916 [http://dlmf.nist.gov/2.8.E17]: Skipped - Invalid test case: cases
-917 [http://dlmf.nist.gov/2.8.E18]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
+917 [http://dlmf.nist.gov/2.8.E18]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
 918 [http://dlmf.nist.gov/2.8.E19]: Failure [Simple: NaN]
 919 [http://dlmf.nist.gov/2.8.E20]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \envAiryAi [\envAiryAi]
 919-a [http://dlmf.nist.gov/2.8.E20]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \envAiryBi [\envAiryBi]
@@ -281,12 +290,12 @@ Overall: [TOTAL: 387, SKIPPED: 237, DEFINITIONS: 14, STARTED_TEST_CASES: 136, ER
 924 [http://dlmf.nist.gov/2.8.E24]: Failure [Simple: NaN]
 925 [http://dlmf.nist.gov/2.8.E25]: Skipped - Invalid test case: bigO
 926 [http://dlmf.nist.gov/2.8.E26]: Skipped - Invalid test case: bigO
-927 [http://dlmf.nist.gov/2.8.E27]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
-928 [http://dlmf.nist.gov/2.8.E28]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
+927 [http://dlmf.nist.gov/2.8.E27]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
+928 [http://dlmf.nist.gov/2.8.E28]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
 929 [http://dlmf.nist.gov/2.8.E29]: Skipped - Invalid test case: bigO
 930 [http://dlmf.nist.gov/2.8.E30]: Skipped - Invalid test case: bigO
-931 [http://dlmf.nist.gov/2.8.E31]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
-932 [http://dlmf.nist.gov/2.8.E32]: Translation Error - (LaTeX -> Mathematica) Error while translating DLMF/DRMF Macro: The arguments of semantic macros must be wrapped in curly brackets! It seems you wrote \BesselJ(...) instead of \BesselJ{...} [\BesselJ]
+931 [http://dlmf.nist.gov/2.8.E31]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
+932 [http://dlmf.nist.gov/2.8.E32]: Failure [Simple: NaN]
 933 [https://dlmf.nist.gov/2.8#Ex9]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \envBesselJ [\envBesselJ]
 934 [https://dlmf.nist.gov/2.8#Ex10]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \envBesselY [\envBesselY]
 935 [http://dlmf.nist.gov/2.8.E34]: Missing Macro Error - (LaTeX -> Mathematica) Unknown LaTeX Command: Reached unknown latex-command \envBesselJ [\envBesselJ]
@@ -297,7 +306,7 @@ Overall: [TOTAL: 387, SKIPPED: 237, DEFINITIONS: 14, STARTED_TEST_CASES: 136, ER
 939 [http://dlmf.nist.gov/2.9.E2]: Skipped - Invalid test case: fDiff
 940 [https://dlmf.nist.gov/2.9#Ex1]: Skipped - Unable to analyze test case: Null
 941 [https://dlmf.nist.gov/2.9#Ex2]: Skipped - Unable to analyze test case: Null
-942 [http://dlmf.nist.gov/2.9.E4]: Skipped - no semantic math
+942 [http://dlmf.nist.gov/2.9.E4]: Skipped - Unable to analyze test case: Null
 943 [http://dlmf.nist.gov/2.9.E5]: Skipped - no semantic math
 944 [http://dlmf.nist.gov/2.9.E6]: Skipped - no semantic math
 945 [http://dlmf.nist.gov/2.9.E7]: Failure [Simple: NaN]
@@ -311,7 +320,7 @@ Overall: [TOTAL: 387, SKIPPED: 237, DEFINITIONS: 14, STARTED_TEST_CASES: 136, ER
 953 [http://dlmf.nist.gov/2.10.E1]: Skipped - Invalid test case: Generic function f(j)
 954 [http://dlmf.nist.gov/2.10.E2]: Skipped - Invalid test case: Generic function f(j)
 955 [http://dlmf.nist.gov/2.10.E3]: Failure [Simple: NaN]
-956 [http://dlmf.nist.gov/2.10.E4]: All Aborted: [Simple: Aborted]
+956 [http://dlmf.nist.gov/2.10.E4]: All Aborted: [Simple: NaN]
 957 [http://dlmf.nist.gov/2.10.E5]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \perBernoulliB [\perBernoulliB]
 958 [http://dlmf.nist.gov/2.10.E6]: Failure [Simple: NaN]
 958-a [http://dlmf.nist.gov/2.10.E6]: Successful [Simple: 0]
@@ -319,10 +328,10 @@ Overall: [TOTAL: 387, SKIPPED: 237, DEFINITIONS: 14, STARTED_TEST_CASES: 136, ER
 960 [http://dlmf.nist.gov/2.10.E8]: Skipped - Unable to analyze test case: Null
 961 [http://dlmf.nist.gov/2.10.E9]: Skipped - no semantic math
 962 [http://dlmf.nist.gov/2.10.E10]: Skipped - no semantic math
-963 [http://dlmf.nist.gov/2.10.E11]: Skipped - no semantic math
+963 [http://dlmf.nist.gov/2.10.E11]: Failure [Simple: NaN]
 964 [http://dlmf.nist.gov/2.10.E12]: Failure [Simple: NaN]
-965 [http://dlmf.nist.gov/2.10.E13]: Skipped - no semantic math
-966 [http://dlmf.nist.gov/2.10.E14]: Skipped - no semantic math
+965 [http://dlmf.nist.gov/2.10.E13]: Failure [Simple: NaN]
+966 [http://dlmf.nist.gov/2.10.E14]: Failure [Simple: NaN]
 967 [http://dlmf.nist.gov/2.10.E15]: Skipped - Invalid test case: bigO
 968 [http://dlmf.nist.gov/2.10.E16]: Skipped - Invalid test case: bigO
 969 [http://dlmf.nist.gov/2.10.E17]: Skipped - Invalid test case: bigO
@@ -352,21 +361,21 @@ Overall: [TOTAL: 387, SKIPPED: 237, DEFINITIONS: 14, STARTED_TEST_CASES: 136, ER
 992 [https://dlmf.nist.gov/2.11#Ex2]: Skipped - no semantic math
 993 [https://dlmf.nist.gov/2.11#Ex3]: Skipped - no semantic math
 994 [http://dlmf.nist.gov/2.11.E4]: Skipped - no semantic math
-995 [http://dlmf.nist.gov/2.11.E5]: Successful under condition [Simple: 0.0 under condition: And[Greater[Re[p], 0], Greater[Re[z], 0]]]
+995 [http://dlmf.nist.gov/2.11.E5]: Successful under condition [Simple: ConditionalExpression[0, And[Greater[Re[p], 0], Greater[Re[z], 0]]]]
 996 [http://dlmf.nist.gov/2.11.E6]: Skipped - Unable to analyze test case: Null
 997 [http://dlmf.nist.gov/2.11.E7]: Skipped - Unable to analyze test case: Null
 998 [http://dlmf.nist.gov/2.11.E8]: Skipped - no semantic math
 999 [http://dlmf.nist.gov/2.11.E9]: Skipped - no semantic math
 1000 [http://dlmf.nist.gov/2.11.E10]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \terminant [\terminant]
 1001 [http://dlmf.nist.gov/2.11.E11]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \terminant [\terminant]
-1001-a [http://dlmf.nist.gov/2.11.E11]: All Aborted: [Simple: Aborted]
+1001-a [http://dlmf.nist.gov/2.11.E11]: Successful under condition [Simple: ConditionalExpression[0, And[Greater[Re[Plus[n, p]], 0], Greater[Re[z], 0]]]]
 1002 [http://dlmf.nist.gov/2.11.E12]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \terminant [\terminant]
 1003 [http://dlmf.nist.gov/2.11.E13]: Skipped - Unable to analyze test case: Null
-1004 [http://dlmf.nist.gov/2.11.E14]: Skipped - no semantic math
+1004 [http://dlmf.nist.gov/2.11.E14]: Failure [Simple: NaN]
 1005 [http://dlmf.nist.gov/2.11.E15]: Skipped - Unable to analyze test case: Null
-1006 [http://dlmf.nist.gov/2.11.E16]: Skipped - no semantic math
-1007 [http://dlmf.nist.gov/2.11.E17]: Skipped - no semantic math
-1008 [http://dlmf.nist.gov/2.11.E18]: Skipped - no semantic math
+1006 [http://dlmf.nist.gov/2.11.E16]: Failure [Simple: NaN]
+1007 [http://dlmf.nist.gov/2.11.E17]: Failure [Simple: NaN]
+1008 [http://dlmf.nist.gov/2.11.E18]: Failure [Simple: NaN]
 1009 [http://dlmf.nist.gov/2.11.E19]: Skipped - no semantic math
 1010 [http://dlmf.nist.gov/2.11.E20]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \terminant [\terminant]
 1011 [http://dlmf.nist.gov/2.11.E21]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \terminant [\terminant]
@@ -385,5 +394,5 @@ Overall: [TOTAL: 387, SKIPPED: 237, DEFINITIONS: 14, STARTED_TEST_CASES: 136, ER
 1024 [http://dlmf.nist.gov/2.11.E29]: Skipped - Unable to analyze test case: Null
 1025 [http://dlmf.nist.gov/2.11.E30]: Skipped - no semantic math
 1026 [http://dlmf.nist.gov/2.11.E31]: Failure [Simple: NaN]
-1027 [http://dlmf.nist.gov/2.11.E32]: Failure [Simple: NaN]
+1027 [http://dlmf.nist.gov/2.11.E32]: All Aborted: [Simple: NaN]
 1028 [http://dlmf.nist.gov/3.1.E1]: Skipped - no semantic math

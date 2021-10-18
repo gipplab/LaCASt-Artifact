@@ -1,4 +1,4 @@
-Overall: [TOTAL: 207, SKIPPED: 31, DEFINITIONS: 1, STARTED_TEST_CASES: 175, ERROR_TRANS: 16, MISSING: 35, SUCCESS_TRANS: 124, SUCCESS_SYMB: 6, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 98, ABORTED: 20, ERROR: 0] for test expression: (#LHS)-(#RHS)
+Overall: [TOTAL: 214, SKIPPED: 38, DEFINITIONS: 1, STARTED_TEST_CASES: 175, ERROR_TRANS: 15, MISSING: 35, SUCCESS_TRANS: 125, SUCCESS_SYMB: 6, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 98, NO_TEST_VALUES: 0, ABORTED: 21, ERROR: 0] for test expression: (#LHS)-(#RHS)
 [SIMPLE]
 5254 [https://dlmf.nist.gov/17.1#Ex1]: Skipped - Invalid test case: Generic function f(\chi_{1};\chi_{2},\dots,\chi_{n})
 5255 [http://dlmf.nist.gov/17.2.E1]: Skipped - Invalid test case: cdots
@@ -33,20 +33,20 @@ Overall: [TOTAL: 207, SKIPPED: 31, DEFINITIONS: 1, STARTED_TEST_CASES: 175, ERRO
 5280 [http://dlmf.nist.gov/17.2.E26]: Failure [Simple: NaN]
 5281 [http://dlmf.nist.gov/17.2.E27]: Failure [Simple: NaN]
 5281-a [http://dlmf.nist.gov/17.2.E27]: Failure [Simple: NaN]
-5282 [http://dlmf.nist.gov/17.2.E28]: All Aborted: [Simple: Aborted]
+5282 [http://dlmf.nist.gov/17.2.E28]: All Aborted: [Simple: NaN]
 5282-a [http://dlmf.nist.gov/17.2.E28]: Successful [Simple: 0]
 5283 [http://dlmf.nist.gov/17.2.E29]: Failure [Simple: NaN]
 5284 [http://dlmf.nist.gov/17.2.E30]: Failure [Simple: NaN]
 5285 [http://dlmf.nist.gov/17.2.E31]: Failure [Simple: NaN]
 5286 [http://dlmf.nist.gov/17.2.E32]: Failure [Simple: NaN]
-5287 [http://dlmf.nist.gov/17.2.E33]: Failure [Simple: NaN]
+5287 [http://dlmf.nist.gov/17.2.E33]: All Aborted: [Simple: NaN]
 5288 [http://dlmf.nist.gov/17.2.E34]: Failure [Simple: NaN]
 5288-a [http://dlmf.nist.gov/17.2.E34]: Failure [Simple: NaN]
 5289 [http://dlmf.nist.gov/17.2.E35]: Successful [Simple: 0]
 5290 [http://dlmf.nist.gov/17.2.E36]: Successful [Simple: 0]
 5291 [http://dlmf.nist.gov/17.2.E37]: Failure [Simple: NaN]
-5292 [http://dlmf.nist.gov/17.2.E38]: All Aborted: [Simple: Aborted]
-5293 [http://dlmf.nist.gov/17.2.E39]: All Aborted: [Simple: Aborted]
+5292 [http://dlmf.nist.gov/17.2.E38]: All Aborted: [Simple: NaN]
+5293 [http://dlmf.nist.gov/17.2.E39]: All Aborted: [Simple: NaN]
 5294 [http://dlmf.nist.gov/17.2.E40]: Successful [Simple: 0]
 5295 [http://dlmf.nist.gov/17.2.E41]: Definition - Line is a non-semantic definition.
 5296 [http://dlmf.nist.gov/17.2.E42]: Skipped - Invalid test case: Generic function f(z), Generic function f(z), cases
@@ -59,9 +59,9 @@ Overall: [TOTAL: 207, SKIPPED: 31, DEFINITIONS: 1, STARTED_TEST_CASES: 175, ERRO
 5303 [http://dlmf.nist.gov/17.2.E49]: Skipped - no semantic math
 5304 [http://dlmf.nist.gov/17.2.E50]: Skipped - no semantic math
 5305 [http://dlmf.nist.gov/17.3.E1]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \qexp [\qexp]
-5305-a [http://dlmf.nist.gov/17.3.E1]: All Aborted: [Simple: Aborted]
+5305-a [http://dlmf.nist.gov/17.3.E1]: All Aborted: [Simple: NaN]
 5306 [http://dlmf.nist.gov/17.3.E2]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \qExp [\qExp]
-5306-a [http://dlmf.nist.gov/17.3.E2]: All Aborted: [Simple: Aborted]
+5306-a [http://dlmf.nist.gov/17.3.E2]: All Aborted: [Simple: NaN]
 5307 [http://dlmf.nist.gov/17.3.E3]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \qsin [\qsin]
 5307-a [http://dlmf.nist.gov/17.3.E3]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \qexp [\qexp]
 5308 [http://dlmf.nist.gov/17.3.E4]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \qSin [\qSin]
@@ -84,8 +84,15 @@ Overall: [TOTAL: 207, SKIPPED: 31, DEFINITIONS: 1, STARTED_TEST_CASES: 175, ERRO
 5322 [http://dlmf.nist.gov/17.4.E9]: Skipped - no semantic math
 5323 [http://dlmf.nist.gov/17.4.E10]: Skipped - no semantic math
 5324 [http://dlmf.nist.gov/17.4.E11]: Skipped - no semantic math
+5324-a [http://dlmf.nist.gov/17.4.E11]: Skipped - no semantic math
+5324-b [http://dlmf.nist.gov/17.4.E11]: Skipped - no semantic math
+5324-c [http://dlmf.nist.gov/17.4.E11]: Skipped - no semantic math
 5325 [http://dlmf.nist.gov/17.4.E12]: Skipped - no semantic math
+5325-a [http://dlmf.nist.gov/17.4.E12]: Skipped - no semantic math
 5326 [http://dlmf.nist.gov/17.4.E13]: Skipped - no semantic math
+5326-a [http://dlmf.nist.gov/17.4.E13]: Skipped - no semantic math
+5326-b [http://dlmf.nist.gov/17.4.E13]: Skipped - no semantic math
+5326-c [http://dlmf.nist.gov/17.4.E13]: Skipped - no semantic math
 5327 [http://dlmf.nist.gov/17.5.E1]: Failure [Simple: NaN]
 5327-a [http://dlmf.nist.gov/17.5.E1]: Failure [Simple: NaN]
 5328 [http://dlmf.nist.gov/17.5.E2]: Failure [Simple: NaN]
@@ -101,12 +108,12 @@ Overall: [TOTAL: 207, SKIPPED: 31, DEFINITIONS: 1, STARTED_TEST_CASES: 175, ERRO
 5337 [http://dlmf.nist.gov/17.6.E6]: Failure [Simple: NaN]
 5338 [http://dlmf.nist.gov/17.6.E7]: Failure [Simple: NaN]
 5339 [http://dlmf.nist.gov/17.6.E8]: Failure [Simple: NaN]
-5340 [http://dlmf.nist.gov/17.6.E9]: All Aborted: [Simple: Aborted]
-5341 [http://dlmf.nist.gov/17.6.E10]: All Aborted: [Simple: Aborted]
-5342 [http://dlmf.nist.gov/17.6.E11]: All Aborted: [Simple: Aborted]
-5343 [http://dlmf.nist.gov/17.6.E12]: All Aborted: [Simple: Aborted]
+5340 [http://dlmf.nist.gov/17.6.E9]: All Aborted: [Simple: NaN]
+5341 [http://dlmf.nist.gov/17.6.E10]: All Aborted: [Simple: NaN]
+5342 [http://dlmf.nist.gov/17.6.E11]: All Aborted: [Simple: NaN]
+5343 [http://dlmf.nist.gov/17.6.E12]: All Aborted: [Simple: NaN]
 5344 [http://dlmf.nist.gov/17.6.E13]: Failure [Simple: NaN]
-5345 [http://dlmf.nist.gov/17.6.E14]: All Aborted: [Simple: Aborted]
+5345 [http://dlmf.nist.gov/17.6.E14]: All Aborted: [Simple: NaN]
 5346 [http://dlmf.nist.gov/17.6.E15]: Failure [Simple: NaN]
 5347 [http://dlmf.nist.gov/17.6.E16]: Failure [Simple: NaN]
 5348 [http://dlmf.nist.gov/17.6.E17]: Failure [Simple: NaN]
@@ -131,23 +138,23 @@ Overall: [TOTAL: 207, SKIPPED: 31, DEFINITIONS: 1, STARTED_TEST_CASES: 175, ERRO
 5367 [http://dlmf.nist.gov/17.7.E7]: Failure [Simple: NaN]
 5368 [http://dlmf.nist.gov/17.7.E8]: Failure [Simple: NaN]
 5369 [http://dlmf.nist.gov/17.7.E9]: Skipped - Invalid test case: cases
-5370 [http://dlmf.nist.gov/17.7.E10]: Translation Error - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 [5370: \qgenhyperphi{8}{7}@@{-c,q(-c)^{\frac{1}{2}},-q(-c)^{\frac{1}{2}},a,q/a,c,-d,-q/d}{(-c)^{\frac{1}{2}},-(-c)^{\frac{1}{2}},-cq/a,-ac,-q,cq/d,cd}{q}{c} EQUAL \frac{\qmultiPochhammersym{-c,-cq}{q}{\infty}\qmultiPochhammersym{acd,acq/d,cdq/a,cq^{2}/(ad)}{q^{2}}{\infty}}{\qmultiPochhammersym{cd,cq/d,-ac,-cq/a}{q}{\infty}}; http://dlmf.nist.gov/17.7.E10]
+5370 [http://dlmf.nist.gov/17.7.E10]: Failure [Simple: NaN]
 5371 [http://dlmf.nist.gov/17.7.E11]: Failure [Simple: NaN]
 5372 [http://dlmf.nist.gov/17.7.E12]: Failure [Simple: NaN]
 5373 [http://dlmf.nist.gov/17.7.E13]: Failure [Simple: NaN]
-5374 [http://dlmf.nist.gov/17.7.E14]: Translation Error - (LaTeX -> Mathematica) The current implementation is wrong: MathTermTranslator don't expected brackets but found )
-5375 [http://dlmf.nist.gov/17.7.E15]: Translation Error - (LaTeX -> Mathematica) The current implementation is wrong: MathTermTranslator don't expected brackets but found )
+5374 [http://dlmf.nist.gov/17.7.E14]: Translation Error - (LaTeX -> Mathematica) Parenthesis mismatch in expression: Found unexpected bracket: ). We are not in set-mode so parenthesis logic must be valid!
+5375 [http://dlmf.nist.gov/17.7.E15]: Translation Error - (LaTeX -> Mathematica) Parenthesis mismatch in expression: Found unexpected bracket: ). We are not in set-mode so parenthesis logic must be valid!
 5376 [http://dlmf.nist.gov/17.7.E16]: Failure [Simple: NaN]
-5377 [http://dlmf.nist.gov/17.7.E17]: Translation Error - (LaTeX -> Mathematica) The current implementation is wrong: MathTermTranslator don't expected brackets but found )
+5377 [http://dlmf.nist.gov/17.7.E17]: Translation Error - (LaTeX -> Mathematica) Parenthesis mismatch in expression: Found unexpected bracket: ). We are not in set-mode so parenthesis logic must be valid!
 5378 [http://dlmf.nist.gov/17.7.E18]: Skipped - Invalid test case: dots
 5379 [http://dlmf.nist.gov/17.7.E19]: Skipped - Invalid test case: dots
-5380 [http://dlmf.nist.gov/17.7.E20]: All Aborted: [Simple: Aborted]
-5381 [http://dlmf.nist.gov/17.7.E21]: All Aborted: [Simple: Aborted]
-5382 [http://dlmf.nist.gov/17.7.E22]: All Aborted: [Simple: Aborted]
-5383 [http://dlmf.nist.gov/17.7.E23]: All Aborted: [Simple: Aborted]
-5384 [http://dlmf.nist.gov/17.8.E1]: All Aborted: [Simple: Aborted]
+5380 [http://dlmf.nist.gov/17.7.E20]: All Aborted: [Simple: NaN]
+5381 [http://dlmf.nist.gov/17.7.E21]: All Aborted: [Simple: NaN]
+5382 [http://dlmf.nist.gov/17.7.E22]: All Aborted: [Simple: NaN]
+5383 [http://dlmf.nist.gov/17.7.E23]: All Aborted: [Simple: NaN]
+5384 [http://dlmf.nist.gov/17.8.E1]: All Aborted: [Simple: NaN]
 5385 [http://dlmf.nist.gov/17.8.E2]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \qgenhyperpsi [\qgenhyperpsi]
-5386 [http://dlmf.nist.gov/17.8.E3]: All Aborted: [Simple: Aborted]
+5386 [http://dlmf.nist.gov/17.8.E3]: All Aborted: [Simple: NaN]
 5387 [http://dlmf.nist.gov/17.8.E4]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \qgenhyperpsi [\qgenhyperpsi]
 5388 [http://dlmf.nist.gov/17.8.E5]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \qgenhyperpsi [\qgenhyperpsi]
 5389 [http://dlmf.nist.gov/17.8.E6]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \qgenhyperpsi [\qgenhyperpsi]
@@ -171,8 +178,8 @@ Overall: [TOTAL: 207, SKIPPED: 31, DEFINITIONS: 1, STARTED_TEST_CASES: 175, ERRO
 5406 [http://dlmf.nist.gov/17.9.E16]: Failure [Simple: NaN]
 5407 [http://dlmf.nist.gov/17.9.E17]: Failure [Simple: NaN]
 5408 [http://dlmf.nist.gov/17.9.E18]: Failure [Simple: NaN]
-5409 [http://dlmf.nist.gov/17.9.E19]: All Aborted: [Simple: Aborted]
-5410 [http://dlmf.nist.gov/17.9.E20]: All Aborted: [Simple: Aborted]
+5409 [http://dlmf.nist.gov/17.9.E19]: All Aborted: [Simple: NaN]
+5410 [http://dlmf.nist.gov/17.9.E20]: All Aborted: [Simple: NaN]
 5411 [http://dlmf.nist.gov/17.10.E1]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \qgenhyperpsi [\qgenhyperpsi]
 5412 [http://dlmf.nist.gov/17.10.E2]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \qgenhyperpsi [\qgenhyperpsi]
 5413 [http://dlmf.nist.gov/17.10.E3]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \qgenhyperpsi [\qgenhyperpsi]
@@ -186,10 +193,10 @@ Overall: [TOTAL: 207, SKIPPED: 31, DEFINITIONS: 1, STARTED_TEST_CASES: 175, ERRO
 5421 [http://dlmf.nist.gov/17.12.E1]: Skipped - no semantic math
 5422 [https://dlmf.nist.gov/17.12#Ex1]: Skipped - no semantic math
 5423 [https://dlmf.nist.gov/17.12#Ex2]: Skipped - no semantic math
-5424 [http://dlmf.nist.gov/17.12.E3]: All Aborted: [Simple: Aborted]
-5425 [http://dlmf.nist.gov/17.12.E4]: All Aborted: [Simple: Aborted]
-5426 [https://dlmf.nist.gov/17.12#Ex3]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
-5427 [https://dlmf.nist.gov/17.12#Ex4]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentation primes) but not in other places.
+5424 [http://dlmf.nist.gov/17.12.E3]: All Aborted: [Simple: NaN]
+5425 [http://dlmf.nist.gov/17.12.E4]: All Aborted: [Simple: NaN]
+5426 [https://dlmf.nist.gov/17.12#Ex3]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
+5427 [https://dlmf.nist.gov/17.12#Ex4]: Translation Error - (LaTeX -> Mathematica) The input LaTeX is invalid: Primes can only be translated behind semantic macros (differentiation primes) but not in other places.
 5428 [https://dlmf.nist.gov/17.12#Ex5]: Failure [Simple: NaN]
 5429 [https://dlmf.nist.gov/17.12#Ex6]: Failure [Simple: NaN]
 5430 [http://dlmf.nist.gov/17.13.E1]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \qdiff [\qdiff]
@@ -197,13 +204,13 @@ Overall: [TOTAL: 207, SKIPPED: 31, DEFINITIONS: 1, STARTED_TEST_CASES: 175, ERRO
 5432 [http://dlmf.nist.gov/17.13.E3]: Failure [Simple: NaN]
 5433 [http://dlmf.nist.gov/17.13.E4]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \qdiff [\qdiff]
 5434 [http://dlmf.nist.gov/17.14.E1]: Skipped - Invalid test case: cdots
-5435 [http://dlmf.nist.gov/17.14.E2]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag
-5435-a [http://dlmf.nist.gov/17.14.E2]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag
-5435-b [http://dlmf.nist.gov/17.14.E2]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag
-5436 [http://dlmf.nist.gov/17.14.E3]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag
-5436-a [http://dlmf.nist.gov/17.14.E3]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag
-5437 [http://dlmf.nist.gov/17.14.E4]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag
-5437-a [http://dlmf.nist.gov/17.14.E4]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag
-5438 [http://dlmf.nist.gov/17.14.E5]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag
-5438-a [http://dlmf.nist.gov/17.14.E5]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag
-5438-b [http://dlmf.nist.gov/17.14.E5]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag
+5435 [http://dlmf.nist.gov/17.14.E2]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
+5435-a [http://dlmf.nist.gov/17.14.E2]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
+5435-b [http://dlmf.nist.gov/17.14.E2]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
+5436 [http://dlmf.nist.gov/17.14.E3]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
+5436-a [http://dlmf.nist.gov/17.14.E3]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
+5437 [http://dlmf.nist.gov/17.14.E4]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
+5437-a [http://dlmf.nist.gov/17.14.E4]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
+5438 [http://dlmf.nist.gov/17.14.E5]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
+5438-a [http://dlmf.nist.gov/17.14.E5]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
+5438-b [http://dlmf.nist.gov/17.14.E5]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag. Unable to translate: 

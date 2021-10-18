@@ -1,7 +1,7 @@
-Overall: [TOTAL: 135, SKIPPED: 54, DEFINITIONS: 2, STARTED_TEST_CASES: 79, ERROR_TRANS: 15, MISSING: 49, SUCCESS_TRANS: 15, SUCCESS_SYMB: 6, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 9, ABORTED: 0, ERROR: 0] for test expression: (#LHS)-(#RHS)
+Overall: [TOTAL: 135, SKIPPED: 54, DEFINITIONS: 2, STARTED_TEST_CASES: 79, ERROR_TRANS: 4, MISSING: 50, SUCCESS_TRANS: 25, SUCCESS_SYMB: 7, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 18, NO_TEST_VALUES: 0, ABORTED: 0, ERROR: 0] for test expression: (#LHS)-(#RHS)
 [SIMPLE]
-7948 [http://dlmf.nist.gov/27.2.E1]: Translation Error - (LaTeX -> Mathematica) No translation possible for given token: Unable to identify interval of PROD
-7949 [http://dlmf.nist.gov/27.2.E2]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \nprimes [\nprimes]
+7948 [http://dlmf.nist.gov/27.2.E1]: Failure [Simple: NaN]
+7949 [http://dlmf.nist.gov/27.2.E2]: Failure [Simple: NaN]
 7950 [http://dlmf.nist.gov/27.2.E3]: Skipped - Unable to analyze test case: Null
 7951 [http://dlmf.nist.gov/27.2.E4]: Skipped - Unable to analyze test case: Null
 7952 [http://dlmf.nist.gov/27.2.E5]: Skipped - Invalid test case: cases
@@ -16,7 +16,7 @@ Overall: [TOTAL: 135, SKIPPED: 54, DEFINITIONS: 2, STARTED_TEST_CASES: 79, ERROR
 7961 [http://dlmf.nist.gov/27.2.E14]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \MangoldtLambda [\MangoldtLambda]
 7962 [http://dlmf.nist.gov/27.3.E1]: Skipped - no semantic math
 7963 [http://dlmf.nist.gov/27.3.E2]: Skipped - Invalid test case: Generic function f(n)
-7964 [http://dlmf.nist.gov/27.3.E3]: Translation Error - java.lang.NullPointerException [7964: \Eulertotientphi@{n} EQUAL n\prod_{p\divides n}(1-p^{-1}); http://dlmf.nist.gov/27.3.E3]
+7964 [http://dlmf.nist.gov/27.3.E3]: Failure [Simple: NaN]
 7965 [http://dlmf.nist.gov/27.3.E4]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \JordanJ [\JordanJ]
 7966 [http://dlmf.nist.gov/27.3.E5]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \ndivisors [\ndivisors]
 7967 [http://dlmf.nist.gov/27.3.E6]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \sumdivisors [\sumdivisors]
@@ -33,43 +33,43 @@ Overall: [TOTAL: 135, SKIPPED: 54, DEFINITIONS: 2, STARTED_TEST_CASES: 79, ERROR
 7977 [http://dlmf.nist.gov/27.4.E6]: Successful [Simple: 0]
 7978 [http://dlmf.nist.gov/27.4.E7]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Liouvillelambda [\Liouvillelambda]
 7979 [http://dlmf.nist.gov/27.4.E8]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Moebiusmu [\Moebiusmu]
-7980 [http://dlmf.nist.gov/27.4.E9]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \nprimesdiv [\nprimesdiv]
+7980 [http://dlmf.nist.gov/27.4.E9]: Successful [Simple: 0]
 7981 [http://dlmf.nist.gov/27.4.E10]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \ndivisors [\ndivisors]
 7982 [http://dlmf.nist.gov/27.4.E11]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \sumdivisors [\sumdivisors]
 7983 [http://dlmf.nist.gov/27.4.E12]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \MangoldtLambda [\MangoldtLambda]
 7984 [http://dlmf.nist.gov/27.4.E13]: Successful [Simple: 0]
 7985 [http://dlmf.nist.gov/27.5.E1]: Skipped - Invalid test case: Generic function f(d)
-7986 [http://dlmf.nist.gov/27.5.E2]: Translation Error - java.lang.NullPointerException [7986: \sum_{d\divides n}\Moebiusmu@{d} EQUAL \floor{\frac{1}{n}}; http://dlmf.nist.gov/27.5.E2]
+7986 [http://dlmf.nist.gov/27.5.E2]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Moebiusmu [\Moebiusmu]
 7987 [http://dlmf.nist.gov/27.5.E3]: Skipped - Invalid test case: Generic function g(n), Generic function f(d)
-7988 [http://dlmf.nist.gov/27.5.E4]: Translation Error - java.lang.NullPointerException [7988: n EQUAL \sum_{d\divides n}\Eulertotientphi@{d}\Longleftrightarrow\Eulertotientphi@{n}; http://dlmf.nist.gov/27.5.E4]
-7988-a [http://dlmf.nist.gov/27.5.E4]: Translation Error - java.lang.NullPointerException [7988: \sum_{d\divides n}\Eulertotientphi@{d}\Longleftrightarrow\Eulertotientphi@{n} EQUAL \sum_{d\divides n}d\Moebiusmu@{\frac{n}{d}}; http://dlmf.nist.gov/27.5.E4]
-7989 [http://dlmf.nist.gov/27.5.E5]: Translation Error - java.lang.NullPointerException [7989: \ln@@{n} EQUAL \sum_{d\divides n}\MangoldtLambda@{d}\Longleftrightarrow\MangoldtLambda@{n}; http://dlmf.nist.gov/27.5.E5]
-7989-a [http://dlmf.nist.gov/27.5.E5]: Translation Error - java.lang.NullPointerException [7989: \sum_{d\divides n}\MangoldtLambda@{d}\Longleftrightarrow\MangoldtLambda@{n} EQUAL \sum_{d\divides n}(\ln@@{d})\Moebiusmu@{\frac{n}{d}}; http://dlmf.nist.gov/27.5.E5]
+7988 [http://dlmf.nist.gov/27.5.E4]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Unknown relation. Cannot translate: \Longleftrightarrow [\Longleftrightarrow]
+7988-a [http://dlmf.nist.gov/27.5.E4]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Unknown relation. Cannot translate: \Longleftrightarrow [\Longleftrightarrow]
+7989 [http://dlmf.nist.gov/27.5.E5]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \MangoldtLambda [\MangoldtLambda]
+7989-a [http://dlmf.nist.gov/27.5.E5]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \MangoldtLambda [\MangoldtLambda]
 7990 [http://dlmf.nist.gov/27.5.E6]: Skipped - Invalid test case: Generic function G(x), Generic function F\left(\frac{x}{n}\right)
 7991 [http://dlmf.nist.gov/27.5.E7]: Skipped - Invalid test case: Generic function G(x), Generic function F(mx)
 7992 [http://dlmf.nist.gov/27.5.E8]: Skipped - Invalid test case: Generic function g(n), Generic function f(d)
 7993 [http://dlmf.nist.gov/27.6.E1]: Skipped - Invalid test case: cases
 7994 [http://dlmf.nist.gov/27.6.E2]: Skipped - Invalid test case: Generic function f(d)
-7995 [http://dlmf.nist.gov/27.6.E3]: Translation Error - java.lang.NullPointerException [7995: \sum_{d\divides n}|\Moebiusmu@{d}| EQUAL 2^{\nprimesdiv@{n}}; http://dlmf.nist.gov/27.6.E3]
-7996 [http://dlmf.nist.gov/27.6.E4]: Translation Error - java.lang.NullPointerException [7996: \sum_{d^{2}\divides n}\Moebiusmu@{d} EQUAL |\Moebiusmu@{n}|; http://dlmf.nist.gov/27.6.E4]
-7997 [http://dlmf.nist.gov/27.6.E5]: Translation Error - java.lang.NullPointerException [7997: \sum_{d\divides n}\frac{|\Moebiusmu@{d}|}{\Eulertotientphi@{d}} EQUAL \frac{n}{\Eulertotientphi@{n}}; http://dlmf.nist.gov/27.6.E5]
+7995 [http://dlmf.nist.gov/27.6.E3]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Moebiusmu [\Moebiusmu]
+7996 [http://dlmf.nist.gov/27.6.E4]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Moebiusmu [\Moebiusmu]
+7997 [http://dlmf.nist.gov/27.6.E5]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Moebiusmu [\Moebiusmu]
 7998 [http://dlmf.nist.gov/27.6.E6]: Skipped - Invalid test case: dots
-7999 [http://dlmf.nist.gov/27.6.E7]: Translation Error - java.lang.NullPointerException [7999: \sum_{d\divides n}\Moebiusmu@{d}\left(\frac{n}{d}\right)^{k} EQUAL \JordanJ{k}@{n}; http://dlmf.nist.gov/27.6.E7]
-8000 [http://dlmf.nist.gov/27.6.E8]: Translation Error - java.lang.NullPointerException [8000: \sum_{d\divides n}\JordanJ{k}@{d} EQUAL n^{k}; http://dlmf.nist.gov/27.6.E8]
-8001 [http://dlmf.nist.gov/27.7.E1]: Skipped - no semantic math
+7999 [http://dlmf.nist.gov/27.6.E7]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Moebiusmu [\Moebiusmu]
+8000 [http://dlmf.nist.gov/27.6.E8]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \JordanJ [\JordanJ]
+8001 [http://dlmf.nist.gov/27.7.E1]: Skipped - Unable to analyze test case: Null
 8002 [http://dlmf.nist.gov/27.7.E2]: Skipped - Invalid test case: Generic function f(n)
 8003 [http://dlmf.nist.gov/27.7.E3]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Moebiusmu [\Moebiusmu]
 8004 [http://dlmf.nist.gov/27.7.E4]: Successful [Simple: 0]
 8005 [http://dlmf.nist.gov/27.7.E5]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \sumdivisors [\sumdivisors]
 8006 [http://dlmf.nist.gov/27.7.E6]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Liouvillelambda [\Liouvillelambda]
-8007 [http://dlmf.nist.gov/27.8.E1]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Dirichletchar [\Dirichletchar]
-8008 [http://dlmf.nist.gov/27.8.E2]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Dirichletchar [\Dirichletchar]
-8009 [http://dlmf.nist.gov/27.8.E3]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Dirichletchar [\Dirichletchar]
-8010 [http://dlmf.nist.gov/27.8.E4]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Dirichletchar [\Dirichletchar]
+8007 [http://dlmf.nist.gov/27.8.E1]: Failure [Simple: NaN]
+8008 [http://dlmf.nist.gov/27.8.E2]: Failure [Simple: NaN]
+8009 [http://dlmf.nist.gov/27.8.E3]: Failure [Simple: NaN]
+8010 [http://dlmf.nist.gov/27.8.E4]: Failure [Simple: NaN]
 8011 [http://dlmf.nist.gov/27.8.E5]: Skipped - Invalid test case: cases
 8012 [http://dlmf.nist.gov/27.8.E6]: Skipped - Invalid test case: cases
-8013 [http://dlmf.nist.gov/27.8.E7]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Dirichletchar [\Dirichletchar]
-8014 [http://dlmf.nist.gov/27.8.E8]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Dirichletchar [\Dirichletchar]
+8013 [http://dlmf.nist.gov/27.8.E7]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty expression tag. Unable to translate: 
+8014 [http://dlmf.nist.gov/27.8.E8]: Failure [Simple: NaN]
 8015 [http://dlmf.nist.gov/27.9.E1]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Legendresym [\Legendresym]
 8016 [http://dlmf.nist.gov/27.9.E2]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Legendresym [\Legendresym]
 8017 [http://dlmf.nist.gov/27.9.E3]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Legendresym [\Legendresym]
@@ -84,7 +84,7 @@ Overall: [TOTAL: 135, SKIPPED: 54, DEFINITIONS: 2, STARTED_TEST_CASES: 79, ERROR
 8026 [http://dlmf.nist.gov/27.10.E9]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Gausssum [\Gausssum]
 8027 [http://dlmf.nist.gov/27.10.E10]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Gausssum [\Gausssum]
 8028 [http://dlmf.nist.gov/27.10.E11]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Gausssum [\Gausssum]
-8029 [http://dlmf.nist.gov/27.10.E12]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Dirichletchar [\Dirichletchar]
+8029 [http://dlmf.nist.gov/27.10.E12]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Gausssum [\Gausssum]
 8030 [http://dlmf.nist.gov/27.11.E1]: Skipped - Invalid test case: Generic function f(n)
 8031 [http://dlmf.nist.gov/27.11.E2]: Skipped - Invalid test case: bigO
 8032 [http://dlmf.nist.gov/27.11.E3]: Skipped - Invalid test case: bigO
@@ -106,7 +106,7 @@ Overall: [TOTAL: 135, SKIPPED: 54, DEFINITIONS: 2, STARTED_TEST_CASES: 79, ERROR
 8048 [http://dlmf.nist.gov/27.12.E4]: Skipped - Unable to analyze test case: Null
 8049 [http://dlmf.nist.gov/27.12.E5]: Skipped - Invalid test case: bigO
 8050 [http://dlmf.nist.gov/27.12.E6]: Skipped - Invalid test case: bigO
-8051 [http://dlmf.nist.gov/27.12.E7]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \nprimes [\nprimes]
+8051 [http://dlmf.nist.gov/27.12.E7]: Failure [Simple: NaN]
 8052 [http://dlmf.nist.gov/27.12.E8]: Skipped - Unable to analyze test case: Null
 8053 [http://dlmf.nist.gov/27.13.E1]: Skipped - no semantic math
 8054 [http://dlmf.nist.gov/27.13.E2]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Waringg [\Waringg]
@@ -133,5 +133,5 @@ Overall: [TOTAL: 135, SKIPPED: 54, DEFINITIONS: 2, STARTED_TEST_CASES: 79, ERROR
 8075 [http://dlmf.nist.gov/27.14.E16]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \DiscriminantDelta [\DiscriminantDelta]
 8076 [http://dlmf.nist.gov/27.14.E17]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \DiscriminantDelta [\DiscriminantDelta]
 8077 [http://dlmf.nist.gov/27.14.E18]: Successful [Simple: 0]
-8078 [http://dlmf.nist.gov/27.14.E19]: Translation Error - java.lang.NullPointerException [8078: \Ramanujantau@{m}\Ramanujantau@{n} EQUAL \sum_{d\divides\pgcd{m,n}}d^{11}\Ramanujantau@{\frac{mn}{d^{2}}}; http://dlmf.nist.gov/27.14.E19]
+8078 [http://dlmf.nist.gov/27.14.E19]: Translation Error - (LaTeX -> Mathematica) No translation possible for given token: Unable to identify interval of SUM
 8079 [http://dlmf.nist.gov/27.14.E20]: Skipped - Unable to analyze test case: Null

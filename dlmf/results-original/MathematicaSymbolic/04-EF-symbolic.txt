@@ -1,17 +1,17 @@
-Overall: [TOTAL: 665, SKIPPED: 89, DEFINITIONS: 7, STARTED_TEST_CASES: 569, ERROR_TRANS: 1, MISSING: 4, SUCCESS_TRANS: 564, SUCCESS_SYMB: 295, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 9, FAILURE: 255, ABORTED: 5, ERROR: 0] for test expression: (#LHS)-(#RHS)
+Overall: [TOTAL: 670, SKIPPED: 111, DEFINITIONS: 7, STARTED_TEST_CASES: 552, ERROR_TRANS: 1, MISSING: 4, SUCCESS_TRANS: 547, SUCCESS_SYMB: 283, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 9, FAILURE: 249, NO_TEST_VALUES: 0, ABORTED: 6, ERROR: 0] for test expression: (#LHS)-(#RHS)
 [SIMPLE]
-1462 [http://dlmf.nist.gov/4.2.E1]: Successful under condition [Simple: 0.0 under condition: Or[Greater[Re[z], 0], NotElement[z, Reals]]]
-1463 [http://dlmf.nist.gov/4.2.E2]: Successful under condition [Simple: 0.0 under condition: Or[Greater[Re[z], 0], NotElement[z, Reals]]]
+1462 [http://dlmf.nist.gov/4.2.E1]: Successful under condition [Simple: ConditionalExpression[0, Or[Greater[Re[z], 0], NotElement[z, Reals]]]]
+1463 [http://dlmf.nist.gov/4.2.E2]: Successful under condition [Simple: ConditionalExpression[0, Or[Greater[Re[z], 0], NotElement[z, Reals]]]]
 1464 [http://dlmf.nist.gov/4.2.E3]: Successful [Simple: 0]
 1465 [http://dlmf.nist.gov/4.2.E4]: Skipped - no semantic math
 1466 [http://dlmf.nist.gov/4.2.E5]: Successful [Simple: 0]
 1467 [http://dlmf.nist.gov/4.2.E6]: Failure [Simple: NaN]
-1468 [http://dlmf.nist.gov/4.2.E7]: Successful [Simple: 0]
+1468 [http://dlmf.nist.gov/4.2.E7]: Failure [Simple: NaN]
 1468-a [http://dlmf.nist.gov/4.2.E7]: Failure [Simple: NaN]
 1469 [http://dlmf.nist.gov/4.2.E8]: Successful [Simple: 0]
 1470 [http://dlmf.nist.gov/4.2.E9]: Successful [Simple: 0]
 1471 [http://dlmf.nist.gov/4.2.E10]: Successful [Simple: 0]
-1472 [http://dlmf.nist.gov/4.2.E11]: Successful [Simple: 0]
+1472 [http://dlmf.nist.gov/4.2.E11]: Skipped - no semantic math
 1473 [http://dlmf.nist.gov/4.2.E12]: Successful [Simple: 0]
 1474 [http://dlmf.nist.gov/4.2.E13]: Successful [Simple: 0]
 1475 [http://dlmf.nist.gov/4.2.E14]: Successful [Simple: 0]
@@ -52,7 +52,7 @@ Overall: [TOTAL: 665, SKIPPED: 89, DEFINITIONS: 7, STARTED_TEST_CASES: 569, ERRO
 1504-a [http://dlmf.nist.gov/4.4.E5]: Successful [Simple: 0]
 1505 [http://dlmf.nist.gov/4.4.E6]: Successful [Simple: 0]
 1505-a [http://dlmf.nist.gov/4.4.E6]: Successful [Simple: 0]
-1506 [http://dlmf.nist.gov/4.4.E7]: Successful [Simple: 0]
+1506 [http://dlmf.nist.gov/4.4.E7]: Failure [Simple: NaN]
 1507 [http://dlmf.nist.gov/4.4.E8]: Successful [Simple: 0]
 1507-a [http://dlmf.nist.gov/4.4.E8]: Successful [Simple: 0]
 1508 [http://dlmf.nist.gov/4.4.E9]: Successful [Simple: 0]
@@ -63,8 +63,8 @@ Overall: [TOTAL: 665, SKIPPED: 89, DEFINITIONS: 7, STARTED_TEST_CASES: 569, ERRO
 1510-a [http://dlmf.nist.gov/4.4.E11]: Successful [Simple: 0]
 1511 [http://dlmf.nist.gov/4.4.E12]: Successful [Simple: 0]
 1511-a [http://dlmf.nist.gov/4.4.E12]: Successful [Simple: 0]
-1512 [http://dlmf.nist.gov/4.4.E13]: Successful under condition [Simple: 0.0 under condition: Greater[a, 0]]
-1513 [http://dlmf.nist.gov/4.4.E14]: Successful under condition [Simple: 0.0 under condition: Greater[a, 0]]
+1512 [http://dlmf.nist.gov/4.4.E13]: Failure [Simple: NaN]
+1513 [http://dlmf.nist.gov/4.4.E14]: Failure [Simple: NaN]
 1514 [http://dlmf.nist.gov/4.4.E15]: Skipped - no semantic math
 1515 [http://dlmf.nist.gov/4.4.E16]: Skipped - no semantic math
 1516 [http://dlmf.nist.gov/4.4.E17]: Skipped - no semantic math
@@ -79,22 +79,22 @@ Overall: [TOTAL: 665, SKIPPED: 89, DEFINITIONS: 7, STARTED_TEST_CASES: 569, ERRO
 1522 [http://dlmf.nist.gov/4.5.E4]: Failure [Simple: NaN]
 1523 [http://dlmf.nist.gov/4.5.E5]: Failure [Simple: NaN]
 1524 [http://dlmf.nist.gov/4.5.E6]: Failure [Simple: NaN]
-1525 [http://dlmf.nist.gov/4.5.E7]: Failure [Simple: NaN]
-1525-a [http://dlmf.nist.gov/4.5.E7]: Failure [Simple: NaN]
-1526 [http://dlmf.nist.gov/4.5.E8]: Failure [Simple: NaN]
-1527 [http://dlmf.nist.gov/4.5.E9]: Failure [Simple: NaN]
-1528 [http://dlmf.nist.gov/4.5.E10]: Failure [Simple: NaN]
-1528-a [http://dlmf.nist.gov/4.5.E10]: Failure [Simple: NaN]
-1529 [http://dlmf.nist.gov/4.5.E11]: Failure [Simple: NaN]
-1529-a [http://dlmf.nist.gov/4.5.E11]: Failure [Simple: NaN]
-1530 [http://dlmf.nist.gov/4.5.E12]: Failure [Simple: NaN]
-1531 [http://dlmf.nist.gov/4.5.E13]: Failure [Simple: NaN]
-1531-a [http://dlmf.nist.gov/4.5.E13]: Failure [Simple: NaN]
-1532 [http://dlmf.nist.gov/4.5.E14]: Failure [Simple: NaN]
-1533 [http://dlmf.nist.gov/4.5.E15]: Failure [Simple: NaN]
-1533-a [http://dlmf.nist.gov/4.5.E15]: Failure [Simple: NaN]
-1534 [http://dlmf.nist.gov/4.5.E16]: Failure [Simple: NaN]
-1534-a [http://dlmf.nist.gov/4.5.E16]: Failure [Simple: NaN]
+1525 [http://dlmf.nist.gov/4.5.E7]: Skipped - no semantic math
+1525-a [http://dlmf.nist.gov/4.5.E7]: Skipped - no semantic math
+1526 [http://dlmf.nist.gov/4.5.E8]: Skipped - no semantic math
+1527 [http://dlmf.nist.gov/4.5.E9]: Skipped - no semantic math
+1528 [http://dlmf.nist.gov/4.5.E10]: Skipped - no semantic math
+1528-a [http://dlmf.nist.gov/4.5.E10]: Skipped - no semantic math
+1529 [http://dlmf.nist.gov/4.5.E11]: Skipped - no semantic math
+1529-a [http://dlmf.nist.gov/4.5.E11]: Skipped - no semantic math
+1530 [http://dlmf.nist.gov/4.5.E12]: Skipped - no semantic math
+1531 [http://dlmf.nist.gov/4.5.E13]: Skipped - no semantic math
+1531-a [http://dlmf.nist.gov/4.5.E13]: Skipped - no semantic math
+1532 [http://dlmf.nist.gov/4.5.E14]: Skipped - no semantic math
+1533 [http://dlmf.nist.gov/4.5.E15]: Skipped - no semantic math
+1533-a [http://dlmf.nist.gov/4.5.E15]: Skipped - no semantic math
+1534 [http://dlmf.nist.gov/4.5.E16]: Skipped - no semantic math
+1534-a [http://dlmf.nist.gov/4.5.E16]: Skipped - no semantic math
 1535 [http://dlmf.nist.gov/4.6.E1]: Skipped - Invalid test case: cdots
 1536 [http://dlmf.nist.gov/4.6.E2]: Skipped - Invalid test case: cdots
 1537 [http://dlmf.nist.gov/4.6.E3]: Skipped - Invalid test case: cdots
@@ -152,7 +152,7 @@ Overall: [TOTAL: 665, SKIPPED: 89, DEFINITIONS: 7, STARTED_TEST_CASES: 569, ERRO
 1588 [http://dlmf.nist.gov/4.10.E8]: Successful [Simple: 0]
 1589 [http://dlmf.nist.gov/4.10.E9]: Successful [Simple: 0]
 1590 [http://dlmf.nist.gov/4.10.E10]: Failure [Simple: NaN]
-1591 [http://dlmf.nist.gov/4.10.E11]: Successful [Simple: 0]
+1591 [http://dlmf.nist.gov/4.10.E11]: Successful under condition [Simple: ConditionalExpression[0, Greater[Re[c], 0]]]
 1592 [http://dlmf.nist.gov/4.10.E12]: Successful [Simple: 0]
 1593 [http://dlmf.nist.gov/4.10.E13]: Successful [Simple: 0]
 1594 [http://dlmf.nist.gov/4.12.E1]: Skipped - no semantic math
@@ -160,12 +160,13 @@ Overall: [TOTAL: 665, SKIPPED: 89, DEFINITIONS: 7, STARTED_TEST_CASES: 569, ERRO
 1596 [http://dlmf.nist.gov/4.12.E3]: Skipped - no semantic math
 1597 [http://dlmf.nist.gov/4.12.E4]: Skipped - no semantic math
 1598 [http://dlmf.nist.gov/4.12.E5]: Skipped - no semantic math
+1598-a [http://dlmf.nist.gov/4.12.E5]: Skipped - no semantic math
 1599 [http://dlmf.nist.gov/4.12.E6]: Failure [Simple: NaN]
 1600 [http://dlmf.nist.gov/4.12.E7]: Skipped - Invalid test case: cdots
 1601 [http://dlmf.nist.gov/4.12.E8]: Skipped - no semantic math
-1602 [http://dlmf.nist.gov/4.12.E9]: Skipped - no semantic math
+1602 [http://dlmf.nist.gov/4.12.E9]: Skipped - Invalid test case: cdots
 1603 [http://dlmf.nist.gov/4.12.E10]: Definition - Line is a non-semantic definition.
-1604 [http://dlmf.nist.gov/4.13.E1]: Failure [Simple: NaN]
+1604 [http://dlmf.nist.gov/4.13.E1]: Skipped - no semantic math
 1605 [https://dlmf.nist.gov/4.13#Ex1]: Successful [Simple: 0]
 1605-a [https://dlmf.nist.gov/4.13#Ex1]: Successful [Simple: 0]
 1606 [https://dlmf.nist.gov/4.13#Ex2]: Successful [Simple: 0]
@@ -177,6 +178,10 @@ Overall: [TOTAL: 665, SKIPPED: 89, DEFINITIONS: 7, STARTED_TEST_CASES: 569, ERRO
 1611 [http://dlmf.nist.gov/4.13.E5]: Successful [Simple: 0]
 1612 [http://dlmf.nist.gov/4.13.E6]: Failure [Simple: NaN]
 1613 [http://dlmf.nist.gov/4.13.E7]: Skipped - no semantic math
+1613-a [http://dlmf.nist.gov/4.13.E7]: Skipped - no semantic math
+1613-b [http://dlmf.nist.gov/4.13.E7]: Skipped - no semantic math
+1613-c [http://dlmf.nist.gov/4.13.E7]: Skipped - no semantic math
+1613-d [http://dlmf.nist.gov/4.13.E7]: Skipped - no semantic math
 1614 [http://dlmf.nist.gov/4.13.E8]: Skipped - no semantic math
 1615 [http://dlmf.nist.gov/4.13.E9]: Skipped - no semantic math
 1616 [http://dlmf.nist.gov/4.13.E10]: Skipped - Invalid test case: bigO
@@ -309,9 +314,9 @@ Overall: [TOTAL: 665, SKIPPED: 89, DEFINITIONS: 7, STARTED_TEST_CASES: 569, ERRO
 1715 [http://dlmf.nist.gov/4.22.E3]: Successful [Simple: 0]
 1716 [http://dlmf.nist.gov/4.22.E4]: Successful [Simple: 0]
 1717 [http://dlmf.nist.gov/4.22.E5]: Successful [Simple: 0]
-1718 [http://dlmf.nist.gov/4.23.E1]: Successful under condition [Simple: 0.0 under condition: Or[Inequality[-1, Less, Re[z], LessEqual, 1], NotElement[z, Reals]]]
-1719 [http://dlmf.nist.gov/4.23.E2]: Successful under condition [Simple: 0.0 under condition: And[Inequality[0, Less, Re[z], Less, 1], Equal[Im[z], 0]]]
-1720 [http://dlmf.nist.gov/4.23.E3]: Successful under condition [Simple: 0.0 under condition: Or[Inequality[-1, Less, Im[z], Less, 0], Inequality[0, Less, Im[z], Less, 1], Unequal[Re[z], 0]]]
+1718 [http://dlmf.nist.gov/4.23.E1]: Successful under condition [Simple: ConditionalExpression[0, Or[Inequality[-1, Less, Re[z], LessEqual, 1], NotElement[z, Reals]]]]
+1719 [http://dlmf.nist.gov/4.23.E2]: Successful under condition [Simple: ConditionalExpression[0, And[Inequality[0, Less, Re[z], Less, 1], Equal[Im[z], 0]]]]
+1720 [http://dlmf.nist.gov/4.23.E3]: Successful under condition [Simple: ConditionalExpression[0, Or[Inequality[-1, Less, Im[z], Less, 0], Inequality[0, Less, Im[z], Less, 1], Unequal[Re[z], 0]]]]
 1721 [http://dlmf.nist.gov/4.23.E4]: Successful [Simple: 0]
 1722 [http://dlmf.nist.gov/4.23.E5]: Successful [Simple: 0]
 1723 [http://dlmf.nist.gov/4.23.E6]: Successful [Simple: 0]
@@ -357,7 +362,7 @@ Overall: [TOTAL: 665, SKIPPED: 89, DEFINITIONS: 7, STARTED_TEST_CASES: 569, ERRO
 1753 [http://dlmf.nist.gov/4.23.E36]: Failure [Simple: NaN]
 1754 [http://dlmf.nist.gov/4.23.E37]: Definition - Line is a non-semantic definition.
 1755 [http://dlmf.nist.gov/4.23.E38]: Definition - Line is a non-semantic definition.
-1756 [http://dlmf.nist.gov/4.23.E39]: All Aborted: [Simple: Aborted]
+1756 [http://dlmf.nist.gov/4.23.E39]: All Aborted: [Simple: NaN]
 1757 [http://dlmf.nist.gov/4.23.E40]: Failure [Simple: NaN]
 1757-a [http://dlmf.nist.gov/4.23.E40]: Failure [Simple: NaN]
 1757-b [http://dlmf.nist.gov/4.23.E40]: Successful [Simple: 0]
@@ -365,7 +370,7 @@ Overall: [TOTAL: 665, SKIPPED: 89, DEFINITIONS: 7, STARTED_TEST_CASES: 569, ERRO
 1757-d [http://dlmf.nist.gov/4.23.E40]: Successful [Simple: 0]
 1757-e [http://dlmf.nist.gov/4.23.E40]: Failure [Simple: NaN]
 1757-f [http://dlmf.nist.gov/4.23.E40]: Successful [Simple: 0]
-1758 [http://dlmf.nist.gov/4.23.E41]: All Aborted: [Simple: Aborted]
+1758 [http://dlmf.nist.gov/4.23.E41]: All Aborted: [Simple: NaN]
 1759 [http://dlmf.nist.gov/4.23.E42]: Successful [Simple: 0]
 1759-a [http://dlmf.nist.gov/4.23.E42]: Successful [Simple: 0]
 1759-b [http://dlmf.nist.gov/4.23.E42]: Failure [Simple: NaN]
@@ -410,7 +415,7 @@ Overall: [TOTAL: 665, SKIPPED: 89, DEFINITIONS: 7, STARTED_TEST_CASES: 569, ERRO
 1782 [http://dlmf.nist.gov/4.26.E1]: Successful [Simple: 0]
 1783 [http://dlmf.nist.gov/4.26.E2]: Successful [Simple: 0]
 1784 [http://dlmf.nist.gov/4.26.E3]: Successful [Simple: 0]
-1785 [http://dlmf.nist.gov/4.26.E4]: Successful [Simple: 0]
+1785 [http://dlmf.nist.gov/4.26.E4]: Failure [Simple: NaN]
 1786 [http://dlmf.nist.gov/4.26.E5]: Failure [Simple: NaN]
 1787 [http://dlmf.nist.gov/4.26.E6]: Successful [Simple: 0]
 1788 [http://dlmf.nist.gov/4.26.E7]: Successful [Simple: 0]
@@ -512,8 +517,8 @@ Overall: [TOTAL: 665, SKIPPED: 89, DEFINITIONS: 7, STARTED_TEST_CASES: 569, ERRO
 1869 [http://dlmf.nist.gov/4.35.E30]: Successful [Simple: 0]
 1870 [http://dlmf.nist.gov/4.35.E31]: Successful [Simple: 0]
 1871 [http://dlmf.nist.gov/4.35.E32]: Successful [Simple: 0]
-1872 [http://dlmf.nist.gov/4.35.E33]: Successful [Simple: 0]
-1872-a [http://dlmf.nist.gov/4.35.E33]: Successful [Simple: 0]
+1872 [http://dlmf.nist.gov/4.35.E33]: Failure [Simple: NaN]
+1872-a [http://dlmf.nist.gov/4.35.E33]: Failure [Simple: NaN]
 1873 [http://dlmf.nist.gov/4.35.E34]: Successful [Simple: 0]
 1874 [http://dlmf.nist.gov/4.35.E35]: Successful [Simple: 0]
 1875 [http://dlmf.nist.gov/4.35.E36]: Successful [Simple: 0]
@@ -528,9 +533,9 @@ Overall: [TOTAL: 665, SKIPPED: 89, DEFINITIONS: 7, STARTED_TEST_CASES: 569, ERRO
 1882 [http://dlmf.nist.gov/4.36.E3]: Successful [Simple: 0]
 1883 [http://dlmf.nist.gov/4.36.E4]: Successful [Simple: 0]
 1884 [http://dlmf.nist.gov/4.36.E5]: Successful [Simple: 0]
-1885 [http://dlmf.nist.gov/4.37.E1]: Successful under condition [Simple: 0.0 under condition: Or[Inequality[-1, Less, Im[z], Less, 0], Inequality[0, Less, Im[z], Less, 1], Unequal[Re[z], 0]]]
-1886 [http://dlmf.nist.gov/4.37.E2]: All Aborted: [Simple: Aborted]
-1887 [http://dlmf.nist.gov/4.37.E3]: Successful under condition [Simple: 0.0 under condition: Or[Unequal[Im[z], 0], Inequality[-1, Less, Re[z], LessEqual, 1]]]
+1885 [http://dlmf.nist.gov/4.37.E1]: Successful under condition [Simple: ConditionalExpression[0, Or[Inequality[-1, Less, Im[z], Less, 0], Inequality[0, Less, Im[z], Less, 1], Unequal[Re[z], 0]]]]
+1886 [http://dlmf.nist.gov/4.37.E2]: All Aborted: [Simple: NaN]
+1887 [http://dlmf.nist.gov/4.37.E3]: Successful under condition [Simple: ConditionalExpression[0, Or[Unequal[Im[z], 0], Inequality[-1, Less, Re[z], LessEqual, 1]]]]
 1888 [http://dlmf.nist.gov/4.37.E4]: Successful [Simple: 0]
 1889 [http://dlmf.nist.gov/4.37.E5]: Successful [Simple: 0]
 1890 [http://dlmf.nist.gov/4.37.E6]: Successful [Simple: 0]
@@ -546,7 +551,7 @@ Overall: [TOTAL: 665, SKIPPED: 89, DEFINITIONS: 7, STARTED_TEST_CASES: 569, ERRO
 1898-a [http://dlmf.nist.gov/4.37.E14]: Failure [Simple: NaN]
 1899 [http://dlmf.nist.gov/4.37.E15]: Successful [Simple: 0]
 1900 [http://dlmf.nist.gov/4.37.E16]: Successful [Simple: 0]
-1901 [http://dlmf.nist.gov/4.37.E17]: Successful [Simple: 0]
+1901 [http://dlmf.nist.gov/4.37.E17]: Failure [Simple: NaN]
 1901-a [http://dlmf.nist.gov/4.37.E17]: Failure [Simple: NaN]
 1902 [http://dlmf.nist.gov/4.37.E18]: Failure [Simple: NaN]
 1902-a [http://dlmf.nist.gov/4.37.E18]: Failure [Simple: NaN]
@@ -611,15 +616,15 @@ Overall: [TOTAL: 665, SKIPPED: 89, DEFINITIONS: 7, STARTED_TEST_CASES: 569, ERRO
 1941 [http://dlmf.nist.gov/4.40.E4]: Successful [Simple: 0]
 1942 [http://dlmf.nist.gov/4.40.E5]: Failure [Simple: NaN]
 1943 [http://dlmf.nist.gov/4.40.E6]: Successful [Simple: 0]
-1944 [http://dlmf.nist.gov/4.40.E7]: All Aborted: [Simple: Aborted]
-1945 [http://dlmf.nist.gov/4.40.E8]: All Aborted: [Simple: Aborted]
-1946 [http://dlmf.nist.gov/4.40.E9]: Successful [Simple: 0]
-1947 [http://dlmf.nist.gov/4.40.E10]: Skipped - Unable to analyze test case: Null
+1944 [http://dlmf.nist.gov/4.40.E7]: All Aborted: [Simple: NaN]
+1945 [http://dlmf.nist.gov/4.40.E8]: All Aborted: [Simple: NaN]
+1946 [http://dlmf.nist.gov/4.40.E9]: Successful under condition [Simple: ConditionalExpression[0, Inequality[-1, Less, Re[a], Less, 1]]]
+1947 [http://dlmf.nist.gov/4.40.E10]: All Aborted: [Simple: NaN]
 1948 [http://dlmf.nist.gov/4.40.E11]: Successful [Simple: 0]
-1949 [http://dlmf.nist.gov/4.40.E12]: Successful [Simple: 0]
+1949 [http://dlmf.nist.gov/4.40.E12]: Failure [Simple: NaN]
 1950 [http://dlmf.nist.gov/4.40.E13]: Successful [Simple: 0]
-1951 [http://dlmf.nist.gov/4.40.E14]: Successful [Simple: 0]
-1952 [http://dlmf.nist.gov/4.40.E15]: Successful [Simple: 0]
+1951 [http://dlmf.nist.gov/4.40.E14]: Failure [Simple: NaN]
+1952 [http://dlmf.nist.gov/4.40.E15]: Failure [Simple: NaN]
 1953 [http://dlmf.nist.gov/4.40.E16]: Failure [Simple: NaN]
 1954 [http://dlmf.nist.gov/4.42.E1]: Failure [Simple: NaN]
 1954-a [http://dlmf.nist.gov/4.42.E1]: Failure [Simple: NaN]

@@ -2,7 +2,7 @@
 \irregCoulombH, 13
 \regCoulombf, 12
 \irregCoulombh, 10
-\regCoulombs, 6
+\regCoulombs, 7
 \irregCoulombG, 6
 \irregCoulombc, 5
 \normCoulombC, 5

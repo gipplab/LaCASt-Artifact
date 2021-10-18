@@ -1,4 +1,4 @@
-Overall: [TOTAL: 223, SKIPPED: 73, DEFINITIONS: 42, STARTED_TEST_CASES: 108, ERROR_TRANS: 11, MISSING: 86, SUCCESS_TRANS: 11, SUCCESS_SYMB: 0, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 11, ABORTED: 0, ERROR: 0] for test expression: (#LHS)-(#RHS)
+Overall: [TOTAL: 225, SKIPPED: 75, DEFINITIONS: 42, STARTED_TEST_CASES: 108, ERROR_TRANS: 6, MISSING: 87, SUCCESS_TRANS: 15, SUCCESS_SYMB: 0, SUCCESS_NUM: 0, SUCCESS_UNDER_EXTRA_CONDITION: 0, FAILURE: 15, NO_TEST_VALUES: 0, ABORTED: 0, ERROR: 0] for test expression: (#LHS)-(#RHS)
 [SIMPLE]
 9456 [http://dlmf.nist.gov/33.2.E1]: Failure [Simple: NaN]
 9457 [http://dlmf.nist.gov/33.2.E2]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \Coulombturnrho [\Coulombturnrho]
@@ -142,7 +142,7 @@ Overall: [TOTAL: 223, SKIPPED: 73, DEFINITIONS: 42, STARTED_TEST_CASES: 108, ERR
 9582 [http://dlmf.nist.gov/33.14.E12]: Failure [Simple: NaN]
 9583 [http://dlmf.nist.gov/33.14.E13]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \regCoulombs [\regCoulombs]
 9584 [http://dlmf.nist.gov/33.14.E14]: Definition - Line is a non-semantic definition.
-9585 [http://dlmf.nist.gov/33.14.E15]: Translation Error - java.lang.NullPointerException [9585: \int_{0}^{\infty}_{m,\ell} (r) ((-1)^{\ell+1+n}(2/n^{3})^{1/2}\regCoulombs@{-1/n^{2}}{\ell}{r}) \diff{r} EQUAL \Kroneckerdelta{m}{n}; http://dlmf.nist.gov/33.14.E15]
+9585 [http://dlmf.nist.gov/33.14.E15]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \regCoulombs [\regCoulombs]
 9586 [https://dlmf.nist.gov/33.14#Ex5]: Translation Error - (LaTeX -> Mathematica) Error while translating DLMF/DRMF Macro: Unable to find @ after a DLMF macro. That is invalid syntax
 9587 [https://dlmf.nist.gov/33.14#Ex6]: Translation Error - (LaTeX -> Mathematica) Error while translating DLMF/DRMF Macro: Unable to find @ after a DLMF macro. That is invalid syntax
 9588 [http://dlmf.nist.gov/33.16.E1]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \regCoulombF [\regCoulombF]
@@ -189,13 +189,13 @@ Overall: [TOTAL: 223, SKIPPED: 73, DEFINITIONS: 42, STARTED_TEST_CASES: 108, ERR
 9629 [https://dlmf.nist.gov/33.20#Ex3]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \regCoulombf [\regCoulombf]
 9630 [https://dlmf.nist.gov/33.20#Ex4]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \irregCoulombh [\irregCoulombh]
 9631 [http://dlmf.nist.gov/33.20.E3]: Missing Macro Error - (LaTeX -> Mathematica) No translation possible for given token: Cannot extract information from feature set: \regCoulombf [\regCoulombf]
-9632 [http://dlmf.nist.gov/33.20.E4]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty math term tag
-9633 [http://dlmf.nist.gov/33.20.E5]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty math term tag
+9632 [http://dlmf.nist.gov/33.20.E4]: Failure [Simple: NaN]
+9633 [http://dlmf.nist.gov/33.20.E5]: Failure [Simple: NaN]
 9634 [https://dlmf.nist.gov/33.20#Ex5]: Skipped - no semantic math
 9635 [https://dlmf.nist.gov/33.20#Ex6]: Skipped - no semantic math
 9636 [http://dlmf.nist.gov/33.20.E7]: Skipped - Unable to analyze test case: Null
-9637 [http://dlmf.nist.gov/33.20.E8]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty math term tag
-9638 [http://dlmf.nist.gov/33.20.E9]: Translation Error - (LaTeX -> Mathematica) An unknown or missing element occurred: Empty math term tag
+9637 [http://dlmf.nist.gov/33.20.E8]: Failure [Simple: NaN]
+9638 [http://dlmf.nist.gov/33.20.E9]: Failure [Simple: NaN]
 9639 [https://dlmf.nist.gov/33.21#Ex1]: Skipped - Unable to analyze test case: Null
 9640 [https://dlmf.nist.gov/33.21#Ex2]: Skipped - Unable to analyze test case: Null
 9641 [https://dlmf.nist.gov/33.21#Ex3]: Skipped - Unable to analyze test case: Null
@@ -220,6 +220,8 @@ Overall: [TOTAL: 223, SKIPPED: 73, DEFINITIONS: 42, STARTED_TEST_CASES: 108, ERR
 9660 [https://dlmf.nist.gov/33.22#Ex16]: Skipped - no semantic math
 9661 [https://dlmf.nist.gov/33.22#Ex17]: Skipped - no semantic math
 9662 [https://dlmf.nist.gov/33.22#Ex18]: Skipped - no semantic math
+9662-a [https://dlmf.nist.gov/33.22#Ex18]: Skipped - no semantic math
 9663 [https://dlmf.nist.gov/33.22#Ex19]: Skipped - no semantic math
 9664 [https://dlmf.nist.gov/33.22#Ex20]: Skipped - no semantic math
+9664-a [https://dlmf.nist.gov/33.22#Ex20]: Skipped - no semantic math
 9665 [https://dlmf.nist.gov/33.22#Ex21]: Skipped - no semantic math

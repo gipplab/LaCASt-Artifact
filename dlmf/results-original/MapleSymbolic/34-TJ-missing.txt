@@ -1,4 +1,4 @@
-\Wignersixjsym, 21
-\Wignerthreejsym, 21
-\Wignerninejsym, 3
+\Wignerthreejsym, 25
+\Wignersixjsym, 22
+\Wignerninejsym, 5
 \ClebschGordan, 1
