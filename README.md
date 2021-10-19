@@ -16,7 +16,7 @@ $ cd artifact
 ```
 We further assume a Debian-based Linux system. However, other OS are also supported unless Java 11 or higher is installed and you follow the instructions for setting up the CAS. For a Debian-based Linux system, you can install Java 11 with
 ```
-$ cd artifact/bin
+$ cd bin
 $ sudo ./java-installer.sh
 $ java --version
 openjdk 11 2018-09-25
