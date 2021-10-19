@@ -10,10 +10,13 @@ Some of the results can only be reproduced if the CAS Maple or the CAS Mathemati
 
 ## 2. Minimal Instructions
 
-Copy the `artifact.zip` to a convenient place and unpack it. In the following, we assume a Debian-based Linux system. However, other OS are also supported unless Java 11 or higher is installed and you follow the instructions for setting up the CAS. For a Debian-based Linux system, you can install Java 11 with
-
+Copy the `artifact.zip` to a convenient place and unpack it. It contains the artifact itself (in the artifact directory), the license file, and this readme. In the following, we assume you are in the artifact directory which contains the artifact itself. Starting from the place of this README.md, you should enter:
 ```
-$ cd bin
+$ cd artifact
+```
+We further assume a Debian-based Linux system. However, other OS are also supported unless Java 11 or higher is installed and you follow the instructions for setting up the CAS. For a Debian-based Linux system, you can install Java 11 with
+```
+$ cd artifact/bin
 $ sudo ./java-installer.sh
 $ java --version
 openjdk 11 2018-09-25
@@ -25,13 +28,18 @@ And run LaCASt via
 ```
 $ ./lacast.sh -i
 ```
-Enter `help` in LaCASt for more information about the inputs. Instructions for the symbolic and numeric evaluation pipeline, as well as reproducing our results, follow below.
+Enter `help` in LaCASt for more information about the inputs. Instructions for the symbolic and numeric evaluation pipeline, as well as reproducing our results, follow below. 
 
 --------------------------------------------------------------------------------------------------------
 
-## 3.i. Content of this articaft
+## 3.i. Content of this project
 
 - README.md: This project description file.
+- LICENSE.txt: The license file.
+- artifact: The directory with the artifact itself in it with the following content.
+
+### 3.i.a Content of the artifact
+
 - lacast.sh: Script to interact with LaCASt (no CAS required).
 - lacast-dlmf-translation.sh: Translates all DLMF formulae as presented in the paper (no CAS required). See instructions below.
 - lacast-eval-numeric.sh: Performs numeric evaluations on DLMF formulae for a specific CAS (requires a CAS). See instructions below.
