@@ -158,26 +158,27 @@ Please read the "Setup Computer Algebra Systems Support" section below before yo
 Since reproducing all results may require some time, we first explain how to set up a smaller test set.
 
 1. Make sure you updated `lacast.config.yaml` according to your CAS installation.
-2. Update the file `config/symbolic_tests.properties` as you like. Specifically, change the `subset_tests` values to a smaller range, for example `subset_tests=1,100` to test lines 1-100. For reference, the `config/together-lines-orig.txt` shows the lines for each DLMF chapter. You may want to change the output directory at the end of the file, too.
-3. Run `./lacast-eval-symbolic.sh --maple` or `./lacast-eval-symbolic.sh --mathematica` to trigger our symbolic evaluation pipeline.
-4. Inspect the results generated (the location was specified in the config file at `output=`). By default, it should be in `./dlmf/results-generated/test-symbolic.txt`. If you used Mathematica, the output should be identical to the first 100 cases in `dlmf/results-original/MathematicaSymbolic/01-AL-symmbolic.txt`.
+2. Update the file `config/symbolic_tests.properties` as you like. This file defines the symbolic test setup. The file contains several comments (lines with leading `#` symbols) which explains what each setting does. In particular, change the `subset_tests` values (should be in the last line of the file) to a smaller range, for example `subset_tests=1,100` to test lines 1-100. Note that the first 11 lines of the file are comments and ignored by a parser (i.e., the `#subset_tests` in line 11 has no effect!). For reference, the `config/together-lines-orig.txt` shows the lines for each DLMF chapter. If you want to calculate an entire chapter, copy the lines from there. 
+3. You may want to change the output directory at the end of the properties file too: `output=...`. Please make sure you create the directory manually! The scripts only create the standard directories, such as `MathematicaSymbolic` but no custom paths. The entry `missing_macros_output` generates a file that simply contains a list of semantic LaTeX macros that causes a test case to fail. This additional file helps us to improve LaCASt further by implementing new translation rules for the macros that have the highest impact on the results. While this file is most likely not useful from a user perspective, setting a valid output path is mandatory in order to run our symbolic evaluations.
+4. Run `./lacast-eval-symbolic.sh --maple` or `./lacast-eval-symbolic.sh --mathematica` to trigger our symbolic evaluation pipeline. If you run into a `NoSuchFileException` the output path was not properly created. Update the `output` setting in the properties file or create the directory manually to avoid this error.
+5. Inspect the results generated (the location was specified in the config file at `output=`). By default, it should be in `./dlmf/results-generated/test-symbolic.txt`. If you used Mathematica, the output should be identical to the first 100 cases in `dlmf/results-original/MathematicaSymbolic/01-AL-symmbolic.txt`.
 
-For reproducing our results on DLMF chapters or even the entire DLMF, you can use the manual method outlined above or use a particular script that does the updating for you: `./scripts/symbolic-evaluator.sh`. Be advised that this may take a long time to complete depending on the timeout threshold specified in the config file.
+For reproducing our results on DLMF chapters or even the entire DLMF, you can use this manual method outlined above or use a particular script that updates the properties file for you: `./scripts/symbolic-evaluator.sh`. Be advised that this may take a long time to complete depending on the timeout threshold specified in the config file.
 
-1. The following script is defined by the `config/symbolic_tests-base.properties` file, which overwrites and updates the `symbolic_tests.properties` file mentioned above. If you want to change the test setup, change the file with the `-base` suffix!
-2. You do not need to specify `output`, `missing_macro_output`, and the `subset_tests` range in the file with the `-base` suffix. This will be updated automatically by the script.
+1. The following script is using the `config/symbolic_tests-base.properties` file, which overwrites and updates the `symbolic_tests.properties` file mentioned above for every chapter of the DLMF. If you want to change the test setup (as described above), change the file with the `-base` suffix rather than `symbolic_tests.properties`!
+2. You do not need to specify `output`, `missing_macro_output`, and the `subset_tests` range in the file with the `-base` suffix. This will be updated automatically by the script and is set to `./dlmf/results-generated/<CAS>Symbolic/` where `<CAS>` is the CAS you selected (i.e., Maple or Mathematica).
 3. The output path and range are defined with the `together-lines.txt` file. For example, if you want to reproduce the results for Mathematica Chapter 4 and 8 of the DLMF, the file only contains the following two lines:
     ```
     04-EF: 1462,1991
     08-IG: 2445,2718
     ```
-    The `together-lines-orig.txt` contains all chapters and limits. Simply copy the lines from here.
+    The `together-lines-orig.txt` contains all chapters and limits for reference. Simply copy the lines from here.
 
 4. Run the script either with `--maple` for Maple or `--mathematica` for Mathematica
     ```
     $ ./scripts/symbolic-evaluator.sh --mathematica
     ```
-5. Inspect the results. In the case of Chapter 4 and Mathematica for the CAS, the result is in `dlmf/results-generated/MathematicaSymbolic/04-EF-symbolic.txt`, and the file should be identical (up to version differences if you used a different Mathematica version) with our reference in `dlmf/results-original/MathematicaSymbolic/04-EF-symbolic.txt`
+5. Inspect the results. In the case of Chapter 4 and Mathematica for the CAS, the result is in `dlmf/results-generated/MathematicaSymbolic/04-EF-symbolic.txt`, and the file should be identical (up to minor differences explained earlier) with our reference in `dlmf/results-original/MathematicaSymbolic/04-EF-symbolic.txt`
 The script in step 4 will return a short overview of the processed chapters. If everything went smoothly, all chapters listed in the end show a 0. This 0 is the exit code of `java`. If anything goes wrong, the exit code is not 0. In this case, the output file for that chapter was not generated. If everything finished successfully, you see:
     ```
     The following lists the exit codes of the performed symbolic evaluations.
@@ -189,6 +190,7 @@ The script in step 4 will return a short overview of the processed chapters. If 
     ```
 
 If you wish to reproduce all of our results at once, follow these instructions:
+
 1. Copy the content of `config/symbolic_tests-orig.properties` (contains our original setup with a timeout of 30 seconds per test case) into `config/symbolic_tests-base.properties`.
 2. Copy the content of `config/together-lines-orig.txt` into `config/together-lines.txt`
 3. Start the script either for Maple or Mathematica, such as
@@ -215,7 +217,8 @@ This output shows that Chapter 19 did not finish successfully. In this case, you
 19-EL-2: 6500,6704
 ```
 For reproducing the symbolic evaluations, you should not run into these memory issues. However, it is very likely that you may encounter this issue when reproducing the numeric evaluation results.
-Further, Maple often ignores our specified timeout (see also our FAQ below). When this happens, you see a bunch of logs (debug level) that only update memory usage. We do not have a solution for this yet besides wait and hope Maple recovers. If it takes too long time use `CTRL+C` to stop the current computation. This aborts the evaluation pipeline only for the current chapter. If you used the script `symbolic-evaluator.sh`, LaCASt will simply continue with the next chapter. In the summary at the end, your manually stopped chapter has an exit code different to 0.
+Further, Maple often ignores our specified timeout (see also our FAQ below). When this happens, you see a bunch of logs (debug level in blue) that show only updates of memory usage. We do not have a solution for this yet besides wait and hope Maple recovers. If it takes too long, use `CTRL+C` to stop the current computation. This aborts the evaluation pipeline only for the current chapter. If you used the script `symbolic-evaluator.sh`, LaCASt will simply continue with the next chapter. In the summary at the end, your manually stopped chapter has an exit code different to 0.
+As an alternative, you can kill just a single test case. This is explained in the FAQ below.
 
 ### 4.iv. Reproducing Numeric Evaluation Results
 
@@ -225,8 +228,8 @@ Before reproducing the numeric evaluation results, try to reproduce the less com
 Compared to the symbolic results, the numeric evaluation pipeline may take much more time and require much more resources to compute.
 Again, it strongly depends on the timeout threshold you specify in the config. For our results presented in the paper, we set a timeout of 30 seconds. On our machine (8 Core á 2.60GHz and 32GB RAM), the numeric evaluations on the DLMF took over 8 hours with Mathematica.
 
-The numeric evaluations are organized like the symbolic evaluations outlined above with the `config/numerical_tests.properties` file, including the mentioned files with `-base` and `-orig` (for reference) suffixes. In the following, we presume you understand these files and what they do base on your experiments with the symbolic evaluation engine. There are a couple of specific differences in these properties files:
-* You either specify `subset_tests` to define the test lines or `symbolic_results_data`, which points to a result file generated by our symbolic evaluation pipeline. If you specify `symbolic_results_data`, the `subset_tests` entry is ignored (!), and numeric tests are only triggered on the test cases that failed in the given file `symbolic_results_data`. As explained in the paper, we only run numeric evaluations on failed symbolic evaluation test cases. If an equation was symbolically verified, they are almost certainly numerically successful too. Hence, we can focus on the remaining non-successful cases. Our dataset's first numeric test case is for line 54 because all other cases were either skipped or symbolically successful.
+The numeric evaluations are organized like the symbolic evaluations outlined above with the `config/numerical_tests.properties` file, including the mentioned files with `-base` (for the automatic updating script) and `-orig` (for reference) suffixes. In the following, we presume you understand these files and what they do base on your experiments with the symbolic evaluation engine. There are a couple of specific differences in these properties files you must be aware of:
+* You either specify `subset_tests` to define the test lines or `symbolic_results_data`, which points to a result file generated by our symbolic evaluation pipeline. If you specify `symbolic_results_data`, the `subset_tests` entry is ignored (!), and numeric tests are only triggered on the test cases that "failed" in the given file `symbolic_results_data`. As explained in the paper, we only run numeric evaluations on failed symbolic evaluation test cases. If an equation was symbolically verified, they are almost certainly numerically successful, too. Hence, we can focus on the remaining non-successful cases. Our dataset's first numeric test case is for line 54 because all other cases were either skipped or symbolically successful.
 * The `numerical_values` entry specifies the test values as explained in the paper.
 * The `special_variables` are variables that are automatically set to the values defined in `special_variables_values` (also explained in the paper)
 * The values `test_if_lhs_null`, `test_if_rhs_null`, and `test_expectation` are old values only applied to Maple. We strongly recommend not changing them and stick with the default setup `test_expression=(#LHS)-(#RHS)` unless you carefully studied the source code of LaCASt.
@@ -241,11 +244,11 @@ To reproduce a subset of the results, do the following steps:
     54 [http://dlmf.nist.gov/1.4.E8]: Failed [30/30]: {{Complex[0.7500000000000002`, 1.299038105676658`], {f := Power[E, Times[Complex[0, Rational[1, 6]], Pi]], x := Rational[3, 2]}}, {Complex[0.25000000000000006`, 0.4330127018922193`], {f := Power[E, Times[Complex[0, Rational[1, 6]], Pi]], x := Rational[1, 2]}}, {Complex[1.0000000000000002`, 1.7320508075688772`], {f := Power[E, Times[Complex[0, Rational[1, 6]], Pi]], x := 2}}, {Complex[-0.7499999999999997`, -1.299038105676658`], {f := Power[E, Times[Complex[0, Rational[2, 3]], Pi]], x := Rational[3, 2]}}, {Complex[-0.2499999999999999`, -0.43301270189221935`], {f := Power[E, Times[Complex[0, Rational[2, 3]], Pi]], x := Rational[1, 2]}}, ...}
     54-a [http://dlmf.nist.gov/1.4.E8]: Successful [Tested: 30]
     ```
-    Again, the first line summarizes the file (two started test cases, two successfully translated, one successfully numerically verified, one failed). The second and third lines contain the two test cases (because line 54 was a multi-equation, the case was split into the first and second equations). This should be identical to the first two tests in `./dlmf/results-original/MathematicaNumeric/01-AL-numeric.txt`. The notation style slightly differs from the reference because we constantly updated LaCASt for our upcoming projects, and for those, the `Rule[., .]` pattern was broken into its arguments. Our new format contains the more readable notation `f := 1` rather than `Rule[f, 1]`.
+    Again, the first line summarizes the file (two started test cases, two successfully translated, one successfully numerically verified, one failed). The second and third lines contain the two test cases (because line 54 was a multi-equation, the case was split into the first and second equation). This should be identical to the first two tests in `./dlmf/results-original/MathematicaNumeric/01-AL-numeric.txt`. The notation style slightly differs from the reference because we constantly updated LaCASt for our upcoming projects, and for those, the `Rule[., .]` pattern was broken into its arguments. Our new format contains the more readable notation `f := 1` rather than `Rule[f, 1]`.
 
 Like the scripts for symbolic evaluations, we have a more convenient script to test entire chapters of the DLMF, which again relies on the entries in `config/together-lines.txt` file. Be aware that this script does not set the `subset_tests` range but instead uses the chapter number and code in `together-lines.txt` to set the `symbolic_results_data` property. For convenience, the script has an additional `-r` flag for reverse mode, i.e., rather than testing all symbolically failed test cases, all successful cases are numerically evaluated.
 For reproducing our results on entire chapters, do the following:
-1. Update `config/numerical_tests-base.properties` as you like. Our setup is given in `config/numerical_tests-orig.properties`.
+1. Update `config/numerical_tests-base.properties` as you like (see the explanation in the symbolic evaluation section above for the `-base` suffix properties file). Our setup is given in `config/numerical_tests-orig.properties`.
 2. You do not need to specify `output`, `subset_tests`, or `symbolic_results_data` in the file with the `-base` suffix. This will be updated automatically by the script.
 3. The output path is defined with the `together-lines.txt` file. If you want to reproduce the results for Mathematica Chapter 4 and 8 of the DLMF, the file only contains the following two lines:
     ```
@@ -286,7 +289,7 @@ In case you have Mathematica installed on your system, you can go directly to "S
 If you do not have Mathematica installed, we recommend using the free "Wolfram Engine for Developers": https://www.wolfram.com/engine/.
 For license reasons, we are not allowed to share the install script with this artifact. Hence, you have to download the script first and install it, which requires an internet connection! The official guide for installation and activation can be found at: https://support.wolfram.com/46072. You can follow our steps below which are shorter but essentially the same.
 
-1. Change to `bin` folder in LaCASt
+1. Move to the `bin` folder in LaCASt
     ```
     $ cd ./bin
     ```
@@ -302,7 +305,7 @@ For license reasons, we are not allowed to share the install script with this ar
    When asked where to store Wolfram scripts, you can simply press enter for the default path.
    This process may take some time. 
 
-4. After a successful installation, you must activate the license. If you do not have a license, go to https://account.wolfram.com/login/oauth2/sign-in and click `create one`. Fill out the form. After that, you should see a screen with "Get Your Free Wolfram Engine License". Accept the "Terms and Conditions of Use" and click `Get license` and follow the instructions on the website.
+4. After a successful installation, you must activate the license. If you do not have a license, go to https://account.wolfram.com/login/oauth2/sign-in and click `create one` (below the login window with the text "Don't have a Wolfram ID?"). Fill out the form. After that, you should see a screen with "Get Your Free Wolfram Engine License" (if not, move to https://wolfram.com/developer-license manually). Accept the "Terms and Conditions of Use" and click `Get license` and follow the instructions on the website.
 5. Start wolframscript and enter your credentials
     ```
     $ wolframscript
@@ -334,7 +337,7 @@ If this activation process does not work for you either, for whatever reason, yo
     For automatic Web Activation enter your activation key
     (enter return to skip Web Activation):
     ```
-6. And enter the key you copied from above. This should activate the license and directly start Mathematica in the console. Enter `Quit[]` to exit Mathematica.
+6. Enter the key you just copied from above (step 4). This should activate the license and directly start Mathematica in the console. Enter `Quit[]` to exit Mathematica.
 7. Since you took the key, we recommend to put it directly into our config file: `lacast.config.yaml`. See the next section on how to do that.
 
 If this still does not activate your license, you can only contact Wolfram Support and ask for help: https://www.wolfram.com/support/contact/email/?topic=Account
@@ -350,7 +353,7 @@ Once you have Mathematica (Wolfram Engine) installed and the license activated y
         native.library.path: "<mathematica-jlink-dir>"
         license: "XXXX-XXXX-XXXXXX"
     ```
-    If you installed the Wolfram Engine as described above, your `<mathematicadir>` is `/opt/Wolfram`. The native library path depends on your OS. In case of Debian-like Ubuntu, it should be `<mathematicadir>/SystemFiles/Links/JLink/SystemFiles/Libraries/Linux-x86-64`. Lastly, the license is optional. LaCASt uses this license to re-activate the license in case we lose connection to Mathematica in the middle of computations. This sometimes helps to recover a running session automatically.
+    If you installed the Wolfram Engine as described above, your `<mathematicadir>` is `/opt/Wolfram`. The native library path depends on your OS. In case of Debian-like Ubuntu, it should be `<mathematicadir>/SystemFiles/Links/JLink/SystemFiles/Libraries/Linux-x86-64`. Lastly, the license key is optional. LaCASt uses this license to re-activate the license in case we lose connection to Mathematica in the middle of computations. This sometimes helps to recover a running session automatically.
 
 2. Copy `JLink.jar` into the libs folder. Again, the path depends on your OS. In Linux it should be in `<mathematicadir>/SystemFiles/Links/JLink/JLink.jar`. You just copy the following command if your Mathematica folder is `/opt/Wolfram/`:
     ```
@@ -390,6 +393,9 @@ Now you can reproduce our symbolic and numeric evaluation results via Maple (see
 
 ## FAQ
 
+**What does failed/successful test case mean?**
+A single test case refers to an equation in the DLMF. If a single formula contains multiple equations in the DLMF, the formula is split up into multiple test cases. In case of symbolic evaluations, a failed test case means that all(!) of the symbolic simplifications failed to return the expected output. In our test setup, we simplify the difference of the left- and right-hand side of an equation and check if the output is equal to 0. Hence, the test is successful if one of the simplifications (in Maple, multiple simplification methods are used) returned 0. In case of numeric evaluations, on the other hand, a single test case is numerically computed for multiple test values. Here, we enter the test values and check if the numeric computation for these values result in a difference of the left- and right-hand side of 0 (or roughly 0 due to machine accuracy that must be applied for numeric calculations). In contrast to symbolic test cases, a numeric test case is called successful if all test values resulted in a difference equal to 0. A numeric test case is called "failed" if just one numeric test value caused a difference between the left- and right-hand side of an equation.
+
 **My results do not match yours.**
 As pointed out in the beginning, there are many possible reasons why a specific test-case returns a different outcome on our machine compared to our reference (different CPU/RAM, different CAS version, etc.). In general, the discrepancy should be marginal and only occur in a couple of cases (less than 1% overall). If it happens in many cases, however, it might be an indication that something went wrong. Please contact us in this case.
 
@@ -397,9 +403,9 @@ As pointed out in the beginning, there are many possible reasons why a specific 
 The reason is that this artifact is slightly newer compared to the version we used when writing the paper. We plan to update the results in the paper and on the website with this artifact version in case of acceptance to ensure the most recent yet consistent references between the artifact and the paper.
 
 **My Maple computation never stops and exceeds my timeout threshold.**
-Maple makes it hard for us to interrupt it. Currently, we use the `timelimit` option to limit computation time per test case. However, it seems that Maple ignores interruption signals if it is performing code on kernel-level. So even though we set a timeout, Maple ignores the timeout and continues processing from time to time. We identified this issue especially for cases that involve integrals. Maplesoft ackwonledged this issue and improved the handling of `timelimit` with Maple 2021. However, the issue may still persist. One possible option is to reduce the timeout threshold in the config file even further so that Maple stops before entering non-interruptible code. You can adjust the line numbers in `config/together-lines.txt` to avoid problematic reasons.
+Maple makes it hard for us to interrupt it. Currently, we use the `timelimit` option to limit computation time per test case. However, it seems that Maple ignores interruption signals if it is performing code on kernel-level. So even though we set a timeout, Maple ignores the timeout and continues processing from time to time. We identified this issue especially for cases that involve integrals. Maplesoft ackwonledged this issue and improved the handling of `timelimit` with Maple 2021. However, the issue may still persist. One possible option is to reduce the timeout threshold in the config file even further so that Maple stops before entering non-interruptible code. Additionally, you can adjust the line numbers in `config/together-lines.txt` to avoid problematic test cases (lines).
 
-Another option is more aggressive but sometimes the only recovery. For better error handling, LaCASt starts a new java VM just for Maple. If Maple crashes, it may crash the entire VM which kills LaCASt, too. Hence, we come up with the solution to run Maple in a separated VM. This gives us the option to forcefully kill a single Maple computation if it just does not want to stop. This does not kill LaCASt but the single test case which is currently running. LaCASt will try to automatically recover from that crash by restarting the VM directly, skipping the died test case. You can find the process ID by searching for "MapleRmiServer". In short, you can open another terminal and enter the following command:
+Another option is more aggressive but sometimes the only recovery. For better error handling, LaCASt starts a new java VM just for Maple. If Maple crashes, it may crash the entire VM which kills LaCASt, too. Hence, we come up with the solution to run Maple in a separated VM. This gives us the option to forcefully kill a single Maple computation if it just does not want to stop. This does not kill LaCASt but the single test case which is currently running. LaCASt will try to automatically recover from that crash by restarting the VM directly, skipping the died test case. You can find the process ID to kill the computation by searching for "MapleRmiServer". In short, you can open another terminal and enter the following command. This will kill Maple's computation of the currently running test case!
 ```
 $ ps aux | grep MapleRmiServer | head -1 | awk '{print $2}' | xargs kill -9
 ```
@@ -421,7 +427,7 @@ Those are logs. We activated logging down to the debug level to provide a deeper
 Setting up LaCASt in an IDE is not straightforward because it is a large multi-module maven project with over 30k lines of code (LOC/SLOC). One of the main reasons you see errors is the dependency on the CAS jars for the build process. The current version (this artifact) still presumes that the jars for the CAS are available in the project itself (`Maple.jar` and `externalcall.jar` in `libs/Maple` and the `JLink.jar` in `libs/Mathematica`). In order to build it with maven, one needs to put these jars in those folders first. Additionally, our extension of LaCASt currently depends on the open-source project mathosphere as a submodule (see `.gitmodules`). Hence, one needs to check out `github.com/ag-gipp/mathosphere` in the `mathosphere` folder. We are currently working on removing the CAS dependencies in order to publish LaCASt on GitHub. LaCASt will be available (and compilable) on GitHub once our project is accepted at TACAS.
 
 **Why are there so many script files rather than a single GUI I can interact with? This is so complicated.**
-LaCASt was never planned to be a standalone visual program but a lightweight, fast converter for LaTeX. LaCASt is currently so heavy and slow only because of our evaluation pipeline and the dependency on the CAS. Translating the entire DLMF takes a couple of seconds. Evaluating it numerically, on the other hand, requires hours. Further, the dependency on commercial products (Maple and Mathematica) prevents us from providing a single executable JAR (also known as fat jar). To keep the actions required to reproduce the results as simple as possible, we created these scripts to make the process easier and more fail-safe for you. When we publish LaCASt on GitHub, we plan to invest more time into user-friendly handling.
+LaCASt was never planned to be a standalone visual program but a lightweight, fast converter for LaTeX. LaCASt is currently so heavy and slow only because of our evaluation pipeline and the dependency on the CAS. Translating the entire DLMF takes a couple of seconds. Evaluating it numerically, on the other hand, requires hours or days. Further, the dependency on commercial products (Maple and Mathematica) prevents us from providing a single executable JAR (also known as fat jar). To keep the actions required to reproduce the results as simple as possible, we created these scripts to make the process easier and more fail-safe for you. When we publish LaCASt on GitHub, we plan to invest more time into user-friendly handling.
 
 ## Glossary
 
